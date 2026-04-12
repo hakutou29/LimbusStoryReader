@@ -120,7 +120,7 @@ async function fetchCharacterMap(language) {
 }
 
 function toRowKey(item, fallbackIndex) {
-  if (typeof item.id === 'number') {
+  if (typeof item.id === 'number' && item.id !== -1) {
     return `id:${item.id}`;
   }
   return `idx:${fallbackIndex}`;
@@ -137,7 +137,7 @@ function buildMergedRows(loadedData) {
         rows.set(rowKey, {
           key: rowKey,
           id: typeof item.id === 'number' ? item.id : null,
-          order: typeof item.id === 'number' ? item.id : 100000 + index,
+          order: typeof item.id === 'number' && item.id !== -1 ? item.id : 100000 + index,
           entries: new Map(),
         });
       }
