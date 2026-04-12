@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Limbus Company 剧情阅读</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="app-shell app-shell-story">
+    <div class="screen-noise"></div>
+    <div class="city-glow city-glow-a"></div>
+    <div class="city-glow city-glow-b"></div>
+
+    <header class="story-topbar shell-panel">
+      <div class="story-topbar-main">
+        <a class="back-link" href="./index.html">返回剧情索引</a>
+        <p class="section-kicker">Story Detail</p>
+        <h1 id="story-title">正在加载剧情...</h1>
+        <p class="story-subtitle" id="story-meta"></p>
+      </div>
+
+      <div class="story-topbar-side">
+        <p class="control-caption">显示语言</p>
+        <div id="language-picker" class="language-switches"></div>
+        <div id="availability" class="availability-row"></div>
+      </div>
+    </header>
+
+    <main class="story-detail-layout">
+      <section class="story-sections" id="story-sections"></section>
+    </main>
+
+    <script type="module" src="./story.js"></script>
+  </body>
+</html>

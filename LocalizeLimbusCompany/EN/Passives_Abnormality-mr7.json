@@ -1,0 +1,29 @@
+{
+  "dataList": [
+    {
+      "id": 131911,
+      "name": "Iron Maiden - Defibrillation",
+      "desc": "Upon entry, heal 30 SP"
+    },
+    {
+      "id": 135201,
+      "name": "Hunter's Mark",
+      "desc": "Every 3 turns, select a random enemy, reduce their Speed to 1, and target it with all of this unit's Skills\n(If this effect could not be activated due to Stagger, activate it next turn)"
+    },
+    {
+      "id": 135501,
+      "name": "Prescript Delivered on a Device",
+      "desc": "Encounter Start: Gain Shield equal to 20% of max HP (remains throughout this Encounter)\n\nTurn Start:\n- Gain [IndexPrescript_Base_2nd] based on [UnlockBuff_Base] stage on self\n- <color=#ff6000><mark=#ff000040><b><u>Inflict [IndexPrescriptTargetToPersonality] to a random enemy and prioritize attacking that enemy</u></b></mark></color>\n\nDeal +2.5% damage to [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 20%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +30% damage to all targets instead"
+    },
+    {
+      "id": 135503,
+      "name": "Unlock",
+      "desc": "Turn End: At 3/6/9 [BlessingOfIndexPrescriptEnemy] or at 90%-/70%-/50%- HP,\n- Gain [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]\n- Heal to 45 SP\n- Consume all [PressureOfPrescript] and recover from Stagger\n- Gain 1 [BlessingOfIndexPrescriptEnemy] in the turn after [UnlockBuff_Base] was gained for the first time\n\nIf [UnlockBuff_Base] was gained based on HP conditional above,\n- Gain [KarmaOfIndexStudent] by (sum of healed SP / 15)\n- Increase [BlessingOfIndexPrescriptEnemy] to 3/6/9 if this unit had less than 3/6/9 [BlessingOfIndexPrescriptEnemy]; gain 1 [DefenseDown] and 2 [KarmaOfIndexStudent] next turn for every [BlessingOfIndexPrescriptEnemy] Stack gained"
+    },
+    {
+      "id": 135505,
+      "name": "Concentration",
+      "desc": "At [UnlockBuff_3], apply the following effects:\n- [BlandishmentShinEnemyDelete], gain Shield equal to 50% of max HP (lasts for the rest of this Encounter)\n- Intensify [PressureOfPrescript] to [PressureOfPrescript_2nd] and max out its Stack\n- Turn Start: Gain 1 [PressureOfPrescript_2nd]"
+    }
+  ]
+}

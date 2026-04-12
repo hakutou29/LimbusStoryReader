@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Limbus Company 多语言剧情索引</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="app-shell app-shell-catalog">
+    <div class="screen-noise"></div>
+    <div class="city-glow city-glow-a"></div>
+    <div class="city-glow city-glow-b"></div>
+
+    <header class="catalog-hero shell-panel">
+      <div>
+        <p class="section-kicker">Limbus Story Reader</p>
+        <h1>多语言剧情索引</h1>
+        <p class="hero-copy-text">
+          按剧情类别、章节与关卡编号浏览四语 StoryData。点击任意剧情后跳转到独立阅读页，按你选择的语言自上而下显示对照内容。
+        </p>
+      </div>
+      <div class="hero-metrics" id="stats-panel">
+        <div class="metric-card">
+          <span>加载中</span>
+          <strong>...</strong>
+        </div>
+      </div>
+    </header>
+
+    <main class="catalog-layout">
+      <aside class="catalog-sidebar">
+        <section class="shell-panel control-panel">
+          <div class="panel-title-row">
+            <div>
+              <p class="section-kicker">Filter</p>
+              <h2>筛选条件</h2>
+            </div>
+          </div>
+
+          <label class="search-control">
+            <span>搜索剧情编号或章节</span>
+            <input id="search-input" type="search" placeholder="例如 S634I / ES011A / 方舟联动" />
+          </label>
+
+          <div class="language-picks" id="language-picker"></div>
+        </section>
+      </aside>
+
+      <section class="catalog-main shell-panel">
+        <div class="panel-title-row">
+          <div>
+            <p class="section-kicker">Catalog</p>
+            <h2>剧情目录</h2>
+          </div>
+          <p class="panel-summary" id="catalog-summary">正在读取剧情索引...</p>
+        </div>
+
+        <div id="catalog-tree" class="catalog-tree"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

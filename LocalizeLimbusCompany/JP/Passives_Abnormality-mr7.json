@@ -1,0 +1,29 @@
+{
+  "dataList": [
+    {
+      "id": 131911,
+      "name": "アイアンメイデン - 除細動",
+      "desc": "登場時、精神力を30回復"
+    },
+    {
+      "id": 135201,
+      "name": "狩りの印",
+      "desc": "3ターンごとにランダムな1名を指定し、速度を1にして全スキルのターゲットに指定する\n(混乱で発動できなかった場合、次のターンに発動)"
+    },
+    {
+      "id": 135501,
+      "name": "端末機で伝達された指令",
+      "desc": "ステージ開始時、体力最大値の20%だけバリアを得る (この戦闘の間維持される)\n\nターン開始時\n- [UnlockBuff_Base]段階によって[IndexPrescript_Base_2nd]を得る\n- <color=#ff6000><mark=#ff000040><b><u>ランダムな敵へ[IndexPrescriptTargetToPersonality]を付与して、優先して攻撃する</u></b></mark></color>\n\n[BlessingOfIndexPrescriptEnemy]1につき[IndexPrescriptTargetToPersonality]への与ダメージ量 +2.5% (最大20%)\n- [BlessingOfIndexPrescriptEnemy]が9なら、代わりに全対象へのダメージ量 +30%"
+    },
+    {
+      "id": 135503,
+      "name": "解禁",
+      "desc": "ターン終了時、[BlessingOfIndexPrescriptEnemy]が3/6/9か体力が90%/70%/50%以下なら、\n- [UnlockBuff_1]/[UnlockBuff_2]/[UnlockBuff_3]を得る\n- 精神力が45に増加\n- 保有した[PressureOfPrescript]を全て消耗、混乱を解除\n- 最初に[UnlockBuff_Base]を獲得した次のターンに、[BlessingOfIndexPrescriptEnemy]1を得る\n\n体力を条件に[UnlockBuff_Base]獲得時、\n- (増加した精神力 ÷ 15)だけ[KarmaOfIndexStudent]を得る\n- [BlessingOfIndexPrescriptEnemy]が3/6/9未満なら、3/6/9に変更\n増加した数値1につき、次のターン開始時に[DefenseDown]1, [KarmaOfIndexStudent]2を得る"
+    },
+    {
+      "id": 135505,
+      "name": "没入",
+      "desc": "[UnlockBuff_3]を得れば、下記の効果を適用\n- [BlandishmentShinEnemyDelete]、最大体力の50%だけバリアを得る (この戦闘のあいだ維持)\n- [PressureOfPrescript]が[PressureOfPrescript_2nd]に変更され、最大まで増加\n- ターン開始時、[PressureOfPrescript_2nd]1を得る"
+    }
+  ]
+}
