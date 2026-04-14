@@ -17,17 +17,17 @@ const languageConfigs = [
 
 const partLabelMap = {
   '': '正篇',
-  A: '战斗前剧情',
-  B: '战斗后剧情',
+  B: '战斗前剧情',
+  A: '战斗后剧情',
   X: '特殊剧情',
   I: '战斗中剧情',
 };
 
 const partSortBase = {
   '': 0,
-  A: 1,
+  B: 1,
   I: 2,
-  B: 3,
+  A: 3,
   X: 4,
 };
 

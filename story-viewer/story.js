@@ -147,7 +147,24 @@ function buildMergedRows(loadedData) {
     });
   }
 
-  return [...rows.values()].sort((left, right) => left.order - right.order);
+  let finalRows = [...rows.values()].sort((left, right) => left.order - right.order);
+
+  // If KR is not selected, hide id === -1 rows that have no translated content in the selected languages
+  if (!state.selectedLanguages.has('KR')) {
+    finalRows = finalRows.filter((row) => {
+      if (row.id !== -1) return true;
+      
+      // Check if at least one selected language has translated content (content without Korean characters)
+      const hasTranslatedContent = Array.from(state.selectedLanguages).some((lang) => {
+        const entry = row.entries.get(lang);
+        return entry && entry.content && !/[가-힣]/.test(entry.content);
+      });
+      
+      return hasTranslatedContent;
+    });
+  }
+
+  return finalRows;
 }
 
 function resolveSpeakerName(entry, language, characterMap) {
