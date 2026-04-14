@@ -97,24 +97,50 @@ async function fetchCharacterMap(language) {
     return state.characterMaps.get(language.id);
   }
 
-  const filePath = `../LocalizeLimbusCompany/${language.folder}/IntroduceCharacter.json`;
-  const response = await fetch(filePath);
-  if (!response.ok) {
-    state.characterMaps.set(language.id, new Map());
-    return state.characterMaps.get(language.id);
+  const characterMap = new Map();
+
+  // Load badged characters
+  const introPath = `../LocalizeLimbusCompany/${language.folder}/IntroduceCharacter.json`;
+  try {
+    const introRes = await fetch(introPath);
+    if (introRes.ok) {
+      const introPayload = await introRes.json();
+      const dataList = Array.isArray(introPayload?.dataList) ? introPayload.dataList : [];
+      let index = 0;
+      dataList.forEach((item) => {
+        if (item?.id && item?.name) {
+          let displayNo = index + 1;
+          if (displayNo >= 10) displayNo += 1;
+          characterMap.set(item.id, { name: item.name, no: displayNo });
+          index++;
+        }
+      });
+    }
+  } catch (err) {
+    console.warn(`Failed to load IntroduceCharacter for ${language.id}`, err);
   }
 
-  const payload = await response.json();
-  const dataList = Array.isArray(payload?.dataList) ? payload.dataList : [];
-  const characterMap = new Map(
-    dataList
-      .filter((item) => item?.id && item?.name)
-      .map((item, index) => {
-        let displayNo = index + 1;
-        if (displayNo >= 10) displayNo += 1;
-        return [item.id, { name: item.name, no: displayNo }];
-      }),
-  );
+  // Load all model codes
+  const modelPath = `../LocalizeLimbusCompany/${language.folder}/ScenarioModelCodes-AutoCreated.json`;
+  try {
+    const modelRes = await fetch(modelPath);
+    if (modelRes.ok) {
+      const modelPayload = await modelRes.json();
+      const dataList = Array.isArray(modelPayload?.dataList) ? modelPayload.dataList : [];
+      dataList.forEach((item) => {
+        if (item?.id && item?.name) {
+          if (characterMap.has(item.id)) {
+            // keep the badge info, just update name just in case
+            characterMap.get(item.id).name = item.name;
+          } else {
+            characterMap.set(item.id, { name: item.name, no: null });
+          }
+        }
+      });
+    }
+  } catch (err) {
+    console.warn(`Failed to load ScenarioModelCodes for ${language.id}`, err);
+  }
 
   state.characterMaps.set(language.id, characterMap);
   return characterMap;
