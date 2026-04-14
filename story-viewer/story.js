@@ -4,6 +4,7 @@ const state = {
   selectedLanguages: new Set(),
   loadedStories: new Map(),
   characterMaps: new Map(),
+  localSpeakerMaps: new Map(),
 };
 
 const portraitNames = new Set([
@@ -154,7 +155,22 @@ function resolveSpeakerName(entry, language, characterMap) {
     return characterMap.get(entry.model).name;
   }
 
-  return entry.teller || entry.title || entry.model || entry.place || '旁白';
+  const defaultName = entry.teller || entry.title || entry.model || entry.place || '旁白';
+
+  if (/[가-힣]/.test(defaultName) && state.localSpeakerMaps.has(language.id)) {
+    const localMap = state.localSpeakerMaps.get(language.id);
+    
+    if (entry.model) {
+      if (localMap.has(entry.model)) return localMap.get(entry.model);
+      const baseModel = entry.model.replace(/\d+$/, '');
+      if (localMap.has(baseModel)) return localMap.get(baseModel);
+    }
+    
+    const baseTeller = defaultName.replace(/\d+$/, '');
+    if (localMap.has(baseTeller)) return localMap.get(baseTeller);
+  }
+
+  return defaultName;
 }
 
 function getSpeakerGlyph(speakerName) {
@@ -321,11 +337,27 @@ function renderAvailability() {
 async function renderStory() {
   const languages = state.storyIndex.languages.filter((language) => state.selectedLanguages.has(language.id));
   const loadedData = new Map();
+  state.localSpeakerMaps.clear();
 
   for (const language of languages) {
     await fetchCharacterMap(language);
     const payload = await fetchStoryData(language.id);
     loadedData.set(language.id, payload);
+
+    const localMap = new Map();
+    const dataList = Array.isArray(payload?.dataList) ? payload.dataList : [];
+    for (const item of dataList) {
+      if (!item.teller || typeof item.teller !== 'string') continue;
+      
+      if (!/[가-힣]/.test(item.teller)) {
+        if (item.model) {
+          const baseModel = item.model.replace(/\d+$/, '');
+          if (!localMap.has(item.model)) localMap.set(item.model, item.teller);
+          if (!localMap.has(baseModel)) localMap.set(baseModel, item.teller);
+        }
+      }
+    }
+    state.localSpeakerMaps.set(language.id, localMap);
   }
 
   const mergedRows = buildMergedRows(loadedData);
