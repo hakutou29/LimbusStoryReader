@@ -35,10 +35,26 @@ const categorySort = {
   main: 1,
   intervallo: 2,
   intervalloLecture: 3,
+  identity: 4,
   walpurgis: 4,
   arknights: 5,
   sideStory: 6,
   other: 7,
+};
+
+const sinnerIdentityMap = {
+  '101': { name: '李箱', no: 1 },
+  '102': { name: '浮士德', no: 2 },
+  '103': { name: '堂吉诃德', no: 3 },
+  '104': { name: '良秀', no: 4 },
+  '105': { name: '默尔索', no: 5 },
+  '106': { name: '鸿璐', no: 6 },
+  '107': { name: '希斯克利夫', no: 7 },
+  '108': { name: '以实玛利', no: 8 },
+  '109': { name: '罗佳', no: 9 },
+  '110': { name: '辛克莱', no: 11 },
+  '111': { name: '奥提斯', no: 12 },
+  '112': { name: '格里高尔', no: 13 },
 };
 
 function normalizePart(part) {
@@ -187,28 +203,30 @@ function parseStoryCode(fileCode) {
     };
   }
 
-  match = fileCode.match(/^(P)(\d+)$/);
+  match = fileCode.match(/^(P)(\d+)(A|B|X|I\d*)?$/);
   if (match) {
-    const [, prefix, digits] = match;
-    const chapter = digits.slice(0, Math.max(1, digits.length - 2));
-    const stage = digits.slice(-2);
+    const [, prefix, digits, rawPart = ''] = match;
+    const chapter = digits.slice(0, 3);
+    const stage = digits.slice(3);
     const chapterNumber = toNumber(chapter);
     const stageNumber = toNumber(stage);
-    const part = normalizePart('');
+    const part = normalizePart(rawPart);
+    const sinnerInfo = sinnerIdentityMap[chapter] || { name: '未知', no: 0 };
+    
     return {
       code: fileCode,
-      category: 'walpurgis',
-      categoryLabel: '瓦夜剧情',
-      categoryDescription: 'P 开头，为瓦夜剧情。',
+      category: 'identity',
+      categoryLabel: '人格剧情',
+      categoryDescription: 'P 开头，为人格剧情。',
       prefix,
       chapterKey: `${prefix}${chapter}`,
-      chapterLabel: `瓦夜篇目 ${chapter}`,
+      chapterLabel: `#${sinnerInfo.no} ${sinnerInfo.name}`,
       stageKey: `${prefix}${digits}`,
       stageLabel: `第${padStage(stage)}节`,
-      storyLabel: `瓦夜剧情 ${chapter}-${padStage(stage)}`,
+      storyLabel: `人格剧情 #${sinnerInfo.no} ${sinnerInfo.name} ${stage} ${part.label}`.trim(),
       part,
-      sortKey: [categorySort.walpurgis, chapterNumber, stageNumber, 0],
-      searchText: buildSearchText([fileCode, '瓦夜剧情', chapter, stage]),
+      sortKey: [categorySort.identity, sinnerInfo.no, stageNumber, part.sort],
+      searchText: buildSearchText([fileCode, '人格剧情', sinnerInfo.name, stage, part.label]),
     };
   }
 

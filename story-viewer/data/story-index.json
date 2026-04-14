@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T03:31:05.310Z",
+  "generatedAt": "2026-04-14T23:19:38.168Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -170,70 +170,70 @@
       ]
     },
     {
-      "id": "walpurgis",
-      "label": "瓦夜剧情",
-      "description": "P 开头，为瓦夜剧情。",
-      "count": 158,
+      "id": "identity",
+      "label": "人格剧情",
+      "description": "P 开头，为人格剧情。",
+      "count": 159,
       "chapterCount": 12,
       "chapters": [
         {
           "key": "P101",
-          "label": "瓦夜篇目 101",
+          "label": "#1 李箱",
           "count": 14
         },
         {
           "key": "P102",
-          "label": "瓦夜篇目 102",
+          "label": "#2 浮士德",
           "count": 13
         },
         {
           "key": "P103",
-          "label": "瓦夜篇目 103",
+          "label": "#3 堂吉诃德",
           "count": 13
         },
         {
           "key": "P104",
-          "label": "瓦夜篇目 104",
+          "label": "#4 良秀",
           "count": 13
         },
         {
           "key": "P105",
-          "label": "瓦夜篇目 105",
+          "label": "#5 默尔索",
           "count": 13
         },
         {
           "key": "P106",
-          "label": "瓦夜篇目 106",
+          "label": "#6 鸿璐",
           "count": 12
         },
         {
           "key": "P107",
-          "label": "瓦夜篇目 107",
-          "count": 13
+          "label": "#7 希斯克利夫",
+          "count": 14
         },
         {
           "key": "P108",
-          "label": "瓦夜篇目 108",
+          "label": "#8 以实玛利",
           "count": 13
         },
         {
           "key": "P109",
-          "label": "瓦夜篇目 109",
+          "label": "#9 罗佳",
           "count": 13
         },
         {
           "key": "P110",
-          "label": "瓦夜篇目 110",
+          "label": "#11 辛克莱",
           "count": 14
         },
         {
           "key": "P111",
-          "label": "瓦夜篇目 111",
+          "label": "#12 奥提斯",
           "count": 13
         },
         {
           "key": "P112",
-          "label": "瓦夜篇目 112",
+          "label": "#13 格里高尔",
           "count": 14
         }
       ]
@@ -256,13 +256,13 @@
       "id": "other",
       "label": "未分类剧情",
       "description": "无法匹配命名规则的剧情文件。",
-      "count": 4,
+      "count": 3,
       "chapterCount": 1,
       "chapters": [
         {
           "key": "OTHER",
           "label": "未分类",
-          "count": 4
+          "count": 3
         }
       ]
     }
@@ -33238,15 +33238,15 @@
     },
     {
       "code": "P10102",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10102",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 101-02",
+      "storyLabel": "人格剧情 #1 李箱 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33255,11 +33255,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         2,
         0
       ],
-      "searchText": "p10102 瓦夜剧情 101 02",
+      "searchText": "p10102 人格剧情 李箱 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33276,15 +33276,15 @@
     },
     {
       "code": "P10103",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10103",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 101-03",
+      "storyLabel": "人格剧情 #1 李箱 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33293,11 +33293,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         3,
         0
       ],
-      "searchText": "p10103 瓦夜剧情 101 03",
+      "searchText": "p10103 人格剧情 李箱 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33314,15 +33314,15 @@
     },
     {
       "code": "P10104",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10104",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 101-04",
+      "storyLabel": "人格剧情 #1 李箱 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33331,11 +33331,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         4,
         0
       ],
-      "searchText": "p10104 瓦夜剧情 101 04",
+      "searchText": "p10104 人格剧情 李箱 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33352,15 +33352,15 @@
     },
     {
       "code": "P10105",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10105",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 101-05",
+      "storyLabel": "人格剧情 #1 李箱 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33369,11 +33369,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         5,
         0
       ],
-      "searchText": "p10105 瓦夜剧情 101 05",
+      "searchText": "p10105 人格剧情 李箱 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33390,15 +33390,15 @@
     },
     {
       "code": "P10106",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10106",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 101-06",
+      "storyLabel": "人格剧情 #1 李箱 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33407,11 +33407,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         6,
         0
       ],
-      "searchText": "p10106 瓦夜剧情 101 06",
+      "searchText": "p10106 人格剧情 李箱 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33428,15 +33428,15 @@
     },
     {
       "code": "P10107",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10107",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 101-07",
+      "storyLabel": "人格剧情 #1 李箱 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33445,11 +33445,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         7,
         0
       ],
-      "searchText": "p10107 瓦夜剧情 101 07",
+      "searchText": "p10107 人格剧情 李箱 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33466,15 +33466,15 @@
     },
     {
       "code": "P10108",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10108",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 101-08",
+      "storyLabel": "人格剧情 #1 李箱 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33483,11 +33483,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         8,
         0
       ],
-      "searchText": "p10108 瓦夜剧情 101 08",
+      "searchText": "p10108 人格剧情 李箱 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33504,15 +33504,15 @@
     },
     {
       "code": "P10109",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10109",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 101-09",
+      "storyLabel": "人格剧情 #1 李箱 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33521,11 +33521,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         9,
         0
       ],
-      "searchText": "p10109 瓦夜剧情 101 09",
+      "searchText": "p10109 人格剧情 李箱 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33542,15 +33542,15 @@
     },
     {
       "code": "P10110",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10110",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 101-10",
+      "storyLabel": "人格剧情 #1 李箱 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33559,11 +33559,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         10,
         0
       ],
-      "searchText": "p10110 瓦夜剧情 101 10",
+      "searchText": "p10110 人格剧情 李箱 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33580,15 +33580,15 @@
     },
     {
       "code": "P10111",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10111",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 101-11",
+      "storyLabel": "人格剧情 #1 李箱 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33597,11 +33597,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         11,
         0
       ],
-      "searchText": "p10111 瓦夜剧情 101 11",
+      "searchText": "p10111 人格剧情 李箱 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33618,15 +33618,15 @@
     },
     {
       "code": "P10112",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10112",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 101-12",
+      "storyLabel": "人格剧情 #1 李箱 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33635,11 +33635,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         12,
         0
       ],
-      "searchText": "p10112 瓦夜剧情 101 12",
+      "searchText": "p10112 人格剧情 李箱 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33656,15 +33656,15 @@
     },
     {
       "code": "P10113",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10113",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 101-13",
+      "storyLabel": "人格剧情 #1 李箱 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33673,11 +33673,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         13,
         0
       ],
-      "searchText": "p10113 瓦夜剧情 101 13",
+      "searchText": "p10113 人格剧情 李箱 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33694,15 +33694,15 @@
     },
     {
       "code": "P10114",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10114",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 101-14",
+      "storyLabel": "人格剧情 #1 李箱 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33711,11 +33711,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         14,
         0
       ],
-      "searchText": "p10114 瓦夜剧情 101 14",
+      "searchText": "p10114 人格剧情 李箱 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33732,15 +33732,15 @@
     },
     {
       "code": "P10115",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P101",
-      "chapterLabel": "瓦夜篇目 101",
+      "chapterLabel": "#1 李箱",
       "stageKey": "P10115",
       "stageLabel": "第15节",
-      "storyLabel": "瓦夜剧情 101-15",
+      "storyLabel": "人格剧情 #1 李箱 15 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33749,11 +33749,11 @@
       },
       "sortKey": [
         4,
-        101,
+        1,
         15,
         0
       ],
-      "searchText": "p10115 瓦夜剧情 101 15",
+      "searchText": "p10115 人格剧情 李箱 15 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33770,15 +33770,15 @@
     },
     {
       "code": "P10202",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10202",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 102-02",
+      "storyLabel": "人格剧情 #2 浮士德 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33787,11 +33787,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         2,
         0
       ],
-      "searchText": "p10202 瓦夜剧情 102 02",
+      "searchText": "p10202 人格剧情 浮士德 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33808,15 +33808,15 @@
     },
     {
       "code": "P10203",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10203",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 102-03",
+      "storyLabel": "人格剧情 #2 浮士德 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33825,11 +33825,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         3,
         0
       ],
-      "searchText": "p10203 瓦夜剧情 102 03",
+      "searchText": "p10203 人格剧情 浮士德 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33846,15 +33846,15 @@
     },
     {
       "code": "P10204",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10204",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 102-04",
+      "storyLabel": "人格剧情 #2 浮士德 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33863,11 +33863,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         4,
         0
       ],
-      "searchText": "p10204 瓦夜剧情 102 04",
+      "searchText": "p10204 人格剧情 浮士德 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33884,15 +33884,15 @@
     },
     {
       "code": "P10205",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10205",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 102-05",
+      "storyLabel": "人格剧情 #2 浮士德 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33901,11 +33901,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         5,
         0
       ],
-      "searchText": "p10205 瓦夜剧情 102 05",
+      "searchText": "p10205 人格剧情 浮士德 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33922,15 +33922,15 @@
     },
     {
       "code": "P10206",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10206",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 102-06",
+      "storyLabel": "人格剧情 #2 浮士德 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33939,11 +33939,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         6,
         0
       ],
-      "searchText": "p10206 瓦夜剧情 102 06",
+      "searchText": "p10206 人格剧情 浮士德 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33960,15 +33960,15 @@
     },
     {
       "code": "P10207",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10207",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 102-07",
+      "storyLabel": "人格剧情 #2 浮士德 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33977,11 +33977,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         7,
         0
       ],
-      "searchText": "p10207 瓦夜剧情 102 07",
+      "searchText": "p10207 人格剧情 浮士德 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33998,15 +33998,15 @@
     },
     {
       "code": "P10208",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10208",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 102-08",
+      "storyLabel": "人格剧情 #2 浮士德 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34015,11 +34015,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         8,
         0
       ],
-      "searchText": "p10208 瓦夜剧情 102 08",
+      "searchText": "p10208 人格剧情 浮士德 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34036,15 +34036,15 @@
     },
     {
       "code": "P10209",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10209",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 102-09",
+      "storyLabel": "人格剧情 #2 浮士德 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34053,11 +34053,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         9,
         0
       ],
-      "searchText": "p10209 瓦夜剧情 102 09",
+      "searchText": "p10209 人格剧情 浮士德 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34074,15 +34074,15 @@
     },
     {
       "code": "P10210",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10210",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 102-10",
+      "storyLabel": "人格剧情 #2 浮士德 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34091,11 +34091,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         10,
         0
       ],
-      "searchText": "p10210 瓦夜剧情 102 10",
+      "searchText": "p10210 人格剧情 浮士德 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34112,15 +34112,15 @@
     },
     {
       "code": "P10211",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10211",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 102-11",
+      "storyLabel": "人格剧情 #2 浮士德 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34129,11 +34129,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         11,
         0
       ],
-      "searchText": "p10211 瓦夜剧情 102 11",
+      "searchText": "p10211 人格剧情 浮士德 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34150,15 +34150,15 @@
     },
     {
       "code": "P10212",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10212",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 102-12",
+      "storyLabel": "人格剧情 #2 浮士德 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34167,11 +34167,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         12,
         0
       ],
-      "searchText": "p10212 瓦夜剧情 102 12",
+      "searchText": "p10212 人格剧情 浮士德 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34188,15 +34188,15 @@
     },
     {
       "code": "P10213",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10213",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 102-13",
+      "storyLabel": "人格剧情 #2 浮士德 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34205,11 +34205,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         13,
         0
       ],
-      "searchText": "p10213 瓦夜剧情 102 13",
+      "searchText": "p10213 人格剧情 浮士德 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34226,15 +34226,15 @@
     },
     {
       "code": "P10214",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P102",
-      "chapterLabel": "瓦夜篇目 102",
+      "chapterLabel": "#2 浮士德",
       "stageKey": "P10214",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 102-14",
+      "storyLabel": "人格剧情 #2 浮士德 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34243,11 +34243,11 @@
       },
       "sortKey": [
         4,
-        102,
+        2,
         14,
         0
       ],
-      "searchText": "p10214 瓦夜剧情 102 14",
+      "searchText": "p10214 人格剧情 浮士德 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34264,15 +34264,15 @@
     },
     {
       "code": "P10302",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10302",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 103-02",
+      "storyLabel": "人格剧情 #3 堂吉诃德 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34281,11 +34281,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         2,
         0
       ],
-      "searchText": "p10302 瓦夜剧情 103 02",
+      "searchText": "p10302 人格剧情 堂吉诃德 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34302,15 +34302,15 @@
     },
     {
       "code": "P10303",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10303",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 103-03",
+      "storyLabel": "人格剧情 #3 堂吉诃德 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34319,11 +34319,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         3,
         0
       ],
-      "searchText": "p10303 瓦夜剧情 103 03",
+      "searchText": "p10303 人格剧情 堂吉诃德 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34340,15 +34340,15 @@
     },
     {
       "code": "P10304",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10304",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 103-04",
+      "storyLabel": "人格剧情 #3 堂吉诃德 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34357,11 +34357,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         4,
         0
       ],
-      "searchText": "p10304 瓦夜剧情 103 04",
+      "searchText": "p10304 人格剧情 堂吉诃德 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34378,15 +34378,15 @@
     },
     {
       "code": "P10305",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10305",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 103-05",
+      "storyLabel": "人格剧情 #3 堂吉诃德 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34395,11 +34395,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         5,
         0
       ],
-      "searchText": "p10305 瓦夜剧情 103 05",
+      "searchText": "p10305 人格剧情 堂吉诃德 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34416,15 +34416,15 @@
     },
     {
       "code": "P10306",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10306",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 103-06",
+      "storyLabel": "人格剧情 #3 堂吉诃德 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34433,11 +34433,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         6,
         0
       ],
-      "searchText": "p10306 瓦夜剧情 103 06",
+      "searchText": "p10306 人格剧情 堂吉诃德 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34454,15 +34454,15 @@
     },
     {
       "code": "P10307",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10307",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 103-07",
+      "storyLabel": "人格剧情 #3 堂吉诃德 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34471,11 +34471,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         7,
         0
       ],
-      "searchText": "p10307 瓦夜剧情 103 07",
+      "searchText": "p10307 人格剧情 堂吉诃德 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34492,15 +34492,15 @@
     },
     {
       "code": "P10308",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10308",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 103-08",
+      "storyLabel": "人格剧情 #3 堂吉诃德 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34509,11 +34509,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         8,
         0
       ],
-      "searchText": "p10308 瓦夜剧情 103 08",
+      "searchText": "p10308 人格剧情 堂吉诃德 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34530,15 +34530,15 @@
     },
     {
       "code": "P10309",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10309",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 103-09",
+      "storyLabel": "人格剧情 #3 堂吉诃德 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34547,11 +34547,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         9,
         0
       ],
-      "searchText": "p10309 瓦夜剧情 103 09",
+      "searchText": "p10309 人格剧情 堂吉诃德 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34568,15 +34568,15 @@
     },
     {
       "code": "P10310",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10310",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 103-10",
+      "storyLabel": "人格剧情 #3 堂吉诃德 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34585,11 +34585,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         10,
         0
       ],
-      "searchText": "p10310 瓦夜剧情 103 10",
+      "searchText": "p10310 人格剧情 堂吉诃德 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34606,15 +34606,15 @@
     },
     {
       "code": "P10311",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10311",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 103-11",
+      "storyLabel": "人格剧情 #3 堂吉诃德 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34623,11 +34623,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         11,
         0
       ],
-      "searchText": "p10311 瓦夜剧情 103 11",
+      "searchText": "p10311 人格剧情 堂吉诃德 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34644,15 +34644,15 @@
     },
     {
       "code": "P10312",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10312",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 103-12",
+      "storyLabel": "人格剧情 #3 堂吉诃德 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34661,11 +34661,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         12,
         0
       ],
-      "searchText": "p10312 瓦夜剧情 103 12",
+      "searchText": "p10312 人格剧情 堂吉诃德 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34682,15 +34682,15 @@
     },
     {
       "code": "P10313",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10313",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 103-13",
+      "storyLabel": "人格剧情 #3 堂吉诃德 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34699,11 +34699,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         13,
         0
       ],
-      "searchText": "p10313 瓦夜剧情 103 13",
+      "searchText": "p10313 人格剧情 堂吉诃德 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34720,15 +34720,15 @@
     },
     {
       "code": "P10314",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P103",
-      "chapterLabel": "瓦夜篇目 103",
+      "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10314",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 103-14",
+      "storyLabel": "人格剧情 #3 堂吉诃德 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34737,11 +34737,11 @@
       },
       "sortKey": [
         4,
-        103,
+        3,
         14,
         0
       ],
-      "searchText": "p10314 瓦夜剧情 103 14",
+      "searchText": "p10314 人格剧情 堂吉诃德 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34758,15 +34758,15 @@
     },
     {
       "code": "P10402",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10402",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 104-02",
+      "storyLabel": "人格剧情 #4 良秀 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34775,11 +34775,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         2,
         0
       ],
-      "searchText": "p10402 瓦夜剧情 104 02",
+      "searchText": "p10402 人格剧情 良秀 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34796,15 +34796,15 @@
     },
     {
       "code": "P10403",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10403",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 104-03",
+      "storyLabel": "人格剧情 #4 良秀 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34813,11 +34813,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         3,
         0
       ],
-      "searchText": "p10403 瓦夜剧情 104 03",
+      "searchText": "p10403 人格剧情 良秀 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34834,15 +34834,15 @@
     },
     {
       "code": "P10404",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10404",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 104-04",
+      "storyLabel": "人格剧情 #4 良秀 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34851,11 +34851,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         4,
         0
       ],
-      "searchText": "p10404 瓦夜剧情 104 04",
+      "searchText": "p10404 人格剧情 良秀 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34872,15 +34872,15 @@
     },
     {
       "code": "P10405",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10405",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 104-05",
+      "storyLabel": "人格剧情 #4 良秀 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34889,11 +34889,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         5,
         0
       ],
-      "searchText": "p10405 瓦夜剧情 104 05",
+      "searchText": "p10405 人格剧情 良秀 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34910,15 +34910,15 @@
     },
     {
       "code": "P10406",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10406",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 104-06",
+      "storyLabel": "人格剧情 #4 良秀 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34927,11 +34927,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         6,
         0
       ],
-      "searchText": "p10406 瓦夜剧情 104 06",
+      "searchText": "p10406 人格剧情 良秀 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34948,15 +34948,15 @@
     },
     {
       "code": "P10407",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10407",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 104-07",
+      "storyLabel": "人格剧情 #4 良秀 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34965,11 +34965,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         7,
         0
       ],
-      "searchText": "p10407 瓦夜剧情 104 07",
+      "searchText": "p10407 人格剧情 良秀 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34986,15 +34986,15 @@
     },
     {
       "code": "P10408",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10408",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 104-08",
+      "storyLabel": "人格剧情 #4 良秀 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35003,11 +35003,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         8,
         0
       ],
-      "searchText": "p10408 瓦夜剧情 104 08",
+      "searchText": "p10408 人格剧情 良秀 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35024,15 +35024,15 @@
     },
     {
       "code": "P10409",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10409",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 104-09",
+      "storyLabel": "人格剧情 #4 良秀 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35041,11 +35041,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         9,
         0
       ],
-      "searchText": "p10409 瓦夜剧情 104 09",
+      "searchText": "p10409 人格剧情 良秀 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35062,15 +35062,15 @@
     },
     {
       "code": "P10410",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10410",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 104-10",
+      "storyLabel": "人格剧情 #4 良秀 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35079,11 +35079,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         10,
         0
       ],
-      "searchText": "p10410 瓦夜剧情 104 10",
+      "searchText": "p10410 人格剧情 良秀 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35100,15 +35100,15 @@
     },
     {
       "code": "P10411",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10411",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 104-11",
+      "storyLabel": "人格剧情 #4 良秀 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35117,11 +35117,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         11,
         0
       ],
-      "searchText": "p10411 瓦夜剧情 104 11",
+      "searchText": "p10411 人格剧情 良秀 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35138,15 +35138,15 @@
     },
     {
       "code": "P10412",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10412",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 104-12",
+      "storyLabel": "人格剧情 #4 良秀 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35155,11 +35155,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         12,
         0
       ],
-      "searchText": "p10412 瓦夜剧情 104 12",
+      "searchText": "p10412 人格剧情 良秀 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35176,15 +35176,15 @@
     },
     {
       "code": "P10413",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10413",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 104-13",
+      "storyLabel": "人格剧情 #4 良秀 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35193,11 +35193,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         13,
         0
       ],
-      "searchText": "p10413 瓦夜剧情 104 13",
+      "searchText": "p10413 人格剧情 良秀 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35214,15 +35214,15 @@
     },
     {
       "code": "P10414",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P104",
-      "chapterLabel": "瓦夜篇目 104",
+      "chapterLabel": "#4 良秀",
       "stageKey": "P10414",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 104-14",
+      "storyLabel": "人格剧情 #4 良秀 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35231,11 +35231,11 @@
       },
       "sortKey": [
         4,
-        104,
+        4,
         14,
         0
       ],
-      "searchText": "p10414 瓦夜剧情 104 14",
+      "searchText": "p10414 人格剧情 良秀 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35252,15 +35252,15 @@
     },
     {
       "code": "P10502",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10502",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 105-02",
+      "storyLabel": "人格剧情 #5 默尔索 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35269,11 +35269,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         2,
         0
       ],
-      "searchText": "p10502 瓦夜剧情 105 02",
+      "searchText": "p10502 人格剧情 默尔索 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35290,15 +35290,15 @@
     },
     {
       "code": "P10503",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10503",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 105-03",
+      "storyLabel": "人格剧情 #5 默尔索 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35307,11 +35307,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         3,
         0
       ],
-      "searchText": "p10503 瓦夜剧情 105 03",
+      "searchText": "p10503 人格剧情 默尔索 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35328,15 +35328,15 @@
     },
     {
       "code": "P10504",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10504",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 105-04",
+      "storyLabel": "人格剧情 #5 默尔索 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35345,11 +35345,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         4,
         0
       ],
-      "searchText": "p10504 瓦夜剧情 105 04",
+      "searchText": "p10504 人格剧情 默尔索 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35366,15 +35366,15 @@
     },
     {
       "code": "P10505",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10505",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 105-05",
+      "storyLabel": "人格剧情 #5 默尔索 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35383,11 +35383,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         5,
         0
       ],
-      "searchText": "p10505 瓦夜剧情 105 05",
+      "searchText": "p10505 人格剧情 默尔索 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35404,15 +35404,15 @@
     },
     {
       "code": "P10506",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10506",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 105-06",
+      "storyLabel": "人格剧情 #5 默尔索 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35421,11 +35421,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         6,
         0
       ],
-      "searchText": "p10506 瓦夜剧情 105 06",
+      "searchText": "p10506 人格剧情 默尔索 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35442,15 +35442,15 @@
     },
     {
       "code": "P10507",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10507",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 105-07",
+      "storyLabel": "人格剧情 #5 默尔索 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35459,11 +35459,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         7,
         0
       ],
-      "searchText": "p10507 瓦夜剧情 105 07",
+      "searchText": "p10507 人格剧情 默尔索 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35480,15 +35480,15 @@
     },
     {
       "code": "P10508",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10508",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 105-08",
+      "storyLabel": "人格剧情 #5 默尔索 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35497,11 +35497,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         8,
         0
       ],
-      "searchText": "p10508 瓦夜剧情 105 08",
+      "searchText": "p10508 人格剧情 默尔索 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35518,15 +35518,15 @@
     },
     {
       "code": "P10509",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10509",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 105-09",
+      "storyLabel": "人格剧情 #5 默尔索 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35535,11 +35535,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         9,
         0
       ],
-      "searchText": "p10509 瓦夜剧情 105 09",
+      "searchText": "p10509 人格剧情 默尔索 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35556,15 +35556,15 @@
     },
     {
       "code": "P10510",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10510",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 105-10",
+      "storyLabel": "人格剧情 #5 默尔索 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35573,11 +35573,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         10,
         0
       ],
-      "searchText": "p10510 瓦夜剧情 105 10",
+      "searchText": "p10510 人格剧情 默尔索 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35594,15 +35594,15 @@
     },
     {
       "code": "P10511",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10511",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 105-11",
+      "storyLabel": "人格剧情 #5 默尔索 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35611,11 +35611,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         11,
         0
       ],
-      "searchText": "p10511 瓦夜剧情 105 11",
+      "searchText": "p10511 人格剧情 默尔索 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35632,15 +35632,15 @@
     },
     {
       "code": "P10512",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10512",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 105-12",
+      "storyLabel": "人格剧情 #5 默尔索 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35649,11 +35649,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         12,
         0
       ],
-      "searchText": "p10512 瓦夜剧情 105 12",
+      "searchText": "p10512 人格剧情 默尔索 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35670,15 +35670,15 @@
     },
     {
       "code": "P10513",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10513",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 105-13",
+      "storyLabel": "人格剧情 #5 默尔索 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35687,11 +35687,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         13,
         0
       ],
-      "searchText": "p10513 瓦夜剧情 105 13",
+      "searchText": "p10513 人格剧情 默尔索 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35708,15 +35708,15 @@
     },
     {
       "code": "P10514",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P105",
-      "chapterLabel": "瓦夜篇目 105",
+      "chapterLabel": "#5 默尔索",
       "stageKey": "P10514",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 105-14",
+      "storyLabel": "人格剧情 #5 默尔索 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35725,11 +35725,11 @@
       },
       "sortKey": [
         4,
-        105,
+        5,
         14,
         0
       ],
-      "searchText": "p10514 瓦夜剧情 105 14",
+      "searchText": "p10514 人格剧情 默尔索 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35746,15 +35746,15 @@
     },
     {
       "code": "P10602",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10602",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 106-02",
+      "storyLabel": "人格剧情 #6 鸿璐 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35763,11 +35763,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         2,
         0
       ],
-      "searchText": "p10602 瓦夜剧情 106 02",
+      "searchText": "p10602 人格剧情 鸿璐 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35784,15 +35784,15 @@
     },
     {
       "code": "P10603",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10603",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 106-03",
+      "storyLabel": "人格剧情 #6 鸿璐 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35801,11 +35801,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         3,
         0
       ],
-      "searchText": "p10603 瓦夜剧情 106 03",
+      "searchText": "p10603 人格剧情 鸿璐 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35822,15 +35822,15 @@
     },
     {
       "code": "P10604",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10604",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 106-04",
+      "storyLabel": "人格剧情 #6 鸿璐 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35839,11 +35839,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         4,
         0
       ],
-      "searchText": "p10604 瓦夜剧情 106 04",
+      "searchText": "p10604 人格剧情 鸿璐 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35860,15 +35860,15 @@
     },
     {
       "code": "P10605",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10605",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 106-05",
+      "storyLabel": "人格剧情 #6 鸿璐 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35877,11 +35877,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         5,
         0
       ],
-      "searchText": "p10605 瓦夜剧情 106 05",
+      "searchText": "p10605 人格剧情 鸿璐 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35898,15 +35898,15 @@
     },
     {
       "code": "P10606",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10606",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 106-06",
+      "storyLabel": "人格剧情 #6 鸿璐 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35915,11 +35915,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         6,
         0
       ],
-      "searchText": "p10606 瓦夜剧情 106 06",
+      "searchText": "p10606 人格剧情 鸿璐 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35936,15 +35936,15 @@
     },
     {
       "code": "P10607",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10607",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 106-07",
+      "storyLabel": "人格剧情 #6 鸿璐 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35953,11 +35953,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         7,
         0
       ],
-      "searchText": "p10607 瓦夜剧情 106 07",
+      "searchText": "p10607 人格剧情 鸿璐 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35974,15 +35974,15 @@
     },
     {
       "code": "P10608",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10608",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 106-08",
+      "storyLabel": "人格剧情 #6 鸿璐 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35991,11 +35991,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         8,
         0
       ],
-      "searchText": "p10608 瓦夜剧情 106 08",
+      "searchText": "p10608 人格剧情 鸿璐 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36012,15 +36012,15 @@
     },
     {
       "code": "P10609",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10609",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 106-09",
+      "storyLabel": "人格剧情 #6 鸿璐 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36029,11 +36029,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         9,
         0
       ],
-      "searchText": "p10609 瓦夜剧情 106 09",
+      "searchText": "p10609 人格剧情 鸿璐 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36050,15 +36050,15 @@
     },
     {
       "code": "P10610",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10610",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 106-10",
+      "storyLabel": "人格剧情 #6 鸿璐 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36067,11 +36067,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         10,
         0
       ],
-      "searchText": "p10610 瓦夜剧情 106 10",
+      "searchText": "p10610 人格剧情 鸿璐 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36088,15 +36088,15 @@
     },
     {
       "code": "P10611",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10611",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 106-11",
+      "storyLabel": "人格剧情 #6 鸿璐 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36105,11 +36105,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         11,
         0
       ],
-      "searchText": "p10611 瓦夜剧情 106 11",
+      "searchText": "p10611 人格剧情 鸿璐 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36126,15 +36126,15 @@
     },
     {
       "code": "P10612",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10612",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 106-12",
+      "storyLabel": "人格剧情 #6 鸿璐 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36143,11 +36143,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         12,
         0
       ],
-      "searchText": "p10612 瓦夜剧情 106 12",
+      "searchText": "p10612 人格剧情 鸿璐 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36164,15 +36164,15 @@
     },
     {
       "code": "P10613",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P106",
-      "chapterLabel": "瓦夜篇目 106",
+      "chapterLabel": "#6 鸿璐",
       "stageKey": "P10613",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 106-13",
+      "storyLabel": "人格剧情 #6 鸿璐 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36181,11 +36181,11 @@
       },
       "sortKey": [
         4,
-        106,
+        6,
         13,
         0
       ],
-      "searchText": "p10613 瓦夜剧情 106 13",
+      "searchText": "p10613 人格剧情 鸿璐 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36202,15 +36202,15 @@
     },
     {
       "code": "P10702",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10702",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 107-02",
+      "storyLabel": "人格剧情 #7 希斯克利夫 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36219,11 +36219,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         2,
         0
       ],
-      "searchText": "p10702 瓦夜剧情 107 02",
+      "searchText": "p10702 人格剧情 希斯克利夫 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36240,15 +36240,15 @@
     },
     {
       "code": "P10703",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10703",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 107-03",
+      "storyLabel": "人格剧情 #7 希斯克利夫 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36257,11 +36257,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         3,
         0
       ],
-      "searchText": "p10703 瓦夜剧情 107 03",
+      "searchText": "p10703 人格剧情 希斯克利夫 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36278,15 +36278,15 @@
     },
     {
       "code": "P10704",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10704",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 107-04",
+      "storyLabel": "人格剧情 #7 希斯克利夫 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36295,11 +36295,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         4,
         0
       ],
-      "searchText": "p10704 瓦夜剧情 107 04",
+      "searchText": "p10704 人格剧情 希斯克利夫 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36316,15 +36316,15 @@
     },
     {
       "code": "P10705",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10705",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 107-05",
+      "storyLabel": "人格剧情 #7 希斯克利夫 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36333,11 +36333,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         5,
         0
       ],
-      "searchText": "p10705 瓦夜剧情 107 05",
+      "searchText": "p10705 人格剧情 希斯克利夫 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36354,15 +36354,15 @@
     },
     {
       "code": "P10706",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10706",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 107-06",
+      "storyLabel": "人格剧情 #7 希斯克利夫 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36371,11 +36371,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         6,
         0
       ],
-      "searchText": "p10706 瓦夜剧情 107 06",
+      "searchText": "p10706 人格剧情 希斯克利夫 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36392,15 +36392,15 @@
     },
     {
       "code": "P10707",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10707",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 107-07",
+      "storyLabel": "人格剧情 #7 希斯克利夫 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36409,11 +36409,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         7,
         0
       ],
-      "searchText": "p10707 瓦夜剧情 107 07",
+      "searchText": "p10707 人格剧情 希斯克利夫 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36430,15 +36430,15 @@
     },
     {
       "code": "P10708",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10708",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 107-08",
+      "storyLabel": "人格剧情 #7 希斯克利夫 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36447,11 +36447,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         8,
         0
       ],
-      "searchText": "p10708 瓦夜剧情 107 08",
+      "searchText": "p10708 人格剧情 希斯克利夫 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36468,15 +36468,15 @@
     },
     {
       "code": "P10709",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10709",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 107-09",
+      "storyLabel": "人格剧情 #7 希斯克利夫 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36485,11 +36485,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         9,
         0
       ],
-      "searchText": "p10709 瓦夜剧情 107 09",
+      "searchText": "p10709 人格剧情 希斯克利夫 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36506,15 +36506,15 @@
     },
     {
       "code": "P10710",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10710",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 107-10",
+      "storyLabel": "人格剧情 #7 希斯克利夫 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36523,11 +36523,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         10,
         0
       ],
-      "searchText": "p10710 瓦夜剧情 107 10",
+      "searchText": "p10710 人格剧情 希斯克利夫 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36543,16 +36543,54 @@
       "languageCount": 4
     },
     {
-      "code": "P10711",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "code": "P10710A",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
+      "stageKey": "P10710",
+      "stageLabel": "第10节",
+      "storyLabel": "人格剧情 #7 希斯克利夫 10 战斗后剧情",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        4,
+        7,
+        10,
+        3
+      ],
+      "searchText": "p10710a 人格剧情 希斯克利夫 10 战斗后剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10710A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10710A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10710A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10710A.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "P10711",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10711",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 107-11",
+      "storyLabel": "人格剧情 #7 希斯克利夫 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36561,11 +36599,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         11,
         0
       ],
-      "searchText": "p10711 瓦夜剧情 107 11",
+      "searchText": "p10711 人格剧情 希斯克利夫 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36582,15 +36620,15 @@
     },
     {
       "code": "P10712",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10712",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 107-12",
+      "storyLabel": "人格剧情 #7 希斯克利夫 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36599,11 +36637,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         12,
         0
       ],
-      "searchText": "p10712 瓦夜剧情 107 12",
+      "searchText": "p10712 人格剧情 希斯克利夫 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36620,15 +36658,15 @@
     },
     {
       "code": "P10713",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10713",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 107-13",
+      "storyLabel": "人格剧情 #7 希斯克利夫 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36637,11 +36675,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         13,
         0
       ],
-      "searchText": "p10713 瓦夜剧情 107 13",
+      "searchText": "p10713 人格剧情 希斯克利夫 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36658,15 +36696,15 @@
     },
     {
       "code": "P10714",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P107",
-      "chapterLabel": "瓦夜篇目 107",
+      "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10714",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 107-14",
+      "storyLabel": "人格剧情 #7 希斯克利夫 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36675,11 +36713,11 @@
       },
       "sortKey": [
         4,
-        107,
+        7,
         14,
         0
       ],
-      "searchText": "p10714 瓦夜剧情 107 14",
+      "searchText": "p10714 人格剧情 希斯克利夫 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36696,15 +36734,15 @@
     },
     {
       "code": "P10802",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10802",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 108-02",
+      "storyLabel": "人格剧情 #8 以实玛利 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36713,11 +36751,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         2,
         0
       ],
-      "searchText": "p10802 瓦夜剧情 108 02",
+      "searchText": "p10802 人格剧情 以实玛利 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36734,15 +36772,15 @@
     },
     {
       "code": "P10803",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10803",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 108-03",
+      "storyLabel": "人格剧情 #8 以实玛利 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36751,11 +36789,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         3,
         0
       ],
-      "searchText": "p10803 瓦夜剧情 108 03",
+      "searchText": "p10803 人格剧情 以实玛利 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36772,15 +36810,15 @@
     },
     {
       "code": "P10804",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10804",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 108-04",
+      "storyLabel": "人格剧情 #8 以实玛利 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36789,11 +36827,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         4,
         0
       ],
-      "searchText": "p10804 瓦夜剧情 108 04",
+      "searchText": "p10804 人格剧情 以实玛利 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36810,15 +36848,15 @@
     },
     {
       "code": "P10805",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10805",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 108-05",
+      "storyLabel": "人格剧情 #8 以实玛利 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36827,11 +36865,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         5,
         0
       ],
-      "searchText": "p10805 瓦夜剧情 108 05",
+      "searchText": "p10805 人格剧情 以实玛利 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36848,15 +36886,15 @@
     },
     {
       "code": "P10806",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10806",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 108-06",
+      "storyLabel": "人格剧情 #8 以实玛利 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36865,11 +36903,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         6,
         0
       ],
-      "searchText": "p10806 瓦夜剧情 108 06",
+      "searchText": "p10806 人格剧情 以实玛利 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36886,15 +36924,15 @@
     },
     {
       "code": "P10807",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10807",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 108-07",
+      "storyLabel": "人格剧情 #8 以实玛利 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36903,11 +36941,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         7,
         0
       ],
-      "searchText": "p10807 瓦夜剧情 108 07",
+      "searchText": "p10807 人格剧情 以实玛利 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36924,15 +36962,15 @@
     },
     {
       "code": "P10808",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10808",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 108-08",
+      "storyLabel": "人格剧情 #8 以实玛利 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36941,11 +36979,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         8,
         0
       ],
-      "searchText": "p10808 瓦夜剧情 108 08",
+      "searchText": "p10808 人格剧情 以实玛利 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36962,15 +37000,15 @@
     },
     {
       "code": "P10809",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10809",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 108-09",
+      "storyLabel": "人格剧情 #8 以实玛利 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36979,11 +37017,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         9,
         0
       ],
-      "searchText": "p10809 瓦夜剧情 108 09",
+      "searchText": "p10809 人格剧情 以实玛利 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37000,15 +37038,15 @@
     },
     {
       "code": "P10810",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10810",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 108-10",
+      "storyLabel": "人格剧情 #8 以实玛利 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37017,11 +37055,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         10,
         0
       ],
-      "searchText": "p10810 瓦夜剧情 108 10",
+      "searchText": "p10810 人格剧情 以实玛利 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37038,15 +37076,15 @@
     },
     {
       "code": "P10811",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10811",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 108-11",
+      "storyLabel": "人格剧情 #8 以实玛利 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37055,11 +37093,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         11,
         0
       ],
-      "searchText": "p10811 瓦夜剧情 108 11",
+      "searchText": "p10811 人格剧情 以实玛利 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37076,15 +37114,15 @@
     },
     {
       "code": "P10812",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10812",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 108-12",
+      "storyLabel": "人格剧情 #8 以实玛利 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37093,11 +37131,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         12,
         0
       ],
-      "searchText": "p10812 瓦夜剧情 108 12",
+      "searchText": "p10812 人格剧情 以实玛利 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37114,15 +37152,15 @@
     },
     {
       "code": "P10813",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10813",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 108-13",
+      "storyLabel": "人格剧情 #8 以实玛利 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37131,11 +37169,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         13,
         0
       ],
-      "searchText": "p10813 瓦夜剧情 108 13",
+      "searchText": "p10813 人格剧情 以实玛利 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37152,15 +37190,15 @@
     },
     {
       "code": "P10814",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P108",
-      "chapterLabel": "瓦夜篇目 108",
+      "chapterLabel": "#8 以实玛利",
       "stageKey": "P10814",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 108-14",
+      "storyLabel": "人格剧情 #8 以实玛利 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37169,11 +37207,11 @@
       },
       "sortKey": [
         4,
-        108,
+        8,
         14,
         0
       ],
-      "searchText": "p10814 瓦夜剧情 108 14",
+      "searchText": "p10814 人格剧情 以实玛利 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37190,15 +37228,15 @@
     },
     {
       "code": "P10902",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10902",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 109-02",
+      "storyLabel": "人格剧情 #9 罗佳 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37207,11 +37245,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         2,
         0
       ],
-      "searchText": "p10902 瓦夜剧情 109 02",
+      "searchText": "p10902 人格剧情 罗佳 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37228,15 +37266,15 @@
     },
     {
       "code": "P10903",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10903",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 109-03",
+      "storyLabel": "人格剧情 #9 罗佳 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37245,11 +37283,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         3,
         0
       ],
-      "searchText": "p10903 瓦夜剧情 109 03",
+      "searchText": "p10903 人格剧情 罗佳 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37266,15 +37304,15 @@
     },
     {
       "code": "P10904",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10904",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 109-04",
+      "storyLabel": "人格剧情 #9 罗佳 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37283,11 +37321,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         4,
         0
       ],
-      "searchText": "p10904 瓦夜剧情 109 04",
+      "searchText": "p10904 人格剧情 罗佳 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37304,15 +37342,15 @@
     },
     {
       "code": "P10905",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10905",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 109-05",
+      "storyLabel": "人格剧情 #9 罗佳 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37321,11 +37359,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         5,
         0
       ],
-      "searchText": "p10905 瓦夜剧情 109 05",
+      "searchText": "p10905 人格剧情 罗佳 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37342,15 +37380,15 @@
     },
     {
       "code": "P10906",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10906",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 109-06",
+      "storyLabel": "人格剧情 #9 罗佳 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37359,11 +37397,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         6,
         0
       ],
-      "searchText": "p10906 瓦夜剧情 109 06",
+      "searchText": "p10906 人格剧情 罗佳 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37380,15 +37418,15 @@
     },
     {
       "code": "P10907",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10907",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 109-07",
+      "storyLabel": "人格剧情 #9 罗佳 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37397,11 +37435,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         7,
         0
       ],
-      "searchText": "p10907 瓦夜剧情 109 07",
+      "searchText": "p10907 人格剧情 罗佳 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37418,15 +37456,15 @@
     },
     {
       "code": "P10908",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10908",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 109-08",
+      "storyLabel": "人格剧情 #9 罗佳 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37435,11 +37473,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         8,
         0
       ],
-      "searchText": "p10908 瓦夜剧情 109 08",
+      "searchText": "p10908 人格剧情 罗佳 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37456,15 +37494,15 @@
     },
     {
       "code": "P10909",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10909",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 109-09",
+      "storyLabel": "人格剧情 #9 罗佳 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37473,11 +37511,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         9,
         0
       ],
-      "searchText": "p10909 瓦夜剧情 109 09",
+      "searchText": "p10909 人格剧情 罗佳 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37494,15 +37532,15 @@
     },
     {
       "code": "P10910",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10910",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 109-10",
+      "storyLabel": "人格剧情 #9 罗佳 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37511,11 +37549,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         10,
         0
       ],
-      "searchText": "p10910 瓦夜剧情 109 10",
+      "searchText": "p10910 人格剧情 罗佳 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37532,15 +37570,15 @@
     },
     {
       "code": "P10911",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10911",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 109-11",
+      "storyLabel": "人格剧情 #9 罗佳 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37549,11 +37587,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         11,
         0
       ],
-      "searchText": "p10911 瓦夜剧情 109 11",
+      "searchText": "p10911 人格剧情 罗佳 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37570,15 +37608,15 @@
     },
     {
       "code": "P10912",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10912",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 109-12",
+      "storyLabel": "人格剧情 #9 罗佳 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37587,11 +37625,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         12,
         0
       ],
-      "searchText": "p10912 瓦夜剧情 109 12",
+      "searchText": "p10912 人格剧情 罗佳 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37608,15 +37646,15 @@
     },
     {
       "code": "P10913",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10913",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 109-13",
+      "storyLabel": "人格剧情 #9 罗佳 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37625,11 +37663,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         13,
         0
       ],
-      "searchText": "p10913 瓦夜剧情 109 13",
+      "searchText": "p10913 人格剧情 罗佳 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37646,15 +37684,15 @@
     },
     {
       "code": "P10914",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P109",
-      "chapterLabel": "瓦夜篇目 109",
+      "chapterLabel": "#9 罗佳",
       "stageKey": "P10914",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 109-14",
+      "storyLabel": "人格剧情 #9 罗佳 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37663,11 +37701,11 @@
       },
       "sortKey": [
         4,
-        109,
+        9,
         14,
         0
       ],
-      "searchText": "p10914 瓦夜剧情 109 14",
+      "searchText": "p10914 人格剧情 罗佳 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37684,15 +37722,15 @@
     },
     {
       "code": "P11002",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11002",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 110-02",
+      "storyLabel": "人格剧情 #11 辛克莱 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37701,11 +37739,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         2,
         0
       ],
-      "searchText": "p11002 瓦夜剧情 110 02",
+      "searchText": "p11002 人格剧情 辛克莱 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37722,15 +37760,15 @@
     },
     {
       "code": "P11003",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11003",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 110-03",
+      "storyLabel": "人格剧情 #11 辛克莱 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37739,11 +37777,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         3,
         0
       ],
-      "searchText": "p11003 瓦夜剧情 110 03",
+      "searchText": "p11003 人格剧情 辛克莱 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37760,15 +37798,15 @@
     },
     {
       "code": "P11004",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11004",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 110-04",
+      "storyLabel": "人格剧情 #11 辛克莱 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37777,11 +37815,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         4,
         0
       ],
-      "searchText": "p11004 瓦夜剧情 110 04",
+      "searchText": "p11004 人格剧情 辛克莱 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37798,15 +37836,15 @@
     },
     {
       "code": "P11005",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11005",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 110-05",
+      "storyLabel": "人格剧情 #11 辛克莱 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37815,11 +37853,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         5,
         0
       ],
-      "searchText": "p11005 瓦夜剧情 110 05",
+      "searchText": "p11005 人格剧情 辛克莱 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37836,15 +37874,15 @@
     },
     {
       "code": "P11006",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11006",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 110-06",
+      "storyLabel": "人格剧情 #11 辛克莱 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37853,11 +37891,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         6,
         0
       ],
-      "searchText": "p11006 瓦夜剧情 110 06",
+      "searchText": "p11006 人格剧情 辛克莱 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37874,15 +37912,15 @@
     },
     {
       "code": "P11007",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11007",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 110-07",
+      "storyLabel": "人格剧情 #11 辛克莱 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37891,11 +37929,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         7,
         0
       ],
-      "searchText": "p11007 瓦夜剧情 110 07",
+      "searchText": "p11007 人格剧情 辛克莱 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37912,15 +37950,15 @@
     },
     {
       "code": "P11008",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11008",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 110-08",
+      "storyLabel": "人格剧情 #11 辛克莱 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37929,11 +37967,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         8,
         0
       ],
-      "searchText": "p11008 瓦夜剧情 110 08",
+      "searchText": "p11008 人格剧情 辛克莱 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37950,15 +37988,15 @@
     },
     {
       "code": "P11009",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11009",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 110-09",
+      "storyLabel": "人格剧情 #11 辛克莱 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37967,11 +38005,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         9,
         0
       ],
-      "searchText": "p11009 瓦夜剧情 110 09",
+      "searchText": "p11009 人格剧情 辛克莱 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37988,15 +38026,15 @@
     },
     {
       "code": "P11010",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11010",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 110-10",
+      "storyLabel": "人格剧情 #11 辛克莱 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38005,11 +38043,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         10,
         0
       ],
-      "searchText": "p11010 瓦夜剧情 110 10",
+      "searchText": "p11010 人格剧情 辛克莱 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38026,15 +38064,15 @@
     },
     {
       "code": "P11011",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11011",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 110-11",
+      "storyLabel": "人格剧情 #11 辛克莱 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38043,11 +38081,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         11,
         0
       ],
-      "searchText": "p11011 瓦夜剧情 110 11",
+      "searchText": "p11011 人格剧情 辛克莱 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38064,15 +38102,15 @@
     },
     {
       "code": "P11012",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11012",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 110-12",
+      "storyLabel": "人格剧情 #11 辛克莱 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38081,11 +38119,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         12,
         0
       ],
-      "searchText": "p11012 瓦夜剧情 110 12",
+      "searchText": "p11012 人格剧情 辛克莱 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38102,15 +38140,15 @@
     },
     {
       "code": "P11013",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11013",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 110-13",
+      "storyLabel": "人格剧情 #11 辛克莱 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38119,11 +38157,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         13,
         0
       ],
-      "searchText": "p11013 瓦夜剧情 110 13",
+      "searchText": "p11013 人格剧情 辛克莱 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38140,15 +38178,15 @@
     },
     {
       "code": "P11014",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11014",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 110-14",
+      "storyLabel": "人格剧情 #11 辛克莱 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38157,11 +38195,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         14,
         0
       ],
-      "searchText": "p11014 瓦夜剧情 110 14",
+      "searchText": "p11014 人格剧情 辛克莱 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38178,15 +38216,15 @@
     },
     {
       "code": "P11015",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P110",
-      "chapterLabel": "瓦夜篇目 110",
+      "chapterLabel": "#11 辛克莱",
       "stageKey": "P11015",
       "stageLabel": "第15节",
-      "storyLabel": "瓦夜剧情 110-15",
+      "storyLabel": "人格剧情 #11 辛克莱 15 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38195,11 +38233,11 @@
       },
       "sortKey": [
         4,
-        110,
+        11,
         15,
         0
       ],
-      "searchText": "p11015 瓦夜剧情 110 15",
+      "searchText": "p11015 人格剧情 辛克莱 15 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38216,15 +38254,15 @@
     },
     {
       "code": "P11102",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11102",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 111-02",
+      "storyLabel": "人格剧情 #12 奥提斯 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38233,11 +38271,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         2,
         0
       ],
-      "searchText": "p11102 瓦夜剧情 111 02",
+      "searchText": "p11102 人格剧情 奥提斯 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38254,15 +38292,15 @@
     },
     {
       "code": "P11103",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11103",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 111-03",
+      "storyLabel": "人格剧情 #12 奥提斯 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38271,11 +38309,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         3,
         0
       ],
-      "searchText": "p11103 瓦夜剧情 111 03",
+      "searchText": "p11103 人格剧情 奥提斯 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38292,15 +38330,15 @@
     },
     {
       "code": "P11104",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11104",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 111-04",
+      "storyLabel": "人格剧情 #12 奥提斯 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38309,11 +38347,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         4,
         0
       ],
-      "searchText": "p11104 瓦夜剧情 111 04",
+      "searchText": "p11104 人格剧情 奥提斯 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38330,15 +38368,15 @@
     },
     {
       "code": "P11105",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11105",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 111-05",
+      "storyLabel": "人格剧情 #12 奥提斯 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38347,11 +38385,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         5,
         0
       ],
-      "searchText": "p11105 瓦夜剧情 111 05",
+      "searchText": "p11105 人格剧情 奥提斯 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38368,15 +38406,15 @@
     },
     {
       "code": "P11106",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11106",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 111-06",
+      "storyLabel": "人格剧情 #12 奥提斯 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38385,11 +38423,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         6,
         0
       ],
-      "searchText": "p11106 瓦夜剧情 111 06",
+      "searchText": "p11106 人格剧情 奥提斯 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38406,15 +38444,15 @@
     },
     {
       "code": "P11107",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11107",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 111-07",
+      "storyLabel": "人格剧情 #12 奥提斯 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38423,11 +38461,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         7,
         0
       ],
-      "searchText": "p11107 瓦夜剧情 111 07",
+      "searchText": "p11107 人格剧情 奥提斯 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38444,15 +38482,15 @@
     },
     {
       "code": "P11108",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11108",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 111-08",
+      "storyLabel": "人格剧情 #12 奥提斯 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38461,11 +38499,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         8,
         0
       ],
-      "searchText": "p11108 瓦夜剧情 111 08",
+      "searchText": "p11108 人格剧情 奥提斯 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38482,15 +38520,15 @@
     },
     {
       "code": "P11109",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11109",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 111-09",
+      "storyLabel": "人格剧情 #12 奥提斯 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38499,11 +38537,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         9,
         0
       ],
-      "searchText": "p11109 瓦夜剧情 111 09",
+      "searchText": "p11109 人格剧情 奥提斯 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38520,15 +38558,15 @@
     },
     {
       "code": "P11110",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11110",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 111-10",
+      "storyLabel": "人格剧情 #12 奥提斯 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38537,11 +38575,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         10,
         0
       ],
-      "searchText": "p11110 瓦夜剧情 111 10",
+      "searchText": "p11110 人格剧情 奥提斯 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38558,15 +38596,15 @@
     },
     {
       "code": "P11111",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11111",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 111-11",
+      "storyLabel": "人格剧情 #12 奥提斯 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38575,11 +38613,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         11,
         0
       ],
-      "searchText": "p11111 瓦夜剧情 111 11",
+      "searchText": "p11111 人格剧情 奥提斯 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38596,15 +38634,15 @@
     },
     {
       "code": "P11112",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11112",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 111-12",
+      "storyLabel": "人格剧情 #12 奥提斯 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38613,11 +38651,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         12,
         0
       ],
-      "searchText": "p11112 瓦夜剧情 111 12",
+      "searchText": "p11112 人格剧情 奥提斯 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38634,15 +38672,15 @@
     },
     {
       "code": "P11113",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11113",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 111-13",
+      "storyLabel": "人格剧情 #12 奥提斯 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38651,11 +38689,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         13,
         0
       ],
-      "searchText": "p11113 瓦夜剧情 111 13",
+      "searchText": "p11113 人格剧情 奥提斯 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38672,15 +38710,15 @@
     },
     {
       "code": "P11114",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P111",
-      "chapterLabel": "瓦夜篇目 111",
+      "chapterLabel": "#12 奥提斯",
       "stageKey": "P11114",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 111-14",
+      "storyLabel": "人格剧情 #12 奥提斯 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38689,11 +38727,11 @@
       },
       "sortKey": [
         4,
-        111,
+        12,
         14,
         0
       ],
-      "searchText": "p11114 瓦夜剧情 111 14",
+      "searchText": "p11114 人格剧情 奥提斯 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38710,15 +38748,15 @@
     },
     {
       "code": "P11202",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11202",
       "stageLabel": "第02节",
-      "storyLabel": "瓦夜剧情 112-02",
+      "storyLabel": "人格剧情 #13 格里高尔 02 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38727,11 +38765,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         2,
         0
       ],
-      "searchText": "p11202 瓦夜剧情 112 02",
+      "searchText": "p11202 人格剧情 格里高尔 02 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38748,15 +38786,15 @@
     },
     {
       "code": "P11203",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11203",
       "stageLabel": "第03节",
-      "storyLabel": "瓦夜剧情 112-03",
+      "storyLabel": "人格剧情 #13 格里高尔 03 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38765,11 +38803,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         3,
         0
       ],
-      "searchText": "p11203 瓦夜剧情 112 03",
+      "searchText": "p11203 人格剧情 格里高尔 03 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38786,15 +38824,15 @@
     },
     {
       "code": "P11204",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11204",
       "stageLabel": "第04节",
-      "storyLabel": "瓦夜剧情 112-04",
+      "storyLabel": "人格剧情 #13 格里高尔 04 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38803,11 +38841,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         4,
         0
       ],
-      "searchText": "p11204 瓦夜剧情 112 04",
+      "searchText": "p11204 人格剧情 格里高尔 04 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38824,15 +38862,15 @@
     },
     {
       "code": "P11205",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11205",
       "stageLabel": "第05节",
-      "storyLabel": "瓦夜剧情 112-05",
+      "storyLabel": "人格剧情 #13 格里高尔 05 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38841,11 +38879,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         5,
         0
       ],
-      "searchText": "p11205 瓦夜剧情 112 05",
+      "searchText": "p11205 人格剧情 格里高尔 05 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38862,15 +38900,15 @@
     },
     {
       "code": "P11206",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11206",
       "stageLabel": "第06节",
-      "storyLabel": "瓦夜剧情 112-06",
+      "storyLabel": "人格剧情 #13 格里高尔 06 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38879,11 +38917,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         6,
         0
       ],
-      "searchText": "p11206 瓦夜剧情 112 06",
+      "searchText": "p11206 人格剧情 格里高尔 06 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38900,15 +38938,15 @@
     },
     {
       "code": "P11207",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11207",
       "stageLabel": "第07节",
-      "storyLabel": "瓦夜剧情 112-07",
+      "storyLabel": "人格剧情 #13 格里高尔 07 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38917,11 +38955,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         7,
         0
       ],
-      "searchText": "p11207 瓦夜剧情 112 07",
+      "searchText": "p11207 人格剧情 格里高尔 07 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38938,15 +38976,15 @@
     },
     {
       "code": "P11208",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11208",
       "stageLabel": "第08节",
-      "storyLabel": "瓦夜剧情 112-08",
+      "storyLabel": "人格剧情 #13 格里高尔 08 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38955,11 +38993,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         8,
         0
       ],
-      "searchText": "p11208 瓦夜剧情 112 08",
+      "searchText": "p11208 人格剧情 格里高尔 08 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38976,15 +39014,15 @@
     },
     {
       "code": "P11209",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11209",
       "stageLabel": "第09节",
-      "storyLabel": "瓦夜剧情 112-09",
+      "storyLabel": "人格剧情 #13 格里高尔 09 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38993,11 +39031,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         9,
         0
       ],
-      "searchText": "p11209 瓦夜剧情 112 09",
+      "searchText": "p11209 人格剧情 格里高尔 09 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39014,15 +39052,15 @@
     },
     {
       "code": "P11210",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11210",
       "stageLabel": "第10节",
-      "storyLabel": "瓦夜剧情 112-10",
+      "storyLabel": "人格剧情 #13 格里高尔 10 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39031,11 +39069,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         10,
         0
       ],
-      "searchText": "p11210 瓦夜剧情 112 10",
+      "searchText": "p11210 人格剧情 格里高尔 10 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39052,15 +39090,15 @@
     },
     {
       "code": "P11211",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11211",
       "stageLabel": "第11节",
-      "storyLabel": "瓦夜剧情 112-11",
+      "storyLabel": "人格剧情 #13 格里高尔 11 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39069,11 +39107,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         11,
         0
       ],
-      "searchText": "p11211 瓦夜剧情 112 11",
+      "searchText": "p11211 人格剧情 格里高尔 11 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39090,15 +39128,15 @@
     },
     {
       "code": "P11212",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11212",
       "stageLabel": "第12节",
-      "storyLabel": "瓦夜剧情 112-12",
+      "storyLabel": "人格剧情 #13 格里高尔 12 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39107,11 +39145,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         12,
         0
       ],
-      "searchText": "p11212 瓦夜剧情 112 12",
+      "searchText": "p11212 人格剧情 格里高尔 12 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39128,15 +39166,15 @@
     },
     {
       "code": "P11213",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11213",
       "stageLabel": "第13节",
-      "storyLabel": "瓦夜剧情 112-13",
+      "storyLabel": "人格剧情 #13 格里高尔 13 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39145,11 +39183,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         13,
         0
       ],
-      "searchText": "p11213 瓦夜剧情 112 13",
+      "searchText": "p11213 人格剧情 格里高尔 13 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39166,15 +39204,15 @@
     },
     {
       "code": "P11214",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11214",
       "stageLabel": "第14节",
-      "storyLabel": "瓦夜剧情 112-14",
+      "storyLabel": "人格剧情 #13 格里高尔 14 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39183,11 +39221,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         14,
         0
       ],
-      "searchText": "p11214 瓦夜剧情 112 14",
+      "searchText": "p11214 人格剧情 格里高尔 14 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39204,15 +39242,15 @@
     },
     {
       "code": "P11215",
-      "category": "walpurgis",
-      "categoryLabel": "瓦夜剧情",
-      "categoryDescription": "P 开头，为瓦夜剧情。",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "P 开头，为人格剧情。",
       "prefix": "P",
       "chapterKey": "P112",
-      "chapterLabel": "瓦夜篇目 112",
+      "chapterLabel": "#13 格里高尔",
       "stageKey": "P11215",
       "stageLabel": "第15节",
-      "storyLabel": "瓦夜剧情 112-15",
+      "storyLabel": "人格剧情 #13 格里高尔 15 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39221,11 +39259,11 @@
       },
       "sortKey": [
         4,
-        112,
+        13,
         15,
         0
       ],
-      "searchText": "p11215 瓦夜剧情 112 15",
+      "searchText": "p11215 人格剧情 格里高尔 15 正篇",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39959,44 +39997,6 @@
         "JP": "../LocalizeLimbusCompany/JP/StoryData/PC14A.json",
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC14A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC14A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "P10710A",
-      "category": "other",
-      "categoryLabel": "未分类剧情",
-      "categoryDescription": "无法匹配命名规则的剧情文件。",
-      "prefix": "OTHER",
-      "chapterKey": "OTHER",
-      "chapterLabel": "未分类",
-      "stageKey": "P10710A",
-      "stageLabel": "P10710A",
-      "storyLabel": "P10710A",
-      "part": {
-        "raw": "",
-        "code": "",
-        "label": "正篇",
-        "sort": 0
-      },
-      "sortKey": [
-        7,
-        999,
-        999,
-        999
-      ],
-      "searchText": "p10710a 未分类剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10710A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10710A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10710A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10710A.json"
       },
       "languageCount": 4
     },
