@@ -44,7 +44,7 @@ function escapeHtml(value) {
 function getQueryState() {
   const params = new URLSearchParams(window.location.search);
   const code = params.get('code');
-  const langs = (params.get('langs') || 'LLC_zh-CN,JP,EN')
+  const langs = (params.get('langs') || 'LLC_zh-CN')
     .split(',')
     .map((value) => value.trim())
     .filter(Boolean);
@@ -252,10 +252,11 @@ function createRowPanel(row, languages) {
 
       const characterMap = state.characterMaps.get(language.id) ?? new Map();
 
+      const displayId = language.id === 'LLC_zh-CN' ? 'CN' : language.id;
       return `
         <section class="line-language-block">
           <div class="line-language-head">
-            <span class="line-language-code">${escapeHtml(language.id)}</span>
+            <span class="line-language-code">${escapeHtml(displayId)}</span>
             <strong>${escapeHtml(language.label)}</strong>
           </div>
           ${createEntryCard(entry, row.order, language, characterMap)}
@@ -354,7 +355,7 @@ async function init() {
   state.selectedLanguages = new Set(validLanguages.length ? validLanguages : ['LLC_zh-CN']);
 
   elements.storyTitle.textContent = state.story.storyLabel;
-  elements.storyMeta.textContent = `${state.story.code} · ${state.story.categoryLabel} · ${state.story.chapterLabel} · ${state.story.stageLabel}`;
+  elements.storyMeta.textContent = `${state.story.displayCode || state.story.code} · ${state.story.categoryLabel} · ${state.story.chapterLabel} · ${state.story.stageLabel}`;
   renderLanguagePicker();
   renderAvailability();
   await renderStory();

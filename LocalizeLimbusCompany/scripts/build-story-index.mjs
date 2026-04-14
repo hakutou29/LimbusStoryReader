@@ -104,6 +104,7 @@ function parseStoryCode(fileCode) {
     const part = normalizePart(rawPart);
     return {
       code: fileCode,
+      displayCode: `${chapter}-${padStage(stage)}${rawPart}`,
       category: 'main',
       categoryLabel: '主线剧情',
       categoryDescription: 'S 开头，按主线章节与关卡索引。',
@@ -114,7 +115,7 @@ function parseStoryCode(fileCode) {
       stageLabel: `第${toNumber(stage)}节`,
       storyLabel: `主线 第${toNumber(chapter)}章 第${toNumber(stage)}节 ${part.label}`,
       part,
-      sortKey: [categorySort.main, toNumber(chapter), toNumber(stage), part.sort],
+      sortKey: [categorySort.main, toNumber(chapter), toNumber(stage), 0, part.sort],
       searchText: buildSearchText([fileCode, '主线剧情', `第${toNumber(chapter)}章`, `第${toNumber(stage)}节`, part.label]),
     };
   }
@@ -211,26 +212,28 @@ function parseStoryCode(fileCode) {
     };
   }
 
-  match = fileCode.match(/^(\d+D)(\d+)(A|B|X|I\d*)?$/);
+  match = fileCode.match(/^(\d+)D(\d+)(A|B|X|I\d*)?$/);
   if (match) {
-    const [, prefix, digits, rawPart = ''] = match;
-    const chapter = digits.slice(0, 1) || '0';
-    const stage = digits.slice(1) || '0';
+    const [, chapStr, digits, rawPart = ''] = match;
+    const chapterNum = toNumber(chapStr);
+    const subStage = toNumber(digits);
     const part = normalizePart(rawPart);
+    const stageGroup = chapterNum === 8 ? 20 : 999;
     return {
       code: fileCode,
-      category: 'sideStory',
-      categoryLabel: '其他剧情',
-      categoryDescription: '数字+D 开头，保留原编号体系展示。',
-      prefix,
-      chapterKey: `${prefix}-${chapter}`,
-      chapterLabel: `${prefix} 篇章 ${toNumber(chapter)}`,
-      stageKey: `${prefix}${digits}`,
-      stageLabel: `第${toNumber(stage)}节`,
-      storyLabel: `${prefix} 第${toNumber(chapter)}组 第${toNumber(stage)}节 ${part.label}`,
+      displayCode: `${chapStr}D-${digits}${rawPart}`,
+      category: 'main',
+      categoryLabel: '主线剧情',
+      categoryDescription: 'S 开头，按主线章节与关卡索引 (包含附加 Dungeon)。',
+      prefix: 'S',
+      chapterKey: `S${chapStr}`,
+      chapterLabel: `主线 第${chapterNum}章`,
+      stageKey: chapterNum === 8 ? `S820-D${digits}` : `S${chapStr}999-D${digits}`,
+      stageLabel: chapterNum === 8 ? `第20节 D${digits}` : `后记 D${digits}`,
+      storyLabel: `${chapStr}D${digits} ${part.label}`,
       part,
-      sortKey: [categorySort.sideStory, toNumber(prefix), toNumber(chapter), toNumber(stage), part.sort],
-      searchText: buildSearchText([fileCode, '其他剧情', prefix, chapter, stage, part.label]),
+      sortKey: [categorySort.main, chapterNum, stageGroup, subStage, part.sort],
+      searchText: buildSearchText([fileCode, '主线剧情', `第${chapterNum}章`, 'Dungeon', digits, part.label]),
     };
   }
 

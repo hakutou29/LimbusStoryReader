@@ -1,6 +1,6 @@
 const state = {
   storyIndex: null,
-  selectedLanguages: new Set(['LLC_zh-CN', 'JP', 'EN']),
+  selectedLanguages: new Set(['LLC_zh-CN']),
   searchTerm: '',
 };
 
@@ -59,12 +59,13 @@ function renderLanguagePicker() {
   elements.languagePicker.innerHTML = state.storyIndex.languages
     .map((language) => {
       const checked = state.selectedLanguages.has(language.id) ? 'checked' : '';
-      return `
+        const displayId = language.id === 'LLC_zh-CN' ? 'CN' : language.id;
+        return `
         <label class="language-chip">
-          <input type="checkbox" data-language-id="${language.id}" ${checked} />
-          <span>
+            <input type="checkbox" data-language-id="${language.id}" ${checked} />
+            <span>
               <strong>${language.label}</strong>
-              <small>${language.folder} / ${language.storyCount}</small>
+              <small>${displayId} / ${language.storyCount}</small>
           </span>
         </label>
       `;
@@ -147,7 +148,7 @@ function renderCatalog() {
                 .join(' / ');
               return `
                 <a class="story-card-link" href="./story.html?${buildQueryString(story.code)}">
-                  <span class="story-card-code">${story.code}</span>
+                  <span class="story-card-code">${story.displayCode || story.code}</span>
                   <strong>${story.storyLabel}</strong>
                   <small>${availableText || '无可用语言'}</small>
                 </a>
