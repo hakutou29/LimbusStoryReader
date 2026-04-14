@@ -258,7 +258,7 @@ function createEntryCard(entry, index, language, characterMap) {
   const roleText = [entry.title, entry.teller, entry.model].filter(Boolean).join(' · ') || '旁白';
   const placeText = entry.place ? `<p class="entry-place">${escapeHtml(entry.place)}</p>` : '';
   const characterInfo = entry.model && characterMap.has(entry.model) ? characterMap.get(entry.model) : null;
-  const charNoBadge = characterInfo ? `<span class="speaker-character-no">#${characterInfo.no}</span>` : '';
+  const charNoBadge = characterInfo && characterInfo.no != null ? `<span class="speaker-character-no">#${characterInfo.no}</span>` : '';
 
   return `
     <article class="dialogue-card">
