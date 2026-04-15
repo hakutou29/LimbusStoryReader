@@ -329,6 +329,7 @@ function createStoryIndex(storyCodesByLanguage) {
 async function buildTitleMaps() {
   const chapterTitlesMap = {};
   const stageTitlesMap = {};
+  const personalitiesMap = {};
 
   for (const language of languageConfigs) {
     try {
@@ -358,11 +359,23 @@ async function buildTitleMaps() {
          }
       }
     } catch(e) {}
+
+    try {
+      const pPath = path.join(workspaceRoot, 'LocalizeLimbusCompany', language.folder, 'Personalities.json');
+      const pData = JSON.parse(await fs.readFile(pPath, 'utf-8'));
+      for (const p of pData.dataList) {
+        const pId = String(p.id);
+        if (!personalitiesMap[pId]) personalitiesMap[pId] = {};
+        let t = p.title || p.nameWithTitle || p.name || '';
+        t = t.replace(/\n/g, ' ');
+        personalitiesMap[pId][language.id] = t;
+      }
+    } catch(e) {}
   }
-  return { chapterTitlesMap, stageTitlesMap };
+  return { chapterTitlesMap, stageTitlesMap, personalitiesMap };
 }
 
-function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap }) {
+function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personalitiesMap }) {
   for (const story of stories) {
     let chapterId = null;
     let stageId = null;
@@ -396,8 +409,30 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap }) {
          story.searchText += ' ' + sName;
       }
     }
+
+    if (story.category === 'identity') {
+      const pId = story.stageKey.slice(1);
+      if (personalitiesMap && personalitiesMap[pId]) {
+        story.stageNames = personalitiesMap[pId];
+        if (personalitiesMap[pId]['LLC_zh-CN']) {
+          const pName = personalitiesMap[pId]['LLC_zh-CN'];
+          story.stageLabel = pName;
+          
+          const match = story.code.match(/^(P)(\d+)(A|B|X|I\d*)?$/);
+          const rawPart = match ? match[3] || '' : '';
+          const part = normalizePart(rawPart);
+          
+          const sinnerNameParts = story.chapterLabel.split(' '); // e.g. ["#1", "李箱"]
+          const sName = sinnerNameParts.length > 1 ? sinnerNameParts[1] : '';
+          
+          story.storyLabel = `人格剧情 ${story.chapterLabel} ${pName} ${part.label}`.trim();
+          story.searchText += ' ' + pName;
+        }
+      }
+    }
   }
 }
+
 
 function buildCategorySummary(stories) {
   const summary = new Map();

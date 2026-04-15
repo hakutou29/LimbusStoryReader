@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T23:19:38.168Z",
+  "generatedAt": "2026-04-15T03:46:44.287Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -33245,8 +33245,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10102",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #1 李箱 02 正篇",
+      "stageLabel": "Seven协会 南部6科",
+      "storyLabel": "人格剧情 #1 李箱 Seven协会 南部6科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33259,7 +33259,7 @@
         2,
         0
       ],
-      "searchText": "p10102 人格剧情 李箱 02 正篇",
+      "searchText": "p10102 人格剧情 李箱 02 正篇 Seven协会 南部6科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33272,7 +33272,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10102.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10102.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Seven协会 南部6科",
+        "JP": "南部セブン協会 6課",
+        "EN": "Seven Assoc. South Section 6",
+        "KR": "남부 세븐 협회 6과"
+      }
     },
     {
       "code": "P10103",
@@ -33283,8 +33289,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10103",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #1 李箱 03 正篇",
+      "stageLabel": "剑契组 杀手",
+      "storyLabel": "人格剧情 #1 李箱 剑契组 杀手 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33297,7 +33303,7 @@
         3,
         0
       ],
-      "searchText": "p10103 人格剧情 李箱 03 正篇",
+      "searchText": "p10103 人格剧情 李箱 03 正篇 剑契组 杀手",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33310,7 +33316,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10103.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10103.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "剑契组 杀手",
+        "JP": "剣契 殺手",
+        "EN": "Blade Lineage Salsu",
+        "KR": "검계 살수"
+      }
     },
     {
       "code": "P10104",
@@ -33321,8 +33333,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10104",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #1 李箱 04 正篇",
+      "stageLabel": "绽放E.G.O:: 山茶花",
+      "storyLabel": "人格剧情 #1 李箱 绽放E.G.O:: 山茶花 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33335,7 +33347,7 @@
         4,
         0
       ],
-      "searchText": "p10104 人格剧情 李箱 04 正篇",
+      "searchText": "p10104 人格剧情 李箱 04 正篇 绽放E.G.O:: 山茶花",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33348,7 +33360,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10104.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10104.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "绽放E.G.O:: 山茶花",
+        "JP": "開花 E.G.O:: 壇香梅",
+        "EN": "Effloresced E.G.O::Spicebush",
+        "KR": "개화 E.G.O:: 동백"
+      }
     },
     {
       "code": "P10105",
@@ -33359,8 +33377,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10105",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #1 李箱 05 正篇",
+      "stageLabel": "臼齿事务所 收尾人",
+      "storyLabel": "人格剧情 #1 李箱 臼齿事务所 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33373,7 +33391,7 @@
         5,
         0
       ],
-      "searchText": "p10105 人格剧情 李箱 05 正篇",
+      "searchText": "p10105 人格剧情 李箱 05 正篇 臼齿事务所 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33386,7 +33404,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10105.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10105.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "臼齿事务所 收尾人",
+        "JP": "奥歯事務所 フィクサー",
+        "EN": "Molar Office Fixer",
+        "KR": "어금니 사무소 해결사"
+      }
     },
     {
       "code": "P10106",
@@ -33397,8 +33421,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10106",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #1 李箱 06 正篇",
+      "stageLabel": "W公司 3级 清扫人员",
+      "storyLabel": "人格剧情 #1 李箱 W公司 3级 清扫人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33411,7 +33435,7 @@
         6,
         0
       ],
-      "searchText": "p10106 人格剧情 李箱 06 正篇",
+      "searchText": "p10106 人格剧情 李箱 06 正篇 W公司 3级 清扫人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33424,7 +33448,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10106.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10106.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 3级 清扫人员",
+        "JP": "W社 3級 整理要員",
+        "EN": "W Corp. L3 Cleanup Agent",
+        "KR": "W사 3등급 정리 요원"
+      }
     },
     {
       "code": "P10107",
@@ -33435,8 +33465,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10107",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #1 李箱 07 正篇",
+      "stageLabel": "裴廓德号 大副",
+      "storyLabel": "人格剧情 #1 李箱 裴廓德号 大副 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33449,7 +33479,7 @@
         7,
         0
       ],
-      "searchText": "p10107 人格剧情 李箱 07 正篇",
+      "searchText": "p10107 人格剧情 李箱 07 正篇 裴廓德号 大副",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33462,7 +33492,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10107.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10107.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "裴廓德号 大副",
+        "JP": "ピークォド号 1等航海士",
+        "EN": "The Pequod First Mate",
+        "KR": "피쿼드호 일등 항해사"
+      }
     },
     {
       "code": "P10108",
@@ -33473,8 +33509,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10108",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #1 李箱 08 正篇",
+      "stageLabel": "Dieci协会 南部4科",
+      "storyLabel": "人格剧情 #1 李箱 Dieci协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33487,7 +33523,7 @@
         8,
         0
       ],
-      "searchText": "p10108 人格剧情 李箱 08 正篇",
+      "searchText": "p10108 人格剧情 李箱 08 正篇 Dieci协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33500,7 +33536,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10108.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10108.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Dieci协会 南部4科",
+        "JP": "南部ディエーチ協会 4課",
+        "EN": "Dieci Assoc. South Section 4",
+        "KR": "남부 디에치 협회 4과"
+      }
     },
     {
       "code": "P10109",
@@ -33511,8 +33553,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10109",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #1 李箱 09 正篇",
+      "stageLabel": "环指 点彩派 学徒",
+      "storyLabel": "人格剧情 #1 李箱 环指 点彩派 学徒 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33525,7 +33567,7 @@
         9,
         0
       ],
-      "searchText": "p10109 人格剧情 李箱 09 正篇",
+      "searchText": "p10109 人格剧情 李箱 09 正篇 环指 点彩派 学徒",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33538,7 +33580,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10109.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10109.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "环指 点彩派 学徒",
+        "JP": "薬指点描派 スチューデント",
+        "EN": "The Ring Pointillist Student",
+        "KR": "약지 점묘파 스튜던트"
+      }
     },
     {
       "code": "P10110",
@@ -33549,8 +33597,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10110",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #1 李箱 10 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 庄严哀悼",
+      "storyLabel": "人格剧情 #1 李箱 脑叶公司E.G.O:: 庄严哀悼 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33563,7 +33611,7 @@
         10,
         0
       ],
-      "searchText": "p10110 人格剧情 李箱 10 正篇",
+      "searchText": "p10110 人格剧情 李箱 10 正篇 脑叶公司E.G.O:: 庄严哀悼",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33576,7 +33624,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10110.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10110.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 庄严哀悼",
+        "JP": "ロボトミーE.G.O:: 厳粛な哀悼",
+        "EN": "Lobotomy E.G.O:: Solemn Lament",
+        "KR": "로보토미 E.G.O:: 엄숙한 애도"
+      }
     },
     {
       "code": "P10111",
@@ -33587,8 +33641,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10111",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #1 李箱 11 正篇",
+      "stageLabel": "LCE E.G.O:: 提灯",
+      "storyLabel": "人格剧情 #1 李箱 LCE E.G.O:: 提灯 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33601,7 +33655,7 @@
         11,
         0
       ],
-      "searchText": "p10111 人格剧情 李箱 11 正篇",
+      "searchText": "p10111 人格剧情 李箱 11 正篇 LCE E.G.O:: 提灯",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33614,7 +33668,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10111.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10111.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCE E.G.O:: 提灯",
+        "JP": "LCE E.G.O:: 提灯",
+        "EN": "LCE E.G.O:: Lantern",
+        "KR": "LCE E.G.O:: 초롱"
+      }
     },
     {
       "code": "P10112",
@@ -33625,8 +33685,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10112",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #1 李箱 12 正篇",
+      "stageLabel": "六协会 南部3科",
+      "storyLabel": "人格剧情 #1 李箱 六协会 南部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33639,7 +33699,7 @@
         12,
         0
       ],
-      "searchText": "p10112 人格剧情 李箱 12 正篇",
+      "searchText": "p10112 人格剧情 李箱 12 正篇 六协会 南部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33652,7 +33712,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10112.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10112.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "六协会 南部3科",
+        "JP": "南部リウ協会 3課",
+        "EN": "Liu Assoc. South Section 3",
+        "KR": "남부 리우 협회 3과"
+      }
     },
     {
       "code": "P10113",
@@ -33663,8 +33729,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10113",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #1 李箱 13 正篇",
+      "stageLabel": "N公司E.G.O:: 凶弹",
+      "storyLabel": "人格剧情 #1 李箱 N公司E.G.O:: 凶弹 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33677,7 +33743,7 @@
         13,
         0
       ],
-      "searchText": "p10113 人格剧情 李箱 13 正篇",
+      "searchText": "p10113 人格剧情 李箱 13 正篇 N公司E.G.O:: 凶弹",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33690,7 +33756,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10113.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10113.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "N公司E.G.O:: 凶弹",
+        "JP": "N社E.G.O:: 凶弾",
+        "EN": "N Corp. E.G.O:: Fell Bullet",
+        "KR": "N사 E.G.O:: 흉탄"
+      }
     },
     {
       "code": "P10114",
@@ -33701,8 +33773,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10114",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #1 李箱 14 正篇",
+      "stageLabel": "黑兽 - 午 魁首",
+      "storyLabel": "人格剧情 #1 李箱 黑兽 - 午 魁首 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33715,7 +33787,7 @@
         14,
         0
       ],
-      "searchText": "p10114 人格剧情 李箱 14 正篇",
+      "searchText": "p10114 人格剧情 李箱 14 正篇 黑兽 - 午 魁首",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33728,7 +33800,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10114.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10114.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 午 魁首",
+        "JP": "黒獣 - 午 筆頭",
+        "EN": "Heishou Pack - Wu Branch Adept",
+        "KR": "흑수 - 오 필두"
+      }
     },
     {
       "code": "P10115",
@@ -33739,8 +33817,8 @@
       "chapterKey": "P101",
       "chapterLabel": "#1 李箱",
       "stageKey": "P10115",
-      "stageLabel": "第15节",
-      "storyLabel": "人格剧情 #1 李箱 15 正篇",
+      "stageLabel": "蜘蛛巢 食指 父辈",
+      "storyLabel": "人格剧情 #1 李箱 蜘蛛巢 食指 父辈 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33753,7 +33831,7 @@
         15,
         0
       ],
-      "searchText": "p10115 人格剧情 李箱 15 正篇",
+      "searchText": "p10115 人格剧情 李箱 15 正篇 蜘蛛巢 食指 父辈",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33766,7 +33844,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10115.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10115.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 食指 父辈",
+        "JP": "蜘蛛の巣 人差し指の親方",
+        "EN": "The House of Spiders: The Index Nursefather",
+        "KR": "거미집 검지 아비"
+      }
     },
     {
       "code": "P10202",
@@ -33777,8 +33861,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10202",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #2 浮士德 02 正篇",
+      "stageLabel": "W公司 2级 清扫人员",
+      "storyLabel": "人格剧情 #2 浮士德 W公司 2级 清扫人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33791,7 +33875,7 @@
         2,
         0
       ],
-      "searchText": "p10202 人格剧情 浮士德 02 正篇",
+      "searchText": "p10202 人格剧情 浮士德 02 正篇 W公司 2级 清扫人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33804,7 +33888,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10202.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10202.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 2级 清扫人员",
+        "JP": "W社 2級 整理要員",
+        "EN": "W Corp. L2 Cleanup Agent",
+        "KR": "W사 2등급 정리 요원"
+      }
     },
     {
       "code": "P10203",
@@ -33815,8 +33905,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10203",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #2 浮士德 03 正篇",
+      "stageLabel": "脑叶公司 幸存者",
+      "storyLabel": "人格剧情 #2 浮士德 脑叶公司 幸存者 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33829,7 +33919,7 @@
         3,
         0
       ],
-      "searchText": "p10203 人格剧情 浮士德 03 正篇",
+      "searchText": "p10203 人格剧情 浮士德 03 正篇 脑叶公司 幸存者",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33842,7 +33932,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10203.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10203.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司 幸存者",
+        "JP": "生き残った ロボトミー職員",
+        "EN": "Lobotomy Corp. Remnant",
+        "KR": "살아남은 로보토미 직원"
+      }
     },
     {
       "code": "P10204",
@@ -33853,8 +33949,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10204",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #2 浮士德 04 正篇",
+      "stageLabel": "执柄者",
+      "storyLabel": "人格剧情 #2 浮士德 执柄者 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33867,7 +33963,7 @@
         4,
         0
       ],
-      "searchText": "p10204 人格剧情 浮士德 04 正篇",
+      "searchText": "p10204 人格剧情 浮士德 04 正篇 执柄者",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33880,7 +33976,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10204.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10204.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "执柄者",
+        "JP": "握る者",
+        "EN": "The One Who Grips",
+        "KR": "쥐는 자"
+      }
     },
     {
       "code": "P10205",
@@ -33891,8 +33993,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10205",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #2 浮士德 05 正篇",
+      "stageLabel": "Zwei协会 南部4科",
+      "storyLabel": "人格剧情 #2 浮士德 Zwei协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33905,7 +34007,7 @@
         5,
         0
       ],
-      "searchText": "p10205 人格剧情 浮士德 05 正篇",
+      "searchText": "p10205 人格剧情 浮士德 05 正篇 Zwei协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33918,7 +34020,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10205.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10205.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Zwei协会 南部4科",
+        "JP": "南部ツヴァイ協会 4課",
+        "EN": "Zwei Assoc. South Section 4",
+        "KR": "남부 츠바이 협회 4과"
+      }
     },
     {
       "code": "P10206",
@@ -33929,8 +34037,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10206",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #2 浮士德 06 正篇",
+      "stageLabel": "Seven协会 南部4科",
+      "storyLabel": "人格剧情 #2 浮士德 Seven协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33943,7 +34051,7 @@
         6,
         0
       ],
-      "searchText": "p10206 人格剧情 浮士德 06 正篇",
+      "searchText": "p10206 人格剧情 浮士德 06 正篇 Seven协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33956,7 +34064,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10206.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10206.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Seven协会 南部4科",
+        "JP": "南部セブン協会 4課",
+        "EN": "Seven Assoc. South Section 4",
+        "KR": "남부 세븐 협회 4과"
+      }
     },
     {
       "code": "P10207",
@@ -33967,8 +34081,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10207",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #2 浮士德 07 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 悔恨",
+      "storyLabel": "人格剧情 #2 浮士德 脑叶公司E.G.O:: 悔恨 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -33981,7 +34095,7 @@
         7,
         0
       ],
-      "searchText": "p10207 人格剧情 浮士德 07 正篇",
+      "searchText": "p10207 人格剧情 浮士德 07 正篇 脑叶公司E.G.O:: 悔恨",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33994,7 +34108,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10207.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10207.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 悔恨",
+        "JP": "ロボトミーE.G.O:: 後悔",
+        "EN": "Lobotomy E.G.O::Regret",
+        "KR": "로보토미 E.G.O:: 후회"
+      }
     },
     {
       "code": "P10208",
@@ -34005,8 +34125,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10208",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #2 浮士德 08 正篇",
+      "stageLabel": "剑契组 杀手",
+      "storyLabel": "人格剧情 #2 浮士德 剑契组 杀手 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34019,7 +34139,7 @@
         8,
         0
       ],
-      "searchText": "p10208 人格剧情 浮士德 08 正篇",
+      "searchText": "p10208 人格剧情 浮士德 08 正篇 剑契组 杀手",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34032,7 +34152,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10208.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10208.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "剑契组 杀手",
+        "JP": "剣契 殺手",
+        "EN": "Blade Lineage Salsu",
+        "KR": "검계 살수"
+      }
     },
     {
       "code": "P10209",
@@ -34043,8 +34169,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10209",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #2 浮士德 09 正篇",
+      "stageLabel": "呼啸山庄 管家",
+      "storyLabel": "人格剧情 #2 浮士德 呼啸山庄 管家 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34057,7 +34183,7 @@
         9,
         0
       ],
-      "searchText": "p10209 人格剧情 浮士德 09 正篇",
+      "searchText": "p10209 人格剧情 浮士德 09 正篇 呼啸山庄 管家",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34070,7 +34196,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10209.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10209.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "呼啸山庄 管家",
+        "JP": "ワザリング・ハイツ バトラー",
+        "EN": "Wuthering Heights Butler",
+        "KR": "워더링하이츠 버틀러"
+      }
     },
     {
       "code": "P10210",
@@ -34081,8 +34213,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10210",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #2 浮士德 10 正篇",
+      "stageLabel": "多裂纹事务所 代表",
+      "storyLabel": "人格剧情 #2 浮士德 多裂纹事务所 代表 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34095,7 +34227,7 @@
         10,
         0
       ],
-      "searchText": "p10210 人格剧情 浮士德 10 正篇",
+      "searchText": "p10210 人格剧情 浮士德 10 正篇 多裂纹事务所 代表",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34108,7 +34240,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10210.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10210.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "多裂纹事务所 代表",
+        "JP": "マルチクラック事務所 代表",
+        "EN": "MultiCrack Office Rep",
+        "KR": "멀티크랙 사무소 대표"
+      }
     },
     {
       "code": "P10211",
@@ -34119,8 +34257,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10211",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #2 浮士德 11 正篇",
+      "stageLabel": "LCE E.G.O:: 红艳煞",
+      "storyLabel": "人格剧情 #2 浮士德 LCE E.G.O:: 红艳煞 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34133,7 +34271,7 @@
         11,
         0
       ],
-      "searchText": "p10211 人格剧情 浮士德 11 正篇",
+      "searchText": "p10211 人格剧情 浮士德 11 正篇 LCE E.G.O:: 红艳煞",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34146,7 +34284,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10211.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10211.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCE E.G.O:: 红艳煞",
+        "JP": "LCE E.G.O:: 紅炎殺",
+        "EN": "LCE E.G.O:: Ardor Blossom Star",
+        "KR": "LCE E.G.O:: 홍염살"
+      }
     },
     {
       "code": "P10212",
@@ -34157,8 +34301,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10212",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #2 浮士德 12 正篇",
+      "stageLabel": "黑兽 - 卯 魁首",
+      "storyLabel": "人格剧情 #2 浮士德 黑兽 - 卯 魁首 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34171,7 +34315,7 @@
         12,
         0
       ],
-      "searchText": "p10212 人格剧情 浮士德 12 正篇",
+      "searchText": "p10212 人格剧情 浮士德 12 正篇 黑兽 - 卯 魁首",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34184,7 +34328,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10212.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10212.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 卯 魁首",
+        "JP": "黒獣 - 卯 筆頭",
+        "EN": "Heishou Pack - Mao Branch Adept",
+        "KR": "흑수 - 묘 필두"
+      }
     },
     {
       "code": "P10213",
@@ -34195,8 +34345,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10213",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #2 浮士德 13 正篇",
+      "stageLabel": "し协会 东部3科",
+      "storyLabel": "人格剧情 #2 浮士德 し协会 东部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34209,7 +34359,7 @@
         13,
         0
       ],
-      "searchText": "p10213 人格剧情 浮士德 13 正篇",
+      "searchText": "p10213 人格剧情 浮士德 13 正篇 し协会 东部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34222,7 +34372,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10213.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10213.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "し协会 东部3科",
+        "JP": "東部シ協会 3課",
+        "EN": "Shi Assoc. East Section 3",
+        "KR": "동부 시 협회 3과"
+      }
     },
     {
       "code": "P10214",
@@ -34233,8 +34389,8 @@
       "chapterKey": "P102",
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10214",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #2 浮士德 14 正篇",
+      "stageLabel": "食指 苦行者: 【纸条】",
+      "storyLabel": "人格剧情 #2 浮士德 食指 苦行者: 【纸条】 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34247,7 +34403,7 @@
         14,
         0
       ],
-      "searchText": "p10214 人格剧情 浮士德 14 正篇",
+      "searchText": "p10214 人格剧情 浮士德 14 正篇 食指 苦行者: 【纸条】",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34260,7 +34416,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10214.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10214.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "食指 苦行者: 【纸条】",
+        "JP": "人差し指遂行者: 【紙片】",
+        "EN": "The Index Proselyte: 【Paper Slip】",
+        "KR": "검지 수행자: 【쪽지】"
+      }
     },
     {
       "code": "P10302",
@@ -34271,8 +34433,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10302",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 02 正篇",
+      "stageLabel": "W公司 3级 清扫人员",
+      "storyLabel": "人格剧情 #3 堂吉诃德 W公司 3级 清扫人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34285,7 +34447,7 @@
         2,
         0
       ],
-      "searchText": "p10302 人格剧情 堂吉诃德 02 正篇",
+      "searchText": "p10302 人格剧情 堂吉诃德 02 正篇 W公司 3级 清扫人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34298,7 +34460,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10302.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10302.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 3级 清扫人员",
+        "JP": "W社 3級 整理要員",
+        "EN": "W Corp. L3 Cleanup Agent",
+        "KR": "W사 3등급 정리 요원"
+      }
     },
     {
       "code": "P10303",
@@ -34309,8 +34477,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10303",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 03 正篇",
+      "stageLabel": "し协会 南部5科科长",
+      "storyLabel": "人格剧情 #3 堂吉诃德 し协会 南部5科科长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34323,7 +34491,7 @@
         3,
         0
       ],
-      "searchText": "p10303 人格剧情 堂吉诃德 03 正篇",
+      "searchText": "p10303 人格剧情 堂吉诃德 03 正篇 し协会 南部5科科长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34336,7 +34504,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10303.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10303.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "し协会 南部5科科长",
+        "JP": "南部シ協会 5課",
+        "EN": "Shi Assoc. South Section 5 Director",
+        "KR": "남부 시 협회 5과 부장"
+      }
     },
     {
       "code": "P10304",
@@ -34347,8 +34521,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10304",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 04 正篇",
+      "stageLabel": "N公司 中锤",
+      "storyLabel": "人格剧情 #3 堂吉诃德 N公司 中锤 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34361,7 +34535,7 @@
         4,
         0
       ],
-      "searchText": "p10304 人格剧情 堂吉诃德 04 正篇",
+      "searchText": "p10304 人格剧情 堂吉诃德 04 正篇 N公司 中锤",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34374,7 +34548,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10304.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10304.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "N公司 中锤",
+        "JP": "N社 中鎚",
+        "EN": "N Corp. Mittelhammer",
+        "KR": "N사 중간 망치"
+      }
     },
     {
       "code": "P10305",
@@ -34385,8 +34565,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10305",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 05 正篇",
+      "stageLabel": "Cinq协会 南部5科科长",
+      "storyLabel": "人格剧情 #3 堂吉诃德 Cinq协会 南部5科科长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34399,7 +34579,7 @@
         5,
         0
       ],
-      "searchText": "p10305 人格剧情 堂吉诃德 05 正篇",
+      "searchText": "p10305 人格剧情 堂吉诃德 05 正篇 Cinq协会 南部5科科长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34412,7 +34592,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10305.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10305.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Cinq协会 南部5科科长",
+        "JP": "南部センク協会 5課 部長",
+        "EN": "Cinq Assoc. South Section 5 Director",
+        "KR": "남부 섕크 협회 5과 부장"
+      }
     },
     {
       "code": "P10306",
@@ -34423,8 +34609,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10306",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 06 正篇",
+      "stageLabel": "中指 幼妹",
+      "storyLabel": "人格剧情 #3 堂吉诃德 中指 幼妹 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34437,7 +34623,7 @@
         6,
         0
       ],
-      "searchText": "p10306 人格剧情 堂吉诃德 06 正篇",
+      "searchText": "p10306 人格剧情 堂吉诃德 06 正篇 中指 幼妹",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34450,7 +34636,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10306.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10306.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "中指 幼妹",
+        "JP": "中指 末妹",
+        "EN": "The Middle Little Sister",
+        "KR": "중지 작은 아우"
+      }
     },
     {
       "code": "P10307",
@@ -34461,8 +34653,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10307",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 07 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 提灯",
+      "storyLabel": "人格剧情 #3 堂吉诃德 脑叶公司E.G.O:: 提灯 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34475,7 +34667,7 @@
         7,
         0
       ],
-      "searchText": "p10307 人格剧情 堂吉诃德 07 正篇",
+      "searchText": "p10307 人格剧情 堂吉诃德 07 正篇 脑叶公司E.G.O:: 提灯",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34488,7 +34680,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10307.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10307.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 提灯",
+        "JP": "ロボトミーE.G.O:: 提灯",
+        "EN": "Lobotomy E.G.O::Lantern",
+        "KR": "로보토미 E.G.O:: 초롱"
+      }
     },
     {
       "code": "P10308",
@@ -34499,8 +34697,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10308",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 08 正篇",
+      "stageLabel": "剑契组 杀手",
+      "storyLabel": "人格剧情 #3 堂吉诃德 剑契组 杀手 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34513,7 +34711,7 @@
         8,
         0
       ],
-      "searchText": "p10308 人格剧情 堂吉诃德 08 正篇",
+      "searchText": "p10308 人格剧情 堂吉诃德 08 正篇 剑契组 杀手",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34526,7 +34724,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10308.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10308.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "剑契组 杀手",
+        "JP": "剣契 殺手",
+        "EN": "Blade Lineage Salsu",
+        "KR": "검계 살수"
+      }
     },
     {
       "code": "P10309",
@@ -34537,8 +34741,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10309",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 09 正篇",
+      "stageLabel": "T公司 3级 征收人员",
+      "storyLabel": "人格剧情 #3 堂吉诃德 T公司 3级 征收人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34551,7 +34755,7 @@
         9,
         0
       ],
-      "searchText": "p10309 人格剧情 堂吉诃德 09 正篇",
+      "searchText": "p10309 人格剧情 堂吉诃德 09 正篇 T公司 3级 征收人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34564,7 +34768,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10309.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10309.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "T公司 3级 征收人员",
+        "JP": "T社 3級 徴収職職員",
+        "EN": "T Corp. Class 3 Collection Staff",
+        "KR": "T사 3등급 징수직 직원"
+      }
     },
     {
       "code": "P10310",
@@ -34575,8 +34785,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10310",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 10 正篇",
+      "stageLabel": "拉·曼却领 总督",
+      "storyLabel": "人格剧情 #3 堂吉诃德 拉·曼却领 总督 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34589,7 +34799,7 @@
         10,
         0
       ],
-      "searchText": "p10310 人格剧情 堂吉诃德 10 正篇",
+      "searchText": "p10310 人格剧情 堂吉诃德 10 正篇 拉·曼却领 总督",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34602,7 +34812,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10310.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10310.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "拉·曼却领 总督",
+        "JP": "ラ・マンチャランド 室長",
+        "EN": "The Manager of La Manchaland",
+        "KR": "라만차랜드 실장"
+      }
     },
     {
       "code": "P10311",
@@ -34613,8 +34829,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10311",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 11 正篇",
+      "stageLabel": "Cinq协会 东部3科",
+      "storyLabel": "人格剧情 #3 堂吉诃德 Cinq协会 东部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34627,7 +34843,7 @@
         11,
         0
       ],
-      "searchText": "p10311 人格剧情 堂吉诃德 11 正篇",
+      "searchText": "p10311 人格剧情 堂吉诃德 11 正篇 Cinq协会 东部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34640,7 +34856,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10311.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10311.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Cinq协会 东部3科",
+        "JP": "東部センク協会 3課",
+        "EN": "Cinq Assoc. East Section 3",
+        "KR": "동부 섕크 협회 3과"
+      }
     },
     {
       "code": "P10312",
@@ -34651,8 +34873,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10312",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 12 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 以爱与憎之名",
+      "storyLabel": "人格剧情 #3 堂吉诃德 脑叶公司E.G.O:: 以爱与憎之名 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34665,7 +34887,7 @@
         12,
         0
       ],
-      "searchText": "p10312 人格剧情 堂吉诃德 12 正篇",
+      "searchText": "p10312 人格剧情 堂吉诃德 12 正篇 脑叶公司E.G.O:: 以爱与憎之名",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34678,7 +34900,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10312.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10312.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 以爱与憎之名",
+        "JP": "ロボトミーE.G.O:: 愛と憎悪の名の下に",
+        "EN": "Lobotomy E.G.O:: In the Name of Love and Hate",
+        "KR": "로보토미 E.G.O:: 사랑과 증오의 이름으로"
+      }
     },
     {
       "code": "P10313",
@@ -34689,8 +34917,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10313",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 13 正篇",
+      "stageLabel": "黑兽 - 未",
+      "storyLabel": "人格剧情 #3 堂吉诃德 黑兽 - 未 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34703,7 +34931,7 @@
         13,
         0
       ],
-      "searchText": "p10313 人格剧情 堂吉诃德 13 正篇",
+      "searchText": "p10313 人格剧情 堂吉诃德 13 正篇 黑兽 - 未",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34716,7 +34944,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10313.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10313.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 未",
+        "JP": "黒獣 - 未",
+        "EN": "Heishou Pack - Wei Branch",
+        "KR": "흑수 - 미"
+      }
     },
     {
       "code": "P10314",
@@ -34727,8 +34961,8 @@
       "chapterKey": "P103",
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10314",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #3 堂吉诃德 14 正篇",
+      "stageLabel": "食指 代行者 绽放E.G.O:: 代行",
+      "storyLabel": "人格剧情 #3 堂吉诃德 食指 代行者 绽放E.G.O:: 代行 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34741,7 +34975,7 @@
         14,
         0
       ],
-      "searchText": "p10314 人格剧情 堂吉诃德 14 正篇",
+      "searchText": "p10314 人格剧情 堂吉诃德 14 正篇 食指 代行者 绽放E.G.O:: 代行",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34754,7 +34988,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10314.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10314.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "食指 代行者 绽放E.G.O:: 代行",
+        "JP": "人差し指代行者 -  開花E.G.O:: 代行",
+        "EN": "The Index Proxy -  Effloresced E.G.O:: Procuration",
+        "KR": "검지 대행자 - 개화 E.G.O:: 대행"
+      }
     },
     {
       "code": "P10402",
@@ -34765,8 +35005,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10402",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #4 良秀 02 正篇",
+      "stageLabel": "Seven协会 南部6科",
+      "storyLabel": "人格剧情 #4 良秀 Seven协会 南部6科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34779,7 +35019,7 @@
         2,
         0
       ],
-      "searchText": "p10402 人格剧情 良秀 02 正篇",
+      "searchText": "p10402 人格剧情 良秀 02 正篇 Seven协会 南部6科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34792,7 +35032,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10402.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10402.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Seven协会 南部6科",
+        "JP": "南部セブン協会 6課",
+        "EN": "Seven Assoc. South Section 6",
+        "KR": "남부 세븐 협회 6과"
+      }
     },
     {
       "code": "P10403",
@@ -34803,8 +35049,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10403",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #4 良秀 03 正篇",
+      "stageLabel": "黑云会 若众",
+      "storyLabel": "人格剧情 #4 良秀 黑云会 若众 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34817,7 +35063,7 @@
         3,
         0
       ],
-      "searchText": "p10403 人格剧情 良秀 03 正篇",
+      "searchText": "p10403 人格剧情 良秀 03 正篇 黑云会 若众",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34830,7 +35076,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10403.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10403.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑云会 若众",
+        "JP": "黒雲会 若衆",
+        "EN": "Kurokumo Clan Wakashu",
+        "KR": "흑운회 와카슈"
+      }
     },
     {
       "code": "P10404",
@@ -34841,8 +35093,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10404",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #4 良秀 04 正篇",
+      "stageLabel": "良·派 厨师长",
+      "storyLabel": "人格剧情 #4 良秀 良·派 厨师长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34855,7 +35107,7 @@
         4,
         0
       ],
-      "searchText": "p10404 人格剧情 良秀 04 正篇",
+      "searchText": "p10404 人格剧情 良秀 04 正篇 良·派 厨师长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34868,7 +35120,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10404.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10404.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "良·派 厨师长",
+        "JP": "りょ・ミ・パ 厨房長",
+        "EN": "R.B. Chef de Cuisine",
+        "KR": "료. 고. 파. 주방장"
+      }
     },
     {
       "code": "P10405",
@@ -34879,8 +35137,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10405",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #4 良秀 05 正篇",
+      "stageLabel": "W公司 3级 清扫人员",
+      "storyLabel": "人格剧情 #4 良秀 W公司 3级 清扫人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34893,7 +35151,7 @@
         5,
         0
       ],
-      "searchText": "p10405 人格剧情 良秀 05 正篇",
+      "searchText": "p10405 人格剧情 良秀 05 正篇 W公司 3级 清扫人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34906,7 +35164,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10405.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10405.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 3级 清扫人员",
+        "JP": "W社 3級 整理要員",
+        "EN": "W Corp. L3 Cleanup Agent",
+        "KR": "W사 3등급 정리 요원"
+      }
     },
     {
       "code": "P10406",
@@ -34917,8 +35181,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10406",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #4 良秀 06 正篇",
+      "stageLabel": "LCCB 系长",
+      "storyLabel": "人格剧情 #4 良秀 LCCB 系长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34931,7 +35195,7 @@
         6,
         0
       ],
-      "searchText": "p10406 人格剧情 良秀 06 正篇",
+      "searchText": "p10406 人格剧情 良秀 06 正篇 LCCB 系长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34944,7 +35208,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10406.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10406.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCCB 系长",
+        "JP": "LCCB 係長",
+        "EN": "LCCB Assistant Manager",
+        "KR": "LCCB 대리"
+      }
     },
     {
       "code": "P10407",
@@ -34955,8 +35225,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10407",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #4 良秀 07 正篇",
+      "stageLabel": "六协会 南部4科",
+      "storyLabel": "人格剧情 #4 良秀 六协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -34969,7 +35239,7 @@
         7,
         0
       ],
-      "searchText": "p10407 人格剧情 良秀 07 正篇",
+      "searchText": "p10407 人格剧情 良秀 07 正篇 六协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34982,7 +35252,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10407.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10407.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "六协会 南部4科",
+        "JP": "南部リウ協会 4課",
+        "EN": "Liu Assoc. South Section 4",
+        "KR": "남부 리우 협회 4과"
+      }
     },
     {
       "code": "P10408",
@@ -34993,8 +35269,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10408",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #4 良秀 08 正篇",
+      "stageLabel": "埃德加家族 首席管家",
+      "storyLabel": "人格剧情 #4 良秀 埃德加家族 首席管家 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35007,7 +35283,7 @@
         8,
         0
       ],
-      "searchText": "p10408 人格剧情 良秀 08 正篇",
+      "searchText": "p10408 人格剧情 良秀 08 正篇 埃德加家族 首席管家",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35020,7 +35296,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10408.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10408.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "埃德加家族 首席管家",
+        "JP": "エドガー家 チーフバトラー",
+        "EN": "Edgar Family Chief Butler",
+        "KR": "에드가 가문 치프 버틀러"
+      }
     },
     {
       "code": "P10409",
@@ -35031,8 +35313,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10409",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #4 良秀 09 正篇",
+      "stageLabel": "20区 圣愚",
+      "storyLabel": "人格剧情 #4 良秀 20区 圣愚 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35045,7 +35327,7 @@
         9,
         0
       ],
-      "searchText": "p10409 人格剧情 良秀 09 正篇",
+      "searchText": "p10409 人格剧情 良秀 09 正篇 20区 圣愚",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35058,7 +35340,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10409.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10409.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "20区 圣愚",
+        "JP": "20区 ユロージヴィ",
+        "EN": "District 20 Yurodivy",
+        "KR": "20구 유로지비"
+      }
     },
     {
       "code": "P10410",
@@ -35069,8 +35357,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10410",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #4 良秀 10 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 赤瞳·忏悔",
+      "storyLabel": "人格剧情 #4 良秀 脑叶公司E.G.O:: 赤瞳·忏悔 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35083,7 +35371,7 @@
         10,
         0
       ],
-      "searchText": "p10410 人格剧情 良秀 10 正篇",
+      "searchText": "p10410 人格剧情 良秀 10 正篇 脑叶公司E.G.O:: 赤瞳·忏悔",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35096,7 +35384,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10410.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10410.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 赤瞳·忏悔",
+        "JP": "ロボトミーE.G.O:: 赤眼・懺悔",
+        "EN": "Lobotomy E.G.O:: Red Eyes & Penitence",
+        "KR": "로보토미 E.G.O:: 적안・참회"
+      }
     },
     {
       "code": "P10411",
@@ -35107,8 +35401,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10411",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #4 良秀 11 正篇",
+      "stageLabel": "黑兽 - 卯",
+      "storyLabel": "人格剧情 #4 良秀 黑兽 - 卯 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35121,7 +35415,7 @@
         11,
         0
       ],
-      "searchText": "p10411 人格剧情 良秀 11 正篇",
+      "searchText": "p10411 人格剧情 良秀 11 正篇 黑兽 - 卯",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35134,7 +35428,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10411.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10411.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 卯",
+        "JP": "黒獣 - 卯",
+        "EN": "Heishou Pack - Mao Branch",
+        "KR": "흑수 - 묘"
+      }
     },
     {
       "code": "P10412",
@@ -35145,8 +35445,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10412",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #4 良秀 12 正篇",
+      "stageLabel": "N公司E.G.O:: 轻蔑，敬畏",
+      "storyLabel": "人格剧情 #4 良秀 N公司E.G.O:: 轻蔑，敬畏 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35159,7 +35459,7 @@
         12,
         0
       ],
-      "searchText": "p10412 人格剧情 良秀 12 正篇",
+      "searchText": "p10412 人格剧情 良秀 12 正篇 N公司E.G.O:: 轻蔑，敬畏",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35172,7 +35472,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10412.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10412.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "N公司E.G.O:: 轻蔑，敬畏",
+        "JP": "N社E.G.O:: 軽蔑、畏敬",
+        "EN": "N Corp. E.G.O:: Contempt, Awe",
+        "KR": "N사 E.G.O:: 경멸, 경외"
+      }
     },
     {
       "code": "P10413",
@@ -35183,8 +35489,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10413",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #4 良秀 13 正篇",
+      "stageLabel": "鸿园的 流浪武者",
+      "storyLabel": "人格剧情 #4 良秀 鸿园的 流浪武者 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35197,7 +35503,7 @@
         13,
         0
       ],
-      "searchText": "p10413 人格剧情 良秀 13 正篇",
+      "searchText": "p10413 人格剧情 良秀 13 正篇 鸿园的 流浪武者",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35210,7 +35516,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10413.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10413.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "鸿园的 流浪武者",
+        "JP": "鴻園の放浪武者",
+        "EN": "Drifting Blade of Hongyuan",
+        "KR": "홍원 방랑무사"
+      }
     },
     {
       "code": "P10414",
@@ -35221,8 +35533,8 @@
       "chapterKey": "P104",
       "chapterLabel": "#4 良秀",
       "stageKey": "P10414",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #4 良秀 14 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 余香·孤独",
+      "storyLabel": "人格剧情 #4 良秀 脑叶公司E.G.O:: 余香·孤独 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35235,7 +35547,7 @@
         14,
         0
       ],
-      "searchText": "p10414 人格剧情 良秀 14 正篇",
+      "searchText": "p10414 人格剧情 良秀 14 正篇 脑叶公司E.G.O:: 余香·孤独",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35248,7 +35560,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10414.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10414.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 余香·孤独",
+        "JP": "ロボトミーE.G.O:: 残香・寂しさ",
+        "EN": "Lobotomy E.G.O:: Faint Aroma & Solitude",
+        "KR": "로보토미 E.G.O:: 잔향・외로움"
+      }
     },
     {
       "code": "P10502",
@@ -35259,8 +35577,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10502",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #5 默尔索 02 正篇",
+      "stageLabel": "六协会 南部6科",
+      "storyLabel": "人格剧情 #5 默尔索 六协会 南部6科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35273,7 +35591,7 @@
         2,
         0
       ],
-      "searchText": "p10502 人格剧情 默尔索 02 正篇",
+      "searchText": "p10502 人格剧情 默尔索 02 正篇 六协会 南部6科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35286,7 +35604,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10502.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10502.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "六协会 南部6科",
+        "JP": "南部リウ協会 6課",
+        "EN": "Liu Assoc. South Section 6",
+        "KR": "남부 리우 협회 6과"
+      }
     },
     {
       "code": "P10503",
@@ -35297,8 +35621,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10503",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #5 默尔索 03 正篇",
+      "stageLabel": "W公司 2级 清扫人员",
+      "storyLabel": "人格剧情 #5 默尔索 W公司 2级 清扫人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35311,7 +35635,7 @@
         3,
         0
       ],
-      "searchText": "p10503 人格剧情 默尔索 03 正篇",
+      "searchText": "p10503 人格剧情 默尔索 03 正篇 W公司 2级 清扫人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35324,7 +35648,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10503.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10503.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 2级 清扫人员",
+        "JP": "W社 2級 整理要員",
+        "EN": "W Corp. L2 Cleanup Agent",
+        "KR": "W사 2등급 정리 요원"
+      }
     },
     {
       "code": "P10504",
@@ -35335,8 +35665,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10504",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #5 默尔索 04 正篇",
+      "stageLabel": "N公司 大锤",
+      "storyLabel": "人格剧情 #5 默尔索 N公司 大锤 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35349,7 +35679,7 @@
         4,
         0
       ],
-      "searchText": "p10504 人格剧情 默尔索 04 正篇",
+      "searchText": "p10504 人格剧情 默尔索 04 正篇 N公司 大锤",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35362,7 +35692,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10504.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10504.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "N公司 大锤",
+        "JP": "N社 大鎚",
+        "EN": "N Corp. Großhammer",
+        "KR": "N사 큰 망치"
+      }
     },
     {
       "code": "P10505",
@@ -35373,8 +35709,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10505",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #5 默尔索 05 正篇",
+      "stageLabel": "玫瑰扳手工坊 收尾人",
+      "storyLabel": "人格剧情 #5 默尔索 玫瑰扳手工坊 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35387,7 +35723,7 @@
         5,
         0
       ],
-      "searchText": "p10505 人格剧情 默尔索 05 正篇",
+      "searchText": "p10505 人格剧情 默尔索 05 正篇 玫瑰扳手工坊 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35400,7 +35736,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10505.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10505.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "玫瑰扳手工坊 收尾人",
+        "JP": "バラのスパナ工房 フィクサー",
+        "EN": "Rosespanner Workshop Fixer",
+        "KR": "장미스패너 공방 해결사"
+      }
     },
     {
       "code": "P10506",
@@ -35411,8 +35753,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10506",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #5 默尔索 06 正篇",
+      "stageLabel": "R公司 第四集团军 犀牛队",
+      "storyLabel": "人格剧情 #5 默尔索 R公司 第四集团军 犀牛队 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35425,7 +35767,7 @@
         6,
         0
       ],
-      "searchText": "p10506 人格剧情 默尔索 06 正篇",
+      "searchText": "p10506 人格剧情 默尔索 06 正篇 R公司 第四集团军 犀牛队",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35438,7 +35780,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10506.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10506.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "R公司 第四集团军 犀牛队",
+        "JP": "R社第4群 サイチーム",
+        "EN": "R Corp. 4th Pack Rhino",
+        "KR": "R사 제 4무리 코뿔소팀"
+      }
     },
     {
       "code": "P10507",
@@ -35449,8 +35797,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10507",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #5 默尔索 07 正篇",
+      "stageLabel": "中指 幼弟",
+      "storyLabel": "人格剧情 #5 默尔索 中指 幼弟 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35463,7 +35811,7 @@
         7,
         0
       ],
-      "searchText": "p10507 人格剧情 默尔索 07 正篇",
+      "searchText": "p10507 人格剧情 默尔索 07 正篇 中指 幼弟",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35476,7 +35824,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10507.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10507.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "中指 幼弟",
+        "JP": "中指 末弟",
+        "EN": "The Middle Little Brother",
+        "KR": "중지 작은 아우"
+      }
     },
     {
       "code": "P10508",
@@ -35487,8 +35841,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10508",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #5 默尔索 08 正篇",
+      "stageLabel": "剑契组 头领",
+      "storyLabel": "人格剧情 #5 默尔索 剑契组 头领 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35501,7 +35855,7 @@
         8,
         0
       ],
-      "searchText": "p10508 人格剧情 默尔索 08 正篇",
+      "searchText": "p10508 人格剧情 默尔索 08 正篇 剑契组 头领",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35514,7 +35868,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10508.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10508.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "剑契组 头领",
+        "JP": "剣契 頭目",
+        "EN": "Blade Lineage Mentor",
+        "KR": "검계 우두머리"
+      }
     },
     {
       "code": "P10509",
@@ -35525,8 +35885,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10509",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #5 默尔索 09 正篇",
+      "stageLabel": "死兔帮 老大",
+      "storyLabel": "人格剧情 #5 默尔索 死兔帮 老大 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35539,7 +35899,7 @@
         9,
         0
       ],
-      "searchText": "p10509 人格剧情 默尔索 09 正篇",
+      "searchText": "p10509 人格剧情 默尔索 09 正篇 死兔帮 老大",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35552,7 +35912,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10509.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10509.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "死兔帮 老大",
+        "JP": "デッドラビッツ ボス",
+        "EN": "Dead Rabbits Boss",
+        "KR": "데드레빗츠 보스"
+      }
     },
     {
       "code": "P10510",
@@ -35563,8 +35929,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10510",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #5 默尔索 10 正篇",
+      "stageLabel": "Dieci协会 南部4科科长",
+      "storyLabel": "人格剧情 #5 默尔索 Dieci协会 南部4科科长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35577,7 +35943,7 @@
         10,
         0
       ],
-      "searchText": "p10510 人格剧情 默尔索 10 正篇",
+      "searchText": "p10510 人格剧情 默尔索 10 正篇 Dieci协会 南部4科科长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35590,7 +35956,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10510.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10510.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Dieci协会 南部4科科长",
+        "JP": "南部ディエーチ協会 4課 部長",
+        "EN": "Dieci Assoc. South Section 4 Director",
+        "KR": "남부 디에치 협회 4과 부장"
+      }
     },
     {
       "code": "P10511",
@@ -35601,8 +35973,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10511",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #5 默尔索 11 正篇",
+      "stageLabel": "Cinq协会 西部3科",
+      "storyLabel": "人格剧情 #5 默尔索 Cinq协会 西部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35615,7 +35987,7 @@
         11,
         0
       ],
-      "searchText": "p10511 人格剧情 默尔索 11 正篇",
+      "searchText": "p10511 人格剧情 默尔索 11 正篇 Cinq协会 西部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35628,7 +36000,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10511.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10511.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Cinq协会 西部3科",
+        "JP": "西部センク協会 3課",
+        "EN": "Cinq Assoc. West Section 3",
+        "KR": "서부 섕크 협회 3과"
+      }
     },
     {
       "code": "P10512",
@@ -35639,8 +36017,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10512",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #5 默尔索 12 正篇",
+      "stageLabel": "拇指 东部 指挥官IIII",
+      "storyLabel": "人格剧情 #5 默尔索 拇指 东部 指挥官IIII 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35653,7 +36031,7 @@
         12,
         0
       ],
-      "searchText": "p10512 人格剧情 默尔索 12 正篇",
+      "searchText": "p10512 人格剧情 默尔索 12 正篇 拇指 东部 指挥官IIII",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35666,7 +36044,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10512.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10512.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "拇指 东部 指挥官IIII",
+        "JP": "東部親指 カポIIII",
+        "EN": "The Thumb East Capo IIII",
+        "KR": "동부 엄지 카포IIII"
+      }
     },
     {
       "code": "P10513",
@@ -35677,8 +36061,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10513",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #5 默尔索 13 正篇",
+      "stageLabel": "拉·曼却领 王子",
+      "storyLabel": "人格剧情 #5 默尔索 拉·曼却领 王子 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35691,7 +36075,7 @@
         13,
         0
       ],
-      "searchText": "p10513 人格剧情 默尔索 13 正篇",
+      "searchText": "p10513 人格剧情 默尔索 13 正篇 拉·曼却领 王子",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35704,7 +36088,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10513.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10513.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "拉·曼却领 王子",
+        "JP": "ラ・マンチャランドの王子",
+        "EN": "The Prince of La Manchaland",
+        "KR": "라만차랜드 왕자"
+      }
     },
     {
       "code": "P10514",
@@ -35715,8 +36105,8 @@
       "chapterKey": "P105",
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10514",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #5 默尔索 14 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 黄蜂【变调】",
+      "storyLabel": "人格剧情 #5 默尔索 脑叶公司E.G.O:: 黄蜂【变调】 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35729,7 +36119,7 @@
         14,
         0
       ],
-      "searchText": "p10514 人格剧情 默尔索 14 正篇",
+      "searchText": "p10514 人格剧情 默尔索 14 正篇 脑叶公司E.G.O:: 黄蜂【变调】",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35742,7 +36132,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10514.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10514.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 黄蜂【变调】",
+        "JP": "ロボトミーE.G.O:: ホーネット【変調】",
+        "EN": "Lobotomy E.G.O:: Hornet 【Alteration】",
+        "KR": "로보토미 E.G.O:: 호넷【변조】"
+      }
     },
     {
       "code": "P10602",
@@ -35753,8 +36149,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10602",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #6 鸿璐 02 正篇",
+      "stageLabel": "黑云会 若众",
+      "storyLabel": "人格剧情 #6 鸿璐 黑云会 若众 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35767,7 +36163,7 @@
         2,
         0
       ],
-      "searchText": "p10602 人格剧情 鸿璐 02 正篇",
+      "searchText": "p10602 人格剧情 鸿璐 02 正篇 黑云会 若众",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35780,7 +36176,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10602.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10602.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑云会 若众",
+        "JP": "黒雲会 若衆",
+        "EN": "Kurokumo Clan Wakashu",
+        "KR": "흑운회 와카슈"
+      }
     },
     {
       "code": "P10603",
@@ -35791,8 +36193,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10603",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #6 鸿璐 03 正篇",
+      "stageLabel": "豆豆帮 帮主",
+      "storyLabel": "人格剧情 #6 鸿璐 豆豆帮 帮主 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35805,7 +36207,7 @@
         3,
         0
       ],
-      "searchText": "p10603 人格剧情 鸿璐 03 正篇",
+      "searchText": "p10603 人格剧情 鸿璐 03 正篇 豆豆帮 帮主",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35818,7 +36220,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10603.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10603.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "豆豆帮 帮主",
+        "JP": "ぽんぽん派 ボス",
+        "EN": "Tingtang Gang Gangleader",
+        "KR": "콩콩이파 두목"
+      }
     },
     {
       "code": "P10604",
@@ -35829,8 +36237,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10604",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #6 鸿璐 04 正篇",
+      "stageLabel": "六协会 南部5科",
+      "storyLabel": "人格剧情 #6 鸿璐 六协会 南部5科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35843,7 +36251,7 @@
         4,
         0
       ],
-      "searchText": "p10604 人格剧情 鸿璐 04 正篇",
+      "searchText": "p10604 人格剧情 鸿璐 04 正篇 六协会 南部5科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35856,7 +36264,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10604.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10604.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "六协会 南部5科",
+        "JP": "南部リウ協会 5課",
+        "EN": "Liu Assoc. South Section 5",
+        "KR": "남부 리우 협회 5과"
+      }
     },
     {
       "code": "P10605",
@@ -35867,8 +36281,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10605",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #6 鸿璐 05 正篇",
+      "stageLabel": "K公司 3级 摘除人员",
+      "storyLabel": "人格剧情 #6 鸿璐 K公司 3级 摘除人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35881,7 +36295,7 @@
         5,
         0
       ],
-      "searchText": "p10605 人格剧情 鸿璐 05 正篇",
+      "searchText": "p10605 人格剧情 鸿璐 05 正篇 K公司 3级 摘除人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35894,7 +36308,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10605.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10605.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "K公司 3级 摘除人员",
+        "JP": "K社 3級 摘出職職員",
+        "EN": "K Corp. Class 3 Excision Staff",
+        "KR": "K사 3등급 적출직 직원"
+      }
     },
     {
       "code": "P10606",
@@ -35905,8 +36325,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10606",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #6 鸿璐 06 正篇",
+      "stageLabel": "W公司 2级 清扫人员",
+      "storyLabel": "人格剧情 #6 鸿璐 W公司 2级 清扫人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35919,7 +36339,7 @@
         6,
         0
       ],
-      "searchText": "p10606 人格剧情 鸿璐 06 正篇",
+      "searchText": "p10606 人格剧情 鸿璐 06 正篇 W公司 2级 清扫人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35932,7 +36352,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10606.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10606.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 2级 清扫人员",
+        "JP": "W社 2級 整理要員",
+        "EN": "W Corp. L2 Cleanup Agent",
+        "KR": "W사 2등급 정리 요원"
+      }
     },
     {
       "code": "P10607",
@@ -35943,8 +36369,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10607",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #6 鸿璐 07 正篇",
+      "stageLabel": "吊钩事务所 收尾人",
+      "storyLabel": "人格剧情 #6 鸿璐 吊钩事务所 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35957,7 +36383,7 @@
         7,
         0
       ],
-      "searchText": "p10607 人格剧情 鸿璐 07 正篇",
+      "searchText": "p10607 人格剧情 鸿璐 07 正篇 吊钩事务所 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -35970,7 +36396,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10607.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10607.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "吊钩事务所 收尾人",
+        "JP": "鈎事務所 フィクサー",
+        "EN": "Hook Office Fixer",
+        "KR": "갈고리 사무소 해결사"
+      }
     },
     {
       "code": "P10608",
@@ -35981,8 +36413,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10608",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #6 鸿璐 08 正篇",
+      "stageLabel": "Dieci协会 南部4科",
+      "storyLabel": "人格剧情 #6 鸿璐 Dieci协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -35995,7 +36427,7 @@
         8,
         0
       ],
-      "searchText": "p10608 人格剧情 鸿璐 08 正篇",
+      "searchText": "p10608 人格剧情 鸿璐 08 正篇 Dieci协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36008,7 +36440,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10608.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10608.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Dieci协会 南部4科",
+        "JP": "南部ディエーチ協会 4課",
+        "EN": "Dieci Assoc. South Section 4",
+        "KR": "남부 디에치 협회 4과"
+      }
     },
     {
       "code": "P10609",
@@ -36019,8 +36457,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10609",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #6 鸿璐 09 正篇",
+      "stageLabel": "20区 圣愚",
+      "storyLabel": "人格剧情 #6 鸿璐 20区 圣愚 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36033,7 +36471,7 @@
         9,
         0
       ],
-      "searchText": "p10609 人格剧情 鸿璐 09 正篇",
+      "searchText": "p10609 人格剧情 鸿璐 09 正篇 20区 圣愚",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36046,7 +36484,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10609.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10609.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "20区 圣愚",
+        "JP": "20区 ユロージヴィ",
+        "EN": "District 20 Yurodivy",
+        "KR": "20구 유로지비"
+      }
     },
     {
       "code": "P10610",
@@ -36057,8 +36501,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10610",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #6 鸿璐 10 正篇",
+      "stageLabel": "猎牙事务所 收尾人",
+      "storyLabel": "人格剧情 #6 鸿璐 猎牙事务所 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36071,7 +36515,7 @@
         10,
         0
       ],
-      "searchText": "p10610 人格剧情 鸿璐 10 正篇",
+      "searchText": "p10610 人格剧情 鸿璐 10 正篇 猎牙事务所 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36084,7 +36528,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10610.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10610.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "猎牙事务所 收尾人",
+        "JP": "牙狩事務所 フィクサー",
+        "EN": "Fanghunt Office Fixer",
+        "KR": "송곳니 사냥 사무소 해결사"
+      }
     },
     {
       "code": "P10611",
@@ -36095,8 +36545,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10611",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #6 鸿璐 11 正篇",
+      "stageLabel": "句点事务所 代表",
+      "storyLabel": "人格剧情 #6 鸿璐 句点事务所 代表 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36109,7 +36559,7 @@
         11,
         0
       ],
-      "searchText": "p10611 人格剧情 鸿璐 11 正篇",
+      "searchText": "p10611 人格剧情 鸿璐 11 正篇 句点事务所 代表",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36122,7 +36572,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10611.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10611.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "句点事务所 代表",
+        "JP": "終止符事務所 代表",
+        "EN": "Full-Stop Office Rep",
+        "KR": "마침표 사무소 대표"
+      }
     },
     {
       "code": "P10612",
@@ -36133,8 +36589,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10612",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #6 鸿璐 12 正篇",
+      "stageLabel": "R公司 第四集团军 驯鹿队",
+      "storyLabel": "人格剧情 #6 鸿璐 R公司 第四集团军 驯鹿队 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36147,7 +36603,7 @@
         12,
         0
       ],
-      "searchText": "p10612 人格剧情 鸿璐 12 正篇",
+      "searchText": "p10612 人格剧情 鸿璐 12 正篇 R公司 第四集团军 驯鹿队",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36160,7 +36616,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10612.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10612.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "R公司 第四集团军 驯鹿队",
+        "JP": "R社第4群 トナカイチーム",
+        "EN": "R Corp. 4th Pack Reindeer",
+        "KR": "R사 제 4무리 순록팀"
+      }
     },
     {
       "code": "P10613",
@@ -36171,8 +36633,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10613",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #6 鸿璐 13 正篇",
+      "stageLabel": "鸿园的君主",
+      "storyLabel": "人格剧情 #6 鸿璐 鸿园的君主 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36185,7 +36647,7 @@
         13,
         0
       ],
-      "searchText": "p10613 人格剧情 鸿璐 13 正篇",
+      "searchText": "p10613 人格剧情 鸿璐 13 正篇 鸿园的君主",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36198,7 +36660,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10613.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10613.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "鸿园的君主",
+        "JP": "鴻園の君主",
+        "EN": "The Lord of Hongyuan",
+        "KR": "홍원 군주"
+      }
     },
     {
       "code": "P10702",
@@ -36209,8 +36677,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10702",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 02 正篇",
+      "stageLabel": "し协会 南部5科",
+      "storyLabel": "人格剧情 #7 希斯克利夫 し协会 南部5科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36223,7 +36691,7 @@
         2,
         0
       ],
-      "searchText": "p10702 人格剧情 希斯克利夫 02 正篇",
+      "searchText": "p10702 人格剧情 希斯克利夫 02 正篇 し协会 南部5科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36236,7 +36704,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10702.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10702.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "し协会 南部5科",
+        "JP": "南部シ協会 5課",
+        "EN": "Shi Assoc. South Section 5",
+        "KR": "남부 시 협회 5과"
+      }
     },
     {
       "code": "P10703",
@@ -36247,8 +36721,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10703",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 03 正篇",
+      "stageLabel": "R公司 第四集团军 兔子队",
+      "storyLabel": "人格剧情 #7 希斯克利夫 R公司 第四集团军 兔子队 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36261,7 +36735,7 @@
         3,
         0
       ],
-      "searchText": "p10703 人格剧情 希斯克利夫 03 正篇",
+      "searchText": "p10703 人格剧情 希斯克利夫 03 正篇 R公司 第四集团军 兔子队",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36274,7 +36748,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10703.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10703.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "R公司 第四集团军 兔子队",
+        "JP": "R社第4群 ウサギチーム",
+        "EN": "R Corp. 4th Pack Rabbit",
+        "KR": "R사 제 4무리 토끼팀"
+      }
     },
     {
       "code": "P10704",
@@ -36285,8 +36765,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10704",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 04 正篇",
+      "stageLabel": "N公司 小锤",
+      "storyLabel": "人格剧情 #7 希斯克利夫 N公司 小锤 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36299,7 +36779,7 @@
         4,
         0
       ],
-      "searchText": "p10704 人格剧情 希斯克利夫 04 正篇",
+      "searchText": "p10704 人格剧情 希斯克利夫 04 正篇 N公司 小锤",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36312,7 +36792,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10704.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10704.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "N公司 小锤",
+        "JP": "N社 小鎚",
+        "EN": "N Corp. Kleinhammer",
+        "KR": "N사 작은 망치"
+      }
     },
     {
       "code": "P10705",
@@ -36323,8 +36809,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10705",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 05 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 狐雨",
+      "storyLabel": "人格剧情 #7 希斯克利夫 脑叶公司E.G.O:: 狐雨 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36337,7 +36823,7 @@
         5,
         0
       ],
-      "searchText": "p10705 人格剧情 希斯克利夫 05 正篇",
+      "searchText": "p10705 人格剧情 希斯克利夫 05 正篇 脑叶公司E.G.O:: 狐雨",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36350,7 +36836,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10705.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10705.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 狐雨",
+        "JP": "ロボトミーE.G.O:: 狐雨",
+        "EN": "Lobotomy E.G.O:: Sunshower",
+        "KR": "로보토미 E.G.O:: 여우비"
+      }
     },
     {
       "code": "P10706",
@@ -36361,8 +36853,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10706",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 06 正篇",
+      "stageLabel": "Seven协会 南部4科",
+      "storyLabel": "人格剧情 #7 希斯克利夫 Seven协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36375,7 +36867,7 @@
         6,
         0
       ],
-      "searchText": "p10706 人格剧情 希斯克利夫 06 正篇",
+      "searchText": "p10706 人格剧情 希斯克利夫 06 正篇 Seven协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36388,7 +36880,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10706.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10706.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Seven协会 南部4科",
+        "JP": "南部セブン協会 4課",
+        "EN": "Seven Assoc. South Section 4",
+        "KR": "남부 세븐 협회 4과"
+      }
     },
     {
       "code": "P10707",
@@ -36399,8 +36897,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10707",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 07 正篇",
+      "stageLabel": "裴廓德号 鱼叉手",
+      "storyLabel": "人格剧情 #7 希斯克利夫 裴廓德号 鱼叉手 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36413,7 +36911,7 @@
         7,
         0
       ],
-      "searchText": "p10707 人格剧情 希斯克利夫 07 正篇",
+      "searchText": "p10707 人格剧情 希斯克利夫 07 正篇 裴廓德号 鱼叉手",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36426,7 +36924,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10707.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10707.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "裴廓德号 鱼叉手",
+        "JP": "ピークォド号 銛使い",
+        "EN": "The Pequod Harpooneer",
+        "KR": "피쿼드호 작살잡이"
+      }
     },
     {
       "code": "P10708",
@@ -36437,8 +36941,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10708",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 08 正篇",
+      "stageLabel": "Öufi协会 南部3科",
+      "storyLabel": "人格剧情 #7 希斯克利夫 Öufi协会 南部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36451,7 +36955,7 @@
         8,
         0
       ],
-      "searchText": "p10708 人格剧情 希斯克利夫 08 正篇",
+      "searchText": "p10708 人格剧情 希斯克利夫 08 正篇 Öufi协会 南部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36464,7 +36968,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10708.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10708.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Öufi协会 南部3科",
+        "JP": "南部ウーフィ協会 3課",
+        "EN": "Öufi Assoc. South Section 3",
+        "KR": "남부 외우피 협회 3과"
+      }
     },
     {
       "code": "P10709",
@@ -36475,8 +36985,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10709",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 09 正篇",
+      "stageLabel": "多裂纹事务所 收尾人",
+      "storyLabel": "人格剧情 #7 希斯克利夫 多裂纹事务所 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36489,7 +36999,7 @@
         9,
         0
       ],
-      "searchText": "p10709 人格剧情 希斯克利夫 09 正篇",
+      "searchText": "p10709 人格剧情 希斯克利夫 09 正篇 多裂纹事务所 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36502,7 +37012,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10709.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10709.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "多裂纹事务所 收尾人",
+        "JP": "マルチクラック事務所 フィクサー",
+        "EN": "MultiCrack Office Fixer",
+        "KR": "멀티크랙 사무소 해결사"
+      }
     },
     {
       "code": "P10710",
@@ -36513,8 +37029,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10710",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 10 正篇",
+      "stageLabel": "狂猎",
+      "storyLabel": "人格剧情 #7 希斯克利夫 狂猎 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36527,7 +37043,7 @@
         10,
         0
       ],
-      "searchText": "p10710 人格剧情 希斯克利夫 10 正篇",
+      "searchText": "p10710 人格剧情 希斯克利夫 10 正篇 狂猎",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36540,7 +37056,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10710.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10710.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "狂猎",
+        "JP": "ワイルドハント",
+        "EN": "Wild Hunt",
+        "KR": "와일드헌트"
+      }
     },
     {
       "code": "P10710A",
@@ -36551,8 +37073,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10710",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 10 战斗后剧情",
+      "stageLabel": "狂猎",
+      "storyLabel": "人格剧情 #7 希斯克利夫 狂猎 战斗后剧情",
       "part": {
         "raw": "A",
         "code": "A",
@@ -36565,7 +37087,7 @@
         10,
         3
       ],
-      "searchText": "p10710a 人格剧情 希斯克利夫 10 战斗后剧情",
+      "searchText": "p10710a 人格剧情 希斯克利夫 10 战斗后剧情 狂猎",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36578,7 +37100,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10710A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10710A.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "狂猎",
+        "JP": "ワイルドハント",
+        "EN": "Wild Hunt",
+        "KR": "와일드헌트"
+      }
     },
     {
       "code": "P10711",
@@ -36589,8 +37117,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10711",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 11 正篇",
+      "stageLabel": "句点事务所 收尾人",
+      "storyLabel": "人格剧情 #7 希斯克利夫 句点事务所 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36603,7 +37131,7 @@
         11,
         0
       ],
-      "searchText": "p10711 人格剧情 希斯克利夫 11 正篇",
+      "searchText": "p10711 人格剧情 希斯克利夫 11 正篇 句点事务所 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36616,7 +37144,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10711.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10711.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "句点事务所 收尾人",
+        "JP": "終止符事務所 フィクサー",
+        "EN": "Full-Stop Office Fixer",
+        "KR": "마침표 사무소 해결사"
+      }
     },
     {
       "code": "P10712",
@@ -36627,8 +37161,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10712",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 12 正篇",
+      "stageLabel": "黑云会 若众",
+      "storyLabel": "人格剧情 #7 希斯克利夫 黑云会 若众 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36641,7 +37175,7 @@
         12,
         0
       ],
-      "searchText": "p10712 人格剧情 希斯克利夫 12 正篇",
+      "searchText": "p10712 人格剧情 希斯克利夫 12 正篇 黑云会 若众",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36654,7 +37188,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10712.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10712.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑云会 若众",
+        "JP": "黒雲会 若衆",
+        "EN": "Kurokumo Clan Wakashu",
+        "KR": "흑운회 와카슈"
+      }
     },
     {
       "code": "P10713",
@@ -36665,8 +37205,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10713",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 13 正篇",
+      "stageLabel": "W公司 4级 清扫人员 - CCA",
+      "storyLabel": "人格剧情 #7 希斯克利夫 W公司 4级 清扫人员 - CCA 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36679,7 +37219,7 @@
         13,
         0
       ],
-      "searchText": "p10713 人格剧情 希斯克利夫 13 正篇",
+      "searchText": "p10713 人格剧情 希斯克利夫 13 正篇 W公司 4级 清扫人员 - CCA",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36692,7 +37232,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10713.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10713.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 4级 清扫人员 - CCA",
+        "JP": "W社 4級 整理要員 - CCA",
+        "EN": "W Corp. L4 Cleanup Agent - CCA",
+        "KR": "W사 4등급 정리 요원 - CCA"
+      }
     },
     {
       "code": "P10714",
@@ -36703,8 +37249,8 @@
       "chapterKey": "P107",
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10714",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #7 希斯克利夫 14 正篇",
+      "stageLabel": "黑兽 - 酉 魁首",
+      "storyLabel": "人格剧情 #7 希斯克利夫 黑兽 - 酉 魁首 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36717,7 +37263,7 @@
         14,
         0
       ],
-      "searchText": "p10714 人格剧情 希斯克利夫 14 正篇",
+      "searchText": "p10714 人格剧情 希斯克利夫 14 正篇 黑兽 - 酉 魁首",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36730,7 +37276,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10714.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10714.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 酉 魁首",
+        "JP": "黒獣 - 酉 筆頭",
+        "EN": "Heishou Pack - You Branch Adept",
+        "KR": "흑수 - 유 필두"
+      }
     },
     {
       "code": "P10802",
@@ -36741,8 +37293,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10802",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #8 以实玛利 02 正篇",
+      "stageLabel": "R公司 第四集团军 驯鹿队",
+      "storyLabel": "人格剧情 #8 以实玛利 R公司 第四集团军 驯鹿队 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36755,7 +37307,7 @@
         2,
         0
       ],
-      "searchText": "p10802 人格剧情 以实玛利 02 正篇",
+      "searchText": "p10802 人格剧情 以实玛利 02 正篇 R公司 第四集团军 驯鹿队",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36768,7 +37320,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10802.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10802.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "R公司 第四集团军 驯鹿队",
+        "JP": "R社第4群 トナカイチーム",
+        "EN": "R Corp. 4th Pack Reindeer",
+        "KR": "R사 제 4무리 순록팀"
+      }
     },
     {
       "code": "P10803",
@@ -36779,8 +37337,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10803",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #8 以实玛利 03 正篇",
+      "stageLabel": "し协会 南部5科",
+      "storyLabel": "人格剧情 #8 以实玛利 し协会 南部5科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36793,7 +37351,7 @@
         3,
         0
       ],
-      "searchText": "p10803 人格剧情 以实玛利 03 正篇",
+      "searchText": "p10803 人格剧情 以实玛利 03 正篇 し协会 南部5科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36806,7 +37364,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10803.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10803.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "し协会 南部5科",
+        "JP": "南部シ協会 5課",
+        "EN": "Shi Assoc. South Section 5",
+        "KR": "남부 시 협회 5과"
+      }
     },
     {
       "code": "P10804",
@@ -36817,8 +37381,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10804",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #8 以实玛利 04 正篇",
+      "stageLabel": "LCCB 系长",
+      "storyLabel": "人格剧情 #8 以实玛利 LCCB 系长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36831,7 +37395,7 @@
         4,
         0
       ],
-      "searchText": "p10804 人格剧情 以实玛利 04 正篇",
+      "searchText": "p10804 人格剧情 以实玛利 04 正篇 LCCB 系长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36844,7 +37408,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10804.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10804.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCCB 系长",
+        "JP": "LCCB 係長",
+        "EN": "LCCB Assistant Manager",
+        "KR": "LCCB 대리"
+      }
     },
     {
       "code": "P10805",
@@ -36855,8 +37425,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10805",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #8 以实玛利 05 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 荡漾",
+      "storyLabel": "人格剧情 #8 以实玛利 脑叶公司E.G.O:: 荡漾 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36869,7 +37439,7 @@
         5,
         0
       ],
-      "searchText": "p10805 人格剧情 以实玛利 05 正篇",
+      "searchText": "p10805 人格剧情 以实玛利 05 正篇 脑叶公司E.G.O:: 荡漾",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36882,7 +37452,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10805.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10805.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 荡漾",
+        "JP": "ロボトミーE.G.O:: たぷつき",
+        "EN": "Lobotomy E.G.O::Sloshing",
+        "KR": "로보토미 E.G.O:: 출렁임"
+      }
     },
     {
       "code": "P10806",
@@ -36893,8 +37469,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10806",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #8 以实玛利 06 正篇",
+      "stageLabel": "六协会 南部4科",
+      "storyLabel": "人格剧情 #8 以实玛利 六协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36907,7 +37483,7 @@
         6,
         0
       ],
-      "searchText": "p10806 人格剧情 以实玛利 06 正篇",
+      "searchText": "p10806 人格剧情 以实玛利 06 正篇 六协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36920,7 +37496,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10806.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10806.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "六协会 南部4科",
+        "JP": "南部リウ協会 4課",
+        "EN": "Liu Assoc. South Section 4",
+        "KR": "남부 리우 협회 4과"
+      }
     },
     {
       "code": "P10807",
@@ -36931,8 +37513,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10807",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #8 以实玛利 07 正篇",
+      "stageLabel": "臼齿修船厂 收尾人",
+      "storyLabel": "人格剧情 #8 以实玛利 臼齿修船厂 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36945,7 +37527,7 @@
         7,
         0
       ],
-      "searchText": "p10807 人格剧情 以实玛利 07 正篇",
+      "searchText": "p10807 人格剧情 以实玛利 07 正篇 臼齿修船厂 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36958,7 +37540,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10807.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10807.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "臼齿修船厂 收尾人",
+        "JP": "奥歯ボートセンター フィクサー",
+        "EN": "Molar Boatworks Fixer",
+        "KR": "어금니 보트 센터 해결사"
+      }
     },
     {
       "code": "P10808",
@@ -36969,8 +37557,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10808",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #8 以实玛利 08 正篇",
+      "stageLabel": "裴廓德号 船长",
+      "storyLabel": "人格剧情 #8 以实玛利 裴廓德号 船长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -36983,7 +37571,7 @@
         8,
         0
       ],
-      "searchText": "p10808 人格剧情 以实玛利 08 正篇",
+      "searchText": "p10808 人格剧情 以实玛利 08 正篇 裴廓德号 船长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -36996,7 +37584,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10808.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10808.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "裴廓德号 船长",
+        "JP": "ピークォド号 船長",
+        "EN": "The Pequod Captain",
+        "KR": "피쿼드호 선장"
+      }
     },
     {
       "code": "P10809",
@@ -37007,8 +37601,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10809",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #8 以实玛利 09 正篇",
+      "stageLabel": "埃德加家族 管家",
+      "storyLabel": "人格剧情 #8 以实玛利 埃德加家族 管家 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37021,7 +37615,7 @@
         9,
         0
       ],
-      "searchText": "p10809 人格剧情 以实玛利 09 正篇",
+      "searchText": "p10809 人格剧情 以实玛利 09 正篇 埃德加家族 管家",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37034,7 +37628,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10809.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10809.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "埃德加家族 管家",
+        "JP": "エドガー家 バトラー",
+        "EN": "Edgar Family Butler",
+        "KR": "에드가 가문 버틀러"
+      }
     },
     {
       "code": "P10810",
@@ -37045,8 +37645,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10810",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #8 以实玛利 10 正篇",
+      "stageLabel": "Zwei协会 西部3科",
+      "storyLabel": "人格剧情 #8 以实玛利 Zwei协会 西部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37059,7 +37659,7 @@
         10,
         0
       ],
-      "searchText": "p10810 人格剧情 以实玛利 10 正篇",
+      "searchText": "p10810 人格剧情 以实玛利 10 正篇 Zwei协会 西部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37072,7 +37672,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10810.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10810.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Zwei协会 西部3科",
+        "JP": "西部ツヴァイ協会 3課",
+        "EN": "Zwei Assoc. West Section 3",
+        "KR": "서부 츠바이 협회 3과"
+      }
     },
     {
       "code": "P10811",
@@ -37083,8 +37689,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10811",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #8 以实玛利 11 正篇",
+      "stageLabel": "黑云会 副会长",
+      "storyLabel": "人格剧情 #8 以实玛利 黑云会 副会长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37097,7 +37703,7 @@
         11,
         0
       ],
-      "searchText": "p10811 人格剧情 以实玛利 11 正篇",
+      "searchText": "p10811 人格剧情 以实玛利 11 正篇 黑云会 副会长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37110,7 +37716,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10811.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10811.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑云会 副会长",
+        "JP": "黒雲会 副組長",
+        "EN": "Kurokumo Clan Captain",
+        "KR": "흑운회 부조장"
+      }
     },
     {
       "code": "P10812",
@@ -37121,8 +37733,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10812",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #8 以实玛利 12 正篇",
+      "stageLabel": "家主候选人",
+      "storyLabel": "人格剧情 #8 以实玛利 家主候选人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37135,7 +37747,7 @@
         12,
         0
       ],
-      "searchText": "p10812 人格剧情 以实玛利 12 正篇",
+      "searchText": "p10812 人格剧情 以实玛利 12 正篇 家主候选人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37148,7 +37760,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10812.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10812.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "家主候选人",
+        "JP": "家主候補",
+        "EN": "Family Hierarch Candidate",
+        "KR": "가주 후보"
+      }
     },
     {
       "code": "P10813",
@@ -37159,8 +37777,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10813",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #8 以实玛利 13 正篇",
+      "stageLabel": "定事务所 代表",
+      "storyLabel": "人格剧情 #8 以实玛利 定事务所 代表 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37173,7 +37791,7 @@
         13,
         0
       ],
-      "searchText": "p10813 人格剧情 以实玛利 13 正篇",
+      "searchText": "p10813 人格剧情 以实玛利 13 正篇 定事务所 代表",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37186,7 +37804,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10813.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10813.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "定事务所 代表",
+        "JP": "定事務所 代表",
+        "EN": "Jeong's Office Rep",
+        "KR": "정사무소 대표"
+      }
     },
     {
       "code": "P10814",
@@ -37197,8 +37821,8 @@
       "chapterKey": "P108",
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10814",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #8 以实玛利 14 正篇",
+      "stageLabel": "蜘蛛巢 中指 子辈",
+      "storyLabel": "人格剧情 #8 以实玛利 蜘蛛巢 中指 子辈 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37211,7 +37835,7 @@
         14,
         0
       ],
-      "searchText": "p10814 人格剧情 以实玛利 14 正篇",
+      "searchText": "p10814 人格剧情 以实玛利 14 正篇 蜘蛛巢 中指 子辈",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37224,7 +37848,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10814.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10814.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 中指 子辈",
+        "JP": "蜘蛛の巣 中指の子方",
+        "EN": "The House of Spiders: The Middle Apprentice",
+        "KR": "거미집 중지 제자"
+      }
     },
     {
       "code": "P10902",
@@ -37235,8 +37865,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10902",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #9 罗佳 02 正篇",
+      "stageLabel": "黑云会 若众",
+      "storyLabel": "人格剧情 #9 罗佳 黑云会 若众 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37249,7 +37879,7 @@
         2,
         0
       ],
-      "searchText": "p10902 人格剧情 罗佳 02 正篇",
+      "searchText": "p10902 人格剧情 罗佳 02 正篇 黑云会 若众",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37262,7 +37892,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10902.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10902.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑云会 若众",
+        "JP": "黒雲会 若衆",
+        "EN": "Kurokumo Clan Wakashu",
+        "KR": "흑운회 와카슈"
+      }
     },
     {
       "code": "P10903",
@@ -37273,8 +37909,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10903",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #9 罗佳 03 正篇",
+      "stageLabel": "LCCB 系长",
+      "storyLabel": "人格剧情 #9 罗佳 LCCB 系长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37287,7 +37923,7 @@
         3,
         0
       ],
-      "searchText": "p10903 人格剧情 罗佳 03 正篇",
+      "searchText": "p10903 人格剧情 罗佳 03 正篇 LCCB 系长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37300,7 +37936,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10903.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10903.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCCB 系长",
+        "JP": "LCCB 係長",
+        "EN": "LCCB Assistant Manager",
+        "KR": "LCCB 대리"
+      }
     },
     {
       "code": "P10904",
@@ -37311,8 +37953,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10904",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #9 罗佳 04 正篇",
+      "stageLabel": "N公司 中锤",
+      "storyLabel": "人格剧情 #9 罗佳 N公司 中锤 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37325,7 +37967,7 @@
         4,
         0
       ],
-      "searchText": "p10904 人格剧情 罗佳 04 正篇",
+      "searchText": "p10904 人格剧情 罗佳 04 正篇 N公司 中锤",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37338,7 +37980,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10904.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10904.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "N公司 中锤",
+        "JP": "N社 中鎚",
+        "EN": "N Corp. Mittelhammer",
+        "KR": "N사 중간 망치"
+      }
     },
     {
       "code": "P10905",
@@ -37349,8 +37997,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10905",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #9 罗佳 05 正篇",
+      "stageLabel": "玫瑰扳手工坊 代表",
+      "storyLabel": "人格剧情 #9 罗佳 玫瑰扳手工坊 代表 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37363,7 +38011,7 @@
         5,
         0
       ],
-      "searchText": "p10905 人格剧情 罗佳 05 正篇",
+      "searchText": "p10905 人格剧情 罗佳 05 正篇 玫瑰扳手工坊 代表",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37376,7 +38024,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10905.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10905.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "玫瑰扳手工坊 代表",
+        "JP": "バラのスパナ工房 代表",
+        "EN": "Rosespanner Workshop Rep",
+        "KR": "장미스패너 공방 대표"
+      }
     },
     {
       "code": "P10906",
@@ -37387,8 +38041,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10906",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #9 罗佳 06 正篇",
+      "stageLabel": "Zwei协会 南部5科",
+      "storyLabel": "人格剧情 #9 罗佳 Zwei协会 南部5科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37401,7 +38055,7 @@
         6,
         0
       ],
-      "searchText": "p10906 人格剧情 罗佳 06 正篇",
+      "searchText": "p10906 人格剧情 罗佳 06 正篇 Zwei协会 南部5科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37414,7 +38068,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10906.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10906.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Zwei协会 南部5科",
+        "JP": "南部ツヴァイ協会 5課",
+        "EN": "Zwei Assoc. South Section 5",
+        "KR": "남부 츠바이 협회 5과"
+      }
     },
     {
       "code": "P10907",
@@ -37425,8 +38085,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10907",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #9 罗佳 07 正篇",
+      "stageLabel": "Dieci协会 南部4科",
+      "storyLabel": "人格剧情 #9 罗佳 Dieci协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37439,7 +38099,7 @@
         7,
         0
       ],
-      "searchText": "p10907 人格剧情 罗佳 07 正篇",
+      "searchText": "p10907 人格剧情 罗佳 07 正篇 Dieci协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37452,7 +38112,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10907.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10907.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Dieci协会 南部4科",
+        "JP": "南部ディエーチ協会 4課",
+        "EN": "Dieci Assoc. South Section 4",
+        "KR": "남부 디에치 협회 4과"
+      }
     },
     {
       "code": "P10908",
@@ -37463,8 +38129,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10908",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #9 罗佳 08 正篇",
+      "stageLabel": "六协会 南部4科科长",
+      "storyLabel": "人格剧情 #9 罗佳 六协会 南部4科科长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37477,7 +38143,7 @@
         8,
         0
       ],
-      "searchText": "p10908 人格剧情 罗佳 08 正篇",
+      "searchText": "p10908 人格剧情 罗佳 08 正篇 六协会 南部4科科长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37490,7 +38156,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10908.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10908.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "六协会 南部4科科长",
+        "JP": "南部リウ協会 4課 部長",
+        "EN": "Liu Assoc. South Section 4 Director",
+        "KR": "남부 리우 협회 4과 부장"
+      }
     },
     {
       "code": "P10909",
@@ -37501,8 +38173,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10909",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #9 罗佳 09 正篇",
+      "stageLabel": "T公司 2级 征收人员",
+      "storyLabel": "人格剧情 #9 罗佳 T公司 2级 征收人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37515,7 +38187,7 @@
         9,
         0
       ],
-      "searchText": "p10909 人格剧情 罗佳 09 正篇",
+      "searchText": "p10909 人格剧情 罗佳 09 正篇 T公司 2级 征收人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37528,7 +38200,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10909.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10909.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "T公司 2级 征收人员",
+        "JP": "T社 2級 徴収職職員",
+        "EN": "T Corp. Class 2 Collection Staff",
+        "KR": "T사 2등급 징수직 직원"
+      }
     },
     {
       "code": "P10910",
@@ -37539,8 +38217,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10910",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #9 罗佳 10 正篇",
+      "stageLabel": "Девять协会 北部3科",
+      "storyLabel": "人格剧情 #9 罗佳 Девять协会 北部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37553,7 +38231,7 @@
         10,
         0
       ],
-      "searchText": "p10910 人格剧情 罗佳 10 正篇",
+      "searchText": "p10910 人格剧情 罗佳 10 正篇 Девять协会 北部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37566,7 +38244,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10910.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10910.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Девять协会 北部3科",
+        "JP": "北部ヂェーヴィチ協会 3課",
+        "EN": "Devyat' Assoc. North Section 3",
+        "KR": "북부 제뱌찌 협회 3과"
+      }
     },
     {
       "code": "P10911",
@@ -37577,8 +38261,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10911",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #9 罗佳 11 正篇",
+      "stageLabel": "拉·曼却领 公主",
+      "storyLabel": "人格剧情 #9 罗佳 拉·曼却领 公主 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37591,7 +38275,7 @@
         11,
         0
       ],
-      "searchText": "p10911 人格剧情 罗佳 11 正篇",
+      "searchText": "p10911 人格剧情 罗佳 11 正篇 拉·曼却领 公主",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37604,7 +38288,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10911.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10911.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "拉·曼却领 公主",
+        "JP": "ラ・マンチャランドの姫",
+        "EN": "The Princess of La Manchaland",
+        "KR": "라만차랜드 공주"
+      }
     },
     {
       "code": "P10912",
@@ -37615,8 +38305,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10912",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #9 罗佳 12 正篇",
+      "stageLabel": "黑兽 - 巳",
+      "storyLabel": "人格剧情 #9 罗佳 黑兽 - 巳 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37629,7 +38319,7 @@
         12,
         0
       ],
-      "searchText": "p10912 人格剧情 罗佳 12 正篇",
+      "searchText": "p10912 人格剧情 罗佳 12 正篇 黑兽 - 巳",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37642,7 +38332,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10912.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10912.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 巳",
+        "JP": "黒獣 - 巳",
+        "EN": "Heishou Pack - Si Branch",
+        "KR": "흑수 - 사"
+      }
     },
     {
       "code": "P10913",
@@ -37653,8 +38349,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10913",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #9 罗佳 13 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 泪锋之剑",
+      "storyLabel": "人格剧情 #9 罗佳 脑叶公司E.G.O:: 泪锋之剑 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37667,7 +38363,7 @@
         13,
         0
       ],
-      "searchText": "p10913 人格剧情 罗佳 13 正篇",
+      "searchText": "p10913 人格剧情 罗佳 13 正篇 脑叶公司E.G.O:: 泪锋之剑",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37680,7 +38376,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10913.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10913.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 泪锋之剑",
+        "JP": "ロボトミーE.G.O:: 涙で研ぎ澄まされた剣",
+        "EN": "Lobotomy E.G.O:: The Sword Sharpened with Tears",
+        "KR": "로보토미 E.G.O:: 눈물로 벼려낸 검"
+      }
     },
     {
       "code": "P10914",
@@ -37691,8 +38393,8 @@
       "chapterKey": "P109",
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10914",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #9 罗佳 14 正篇",
+      "stageLabel": "R公司 第四集团军 驯鹿队",
+      "storyLabel": "人格剧情 #9 罗佳 R公司 第四集团军 驯鹿队 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37705,7 +38407,7 @@
         14,
         0
       ],
-      "searchText": "p10914 人格剧情 罗佳 14 正篇",
+      "searchText": "p10914 人格剧情 罗佳 14 正篇 R公司 第四集团军 驯鹿队",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37718,7 +38420,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P10914.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P10914.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "R公司 第四集团军 驯鹿队",
+        "JP": "R社第4群 トナカイチーム",
+        "EN": "R Corp. 4th Pack Reindeer",
+        "KR": "R사 제 4무리 순록팀"
+      }
     },
     {
       "code": "P11002",
@@ -37729,8 +38437,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11002",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #11 辛克莱 02 正篇",
+      "stageLabel": "剑契组 杀手",
+      "storyLabel": "人格剧情 #11 辛克莱 剑契组 杀手 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37743,7 +38451,7 @@
         2,
         0
       ],
-      "searchText": "p11002 人格剧情 辛克莱 02 正篇",
+      "searchText": "p11002 人格剧情 辛克莱 02 正篇 剑契组 杀手",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37756,7 +38464,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11002.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11002.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "剑契组 杀手",
+        "JP": "剣契 殺手",
+        "EN": "Blade Lineage Salsu",
+        "KR": "검계 살수"
+      }
     },
     {
       "code": "P11003",
@@ -37767,8 +38481,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11003",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #11 辛克莱 03 正篇",
+      "stageLabel": "Zwei协会 南部6科",
+      "storyLabel": "人格剧情 #11 辛克莱 Zwei协会 南部6科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37781,7 +38495,7 @@
         3,
         0
       ],
-      "searchText": "p11003 人格剧情 辛克莱 03 正篇",
+      "searchText": "p11003 人格剧情 辛克莱 03 正篇 Zwei协会 南部6科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37794,7 +38508,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11003.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11003.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Zwei协会 南部6科",
+        "JP": "南部ツヴァイ協会 6課",
+        "EN": "Zwei Assoc. South Section 6",
+        "KR": "남부 츠바이 협회 6과"
+      }
     },
     {
       "code": "P11004",
@@ -37805,8 +38525,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11004",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #11 辛克莱 04 正篇",
+      "stageLabel": "流浪乐队 头目",
+      "storyLabel": "人格剧情 #11 辛克莱 流浪乐队 头目 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37819,7 +38539,7 @@
         4,
         0
       ],
-      "searchText": "p11004 人格剧情 辛克莱 04 正篇",
+      "searchText": "p11004 人格剧情 辛克莱 04 正篇 流浪乐队 头目",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37832,7 +38552,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11004.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11004.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "流浪乐队 头目",
+        "JP": "マリアッチ ボス",
+        "EN": "Los Mariachis Jefe",
+        "KR": "마리아치 보스"
+      }
     },
     {
       "code": "P11005",
@@ -37843,8 +38569,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11005",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #11 辛克莱 05 正篇",
+      "stageLabel": "准执柄者",
+      "storyLabel": "人格剧情 #11 辛克莱 准执柄者 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37857,7 +38583,7 @@
         5,
         0
       ],
-      "searchText": "p11005 人格剧情 辛克莱 05 正篇",
+      "searchText": "p11005 人格剧情 辛克莱 05 正篇 准执柄者",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37870,7 +38596,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11005.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11005.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "准执柄者",
+        "JP": "握らんとする者",
+        "EN": "The One Who Shall Grip",
+        "KR": "쥐어들 자"
+      }
     },
     {
       "code": "P11006",
@@ -37881,8 +38613,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11006",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #11 辛克莱 06 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 朱符",
+      "storyLabel": "人格剧情 #11 辛克莱 脑叶公司E.G.O:: 朱符 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37895,7 +38627,7 @@
         6,
         0
       ],
-      "searchText": "p11006 人格剧情 辛克莱 06 正篇",
+      "searchText": "p11006 人格剧情 辛克莱 06 正篇 脑叶公司E.G.O:: 朱符",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37908,7 +38640,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11006.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11006.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 朱符",
+        "JP": "ロボトミーE.G.O:: 紅籍",
+        "EN": "Lobotomy E.G.O::Red Sheet",
+        "KR": "로보토미 E.G.O:: 홍적"
+      }
     },
     {
       "code": "P11007",
@@ -37919,8 +38657,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11007",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #11 辛克莱 07 正篇",
+      "stageLabel": "臼齿修船厂 收尾人",
+      "storyLabel": "人格剧情 #11 辛克莱 臼齿修船厂 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37933,7 +38671,7 @@
         7,
         0
       ],
-      "searchText": "p11007 人格剧情 辛克莱 07 正篇",
+      "searchText": "p11007 人格剧情 辛克莱 07 正篇 臼齿修船厂 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37946,7 +38684,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11007.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11007.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "臼齿修船厂 收尾人",
+        "JP": "奥歯ボートセンター フィクサー",
+        "EN": "Molar Boatworks Fixer",
+        "KR": "어금니 보트 센터 해결사"
+      }
     },
     {
       "code": "P11008",
@@ -37957,8 +38701,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11008",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #11 辛克莱 08 正篇",
+      "stageLabel": "Cinq协会 南部4科科长",
+      "storyLabel": "人格剧情 #11 辛克莱 Cinq协会 南部4科科长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -37971,7 +38715,7 @@
         8,
         0
       ],
-      "searchText": "p11008 人格剧情 辛克莱 08 正篇",
+      "searchText": "p11008 人格剧情 辛克莱 08 正篇 Cinq协会 南部4科科长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -37984,7 +38728,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11008.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11008.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Cinq协会 南部4科科长",
+        "JP": "南部センク協会 4課 部長",
+        "EN": "Cinq Assoc. South Section 4 Director",
+        "KR": "남부 섕크 협회 4과 부장"
+      }
     },
     {
       "code": "P11009",
@@ -37995,8 +38745,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11009",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #11 辛克莱 09 正篇",
+      "stageLabel": "黎明事务所 收尾人",
+      "storyLabel": "人格剧情 #11 辛克莱 黎明事务所 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38009,7 +38759,7 @@
         9,
         0
       ],
-      "searchText": "p11009 人格剧情 辛克莱 09 正篇",
+      "searchText": "p11009 人格剧情 辛克莱 09 正篇 黎明事务所 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38022,7 +38772,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11009.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11009.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黎明事务所 收尾人",
+        "JP": "夜明事務所 フィクサー",
+        "EN": "Dawn Office Fixer",
+        "KR": "새벽 사무소 해결사"
+      }
     },
     {
       "code": "P11010",
@@ -38033,8 +38789,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11010",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #11 辛克莱 10 正篇",
+      "stageLabel": "Zwei协会 西部3科",
+      "storyLabel": "人格剧情 #11 辛克莱 Zwei协会 西部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38047,7 +38803,7 @@
         10,
         0
       ],
-      "searchText": "p11010 人格剧情 辛克莱 10 正篇",
+      "searchText": "p11010 人格剧情 辛克莱 10 正篇 Zwei协会 西部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38060,7 +38816,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11010.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11010.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Zwei协会 西部3科",
+        "JP": "西部ツヴァイ協会 3課",
+        "EN": "Zwei Assoc. West Section 3",
+        "KR": "서부 츠바이 협회 3과"
+      }
     },
     {
       "code": "P11011",
@@ -38071,8 +38833,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11011",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #11 辛克莱 11 正篇",
+      "stageLabel": "Девять协会 北部3科",
+      "storyLabel": "人格剧情 #11 辛克莱 Девять协会 北部3科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38085,7 +38847,7 @@
         11,
         0
       ],
-      "searchText": "p11011 人格剧情 辛克莱 11 正篇",
+      "searchText": "p11011 人格剧情 辛克莱 11 正篇 Девять协会 北部3科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38098,7 +38860,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11011.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11011.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Девять协会 北部3科",
+        "JP": "北部ヂェーヴィチ協会 3課",
+        "EN": "Devyat' Assoc. North Section 3",
+        "KR": "북부 제뱌찌 협회 3과"
+      }
     },
     {
       "code": "P11012",
@@ -38109,8 +38877,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11012",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #11 辛克莱 12 正篇",
+      "stageLabel": "中指 幼弟",
+      "storyLabel": "人格剧情 #11 辛克莱 中指 幼弟 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38123,7 +38891,7 @@
         12,
         0
       ],
-      "searchText": "p11012 人格剧情 辛克莱 12 正篇",
+      "searchText": "p11012 人格剧情 辛克莱 12 正篇 中指 幼弟",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38136,7 +38904,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11012.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11012.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "中指 幼弟",
+        "JP": "中指 末弟",
+        "EN": "The Middle Little Brother",
+        "KR": "중지 작은 아우"
+      }
     },
     {
       "code": "P11013",
@@ -38147,8 +38921,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11013",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #11 辛克莱 13 正篇",
+      "stageLabel": "拇指 东部 士兵II",
+      "storyLabel": "人格剧情 #11 辛克莱 拇指 东部 士兵II 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38161,7 +38935,7 @@
         13,
         0
       ],
-      "searchText": "p11013 人格剧情 辛克莱 13 正篇",
+      "searchText": "p11013 人格剧情 辛克莱 13 正篇 拇指 东部 士兵II",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38174,7 +38948,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11013.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11013.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "拇指 东部 士兵II",
+        "JP": "東部親指 ソルダートII",
+        "EN": "The Thumb East Soldato II",
+        "KR": "동부 엄지 솔다토II"
+      }
     },
     {
       "code": "P11014",
@@ -38185,8 +38965,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11014",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #11 辛克莱 14 正篇",
+      "stageLabel": "黑兽 - 酉",
+      "storyLabel": "人格剧情 #11 辛克莱 黑兽 - 酉 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38199,7 +38979,7 @@
         14,
         0
       ],
-      "searchText": "p11014 人格剧情 辛克莱 14 正篇",
+      "searchText": "p11014 人格剧情 辛克莱 14 正篇 黑兽 - 酉",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38212,7 +38992,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11014.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11014.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 酉",
+        "JP": "黒獣 - 酉",
+        "EN": "Heishou Pack - You Branch",
+        "KR": "흑수 - 유"
+      }
     },
     {
       "code": "P11015",
@@ -38223,8 +39009,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11015",
-      "stageLabel": "第15节",
-      "storyLabel": "人格剧情 #11 辛克莱 15 正篇",
+      "stageLabel": "蜘蛛巢 小指 子辈",
+      "storyLabel": "人格剧情 #11 辛克莱 蜘蛛巢 小指 子辈 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38237,7 +39023,7 @@
         15,
         0
       ],
-      "searchText": "p11015 人格剧情 辛克莱 15 正篇",
+      "searchText": "p11015 人格剧情 辛克莱 15 正篇 蜘蛛巢 小指 子辈",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38250,7 +39036,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11015.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11015.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 小指 子辈",
+        "JP": "蜘蛛の巣 小指の子方",
+        "EN": "The House of Spiders: The Pinky Apprentice",
+        "KR": "거미집 소지 제자"
+      }
     },
     {
       "code": "P11102",
@@ -38261,8 +39053,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11102",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #12 奥提斯 02 正篇",
+      "stageLabel": "剑契组 杀手",
+      "storyLabel": "人格剧情 #12 奥提斯 剑契组 杀手 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38275,7 +39067,7 @@
         2,
         0
       ],
-      "searchText": "p11102 人格剧情 奥提斯 02 正篇",
+      "searchText": "p11102 人格剧情 奥提斯 02 正篇 剑契组 杀手",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38288,7 +39080,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11102.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11102.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "剑契组 杀手",
+        "JP": "剣契 殺手",
+        "EN": "Blade Lineage Salsu",
+        "KR": "검계 살수"
+      }
     },
     {
       "code": "P11103",
@@ -38299,8 +39097,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11103",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #12 奥提斯 03 正篇",
+      "stageLabel": "G公司 部长",
+      "storyLabel": "人格剧情 #12 奥提斯 G公司 部长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38313,7 +39111,7 @@
         3,
         0
       ],
-      "searchText": "p11103 人格剧情 奥提斯 03 正篇",
+      "searchText": "p11103 人格剧情 奥提斯 03 正篇 G公司 部长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38326,7 +39124,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11103.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11103.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "G公司 部长",
+        "JP": "G社 部長",
+        "EN": "G Corp. Head Manager",
+        "KR": "G사 부장"
+      }
     },
     {
       "code": "P11104",
@@ -38337,8 +39141,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11104",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #12 奥提斯 04 正篇",
+      "stageLabel": "Seven协会 南部6科科长",
+      "storyLabel": "人格剧情 #12 奥提斯 Seven协会 南部6科科长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38351,7 +39155,7 @@
         4,
         0
       ],
-      "searchText": "p11104 人格剧情 奥提斯 04 正篇",
+      "searchText": "p11104 人格剧情 奥提斯 04 正篇 Seven协会 南部6科科长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38364,7 +39168,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11104.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11104.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Seven协会 南部6科科长",
+        "JP": "南部セブン協会 6課部長",
+        "EN": "Seven Assoc. South Section 6 Director",
+        "KR": "남부 세븐 협회 6과 부장"
+      }
     },
     {
       "code": "P11105",
@@ -38375,8 +39185,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11105",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #12 奥提斯 05 正篇",
+      "stageLabel": "臼齿事务所 收尾人",
+      "storyLabel": "人格剧情 #12 奥提斯 臼齿事务所 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38389,7 +39199,7 @@
         5,
         0
       ],
-      "searchText": "p11105 人格剧情 奥提斯 05 正篇",
+      "searchText": "p11105 人格剧情 奥提斯 05 正篇 臼齿事务所 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38402,7 +39212,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11105.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11105.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "臼齿事务所 收尾人",
+        "JP": "奥歯事務所 フィクサー",
+        "EN": "Molar Office Fixer",
+        "KR": "어금니 사무소 해결사"
+      }
     },
     {
       "code": "P11106",
@@ -38413,8 +39229,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11106",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #12 奥提斯 06 正篇",
+      "stageLabel": "Cinq协会 南部4科",
+      "storyLabel": "人格剧情 #12 奥提斯 Cinq协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38427,7 +39243,7 @@
         6,
         0
       ],
-      "searchText": "p11106 人格剧情 奥提斯 06 正篇",
+      "searchText": "p11106 人格剧情 奥提斯 06 正篇 Cinq协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38440,7 +39256,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11106.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11106.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Cinq协会 南部4科",
+        "JP": "南部センク協会 4課",
+        "EN": "Cinq Assoc. South Section 4",
+        "KR": "남부 섕크 협회 4과"
+      }
     },
     {
       "code": "P11107",
@@ -38451,8 +39273,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11107",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #12 奥提斯 07 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 魔弹",
+      "storyLabel": "人格剧情 #12 奥提斯 脑叶公司E.G.O:: 魔弹 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38465,7 +39287,7 @@
         7,
         0
       ],
-      "searchText": "p11107 人格剧情 奥提斯 07 正篇",
+      "searchText": "p11107 人格剧情 奥提斯 07 正篇 脑叶公司E.G.O:: 魔弹",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38478,7 +39300,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11107.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11107.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 魔弹",
+        "JP": "ロボトミーE.G.O:: 魔弾",
+        "EN": "Lobotomy E.G.O::Magic Bullet",
+        "KR": "로보토미 E.G.O:: 마탄"
+      }
     },
     {
       "code": "P11108",
@@ -38489,8 +39317,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11108",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #12 奥提斯 08 正篇",
+      "stageLabel": "呼啸山庄 首席管家",
+      "storyLabel": "人格剧情 #12 奥提斯 呼啸山庄 首席管家 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38503,7 +39331,7 @@
         8,
         0
       ],
-      "searchText": "p11108 人格剧情 奥提斯 08 正篇",
+      "searchText": "p11108 人格剧情 奥提斯 08 正篇 呼啸山庄 首席管家",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38516,7 +39344,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11108.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11108.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "呼啸山庄 首席管家",
+        "JP": "ワザリング・ハイツ チーフバトラー",
+        "EN": "Wuthering Heights Chief Butler",
+        "KR": "워더링하이츠 치프 버틀러"
+      }
     },
     {
       "code": "P11109",
@@ -38527,8 +39361,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11109",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #12 奥提斯 09 正篇",
+      "stageLabel": "环指 点彩派 学徒",
+      "storyLabel": "人格剧情 #12 奥提斯 环指 点彩派 学徒 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38541,7 +39375,7 @@
         9,
         0
       ],
-      "searchText": "p11109 人格剧情 奥提斯 09 正篇",
+      "searchText": "p11109 人格剧情 奥提斯 09 正篇 环指 点彩派 学徒",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38554,7 +39388,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11109.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11109.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "环指 点彩派 学徒",
+        "JP": "薬指点描派 スチューデント",
+        "EN": "The Ring Pointillist Student",
+        "KR": "약지 점묘파 스튜던트"
+      }
     },
     {
       "code": "P11110",
@@ -38565,8 +39405,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11110",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #12 奥提斯 10 正篇",
+      "stageLabel": "W公司 3级 清扫组长",
+      "storyLabel": "人格剧情 #12 奥提斯 W公司 3级 清扫组长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38579,7 +39419,7 @@
         10,
         0
       ],
-      "searchText": "p11110 人格剧情 奥提斯 10 正篇",
+      "searchText": "p11110 人格剧情 奥提斯 10 正篇 W公司 3级 清扫组长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38592,7 +39432,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11110.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11110.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "W公司 3级 清扫组长",
+        "JP": "W社 3級 整理要員チーフ",
+        "EN": "W Corp. L3 Cleanup Captain",
+        "KR": "W사 3등급 정리 요원 팀장"
+      }
     },
     {
       "code": "P11111",
@@ -38603,8 +39449,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11111",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #12 奥提斯 11 正篇",
+      "stageLabel": "拉·曼却领 理发师",
+      "storyLabel": "人格剧情 #12 奥提斯 拉·曼却领 理发师 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38617,7 +39463,7 @@
         11,
         0
       ],
-      "searchText": "p11111 人格剧情 奥提斯 11 正篇",
+      "searchText": "p11111 人格剧情 奥提斯 11 正篇 拉·曼却领 理发师",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38630,7 +39476,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11111.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11111.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "拉·曼却领 理发师",
+        "JP": "ラ・マンチャランド 理髪師",
+        "EN": "The Barber of La Manchaland",
+        "KR": "라만차랜드 이발사"
+      }
     },
     {
       "code": "P11112",
@@ -38641,8 +39493,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11112",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #12 奥提斯 12 正篇",
+      "stageLabel": "黑兽 - 卯",
+      "storyLabel": "人格剧情 #12 奥提斯 黑兽 - 卯 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38655,7 +39507,7 @@
         12,
         0
       ],
-      "searchText": "p11112 人格剧情 奥提斯 12 正篇",
+      "searchText": "p11112 人格剧情 奥提斯 12 正篇 黑兽 - 卯",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38668,7 +39520,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11112.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11112.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 卯",
+        "JP": "黒獣 - 卯",
+        "EN": "Heishou Pack - Mao Branch",
+        "KR": "흑수 - 묘"
+      }
     },
     {
       "code": "P11113",
@@ -38679,8 +39537,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11113",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #12 奥提斯 13 正篇",
+      "stageLabel": "T公司 3级 强制征收人员",
+      "storyLabel": "人格剧情 #12 奥提斯 T公司 3级 强制征收人员 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38693,7 +39551,7 @@
         13,
         0
       ],
-      "searchText": "p11113 人格剧情 奥提斯 13 正篇",
+      "searchText": "p11113 人格剧情 奥提斯 13 正篇 T公司 3级 强制征收人员",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38706,7 +39564,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11113.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11113.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "T公司 3级 强制征收人员",
+        "JP": "T社3級 強制徴収職 職員",
+        "EN": "T Corp. Class 3 VDCU Staff",
+        "KR": "T사 3등급 강력징수직 직원"
+      }
     },
     {
       "code": "P11114",
@@ -38717,8 +39581,8 @@
       "chapterKey": "P111",
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11114",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #12 奥提斯 14 正篇",
+      "stageLabel": "LCA 瓦吉特 先锋三队 队长",
+      "storyLabel": "人格剧情 #12 奥提斯 LCA 瓦吉特 先锋三队 队长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38731,7 +39595,7 @@
         14,
         0
       ],
-      "searchText": "p11114 人格剧情 奥提斯 14 正篇",
+      "searchText": "p11114 人格剧情 奥提斯 14 正篇 LCA 瓦吉特 先锋三队 队长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38744,7 +39608,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11114.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11114.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCA 瓦吉特 先锋三队 队长",
+        "JP": "LCA ウアジェト先鋒三隊隊長",
+        "EN": "LCA Udjat Vanguard Team 3 Leader",
+        "KR": "LCA 우제트 선봉 3팀 팀장"
+      }
     },
     {
       "code": "P11202",
@@ -38755,8 +39625,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11202",
-      "stageLabel": "第02节",
-      "storyLabel": "人格剧情 #13 格里高尔 02 正篇",
+      "stageLabel": "六协会 南部6科",
+      "storyLabel": "人格剧情 #13 格里高尔 六协会 南部6科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38769,7 +39639,7 @@
         2,
         0
       ],
-      "searchText": "p11202 人格剧情 格里高尔 02 正篇",
+      "searchText": "p11202 人格剧情 格里高尔 02 正篇 六协会 南部6科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38782,7 +39652,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11202.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11202.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "六协会 南部6科",
+        "JP": "南部リウ協会 6課",
+        "EN": "Liu Assoc. South Section 6",
+        "KR": "남부 리우 협회 6과"
+      }
     },
     {
       "code": "P11203",
@@ -38793,8 +39669,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11203",
-      "stageLabel": "第03节",
-      "storyLabel": "人格剧情 #13 格里高尔 03 正篇",
+      "stageLabel": "G公司 科长代理",
+      "storyLabel": "人格剧情 #13 格里高尔 G公司 科长代理 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38807,7 +39683,7 @@
         3,
         0
       ],
-      "searchText": "p11203 人格剧情 格里高尔 03 正篇",
+      "searchText": "p11203 人格剧情 格里高尔 03 正篇 G公司 科长代理",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38820,7 +39696,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11203.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11203.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "G公司 科长代理",
+        "JP": "G社 課長代理",
+        "EN": "G Corp. Manager Corporal",
+        "KR": "G사 일등대리"
+      }
     },
     {
       "code": "P11204",
@@ -38831,8 +39713,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11204",
-      "stageLabel": "第04节",
-      "storyLabel": "人格剧情 #13 格里高尔 04 正篇",
+      "stageLabel": "良·派 帮厨",
+      "storyLabel": "人格剧情 #13 格里高尔 良·派 帮厨 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38845,7 +39727,7 @@
         4,
         0
       ],
-      "searchText": "p11204 人格剧情 格里高尔 04 正篇",
+      "searchText": "p11204 人格剧情 格里高尔 04 正篇 良·派 帮厨",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38858,7 +39740,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11204.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11204.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "良·派 帮厨",
+        "JP": "りょ・ミ・パ 助手",
+        "EN": "R.B. Sous-chef",
+        "KR": "료. 고. 파. 조수"
+      }
     },
     {
       "code": "P11205",
@@ -38869,8 +39757,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11205",
-      "stageLabel": "第05节",
-      "storyLabel": "人格剧情 #13 格里高尔 05 正篇",
+      "stageLabel": "玫瑰扳手工坊 收尾人",
+      "storyLabel": "人格剧情 #13 格里高尔 玫瑰扳手工坊 收尾人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38883,7 +39771,7 @@
         5,
         0
       ],
-      "searchText": "p11205 人格剧情 格里高尔 05 正篇",
+      "searchText": "p11205 人格剧情 格里高尔 05 正篇 玫瑰扳手工坊 收尾人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38896,7 +39784,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11205.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11205.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "玫瑰扳手工坊 收尾人",
+        "JP": "バラのスパナ工房 フィクサー",
+        "EN": "Rosespanner Workshop Fixer",
+        "KR": "장미스패너 공방 해결사"
+      }
     },
     {
       "code": "P11206",
@@ -38907,8 +39801,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11206",
-      "stageLabel": "第06节",
-      "storyLabel": "人格剧情 #13 格里高尔 06 正篇",
+      "stageLabel": "Zwei协会 南部4科",
+      "storyLabel": "人格剧情 #13 格里高尔 Zwei协会 南部4科 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38921,7 +39815,7 @@
         6,
         0
       ],
-      "searchText": "p11206 人格剧情 格里高尔 06 正篇",
+      "searchText": "p11206 人格剧情 格里高尔 06 正篇 Zwei协会 南部4科",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38934,7 +39828,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11206.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11206.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "Zwei协会 南部4科",
+        "JP": "南部ツヴァイ協会 4課",
+        "EN": "Zwei Assoc. South Section 4",
+        "KR": "남부 츠바이 협회 4과"
+      }
     },
     {
       "code": "P11207",
@@ -38945,8 +39845,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11207",
-      "stageLabel": "第07节",
-      "storyLabel": "人格剧情 #13 格里高尔 07 正篇",
+      "stageLabel": "双钩海盗团 大副",
+      "storyLabel": "人格剧情 #13 格里高尔 双钩海盗团 大副 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38959,7 +39859,7 @@
         7,
         0
       ],
-      "searchText": "p11207 人格剧情 格里高尔 07 正篇",
+      "searchText": "p11207 人格剧情 格里高尔 07 正篇 双钩海盗团 大副",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38972,7 +39872,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11207.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11207.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "双钩海盗团 大副",
+        "JP": "双鉤海賊団 副船長 ",
+        "EN": "Twinhook Pirates First Mate",
+        "KR": "쌍갈고리 해적단 부선장"
+      }
     },
     {
       "code": "P11208",
@@ -38983,8 +39889,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11208",
-      "stageLabel": "第08节",
-      "storyLabel": "人格剧情 #13 格里高尔 08 正篇",
+      "stageLabel": "黑云会 副会长",
+      "storyLabel": "人格剧情 #13 格里高尔 黑云会 副会长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -38997,7 +39903,7 @@
         8,
         0
       ],
-      "searchText": "p11208 人格剧情 格里高尔 08 正篇",
+      "searchText": "p11208 人格剧情 格里高尔 08 正篇 黑云会 副会长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39010,7 +39916,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11208.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11208.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑云会 副会长",
+        "JP": "黒雲会 副組長",
+        "EN": "Kurokumo Clan Captain",
+        "KR": "흑운회 부조장"
+      }
     },
     {
       "code": "P11209",
@@ -39021,8 +39933,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11209",
-      "stageLabel": "第09节",
-      "storyLabel": "人格剧情 #13 格里高尔 09 正篇",
+      "stageLabel": "埃德加家族 继承人",
+      "storyLabel": "人格剧情 #13 格里高尔 埃德加家族 继承人 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39035,7 +39947,7 @@
         9,
         0
       ],
-      "searchText": "p11209 人格剧情 格里高尔 09 正篇",
+      "searchText": "p11209 人格剧情 格里高尔 09 正篇 埃德加家族 继承人",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39048,7 +39960,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11209.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11209.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "埃德加家族 继承人",
+        "JP": "エドガー家 継承者",
+        "EN": "Edgar Family Heir",
+        "KR": "에드가 가문 승계자"
+      }
     },
     {
       "code": "P11210",
@@ -39059,8 +39977,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11210",
-      "stageLabel": "第10节",
-      "storyLabel": "人格剧情 #13 格里高尔 10 正篇",
+      "stageLabel": "拉·曼却领 神父",
+      "storyLabel": "人格剧情 #13 格里高尔 拉·曼却领 神父 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39073,7 +39991,7 @@
         10,
         0
       ],
-      "searchText": "p11210 人格剧情 格里高尔 10 正篇",
+      "searchText": "p11210 人格剧情 格里高尔 10 正篇 拉·曼却领 神父",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39086,7 +40004,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11210.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11210.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "拉·曼却领 神父",
+        "JP": "ラ・マンチャランド 神父",
+        "EN": "The Priest of La Manchaland",
+        "KR": "라만차랜드 신부"
+      }
     },
     {
       "code": "P11211",
@@ -39097,8 +40021,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11211",
-      "stageLabel": "第11节",
-      "storyLabel": "人格剧情 #13 格里高尔 11 正篇",
+      "stageLabel": "炎拳事务所 幸存者",
+      "storyLabel": "人格剧情 #13 格里高尔 炎拳事务所 幸存者 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39111,7 +40035,7 @@
         11,
         0
       ],
-      "searchText": "p11211 人格剧情 格里高尔 11 正篇",
+      "searchText": "p11211 人格剧情 格里高尔 11 正篇 炎拳事务所 幸存者",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39124,7 +40048,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11211.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11211.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "炎拳事务所 幸存者",
+        "JP": "炎拳事務所 生存者",
+        "EN": "Firefist Office Survivor",
+        "KR": "불주먹 사무소 생존자"
+      }
     },
     {
       "code": "P11212",
@@ -39135,8 +40065,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11212",
-      "stageLabel": "第12节",
-      "storyLabel": "人格剧情 #13 格里高尔 12 正篇",
+      "stageLabel": "黑兽 - 巳",
+      "storyLabel": "人格剧情 #13 格里高尔 黑兽 - 巳 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39149,7 +40079,7 @@
         12,
         0
       ],
-      "searchText": "p11212 人格剧情 格里高尔 12 正篇",
+      "searchText": "p11212 人格剧情 格里高尔 12 正篇 黑兽 - 巳",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39162,7 +40092,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11212.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11212.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黑兽 - 巳",
+        "JP": "黒獣 - 巳",
+        "EN": "Heishou Pack - Si Branch",
+        "KR": "흑수 - 사"
+      }
     },
     {
       "code": "P11213",
@@ -39173,8 +40109,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11213",
-      "stageLabel": "第13节",
-      "storyLabel": "人格剧情 #13 格里高尔 13 正篇",
+      "stageLabel": "夜锥组 队长",
+      "storyLabel": "人格剧情 #13 格里高尔 夜锥组 队长 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39187,7 +40123,7 @@
         13,
         0
       ],
-      "searchText": "p11213 人格剧情 格里高尔 13 正篇",
+      "searchText": "p11213 人格剧情 格里高尔 13 正篇 夜锥组 队长",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39200,7 +40136,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11213.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11213.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "夜锥组 队长",
+        "JP": "夜の錐 カピターノ",
+        "EN": "Night Awls Capitano",
+        "KR": "밤의 송곳 카피타노"
+      }
     },
     {
       "code": "P11214",
@@ -39211,8 +40153,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11214",
-      "stageLabel": "第14节",
-      "storyLabel": "人格剧情 #13 格里高尔 14 正篇",
+      "stageLabel": "脑叶公司E.G.O:: 目灯",
+      "storyLabel": "人格剧情 #13 格里高尔 脑叶公司E.G.O:: 目灯 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39225,7 +40167,7 @@
         14,
         0
       ],
-      "searchText": "p11214 人格剧情 格里高尔 14 正篇",
+      "searchText": "p11214 人格剧情 格里高尔 14 正篇 脑叶公司E.G.O:: 目灯",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39238,7 +40180,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11214.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11214.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "脑叶公司E.G.O:: 目灯",
+        "JP": "ロボトミーE.G.O:: ランプ",
+        "EN": "Lobotomy E.G.O::Lamp",
+        "KR": "로보토미 E.G.O:: 램프"
+      }
     },
     {
       "code": "P11215",
@@ -39249,8 +40197,8 @@
       "chapterKey": "P112",
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11215",
-      "stageLabel": "第15节",
-      "storyLabel": "人格剧情 #13 格里高尔 15 正篇",
+      "stageLabel": "LCE E.G.O:: AEDD",
+      "storyLabel": "人格剧情 #13 格里高尔 LCE E.G.O:: AEDD 正篇",
       "part": {
         "raw": "",
         "code": "",
@@ -39263,7 +40211,7 @@
         15,
         0
       ],
-      "searchText": "p11215 人格剧情 格里高尔 15 正篇",
+      "searchText": "p11215 人格剧情 格里高尔 15 正篇 LCE E.G.O:: AEDD",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39276,7 +40224,13 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/P11215.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/P11215.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCE E.G.O:: AEDD",
+        "JP": "LCE E.G.O:: AEDD",
+        "EN": "LCE E.G.O:: AEDD",
+        "KR": "LCE E.G.O:: AEDD"
+      }
     },
     {
       "code": "PC01B",
