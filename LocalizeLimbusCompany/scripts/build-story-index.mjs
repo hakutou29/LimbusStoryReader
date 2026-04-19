@@ -191,23 +191,64 @@ function parseStoryCode(fileCode) {
   match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
   if (match) {
     const [, prefix, digits, rawPart = ''] = match;
-    const chapter = digits.slice(0, 1) || '0';
-    const stage = digits.slice(1) || '0';
+    const origChapter = digits.slice(0, 1) || '0';
+    const origStageStr = digits.slice(1) || '0';
+    const origStage = toNumber(origStageStr);
     const part = normalizePart(rawPart);
+
+    let actualStage = origStage;
+    let actualChapterTitle = `间章 第${toNumber(origChapter)}章`;
+    let chapterSubSort = 0;
+
+    let gameChapterId = '';
+    let gameStageId = '';
+
+    if (origChapter === '5') {
+       if (origStage > 13) {
+          gameChapterId = '9107'; // 肉斩骨断
+          actualStage = origStage - 13;
+          chapterSubSort = 2;
+       } else {
+          gameChapterId = '9105'; // 20区的奇迹
+          chapterSubSort = 1;
+       }
+    } else if (origChapter === '6') {
+       if (origStage > 15) {
+          gameChapterId = '9110'; // WARP快车
+          actualStage = origStage - 15;
+          chapterSubSort = 2;
+       } else {
+          gameChapterId = '9109'; // 时间杀人时间
+          chapterSubSort = 1;
+       }
+    } else if (origChapter === '7') {
+       gameChapterId = '9114'; // LCB体检
+    } else if (origChapter === '8') {
+       gameChapterId = '9116'; // 深夜清扫
+    } else if (origChapter === '9') {
+       gameChapterId = '9120'; // 善意的巡礼 / 切磋琢春
+    } else {
+       gameChapterId = '91' + origChapter.padStart(2, '0');
+    }
+    
+    gameStageId = gameChapterId + String(actualStage).padStart(2, '0');
+
     return {
       code: fileCode,
       category: 'intervallo',
       categoryLabel: '间章剧情',
       categoryDescription: 'E 开头，按间章章节与关卡索引。',
       prefix,
-      chapterKey: `${prefix}${chapter}`,
-      chapterLabel: `间章 第${toNumber(chapter)}章`,
+      chapterKey: `${prefix}${origChapter}_${chapterSubSort}`,
+      chapterLabel: actualChapterTitle,
       stageKey: `${prefix}${digits}`,
-      stageLabel: `第${toNumber(stage)}节`,
-      storyLabel: `间章 第${toNumber(chapter)}章 第${toNumber(stage)}节 ${part.label}`,
+      stageLabel: `第${actualStage}节`,
+      storyLabel: `${actualChapterTitle} 第${actualStage}节 ${part.label}`,
       part,
-      sortKey: [categorySort.intervallo, toNumber(chapter), toNumber(stage), part.sort],
-      searchText: buildSearchText([fileCode, '间章剧情', `第${toNumber(chapter)}章`, `第${toNumber(stage)}节`, part.label]),
+      sortKey: [categorySort.intervallo, toNumber(origChapter), chapterSubSort, actualStage, part.sort],
+      searchText: buildSearchText([fileCode, '间章剧情', actualChapterTitle, `第${actualStage}节`, part.label]),
+      gameChapterId,
+      gameStageId
     };
   }
 
@@ -389,15 +430,20 @@ async function buildTitleMaps() {
 
   for (const language of languageConfigs) {
     try {
-      const chapterJsonPath = path.join(workspaceRoot, 'LocalizeLimbusCompany', language.folder, 'StageChapterText.json');
-      const chapterData = JSON.parse(await fs.readFile(chapterJsonPath, 'utf-8'));
-      for (const c of chapterData.dataList) {
-        const m = c.id.match(/_(\d+)$/);
-        if (m) {
-          const chapId = m[1];
-          if (!chapterTitlesMap[chapId]) chapterTitlesMap[chapId] = {};
-          chapterTitlesMap[chapId][language.id] = c.chaptertitle || c.chapterName || c.chapter;
-        }
+      const dirPath = path.join(workspaceRoot, 'LocalizeLimbusCompany', language.folder);
+      const files = await fs.readdir(dirPath);
+      for (const f of files) {
+         if (f.startsWith('StageChapterText') && f.endsWith('.json')) {
+           const chapterData = JSON.parse(await fs.readFile(path.join(dirPath, f), 'utf-8'));
+           for (const c of chapterData.dataList) {
+             const m = c.id.match(/_(\d+)$/);
+             if (m) {
+               const chapId = m[1];
+               if (!chapterTitlesMap[chapId]) chapterTitlesMap[chapId] = {};
+               chapterTitlesMap[chapId][language.id] = c.chaptertitle || c.chapterName || c.chapter;
+             }
+           }
+         }
       }
     } catch(e) {}
 
@@ -442,10 +488,15 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personal
       const stageDigits = story.stageKey.slice(1 + chapterDigits.length);
       stageId = chapterId + stageDigits.padStart(2, '0');
     } else if (story.prefix === 'E') {
-      const chapterDigits = story.chapterKey.slice(1);
-      chapterId = '91' + chapterDigits.padStart(2, '0');
-      const stageDigits = story.stageKey.slice(1 + chapterDigits.length);
-      stageId = chapterId + stageDigits.padStart(2, '0');
+      if (story.gameChapterId) {
+        chapterId = story.gameChapterId;
+        stageId = story.gameStageId;
+      } else {
+        const chapterDigits = story.chapterKey.slice(1);
+        chapterId = '91' + chapterDigits.padStart(2, '0');
+        const stageDigits = story.stageKey.slice(1 + chapterDigits.length);
+        stageId = chapterId + stageDigits.padStart(2, '0');
+      }
     }
 
     if (chapterId && chapterTitlesMap[chapterId]) {

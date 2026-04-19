@@ -3,6 +3,14 @@
         "/^node -e \"\nconst fs = require\\('fs'\\);\nconst files = fs\\.readdirSync\\('LocalizeLimbusCompany/LLC_zh-CN'\\)\\.filter\\(f => f\\.startsWith\\('StageNode'\\) && f\\.endsWith\\('\\.json'\\)\\);\nlet stages = \\[\\];\nfor \\(let f of files\\) \\{\n  const d = JSON\\.parse\\(fs\\.readFileSync\\('LocalizeLimbusCompany/LLC_zh-CN/' \\+ f, 'utf8'\\)\\);\n  stages\\.push\\(\\.\\.\\.d\\.dataList\\.map\\(item => \\(\\{ id: item\\.id, title: item\\.title \\}\\)\\)\\);\n\\}\nconsole\\.log\\('Total stages:', stages\\.length\\);\nconsole\\.log\\(stages\\.find\\(s => s\\.id === '10001' \\|\\| s\\.id === 10001\\)\\);\n\"$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^node LocalizeLimbusCompany/scripts/build-story-index\\.mjs$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^node -e \"const data=require\\('\\./story-viewer/data/story-index\\.json'\\); console\\.log\\(data\\.stories\\.find\\(x=>x\\.chapterKey === 'S7'\\)\\.chapterLabel\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
