@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T14:44:40.753Z",
+  "generatedAt": "2026-04-19T14:57:49.510Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -145,12 +145,12 @@
         },
         {
           "key": "E8_0",
-          "label": "间章 第8章 深夜清扫",
+          "label": "间章 第8章 切磋琢春",
           "count": 12
         },
         {
           "key": "E9_0",
-          "label": "间章 第9章 善意的巡礼",
+          "label": "间章 第9章 绞丝结线",
           "count": 17
         }
       ]
@@ -336,7 +336,7 @@
       "chapters": [
         {
           "key": "PC",
-          "label": "方舟联动",
+          "label": "方舟联动 善意的巡礼",
           "count": 19
         }
       ]
@@ -32765,10 +32765,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E801",
-      "stageLabel": "第1节 新年",
-      "storyLabel": "新年 (战斗前剧情)",
+      "stageLabel": "第1节 家主的证明",
+      "storyLabel": "家主的证明 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32782,9 +32782,9 @@
         1,
         1
       ],
-      "searchText": "e801b 间章剧情 间章 第8章 第1节 战斗前剧情 深夜清扫 新年",
-      "gameChapterId": "9116",
-      "gameStageId": "911601",
+      "searchText": "e801b 间章剧情 间章 第8章 第1节 战斗前剧情 切磋琢春 家主的证明",
+      "gameChapterId": "9119",
+      "gameStageId": "911901",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32799,16 +32799,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "新年",
-        "JP": "新年",
-        "EN": "Happy New Year",
-        "KR": "신년"
+        "LLC_zh-CN": "家主的证明",
+        "JP": "家主の証明",
+        "EN": "The Family Hierarch's Proof",
+        "KR": "가주의 증명"
       }
     },
     {
@@ -32818,10 +32818,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E802",
-      "stageLabel": "第2节 决斗",
-      "storyLabel": "决斗 (战斗前剧情)",
+      "stageLabel": "第2节 十二位老师",
+      "storyLabel": "十二位老师 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32835,9 +32835,9 @@
         2,
         1
       ],
-      "searchText": "e802b 间章剧情 间章 第8章 第2节 战斗前剧情 深夜清扫 决斗",
-      "gameChapterId": "9116",
-      "gameStageId": "911602",
+      "searchText": "e802b 间章剧情 间章 第8章 第2节 战斗前剧情 切磋琢春 十二位老师",
+      "gameChapterId": "9119",
+      "gameStageId": "911902",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32852,16 +32852,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "决斗",
-        "JP": "決闘",
-        "EN": "The Duel",
-        "KR": "결투"
+        "LLC_zh-CN": "十二位老师",
+        "JP": "12名の先生",
+        "EN": "Twelve Teachers",
+        "KR": "12명의 선생님"
       }
     },
     {
@@ -32871,10 +32871,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E803",
-      "stageLabel": "第3节 向导",
-      "storyLabel": "向导 (战斗前剧情)",
+      "stageLabel": "第3节 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32888,9 +32888,9 @@
         3,
         1
       ],
-      "searchText": "e803b 间章剧情 间章 第8章 第3节 战斗前剧情 深夜清扫 向导",
-      "gameChapterId": "9116",
-      "gameStageId": "911603",
+      "searchText": "e803b 间章剧情 间章 第8章 第3节 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32905,16 +32905,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "向导",
-        "JP": "案内者",
-        "EN": "A Guide",
-        "KR": "안내자"
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
       }
     },
     {
@@ -32924,10 +32924,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E805",
-      "stageLabel": "第5节 客栈",
-      "storyLabel": "客栈 (战斗前剧情)",
+      "stageLabel": "第5节 最终测验",
+      "storyLabel": "最终测验 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32941,9 +32941,9 @@
         5,
         1
       ],
-      "searchText": "e805b 间章剧情 间章 第8章 第5节 战斗前剧情 深夜清扫 客栈",
-      "gameChapterId": "9116",
-      "gameStageId": "911605",
+      "searchText": "e805b 间章剧情 间章 第8章 第5节 战斗前剧情 切磋琢春 最终测验",
+      "gameChapterId": "9119",
+      "gameStageId": "911905",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32958,16 +32958,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "客栈",
-        "JP": "客桟",
-        "EN": "Kezhan",
-        "KR": "객잔"
+        "LLC_zh-CN": "最终测验",
+        "JP": "最終試験",
+        "EN": "Finals",
+        "KR": "최종 시험"
       }
     },
     {
@@ -32977,10 +32977,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E806",
-      "stageLabel": "第6节 疑心",
-      "storyLabel": "疑心 (战斗前剧情)",
+      "stageLabel": "第6节 家主解救作战",
+      "storyLabel": "家主解救作战 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32994,9 +32994,9 @@
         6,
         1
       ],
-      "searchText": "e806b 间章剧情 间章 第8章 第6节 战斗前剧情 深夜清扫 疑心",
-      "gameChapterId": "9116",
-      "gameStageId": "911606",
+      "searchText": "e806b 间章剧情 间章 第8章 第6节 战斗前剧情 切磋琢春 家主解救作战",
+      "gameChapterId": "9119",
+      "gameStageId": "911906",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33011,16 +33011,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "疑心",
-        "JP": "疑心",
-        "EN": "Suspicion",
-        "KR": "의심"
+        "LLC_zh-CN": "家主解救作战",
+        "JP": "家主救出作戦",
+        "EN": "Hierarch Rescue Operation",
+        "KR": "가주 구출 작전"
       }
     },
     {
@@ -33030,10 +33030,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E808",
-      "stageLabel": "第8节 黑兽",
-      "storyLabel": "黑兽 (战斗前剧情)",
+      "stageLabel": "第8节 魁首",
+      "storyLabel": "魁首 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33047,9 +33047,9 @@
         8,
         1
       ],
-      "searchText": "e808b 间章剧情 间章 第8章 第8节 战斗前剧情 深夜清扫 黑兽",
-      "gameChapterId": "9116",
-      "gameStageId": "911608",
+      "searchText": "e808b 间章剧情 间章 第8章 第8节 战斗前剧情 切磋琢春 魁首",
+      "gameChapterId": "9119",
+      "gameStageId": "911908",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33064,16 +33064,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "黑兽",
-        "JP": "黒獣",
-        "EN": "The Heishou Pack",
-        "KR": "흑수"
+        "LLC_zh-CN": "魁首",
+        "JP": "筆頭",
+        "EN": "The Adept",
+        "KR": "필두"
       }
     },
     {
@@ -33083,10 +33083,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E808",
-      "stageLabel": "第8节 黑兽",
-      "storyLabel": "黑兽 (战斗后剧情)",
+      "stageLabel": "第8节 魁首",
+      "storyLabel": "魁首 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -33100,9 +33100,9 @@
         8,
         3
       ],
-      "searchText": "e808a 间章剧情 间章 第8章 第8节 战斗后剧情 深夜清扫 黑兽",
-      "gameChapterId": "9116",
-      "gameStageId": "911608",
+      "searchText": "e808a 间章剧情 间章 第8章 第8节 战斗后剧情 切磋琢春 魁首",
+      "gameChapterId": "9119",
+      "gameStageId": "911908",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33117,16 +33117,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "黑兽",
-        "JP": "黒獣",
-        "EN": "The Heishou Pack",
-        "KR": "흑수"
+        "LLC_zh-CN": "魁首",
+        "JP": "筆頭",
+        "EN": "The Adept",
+        "KR": "필두"
       }
     },
     {
@@ -33136,10 +33136,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E809",
-      "stageLabel": "第9节 史易华",
-      "storyLabel": "史易华 (战斗前剧情)",
+      "stageLabel": "第9节 师父",
+      "storyLabel": "师父 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33153,9 +33153,9 @@
         9,
         1
       ],
-      "searchText": "e809b 间章剧情 间章 第8章 第9节 战斗前剧情 深夜清扫 史易华",
-      "gameChapterId": "9116",
-      "gameStageId": "911609",
+      "searchText": "e809b 间章剧情 间章 第8章 第9节 战斗前剧情 切磋琢春 师父",
+      "gameChapterId": "9119",
+      "gameStageId": "911909",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33170,16 +33170,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "史易华",
-        "JP": "シー・イーファ",
-        "EN": "Shi Yihua",
-        "KR": "사이화"
+        "LLC_zh-CN": "师父",
+        "JP": "師匠",
+        "EN": "The Master",
+        "KR": "스승"
       }
     },
     {
@@ -33189,10 +33189,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E811",
-      "stageLabel": "第11节 后巷深宵",
-      "storyLabel": "后巷深宵 (战斗前剧情)",
+      "stageLabel": "第11节 青出于蓝而胜于蓝",
+      "storyLabel": "青出于蓝而胜于蓝 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33206,9 +33206,9 @@
         11,
         1
       ],
-      "searchText": "e811b 间章剧情 间章 第8章 第11节 战斗前剧情 深夜清扫 后巷深宵",
-      "gameChapterId": "9116",
-      "gameStageId": "911611",
+      "searchText": "e811b 间章剧情 间章 第8章 第11节 战斗前剧情 切磋琢春 青出于蓝而胜于蓝",
+      "gameChapterId": "9119",
+      "gameStageId": "911911",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33223,16 +33223,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "后巷深宵",
-        "JP": "裏路地の夜",
-        "EN": "Night in the Backstreets",
-        "KR": "뒷골목의 밤"
+        "LLC_zh-CN": "青出于蓝而胜于蓝",
+        "JP": "青は藍より出でる",
+        "EN": "When the Student Becomes the Master",
+        "KR": "청출어람"
       }
     },
     {
@@ -33242,10 +33242,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E811",
-      "stageLabel": "第11节 后巷深宵",
-      "storyLabel": "后巷深宵 (战斗中剧情 1)",
+      "stageLabel": "第11节 青出于蓝而胜于蓝",
+      "storyLabel": "青出于蓝而胜于蓝 (战斗中剧情 1)",
       "part": {
         "raw": "I1",
         "code": "I1",
@@ -33259,9 +33259,9 @@
         11,
         2.01
       ],
-      "searchText": "e811i1 间章剧情 间章 第8章 第11节 战斗中剧情 1 深夜清扫 后巷深宵",
-      "gameChapterId": "9116",
-      "gameStageId": "911611",
+      "searchText": "e811i1 间章剧情 间章 第8章 第11节 战斗中剧情 1 切磋琢春 青出于蓝而胜于蓝",
+      "gameChapterId": "9119",
+      "gameStageId": "911911",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33276,16 +33276,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "后巷深宵",
-        "JP": "裏路地の夜",
-        "EN": "Night in the Backstreets",
-        "KR": "뒷골목의 밤"
+        "LLC_zh-CN": "青出于蓝而胜于蓝",
+        "JP": "青は藍より出でる",
+        "EN": "When the Student Becomes the Master",
+        "KR": "청출어람"
       }
     },
     {
@@ -33295,10 +33295,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E811",
-      "stageLabel": "第11节 后巷深宵",
-      "storyLabel": "后巷深宵 (战斗后剧情)",
+      "stageLabel": "第11节 青出于蓝而胜于蓝",
+      "storyLabel": "青出于蓝而胜于蓝 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -33312,9 +33312,9 @@
         11,
         3
       ],
-      "searchText": "e811a 间章剧情 间章 第8章 第11节 战斗后剧情 深夜清扫 后巷深宵",
-      "gameChapterId": "9116",
-      "gameStageId": "911611",
+      "searchText": "e811a 间章剧情 间章 第8章 第11节 战斗后剧情 切磋琢春 青出于蓝而胜于蓝",
+      "gameChapterId": "9119",
+      "gameStageId": "911911",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33329,16 +33329,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "后巷深宵",
-        "JP": "裏路地の夜",
-        "EN": "Night in the Backstreets",
-        "KR": "뒷골목의 밤"
+        "LLC_zh-CN": "青出于蓝而胜于蓝",
+        "JP": "青は藍より出でる",
+        "EN": "When the Student Becomes the Master",
+        "KR": "청출어람"
       }
     },
     {
@@ -33348,10 +33348,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E8_0",
-      "chapterLabel": "间章 第8章 深夜清扫",
+      "chapterLabel": "间章 第8章 切磋琢春",
       "stageKey": "E812",
-      "stageLabel": "第12节 同盟",
-      "storyLabel": "同盟 (战斗前剧情)",
+      "stageLabel": "第12节 证明",
+      "storyLabel": "证明 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33365,9 +33365,9 @@
         12,
         1
       ],
-      "searchText": "e812b 间章剧情 间章 第8章 第12节 战斗前剧情 深夜清扫 同盟",
-      "gameChapterId": "9116",
-      "gameStageId": "911612",
+      "searchText": "e812b 间章剧情 间章 第8章 第12节 战斗前剧情 切磋琢春 证明",
+      "gameChapterId": "9119",
+      "gameStageId": "911912",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33382,16 +33382,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "深夜清扫",
-        "JP": "深夜清掃",
-        "EN": "Nocturnal Sweeping",
-        "KR": "심야청소"
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
       },
       "stageNames": {
-        "LLC_zh-CN": "同盟",
-        "JP": "同盟",
-        "EN": "Alliance",
-        "KR": "동맹"
+        "LLC_zh-CN": "证明",
+        "JP": "証明",
+        "EN": "The Proof",
+        "KR": "증명"
       }
     },
     {
@@ -33401,10 +33401,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E901",
-      "stageLabel": "第1节 陌生的大海",
-      "storyLabel": "陌生的大海 (战斗前剧情)",
+      "stageLabel": "第1节 葬礼",
+      "storyLabel": "葬礼 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33418,9 +33418,9 @@
         1,
         1
       ],
-      "searchText": "e901b 间章剧情 间章 第9章 第1节 战斗前剧情 善意的巡礼 陌生的大海",
-      "gameChapterId": "9120",
-      "gameStageId": "912001",
+      "searchText": "e901b 间章剧情 间章 第9章 第1节 战斗前剧情 绞丝结线 葬礼",
+      "gameChapterId": "9125",
+      "gameStageId": "912501",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33435,16 +33435,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "陌生的大海",
-        "JP": "馴染みのない海",
-        "EN": "The Unknown Sea",
-        "KR": "낯선 바다"
+        "LLC_zh-CN": "葬礼",
+        "JP": "葬儀",
+        "EN": "Funeral",
+        "KR": "장례식"
       }
     },
     {
@@ -33454,10 +33454,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E902",
-      "stageLabel": "第2节 死寂灯塔之村",
-      "storyLabel": "死寂灯塔之村 (战斗前剧情)",
+      "stageLabel": "第2节 幸存者",
+      "storyLabel": "幸存者 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33471,9 +33471,9 @@
         2,
         1
       ],
-      "searchText": "e902b 间章剧情 间章 第9章 第2节 战斗前剧情 善意的巡礼 死寂灯塔之村",
-      "gameChapterId": "9120",
-      "gameStageId": "912002",
+      "searchText": "e902b 间章剧情 间章 第9章 第2节 战斗前剧情 绞丝结线 幸存者",
+      "gameChapterId": "9125",
+      "gameStageId": "912502",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33488,16 +33488,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "死寂灯塔之村",
-        "JP": "死んだ灯台の村",
-        "EN": "Village of the Dead Lighthouse",
-        "KR": "죽은 등대의 마을"
+        "LLC_zh-CN": "幸存者",
+        "JP": "生存者",
+        "EN": "Survivor",
+        "KR": "생존자"
       }
     },
     {
@@ -33507,10 +33507,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E903",
-      "stageLabel": "第3节 泰拉",
-      "storyLabel": "泰拉 (战斗前剧情)",
+      "stageLabel": "第3节 旅者",
+      "storyLabel": "旅者 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33524,9 +33524,9 @@
         3,
         1
       ],
-      "searchText": "e903b 间章剧情 间章 第9章 第3节 战斗前剧情 善意的巡礼 泰拉",
-      "gameChapterId": "9120",
-      "gameStageId": "912003",
+      "searchText": "e903b 间章剧情 间章 第9章 第3节 战斗前剧情 绞丝结线 旅者",
+      "gameChapterId": "9125",
+      "gameStageId": "912503",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33541,16 +33541,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "泰拉",
-        "JP": "テラ",
-        "EN": "Terra",
-        "KR": "테라"
+        "LLC_zh-CN": "旅者",
+        "JP": "ウェイフェアラー",
+        "EN": "Wayfarer",
+        "KR": "웨이페어러"
       }
     },
     {
@@ -33560,10 +33560,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E903",
-      "stageLabel": "第3节 泰拉",
-      "storyLabel": "泰拉 (战斗后剧情)",
+      "stageLabel": "第3节 旅者",
+      "storyLabel": "旅者 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -33577,9 +33577,9 @@
         3,
         3
       ],
-      "searchText": "e903a 间章剧情 间章 第9章 第3节 战斗后剧情 善意的巡礼 泰拉",
-      "gameChapterId": "9120",
-      "gameStageId": "912003",
+      "searchText": "e903a 间章剧情 间章 第9章 第3节 战斗后剧情 绞丝结线 旅者",
+      "gameChapterId": "9125",
+      "gameStageId": "912503",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33594,16 +33594,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "泰拉",
-        "JP": "テラ",
-        "EN": "Terra",
-        "KR": "테라"
+        "LLC_zh-CN": "旅者",
+        "JP": "ウェイフェアラー",
+        "EN": "Wayfarer",
+        "KR": "웨이페어러"
       }
     },
     {
@@ -33613,10 +33613,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E904",
-      "stageLabel": "第4节 大众号",
-      "storyLabel": "大众号 (战斗前剧情)",
+      "stageLabel": "第4节 遗物与印记",
+      "storyLabel": "遗物与印记 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33630,9 +33630,9 @@
         4,
         1
       ],
-      "searchText": "e904b 间章剧情 间章 第9章 第4节 战斗前剧情 善意的巡礼 大众号",
-      "gameChapterId": "9120",
-      "gameStageId": "912004",
+      "searchText": "e904b 间章剧情 间章 第9章 第4节 战斗前剧情 绞丝结线 遗物与印记",
+      "gameChapterId": "9125",
+      "gameStageId": "912504",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33647,16 +33647,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "大众号",
-        "JP": "マサス号",
-        "EN": "Vessel Masas",
-        "KR": "마사스호"
+        "LLC_zh-CN": "遗物与印记",
+        "JP": "遺物と印",
+        "EN": "Relics and the Sign",
+        "KR": "유물과 표지"
       }
     },
     {
@@ -33666,10 +33666,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E905",
-      "stageLabel": "第5节 小浪",
-      "storyLabel": "小浪 (战斗前剧情)",
+      "stageLabel": "第5节 连血缘",
+      "storyLabel": "连血缘 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33683,9 +33683,9 @@
         5,
         1
       ],
-      "searchText": "e905b 间章剧情 间章 第9章 第5节 战斗前剧情 善意的巡礼 小浪",
-      "gameChapterId": "9120",
-      "gameStageId": "912005",
+      "searchText": "e905b 间章剧情 间章 第9章 第5节 战斗前剧情 绞丝结线 连血缘",
+      "gameChapterId": "9125",
+      "gameStageId": "912505",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33700,16 +33700,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "小浪",
-        "JP": "小さな波",
-        "EN": "Small Tide",
-        "KR": "작은 파도"
+        "LLC_zh-CN": "连血缘",
+        "JP": "れんけつえん",
+        "EN": "Renketsuen",
+        "KR": "렌케츠엔"
       }
     },
     {
@@ -33719,10 +33719,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E906",
-      "stageLabel": "第6节 审判官",
-      "storyLabel": "审判官 (战斗前剧情)",
+      "stageLabel": "第6节 猴儿",
+      "storyLabel": "猴儿 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33736,9 +33736,9 @@
         6,
         1
       ],
-      "searchText": "e906b 间章剧情 间章 第9章 第6节 战斗前剧情 善意的巡礼 审判官",
-      "gameChapterId": "9120",
-      "gameStageId": "912006",
+      "searchText": "e906b 间章剧情 间章 第9章 第6节 战斗前剧情 绞丝结线 猴儿",
+      "gameChapterId": "9125",
+      "gameStageId": "912506",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33753,16 +33753,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "审判官",
-        "JP": "審問官",
-        "EN": "The Inquisitor",
-        "KR": "재판관"
+        "LLC_zh-CN": "猴儿",
+        "JP": "サル",
+        "EN": "Saru",
+        "KR": "사루"
       }
     },
     {
@@ -33772,10 +33772,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E906",
-      "stageLabel": "第6节 审判官",
-      "storyLabel": "审判官 (战斗后剧情)",
+      "stageLabel": "第6节 猴儿",
+      "storyLabel": "猴儿 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -33789,9 +33789,9 @@
         6,
         3
       ],
-      "searchText": "e906a 间章剧情 间章 第9章 第6节 战斗后剧情 善意的巡礼 审判官",
-      "gameChapterId": "9120",
-      "gameStageId": "912006",
+      "searchText": "e906a 间章剧情 间章 第9章 第6节 战斗后剧情 绞丝结线 猴儿",
+      "gameChapterId": "9125",
+      "gameStageId": "912506",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33806,16 +33806,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "审判官",
-        "JP": "審問官",
-        "EN": "The Inquisitor",
-        "KR": "재판관"
+        "LLC_zh-CN": "猴儿",
+        "JP": "サル",
+        "EN": "Saru",
+        "KR": "사루"
       }
     },
     {
@@ -33825,10 +33825,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E907",
-      "stageLabel": "第7节 转动的时钟",
-      "storyLabel": "转动的时钟 (战斗前剧情)",
+      "stageLabel": "第7节 学校",
+      "storyLabel": "学校 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33842,9 +33842,9 @@
         7,
         1
       ],
-      "searchText": "e907b 间章剧情 间章 第9章 第7节 战斗前剧情 善意的巡礼 转动的时钟",
-      "gameChapterId": "9120",
-      "gameStageId": "912007",
+      "searchText": "e907b 间章剧情 间章 第9章 第7节 战斗前剧情 绞丝结线 学校",
+      "gameChapterId": "9125",
+      "gameStageId": "912507",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33859,16 +33859,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "转动的时钟",
-        "JP": "回る時計",
-        "EN": "Spinning Clock",
-        "KR": "돌아가는 시계"
+        "LLC_zh-CN": "学校",
+        "JP": "学校",
+        "EN": "School",
+        "KR": "학교"
       }
     },
     {
@@ -33878,10 +33878,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E908",
-      "stageLabel": "第8节 三方协议",
-      "storyLabel": "三方协议 (战斗前剧情)",
+      "stageLabel": "第8节 不幸",
+      "storyLabel": "不幸 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33895,9 +33895,9 @@
         8,
         1
       ],
-      "searchText": "e908b 间章剧情 间章 第9章 第8节 战斗前剧情 善意的巡礼 三方协议",
-      "gameChapterId": "9120",
-      "gameStageId": "912008",
+      "searchText": "e908b 间章剧情 间章 第9章 第8节 战斗前剧情 绞丝结线 不幸",
+      "gameChapterId": "9125",
+      "gameStageId": "912508",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33912,16 +33912,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "三方协议",
-        "JP": "三者協議",
-        "EN": "Three-way Agreement",
-        "KR": "삼자 협의"
+        "LLC_zh-CN": "不幸",
+        "JP": "不幸",
+        "EN": "Miseries",
+        "KR": "불행"
       }
     },
     {
@@ -33931,10 +33931,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E909",
-      "stageLabel": "第9节 灯塔夺回作战",
-      "storyLabel": "灯塔夺回作战 (战斗前剧情)",
+      "stageLabel": "第9节 记忆",
+      "storyLabel": "记忆 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -33948,9 +33948,9 @@
         9,
         1
       ],
-      "searchText": "e909b 间章剧情 间章 第9章 第9节 战斗前剧情 善意的巡礼 灯塔夺回作战",
-      "gameChapterId": "9120",
-      "gameStageId": "912009",
+      "searchText": "e909b 间章剧情 间章 第9章 第9节 战斗前剧情 绞丝结线 记忆",
+      "gameChapterId": "9125",
+      "gameStageId": "912509",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -33965,16 +33965,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "灯塔夺回作战",
-        "JP": "灯台奪還作戦",
-        "EN": "Operation Lighthouse Retrieval",
-        "KR": "등대 탈환 작전"
+        "LLC_zh-CN": "记忆",
+        "JP": "記憶",
+        "EN": "Memories",
+        "KR": "기억"
       }
     },
     {
@@ -33984,10 +33984,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E910",
-      "stageLabel": "第10节 巨浪",
-      "storyLabel": "巨浪 (战斗前剧情)",
+      "stageLabel": "第10节 地下室",
+      "storyLabel": "地下室 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -34001,9 +34001,9 @@
         10,
         1
       ],
-      "searchText": "e910b 间章剧情 间章 第9章 第10节 战斗前剧情 善意的巡礼 巨浪",
-      "gameChapterId": "9120",
-      "gameStageId": "912010",
+      "searchText": "e910b 间章剧情 间章 第9章 第10节 战斗前剧情 绞丝结线 地下室",
+      "gameChapterId": "9125",
+      "gameStageId": "912510",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34018,16 +34018,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "巨浪",
-        "JP": "荒い波",
-        "EN": "Rough Tides",
-        "KR": "거센 파도"
+        "LLC_zh-CN": "地下室",
+        "JP": "地下室",
+        "EN": "Basement",
+        "KR": "지하실"
       }
     },
     {
@@ -34037,10 +34037,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E910",
-      "stageLabel": "第10节 巨浪",
-      "storyLabel": "巨浪 (战斗后剧情)",
+      "stageLabel": "第10节 地下室",
+      "storyLabel": "地下室 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -34054,9 +34054,9 @@
         10,
         3
       ],
-      "searchText": "e910a 间章剧情 间章 第9章 第10节 战斗后剧情 善意的巡礼 巨浪",
-      "gameChapterId": "9120",
-      "gameStageId": "912010",
+      "searchText": "e910a 间章剧情 间章 第9章 第10节 战斗后剧情 绞丝结线 地下室",
+      "gameChapterId": "9125",
+      "gameStageId": "912510",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34071,16 +34071,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "巨浪",
-        "JP": "荒い波",
-        "EN": "Rough Tides",
-        "KR": "거센 파도"
+        "LLC_zh-CN": "地下室",
+        "JP": "地下室",
+        "EN": "Basement",
+        "KR": "지하실"
       }
     },
     {
@@ -34090,10 +34090,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E911",
-      "stageLabel": "第11节 童话中的骑士",
-      "storyLabel": "童话中的骑士 (战斗后剧情)",
+      "stageLabel": "第11节 静静地被遗忘",
+      "storyLabel": "静静地被遗忘 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -34107,9 +34107,9 @@
         11,
         3
       ],
-      "searchText": "e911a 间章剧情 间章 第9章 第11节 战斗后剧情 善意的巡礼 童话中的骑士",
-      "gameChapterId": "9120",
-      "gameStageId": "912011",
+      "searchText": "e911a 间章剧情 间章 第9章 第11节 战斗后剧情 绞丝结线 静静地被遗忘",
+      "gameChapterId": "9125",
+      "gameStageId": "912511",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34124,16 +34124,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "童话中的骑士",
-        "JP": "童話の中の騎士",
-        "EN": "The Fabled Knight",
-        "KR": "동화 속의 기사"
+        "LLC_zh-CN": "静静地被遗忘",
+        "JP": "静かに忘れられる",
+        "EN": "Into Oblivion, in Silence",
+        "KR": "조용히 잊혀지는"
       }
     },
     {
@@ -34143,10 +34143,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E912",
-      "stageLabel": "第12节 罗德岛",
-      "storyLabel": "罗德岛 (战斗前剧情)",
+      "stageLabel": "第12节 万短至艺",
+      "storyLabel": "万短至艺 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -34160,9 +34160,9 @@
         12,
         1
       ],
-      "searchText": "e912b 间章剧情 间章 第9章 第12节 战斗前剧情 善意的巡礼 罗德岛",
-      "gameChapterId": "9120",
-      "gameStageId": "912012",
+      "searchText": "e912b 间章剧情 间章 第9章 第12节 战斗前剧情 绞丝结线 万短至艺",
+      "gameChapterId": "9125",
+      "gameStageId": "912512",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34177,16 +34177,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "罗德岛",
-        "JP": "ロドス・アイランド",
-        "EN": "Rhodes Island",
-        "KR": "로도스 아일랜드"
+        "LLC_zh-CN": "万短至艺",
+        "JP": "万短至芸",
+        "EN": "S.A.N.G.R.I.A.",
+        "KR": "만단지예"
       }
     },
     {
@@ -34196,10 +34196,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E913",
-      "stageLabel": "第13节 都市之光",
-      "storyLabel": "都市之光 (战斗前剧情)",
+      "stageLabel": "第13节 美好的记忆",
+      "storyLabel": "美好的记忆 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -34213,9 +34213,9 @@
         13,
         1
       ],
-      "searchText": "e913b 间章剧情 间章 第9章 第13节 战斗前剧情 善意的巡礼 都市之光",
-      "gameChapterId": "9120",
-      "gameStageId": "912013",
+      "searchText": "e913b 间章剧情 间章 第9章 第13节 战斗前剧情 绞丝结线 美好的记忆",
+      "gameChapterId": "9125",
+      "gameStageId": "912513",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34230,16 +34230,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "都市之光",
-        "JP": "都市の光",
-        "EN": "Light of the City",
-        "KR": "도시의 빛"
+        "LLC_zh-CN": "美好的记忆",
+        "JP": "良い記憶",
+        "EN": "Good Memories",
+        "KR": "좋은 기억"
       }
     },
     {
@@ -34249,10 +34249,10 @@
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
       "chapterKey": "E9_0",
-      "chapterLabel": "间章 第9章 善意的巡礼",
+      "chapterLabel": "间章 第9章 绞丝结线",
       "stageKey": "E914",
-      "stageLabel": "第14节 善意的巡礼",
-      "storyLabel": "善意的巡礼 (战斗前剧情)",
+      "stageLabel": "第14节 下一个目的地",
+      "storyLabel": "下一个目的地 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -34266,9 +34266,9 @@
         14,
         1
       ],
-      "searchText": "e914b 间章剧情 间章 第9章 第14节 战斗前剧情 善意的巡礼 善意的巡礼",
-      "gameChapterId": "9120",
-      "gameStageId": "912014",
+      "searchText": "e914b 间章剧情 间章 第9章 第14节 战斗前剧情 绞丝结线 下一个目的地",
+      "gameChapterId": "9125",
+      "gameStageId": "912514",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -34283,16 +34283,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
       },
       "stageNames": {
-        "LLC_zh-CN": "善意的巡礼",
-        "JP": "善意の巡礼",
-        "EN": "Pilgrimage of Compassion",
-        "KR": "선의의 순례"
+        "LLC_zh-CN": "下一个目的地",
+        "JP": "次の目的地",
+        "EN": "The Next Destination",
+        "KR": "다음 목적지"
       }
     },
     {
@@ -50498,10 +50498,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC01",
-      "stageLabel": "第1节",
-      "storyLabel": "方舟联动 第1节 战斗前剧情",
+      "stageLabel": "第1节 陌生的大海",
+      "storyLabel": "陌生的大海 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50514,7 +50514,7 @@
         1,
         1
       ],
-      "searchText": "pc01b 方舟联动剧情 第1节 战斗前剧情",
+      "searchText": "pc01b 方舟联动剧情 第1节 战斗前剧情 善意的巡礼 陌生的大海",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50527,7 +50527,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC01B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC01B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "陌生的大海",
+        "JP": "馴染みのない海",
+        "EN": "The Unknown Sea",
+        "KR": "낯선 바다"
+      }
     },
     {
       "code": "PC01A",
@@ -50536,10 +50548,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC01",
-      "stageLabel": "第1节",
-      "storyLabel": "方舟联动 第1节 战斗后剧情",
+      "stageLabel": "第1节 陌生的大海",
+      "storyLabel": "陌生的大海 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -50552,7 +50564,7 @@
         1,
         3
       ],
-      "searchText": "pc01a 方舟联动剧情 第1节 战斗后剧情",
+      "searchText": "pc01a 方舟联动剧情 第1节 战斗后剧情 善意的巡礼 陌生的大海",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50565,7 +50577,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC01A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC01A.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "陌生的大海",
+        "JP": "馴染みのない海",
+        "EN": "The Unknown Sea",
+        "KR": "낯선 바다"
+      }
     },
     {
       "code": "PC02B",
@@ -50574,10 +50598,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC02",
-      "stageLabel": "第2节",
-      "storyLabel": "方舟联动 第2节 战斗前剧情",
+      "stageLabel": "第2节 死寂灯塔之村",
+      "storyLabel": "死寂灯塔之村 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50590,7 +50614,7 @@
         2,
         1
       ],
-      "searchText": "pc02b 方舟联动剧情 第2节 战斗前剧情",
+      "searchText": "pc02b 方舟联动剧情 第2节 战斗前剧情 善意的巡礼 死寂灯塔之村",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50603,7 +50627,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC02B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC02B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "死寂灯塔之村",
+        "JP": "死んだ灯台の村",
+        "EN": "Village of the Dead Lighthouse",
+        "KR": "죽은 등대의 마을"
+      }
     },
     {
       "code": "PC03B",
@@ -50612,10 +50648,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC03",
-      "stageLabel": "第3节",
-      "storyLabel": "方舟联动 第3节 战斗前剧情",
+      "stageLabel": "第3节 泰拉",
+      "storyLabel": "泰拉 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50628,7 +50664,7 @@
         3,
         1
       ],
-      "searchText": "pc03b 方舟联动剧情 第3节 战斗前剧情",
+      "searchText": "pc03b 方舟联动剧情 第3节 战斗前剧情 善意的巡礼 泰拉",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50641,7 +50677,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC03B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC03B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "泰拉",
+        "JP": "テラ",
+        "EN": "Terra",
+        "KR": "테라"
+      }
     },
     {
       "code": "PC04B",
@@ -50650,10 +50698,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC04",
-      "stageLabel": "第4节",
-      "storyLabel": "方舟联动 第4节 战斗前剧情",
+      "stageLabel": "第4节 大众号",
+      "storyLabel": "大众号 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50666,7 +50714,7 @@
         4,
         1
       ],
-      "searchText": "pc04b 方舟联动剧情 第4节 战斗前剧情",
+      "searchText": "pc04b 方舟联动剧情 第4节 战斗前剧情 善意的巡礼 大众号",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50679,7 +50727,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC04B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC04B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "大众号",
+        "JP": "マサス号",
+        "EN": "Vessel Masas",
+        "KR": "마사스호"
+      }
     },
     {
       "code": "PC05A",
@@ -50688,10 +50748,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC05",
-      "stageLabel": "第5节",
-      "storyLabel": "方舟联动 第5节 战斗后剧情",
+      "stageLabel": "第5节 小浪",
+      "storyLabel": "小浪 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -50704,7 +50764,7 @@
         5,
         3
       ],
-      "searchText": "pc05a 方舟联动剧情 第5节 战斗后剧情",
+      "searchText": "pc05a 方舟联动剧情 第5节 战斗后剧情 善意的巡礼 小浪",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50717,7 +50777,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC05A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC05A.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "小浪",
+        "JP": "小さな波",
+        "EN": "Small Tide",
+        "KR": "작은 파도"
+      }
     },
     {
       "code": "PC06B",
@@ -50726,10 +50798,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC06",
-      "stageLabel": "第6节",
-      "storyLabel": "方舟联动 第6节 战斗前剧情",
+      "stageLabel": "第6节 审判官",
+      "storyLabel": "审判官 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50742,7 +50814,7 @@
         6,
         1
       ],
-      "searchText": "pc06b 方舟联动剧情 第6节 战斗前剧情",
+      "searchText": "pc06b 方舟联动剧情 第6节 战斗前剧情 善意的巡礼 审判官",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50755,7 +50827,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC06B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC06B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "审判官",
+        "JP": "審問官",
+        "EN": "The Inquisitor",
+        "KR": "재판관"
+      }
     },
     {
       "code": "PC07B",
@@ -50764,10 +50848,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC07",
-      "stageLabel": "第7节",
-      "storyLabel": "方舟联动 第7节 战斗前剧情",
+      "stageLabel": "第7节 转动的时钟",
+      "storyLabel": "转动的时钟 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50780,7 +50864,7 @@
         7,
         1
       ],
-      "searchText": "pc07b 方舟联动剧情 第7节 战斗前剧情",
+      "searchText": "pc07b 方舟联动剧情 第7节 战斗前剧情 善意的巡礼 转动的时钟",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50793,7 +50877,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC07B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC07B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "转动的时钟",
+        "JP": "回る時計",
+        "EN": "Spinning Clock",
+        "KR": "돌아가는 시계"
+      }
     },
     {
       "code": "PC07A",
@@ -50802,10 +50898,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC07",
-      "stageLabel": "第7节",
-      "storyLabel": "方舟联动 第7节 战斗后剧情",
+      "stageLabel": "第7节 转动的时钟",
+      "storyLabel": "转动的时钟 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -50818,7 +50914,7 @@
         7,
         3
       ],
-      "searchText": "pc07a 方舟联动剧情 第7节 战斗后剧情",
+      "searchText": "pc07a 方舟联动剧情 第7节 战斗后剧情 善意的巡礼 转动的时钟",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50831,7 +50927,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC07A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC07A.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "转动的时钟",
+        "JP": "回る時計",
+        "EN": "Spinning Clock",
+        "KR": "돌아가는 시계"
+      }
     },
     {
       "code": "PC08B",
@@ -50840,10 +50948,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC08",
-      "stageLabel": "第8节",
-      "storyLabel": "方舟联动 第8节 战斗前剧情",
+      "stageLabel": "第8节 三方协议",
+      "storyLabel": "三方协议 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50856,7 +50964,7 @@
         8,
         1
       ],
-      "searchText": "pc08b 方舟联动剧情 第8节 战斗前剧情",
+      "searchText": "pc08b 方舟联动剧情 第8节 战斗前剧情 善意的巡礼 三方协议",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50869,7 +50977,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC08B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC08B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "三方协议",
+        "JP": "三者協議",
+        "EN": "Three-way Agreement",
+        "KR": "삼자 협의"
+      }
     },
     {
       "code": "PC09B",
@@ -50878,10 +50998,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC09",
-      "stageLabel": "第9节",
-      "storyLabel": "方舟联动 第9节 战斗前剧情",
+      "stageLabel": "第9节 灯塔夺回作战",
+      "storyLabel": "灯塔夺回作战 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50894,7 +51014,7 @@
         9,
         1
       ],
-      "searchText": "pc09b 方舟联动剧情 第9节 战斗前剧情",
+      "searchText": "pc09b 方舟联动剧情 第9节 战斗前剧情 善意的巡礼 灯塔夺回作战",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50907,7 +51027,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC09B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC09B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "灯塔夺回作战",
+        "JP": "灯台奪還作戦",
+        "EN": "Operation Lighthouse Retrieval",
+        "KR": "등대 탈환 작전"
+      }
     },
     {
       "code": "PC11B",
@@ -50916,10 +51048,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC11",
-      "stageLabel": "第11节",
-      "storyLabel": "方舟联动 第11节 战斗前剧情",
+      "stageLabel": "第11节 童话中的骑士",
+      "storyLabel": "童话中的骑士 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -50932,7 +51064,7 @@
         11,
         1
       ],
-      "searchText": "pc11b 方舟联动剧情 第11节 战斗前剧情",
+      "searchText": "pc11b 方舟联动剧情 第11节 战斗前剧情 善意的巡礼 童话中的骑士",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50945,7 +51077,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC11B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC11B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "童话中的骑士",
+        "JP": "童話の中の騎士",
+        "EN": "The Fabled Knight",
+        "KR": "동화 속의 기사"
+      }
     },
     {
       "code": "PC11A",
@@ -50954,10 +51098,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC11",
-      "stageLabel": "第11节",
-      "storyLabel": "方舟联动 第11节 战斗后剧情",
+      "stageLabel": "第11节 童话中的骑士",
+      "storyLabel": "童话中的骑士 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -50970,7 +51114,7 @@
         11,
         3
       ],
-      "searchText": "pc11a 方舟联动剧情 第11节 战斗后剧情",
+      "searchText": "pc11a 方舟联动剧情 第11节 战斗后剧情 善意的巡礼 童话中的骑士",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50983,7 +51127,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC11A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC11A.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "童话中的骑士",
+        "JP": "童話の中の騎士",
+        "EN": "The Fabled Knight",
+        "KR": "동화 속의 기사"
+      }
     },
     {
       "code": "PC12B",
@@ -50992,10 +51148,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC12",
-      "stageLabel": "第12节",
-      "storyLabel": "方舟联动 第12节 战斗前剧情",
+      "stageLabel": "第12节 罗德岛",
+      "storyLabel": "罗德岛 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -51008,7 +51164,7 @@
         12,
         1
       ],
-      "searchText": "pc12b 方舟联动剧情 第12节 战斗前剧情",
+      "searchText": "pc12b 方舟联动剧情 第12节 战斗前剧情 善意的巡礼 罗德岛",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -51021,7 +51177,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC12B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC12B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "罗德岛",
+        "JP": "ロドス・アイランド",
+        "EN": "Rhodes Island",
+        "KR": "로도스 아일랜드"
+      }
     },
     {
       "code": "PC12A",
@@ -51030,10 +51198,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC12",
-      "stageLabel": "第12节",
-      "storyLabel": "方舟联动 第12节 战斗后剧情",
+      "stageLabel": "第12节 罗德岛",
+      "storyLabel": "罗德岛 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -51046,7 +51214,7 @@
         12,
         3
       ],
-      "searchText": "pc12a 方舟联动剧情 第12节 战斗后剧情",
+      "searchText": "pc12a 方舟联动剧情 第12节 战斗后剧情 善意的巡礼 罗德岛",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -51059,7 +51227,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC12A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC12A.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "罗德岛",
+        "JP": "ロドス・アイランド",
+        "EN": "Rhodes Island",
+        "KR": "로도스 아일랜드"
+      }
     },
     {
       "code": "PC13B",
@@ -51068,10 +51248,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC13",
-      "stageLabel": "第13节",
-      "storyLabel": "方舟联动 第13节 战斗前剧情",
+      "stageLabel": "第13节 都市之光",
+      "storyLabel": "都市之光 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -51084,7 +51264,7 @@
         13,
         1
       ],
-      "searchText": "pc13b 方舟联动剧情 第13节 战斗前剧情",
+      "searchText": "pc13b 方舟联动剧情 第13节 战斗前剧情 善意的巡礼 都市之光",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -51097,7 +51277,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC13B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC13B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "都市之光",
+        "JP": "都市の光",
+        "EN": "Light of the City",
+        "KR": "도시의 빛"
+      }
     },
     {
       "code": "PC14B",
@@ -51106,10 +51298,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC14",
-      "stageLabel": "第14节",
-      "storyLabel": "方舟联动 第14节 战斗前剧情",
+      "stageLabel": "第14节 善意的巡礼",
+      "storyLabel": "善意的巡礼 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -51122,7 +51314,7 @@
         14,
         1
       ],
-      "searchText": "pc14b 方舟联动剧情 第14节 战斗前剧情",
+      "searchText": "pc14b 方舟联动剧情 第14节 战斗前剧情 善意的巡礼 善意的巡礼",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -51135,7 +51327,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC14B.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC14B.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      }
     },
     {
       "code": "PC14I",
@@ -51144,10 +51348,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC14",
-      "stageLabel": "第14节",
-      "storyLabel": "方舟联动 第14节 战斗中剧情",
+      "stageLabel": "第14节 善意的巡礼",
+      "storyLabel": "善意的巡礼 (战斗中剧情)",
       "part": {
         "raw": "I",
         "code": "I",
@@ -51160,7 +51364,7 @@
         14,
         2
       ],
-      "searchText": "pc14i 方舟联动剧情 第14节 战斗中剧情",
+      "searchText": "pc14i 方舟联动剧情 第14节 战斗中剧情 善意的巡礼 善意的巡礼",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -51173,7 +51377,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC14I.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC14I.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      }
     },
     {
       "code": "PC14A",
@@ -51182,10 +51398,10 @@
       "categoryDescription": "PC 开头，为方舟联动剧情。",
       "prefix": "PC",
       "chapterKey": "PC",
-      "chapterLabel": "方舟联动",
+      "chapterLabel": "方舟联动 善意的巡礼",
       "stageKey": "PC14",
-      "stageLabel": "第14节",
-      "storyLabel": "方舟联动 第14节 战斗后剧情",
+      "stageLabel": "第14节 善意的巡礼",
+      "storyLabel": "善意的巡礼 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -51198,7 +51414,7 @@
         14,
         3
       ],
-      "searchText": "pc14a 方舟联动剧情 第14节 战斗后剧情",
+      "searchText": "pc14a 方舟联动剧情 第14节 战斗后剧情 善意的巡礼 善意的巡礼",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -51211,7 +51427,19 @@
         "EN": "../LocalizeLimbusCompany/EN/StoryData/PC14A.json",
         "KR": "../LocalizeLimbusCompany/KR/StoryData/PC14A.json"
       },
-      "languageCount": 4
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "善意的巡礼",
+        "JP": "善意の巡礼",
+        "EN": "Pilgrimage of Compassion",
+        "KR": "선의의 순례"
+      }
     },
     {
       "code": "ProjectGS",

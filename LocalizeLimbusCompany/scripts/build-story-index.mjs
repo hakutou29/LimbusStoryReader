@@ -224,9 +224,9 @@ function parseStoryCode(fileCode) {
     } else if (origChapter === '7') {
        gameChapterId = '9114'; // LCB体检
     } else if (origChapter === '8') {
-       gameChapterId = '9116'; // 深夜清扫
+       gameChapterId = '9119'; // 深夜清扫
     } else if (origChapter === '9') {
-       gameChapterId = '9120'; // 善意的巡礼 / 切磋琢春
+       gameChapterId = '9125'; // 善意的巡礼 / 切磋琢春
     } else {
        gameChapterId = '91' + origChapter.padStart(2, '0');
     }
@@ -497,6 +497,9 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personal
         const stageDigits = story.stageKey.slice(1 + chapterDigits.length);
         stageId = chapterId + stageDigits.padStart(2, '0');
       }
+    } else if (story.prefix === 'PC') {
+      chapterId = '9120'; // 善意的巡礼
+      stageId = chapterId + story.stageKey.slice(2).padStart(2, '0');
     }
 
     if (chapterId && chapterTitlesMap[chapterId]) {

@@ -11,6 +11,10 @@
         "/^node -e \"const data=require\\('\\./story-viewer/data/story-index\\.json'\\); console\\.log\\(data\\.stories\\.find\\(x=>x\\.chapterKey === 'S7'\\)\\.chapterLabel\\)\"$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^python -c \"import sys, re; path='LocalizeLimbusCompany/scripts/build-story-index\\.mjs'; txt=open\\(path, encoding='utf-8'\\)\\.read\\(\\); txt=re\\.sub\\(r'\\(\\\\s\\*\\}\\\\s\\*\\}\\\\s\\*\\)\\(if \\\\\\(chapterId\\)', r'\\\\1\\} else if \\(story\\.prefix === \\\\'PC\\\\'\\) \\{\\\\n      chapterId = \\\\'9120\\\\';\\\\n      stageId = chapterId \\+ story\\.stageKey\\.slice\\(2\\)\\.padStart\\(2, \\\\'0\\\\'\\);\\\\n    \\}\\\\n\\\\n    \\\\2', txt\\); open\\(path, 'w', encoding='utf-8'\\)\\.write\\(txt\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
