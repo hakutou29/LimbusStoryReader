@@ -39,6 +39,7 @@ const categorySort = {
   voice: 5,
   walpurgis: 6,
   arknights: 7,
+  aprilFools: 7.5,
   sideStory: 8,
   other: 9,
 };
@@ -173,22 +174,63 @@ function parseStoryCode(fileCode) {
     const part = normalizePart(rawPart);
     return {
       code: fileCode,
-      category: 'intervalloLecture',
-      categoryLabel: '间章8 授课剧情',
-      categoryDescription: 'ES 开头，特殊标注为间章8授课剧情。',
+      category: 'intervallo',
+      categoryLabel: '间章剧情',
+      categoryDescription: 'ES 开头，间章8授课剧情，置于切磋琢春E803B之后。',
       prefix,
-      chapterKey: `${prefix}${chapter}`,
-      chapterLabel: `间章8 授课单元 ${toNumber(chapter)}`,
+      chapterKey: `E8`,
+      chapterLabel: `间章 第8章 切磋琢春`,
       stageKey: `${prefix}${digits}`,
-      stageLabel: `节次 ${stage}`,
-      storyLabel: `间章8 授课剧情 ${digits} ${part.label}`,
+      stageLabel: `授课单元 ${toNumber(chapter)}-${stage}`,
+      storyLabel: `间章 第8章 切磋琢春 授课单元 ${toNumber(chapter)}-${stage} ${part.label}`,
       part,
-      sortKey: [categorySort.intervalloLecture, toNumber(chapter), toNumber(stage), part.sort],
-      searchText: buildSearchText([fileCode, '间章8 授课剧情', digits, part.label]),
+      sortKey: [categorySort.intervallo, 8, 0, 3, 1.5 + (toNumber(digits) / 1000) + (part.sort / 10000)],
+      searchText: buildSearchText([fileCode, '间章剧情', '切磋琢春', '授课单元', digits, part.label]),
+      gameChapterId: '9119',
+      gameStageId: '911903'
     };
   }
 
-  match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
+  
+  match = fileCode.match(/^(E00)(\d+)(A|B|X|I\d*)?$/);
+  if (match) {
+    const [, prefix, digits, rawPart = ""] = match;
+    const stageNum = parseInt(digits, 10);
+    let foolsChapter = 0;
+    let label = "";
+    if (stageNum === 0) { foolsChapter = 1; label = "第一次愚人节"; }
+    else if (stageNum === 1 || stageNum === 2) { foolsChapter = 2; label = "第二次愚人节"; }
+    else { foolsChapter = 3; label = "第三次愚人节"; }
+    const part = normalizePart(rawPart);
+    return { code: fileCode, category: "aprilFools", categoryLabel: "愚人节剧情", categoryDescription: "E00 开头，历年愚人节活动剧情。", prefix, chapterKey: "AF" + foolsChapter, chapterLabel: label, stageKey: fileCode, stageLabel: "第" + stageNum + "节", storyLabel: label + " 第" + stageNum + "节 " + part.label, part, sortKey: [categorySort.aprilFools, foolsChapter, stageNum, part.sort], searchText: buildSearchText([fileCode, "愚人节剧情", label, "第" + stageNum + "节", part.label]) };
+  }
+
+  match = fileCode.match(/^(E0)(\d+)(A|B|X|I\d*)?$/);
+  if (match) {
+    const [, prefix, digits, rawPart = ""] = match;
+    const stageGroup = parseInt(digits.slice(0, 1), 10);
+    const stageNum = parseInt(digits.slice(1), 10);
+    let walpurgisNum = 0;
+    if (stageGroup === 4) walpurgisNum = 1;
+    else if (stageGroup === 5) walpurgisNum = 2;
+    else if (stageGroup === 6 && stageNum <= 3) walpurgisNum = 3;
+    else if (stageGroup === 6 && stageNum > 3) walpurgisNum = 4;
+    else if (stageGroup === 7) walpurgisNum = 5;
+    else if (stageGroup === 8) walpurgisNum = 6;
+    else if (stageGroup === 9) walpurgisNum = 8;
+    else walpurgisNum = 99;
+
+    if (walpurgisNum !== 99) {
+      const label = `第${walpurgisNum}次 瓦尔普吉斯之夜`;
+      const part = normalizePart(rawPart);
+      return { code: fileCode, category: "walpurgis", categoryLabel: "瓦尔普吉斯之夜", categoryDescription: "瓦尔普吉斯之夜相关短篇", prefix, chapterKey: "WP" + walpurgisNum, chapterLabel: label, stageKey: fileCode, stageLabel: "第" + stageNum + "节", storyLabel: label + " 第" + stageNum + "节 " + part.label, part, sortKey: [categorySort.walpurgis, walpurgisNum, stageNum, part.sort], searchText: buildSearchText([fileCode, "瓦尔普吉斯之夜", label, "第" + stageNum + "节", part.label]), gameChapterId: "90" + (10 + walpurgisNum), gameStageId: "90" + (10 + walpurgisNum) + String(stageNum).padStart(2, "0") };
+    } else {
+      const part = normalizePart(rawPart);
+      const label = "但丁的笔记 & 其他记录";
+      return { code: fileCode, category: "sideStory", categoryLabel: "其他短篇", categoryDescription: "边角剧情", prefix, chapterKey: "SS0", chapterLabel: label, stageKey: fileCode, stageLabel: "第" + stageGroup + "-" + stageNum + "节", storyLabel: label + " 第" + stageGroup + "-" + stageNum + "节 " + part.label, part, sortKey: [categorySort.sideStory, stageGroup, stageNum, part.sort], searchText: buildSearchText([fileCode, "其他短篇", label, "第" + stageGroup + "-" + stageNum + "节", part.label]) };
+    }
+  }
+match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
   if (match) {
     const [, prefix, digits, rawPart = ''] = match;
     const origChapter = digits.slice(0, 1) || '0';
@@ -494,7 +536,7 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personal
       chapterId = '1' + chapterDigits.padStart(2, '0');
       const stageDigits = story.stageKey.slice(1 + chapterDigits.length);
       stageId = chapterId + stageDigits.padStart(2, '0');
-    } else if (story.prefix === 'E') {
+    } else if (story.prefix === 'E' || story.prefix === 'ES') {
       if (story.gameChapterId) {
         chapterId = story.gameChapterId;
         stageId = story.gameStageId;

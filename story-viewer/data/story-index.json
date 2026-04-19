@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T22:37:08.986Z",
+  "generatedAt": "2026-04-19T22:52:38.801Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -100,14 +100,9 @@
       "id": "intervallo",
       "label": "间章剧情",
       "description": "E 开头，按间章章节与关卡索引。",
-      "count": 184,
+      "count": 189,
       "chapterCount": 11,
       "chapters": [
-        {
-          "key": "E0_0",
-          "label": "间章 第0章",
-          "count": 30
-        },
         {
           "key": "E3_0",
           "label": "间章 第3章 地狱鸡",
@@ -154,38 +149,14 @@
           "count": 12
         },
         {
+          "key": "E8",
+          "label": "间章 第8章 切磋琢春 切磋琢春",
+          "count": 35
+        },
+        {
           "key": "E9_0",
           "label": "间章 第9章 绞丝结线",
           "count": 17
-        }
-      ]
-    },
-    {
-      "id": "intervalloLecture",
-      "label": "间章8 授课剧情",
-      "description": "ES 开头，特殊标注为间章8授课剧情。",
-      "count": 35,
-      "chapterCount": 4,
-      "chapters": [
-        {
-          "key": "ES0",
-          "label": "间章8 授课单元 0",
-          "count": 18
-        },
-        {
-          "key": "ES1",
-          "label": "间章8 授课单元 1",
-          "count": 8
-        },
-        {
-          "key": "ES2",
-          "label": "间章8 授课单元 2",
-          "count": 8
-        },
-        {
-          "key": "ES3",
-          "label": "间章8 授课单元 3",
-          "count": 1
         }
       ]
     },
@@ -333,6 +304,50 @@
       ]
     },
     {
+      "id": "walpurgis",
+      "label": "瓦尔普吉斯之夜",
+      "description": "瓦尔普吉斯之夜相关短篇",
+      "count": 19,
+      "chapterCount": 7,
+      "chapters": [
+        {
+          "key": "WP1",
+          "label": "第1次 瓦尔普吉斯之夜",
+          "count": 2
+        },
+        {
+          "key": "WP2",
+          "label": "第2次 瓦尔普吉斯之夜",
+          "count": 5
+        },
+        {
+          "key": "WP3",
+          "label": "第3次 瓦尔普吉斯之夜",
+          "count": 3
+        },
+        {
+          "key": "WP4",
+          "label": "第4次 瓦尔普吉斯之夜",
+          "count": 2
+        },
+        {
+          "key": "WP5",
+          "label": "第5次 瓦尔普吉斯之夜",
+          "count": 2
+        },
+        {
+          "key": "WP6",
+          "label": "第6次 瓦尔普吉斯之夜",
+          "count": 3
+        },
+        {
+          "key": "WP8",
+          "label": "第8次 瓦尔普吉斯之夜",
+          "count": 2
+        }
+      ]
+    },
+    {
       "id": "arknights",
       "label": "方舟联动剧情",
       "description": "PC 开头，为方舟联动剧情。",
@@ -343,6 +358,44 @@
           "key": "PC",
           "label": "方舟联动 善意的巡礼",
           "count": 19
+        }
+      ]
+    },
+    {
+      "id": "aprilFools",
+      "label": "愚人节剧情",
+      "description": "E00 开头，历年愚人节活动剧情。",
+      "count": 8,
+      "chapterCount": 3,
+      "chapters": [
+        {
+          "key": "AF1",
+          "label": "第一次愚人节",
+          "count": 1
+        },
+        {
+          "key": "AF2",
+          "label": "第二次愚人节",
+          "count": 2
+        },
+        {
+          "key": "AF3",
+          "label": "第三次愚人节",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "sideStory",
+      "label": "其他短篇",
+      "description": "边角剧情",
+      "count": 3,
+      "chapterCount": 1,
+      "chapters": [
+        {
+          "key": "SS0",
+          "label": "但丁的笔记 & 其他记录",
+          "count": 3
         }
       ]
     },
@@ -25053,1236 +25106,6 @@
       }
     },
     {
-      "code": "E000X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E000",
-      "stageLabel": "第0节",
-      "storyLabel": "间章 第0章 第0节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        0,
-        4
-      ],
-      "searchText": "e000x 间章剧情 间章 第0章 第0节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910000",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E000X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E000X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E000X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E000X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E001X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E001",
-      "stageLabel": "第1节",
-      "storyLabel": "间章 第0章 第1节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        1,
-        4
-      ],
-      "searchText": "e001x 间章剧情 间章 第0章 第1节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910001",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E001X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E001X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E001X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E001X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E002X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E002",
-      "stageLabel": "第2节",
-      "storyLabel": "间章 第0章 第2节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        2,
-        4
-      ],
-      "searchText": "e002x 间章剧情 间章 第0章 第2节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910002",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E002X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E002X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E002X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E002X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E003I1",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E003",
-      "stageLabel": "第3节",
-      "storyLabel": "间章 第0章 第3节 战斗中剧情 1",
-      "part": {
-        "raw": "I1",
-        "code": "I1",
-        "label": "战斗中剧情 1",
-        "sort": 2.01
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        3,
-        2.01
-      ],
-      "searchText": "e003i1 间章剧情 间章 第0章 第3节 战斗中剧情 1",
-      "gameChapterId": "9100",
-      "gameStageId": "910003",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I1.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I1.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I1.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I1.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E003I2",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E003",
-      "stageLabel": "第3节",
-      "storyLabel": "间章 第0章 第3节 战斗中剧情 2",
-      "part": {
-        "raw": "I2",
-        "code": "I2",
-        "label": "战斗中剧情 2",
-        "sort": 2.02
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        3,
-        2.02
-      ],
-      "searchText": "e003i2 间章剧情 间章 第0章 第3节 战斗中剧情 2",
-      "gameChapterId": "9100",
-      "gameStageId": "910003",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I2.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I2.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I2.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I2.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E003I3",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E003",
-      "stageLabel": "第3节",
-      "storyLabel": "间章 第0章 第3节 战斗中剧情 3",
-      "part": {
-        "raw": "I3",
-        "code": "I3",
-        "label": "战斗中剧情 3",
-        "sort": 2.03
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        3,
-        2.03
-      ],
-      "searchText": "e003i3 间章剧情 间章 第0章 第3节 战斗中剧情 3",
-      "gameChapterId": "9100",
-      "gameStageId": "910003",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I3.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I3.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I3.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I3.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E003I4",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E003",
-      "stageLabel": "第3节",
-      "storyLabel": "间章 第0章 第3节 战斗中剧情 4",
-      "part": {
-        "raw": "I4",
-        "code": "I4",
-        "label": "战斗中剧情 4",
-        "sort": 2.04
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        3,
-        2.04
-      ],
-      "searchText": "e003i4 间章剧情 间章 第0章 第3节 战斗中剧情 4",
-      "gameChapterId": "9100",
-      "gameStageId": "910003",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I4.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I4.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I4.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I4.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E003X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E003",
-      "stageLabel": "第3节",
-      "storyLabel": "间章 第0章 第3节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        3,
-        4
-      ],
-      "searchText": "e003x 间章剧情 间章 第0章 第3节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910003",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E010X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E010",
-      "stageLabel": "第10节",
-      "storyLabel": "间章 第0章 第10节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        10,
-        4
-      ],
-      "searchText": "e010x 间章剧情 间章 第0章 第10节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910010",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E010X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E010X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E010X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E010X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E020X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E020",
-      "stageLabel": "第20节",
-      "storyLabel": "间章 第0章 第20节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        20,
-        4
-      ],
-      "searchText": "e020x 间章剧情 间章 第0章 第20节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910020",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E020X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E020X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E020X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E020X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E030X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E030",
-      "stageLabel": "第30节",
-      "storyLabel": "间章 第0章 第30节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        30,
-        4
-      ],
-      "searchText": "e030x 间章剧情 间章 第0章 第30节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910030",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E030X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E030X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E030X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E030X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E041X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E041",
-      "stageLabel": "第41节",
-      "storyLabel": "间章 第0章 第41节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        41,
-        4
-      ],
-      "searchText": "e041x 间章剧情 间章 第0章 第41节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910041",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E041X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E041X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E041X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E041X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E042X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E042",
-      "stageLabel": "第42节",
-      "storyLabel": "间章 第0章 第42节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        42,
-        4
-      ],
-      "searchText": "e042x 间章剧情 间章 第0章 第42节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910042",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E042X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E042X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E042X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E042X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E050X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E050",
-      "stageLabel": "第50节",
-      "storyLabel": "间章 第0章 第50节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        50,
-        4
-      ],
-      "searchText": "e050x 间章剧情 间章 第0章 第50节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910050",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E050X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E050X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E050X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E050X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E051X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E051",
-      "stageLabel": "第51节",
-      "storyLabel": "间章 第0章 第51节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        51,
-        4
-      ],
-      "searchText": "e051x 间章剧情 间章 第0章 第51节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910051",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E051X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E051X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E051X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E051X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E052X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E052",
-      "stageLabel": "第52节",
-      "storyLabel": "间章 第0章 第52节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        52,
-        4
-      ],
-      "searchText": "e052x 间章剧情 间章 第0章 第52节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910052",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E052X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E052X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E052X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E052X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E053X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E053",
-      "stageLabel": "第53节",
-      "storyLabel": "间章 第0章 第53节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        53,
-        4
-      ],
-      "searchText": "e053x 间章剧情 间章 第0章 第53节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910053",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E053X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E053X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E053X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E053X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E054X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E054",
-      "stageLabel": "第54节",
-      "storyLabel": "间章 第0章 第54节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        54,
-        4
-      ],
-      "searchText": "e054x 间章剧情 间章 第0章 第54节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910054",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E054X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E054X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E054X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E054X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E061X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E061",
-      "stageLabel": "第61节",
-      "storyLabel": "间章 第0章 第61节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        61,
-        4
-      ],
-      "searchText": "e061x 间章剧情 间章 第0章 第61节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910061",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E061X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E061X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E061X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E061X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E062X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E062",
-      "stageLabel": "第62节",
-      "storyLabel": "间章 第0章 第62节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        62,
-        4
-      ],
-      "searchText": "e062x 间章剧情 间章 第0章 第62节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910062",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E062X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E062X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E062X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E062X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E063X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E063",
-      "stageLabel": "第63节",
-      "storyLabel": "间章 第0章 第63节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        63,
-        4
-      ],
-      "searchText": "e063x 间章剧情 间章 第0章 第63节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910063",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E063X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E063X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E063X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E063X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E064X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E064",
-      "stageLabel": "第64节",
-      "storyLabel": "间章 第0章 第64节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        64,
-        4
-      ],
-      "searchText": "e064x 间章剧情 间章 第0章 第64节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910064",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E064X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E064X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E064X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E064X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E065X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E065",
-      "stageLabel": "第65节",
-      "storyLabel": "间章 第0章 第65节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        65,
-        4
-      ],
-      "searchText": "e065x 间章剧情 间章 第0章 第65节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910065",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E065X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E065X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E065X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E065X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E070X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E070",
-      "stageLabel": "第70节",
-      "storyLabel": "间章 第0章 第70节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        70,
-        4
-      ],
-      "searchText": "e070x 间章剧情 间章 第0章 第70节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910070",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E070X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E070X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E070X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E070X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E071X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E071",
-      "stageLabel": "第71节",
-      "storyLabel": "间章 第0章 第71节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        71,
-        4
-      ],
-      "searchText": "e071x 间章剧情 间章 第0章 第71节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910071",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E071X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E071X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E071X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E071X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E080X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E080",
-      "stageLabel": "第80节",
-      "storyLabel": "间章 第0章 第80节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        80,
-        4
-      ],
-      "searchText": "e080x 间章剧情 间章 第0章 第80节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910080",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E080X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E080X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E080X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E080X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E081X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E081",
-      "stageLabel": "第81节",
-      "storyLabel": "间章 第0章 第81节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        81,
-        4
-      ],
-      "searchText": "e081x 间章剧情 间章 第0章 第81节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910081",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E081X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E081X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E081X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E081X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E082X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E082",
-      "stageLabel": "第82节",
-      "storyLabel": "间章 第0章 第82节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        82,
-        4
-      ],
-      "searchText": "e082x 间章剧情 间章 第0章 第82节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910082",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E082X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E082X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E082X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E082X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E090X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E090",
-      "stageLabel": "第90节",
-      "storyLabel": "间章 第0章 第90节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        90,
-        4
-      ],
-      "searchText": "e090x 间章剧情 间章 第0章 第90节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910090",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E090X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E090X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E090X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E090X.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "E091X",
-      "category": "intervallo",
-      "categoryLabel": "间章剧情",
-      "categoryDescription": "E 开头，按间章章节与关卡索引。",
-      "prefix": "E",
-      "chapterKey": "E0_0",
-      "chapterLabel": "间章 第0章",
-      "stageKey": "E091",
-      "stageLabel": "第91节",
-      "storyLabel": "间章 第0章 第91节 特殊剧情",
-      "part": {
-        "raw": "X",
-        "code": "X",
-        "label": "特殊剧情",
-        "sort": 4
-      },
-      "sortKey": [
-        2,
-        0,
-        0,
-        91,
-        4
-      ],
-      "searchText": "e091x 间章剧情 间章 第0章 第91节 特殊剧情",
-      "gameChapterId": "9100",
-      "gameStageId": "910091",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E091X.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/E091X.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/E091X.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/E091X.json"
-      },
-      "languageCount": 4
-    },
-    {
       "code": "E301B",
       "category": "intervallo",
       "categoryLabel": "间章剧情",
@@ -33049,6 +31872,1861 @@
       }
     },
     {
+      "code": "ES000B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES000",
+      "stageLabel": "授课单元 0-00 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5001
+      ],
+      "searchText": "es000b 间章剧情 切磋琢春 授课单元 000 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES000B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES000B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES000B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES000B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES011B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES011",
+      "stageLabel": "授课单元 0-11 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5110999999999999
+      ],
+      "searchText": "es011b 间章剧情 切磋琢春 授课单元 011 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES011B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES011B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES011B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES011B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES011A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES011",
+      "stageLabel": "授课单元 0-11 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5112999999999999
+      ],
+      "searchText": "es011a 间章剧情 切磋琢春 授课单元 011 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES011A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES011A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES011A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES011A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES012B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES012",
+      "stageLabel": "授课单元 0-12 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5121
+      ],
+      "searchText": "es012b 间章剧情 切磋琢春 授课单元 012 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES012B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES012B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES012B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES012B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES012A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES012",
+      "stageLabel": "授课单元 0-12 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5123
+      ],
+      "searchText": "es012a 间章剧情 切磋琢春 授课单元 012 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES012A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES012A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES012A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES012A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES013B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES013",
+      "stageLabel": "授课单元 0-13 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5131
+      ],
+      "searchText": "es013b 间章剧情 切磋琢春 授课单元 013 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES013B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES013B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES013B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES013B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES013A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES013",
+      "stageLabel": "授课单元 0-13 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5132999999999999
+      ],
+      "searchText": "es013a 间章剧情 切磋琢春 授课单元 013 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES013A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES013A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES013A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES013A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES030B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES030",
+      "stageLabel": "授课单元 0-30 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5301
+      ],
+      "searchText": "es030b 间章剧情 切磋琢春 授课单元 030 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES030B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES030B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES030B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES030B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES030A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES030",
+      "stageLabel": "授课单元 0-30 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5303
+      ],
+      "searchText": "es030a 间章剧情 切磋琢春 授课单元 030 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES030A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES030A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES030A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES030A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES040B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES040",
+      "stageLabel": "授课单元 0-40 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5401
+      ],
+      "searchText": "es040b 间章剧情 切磋琢春 授课单元 040 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES040B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES040B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES040B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES040B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES040A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES040",
+      "stageLabel": "授课单元 0-40 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5403
+      ],
+      "searchText": "es040a 间章剧情 切磋琢春 授课单元 040 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES040A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES040A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES040A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES040A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES050B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES050",
+      "stageLabel": "授课单元 0-50 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5501
+      ],
+      "searchText": "es050b 间章剧情 切磋琢春 授课单元 050 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES050B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES050B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES050B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES050B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES050A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES050",
+      "stageLabel": "授课单元 0-50 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5503
+      ],
+      "searchText": "es050a 间章剧情 切磋琢春 授课单元 050 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES050A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES050A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES050A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES050A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES060B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES060",
+      "stageLabel": "授课单元 0-60 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5601
+      ],
+      "searchText": "es060b 间章剧情 切磋琢春 授课单元 060 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES060B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES060B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES060B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES060B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES061B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES061",
+      "stageLabel": "授课单元 0-61 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5611
+      ],
+      "searchText": "es061b 间章剧情 切磋琢春 授课单元 061 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES061B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES061B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES061B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES061B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES061A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES061",
+      "stageLabel": "授课单元 0-61 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5613
+      ],
+      "searchText": "es061a 间章剧情 切磋琢春 授课单元 061 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES061A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES061A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES061A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES061A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES070B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES070",
+      "stageLabel": "授课单元 0-70 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5701
+      ],
+      "searchText": "es070b 间章剧情 切磋琢春 授课单元 070 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES070B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES070B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES070B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES070B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES090B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES090",
+      "stageLabel": "授课单元 0-90 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.5901
+      ],
+      "searchText": "es090b 间章剧情 切磋琢春 授课单元 090 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES090B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES090B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES090B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES090B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES120B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES120",
+      "stageLabel": "授课单元 1-20 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6201
+      ],
+      "searchText": "es120b 间章剧情 切磋琢春 授课单元 120 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES120B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES120B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES120B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES120B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES120A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES120",
+      "stageLabel": "授课单元 1-20 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6203
+      ],
+      "searchText": "es120a 间章剧情 切磋琢春 授课单元 120 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES120A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES120A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES120A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES120A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES130B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES130",
+      "stageLabel": "授课单元 1-30 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6300999999999999
+      ],
+      "searchText": "es130b 间章剧情 切磋琢春 授课单元 130 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES130B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES130B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES130B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES130B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES130A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES130",
+      "stageLabel": "授课单元 1-30 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6302999999999999
+      ],
+      "searchText": "es130a 间章剧情 切磋琢春 授课单元 130 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES130A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES130A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES130A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES130A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES150B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES150",
+      "stageLabel": "授课单元 1-50 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6501
+      ],
+      "searchText": "es150b 间章剧情 切磋琢春 授课单元 150 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES150B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES150B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES150B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES150B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES180B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES180",
+      "stageLabel": "授课单元 1-80 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6801
+      ],
+      "searchText": "es180b 间章剧情 切磋琢春 授课单元 180 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES180B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES180B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES180B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES180B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES180A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES180",
+      "stageLabel": "授课单元 1-80 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6803
+      ],
+      "searchText": "es180a 间章剧情 切磋琢春 授课单元 180 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES180A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES180A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES180A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES180A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES190B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES190",
+      "stageLabel": "授课单元 1-90 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.6901
+      ],
+      "searchText": "es190b 间章剧情 切磋琢春 授课单元 190 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES190B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES190B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES190B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES190B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES210B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES210",
+      "stageLabel": "授课单元 2-10 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7101
+      ],
+      "searchText": "es210b 间章剧情 切磋琢春 授课单元 210 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES210B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES210B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES210B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES210B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES240B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES240",
+      "stageLabel": "授课单元 2-40 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7401
+      ],
+      "searchText": "es240b 间章剧情 切磋琢春 授课单元 240 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES240B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES240B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES240B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES240B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES240A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES240",
+      "stageLabel": "授课单元 2-40 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7403
+      ],
+      "searchText": "es240a 间章剧情 切磋琢春 授课单元 240 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES240A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES240A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES240A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES240A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES250B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES250",
+      "stageLabel": "授课单元 2-50 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7501
+      ],
+      "searchText": "es250b 间章剧情 切磋琢春 授课单元 250 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES250B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES250B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES250B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES250B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES260B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES260",
+      "stageLabel": "授课单元 2-60 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7601
+      ],
+      "searchText": "es260b 间章剧情 切磋琢春 授课单元 260 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES260B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES260B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES260B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES260B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES260A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES260",
+      "stageLabel": "授课单元 2-60 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7603
+      ],
+      "searchText": "es260a 间章剧情 切磋琢春 授课单元 260 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES260A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES260A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES260A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES260A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES280A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES280",
+      "stageLabel": "授课单元 2-80 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7803
+      ],
+      "searchText": "es280a 间章剧情 切磋琢春 授课单元 280 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES280A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES280A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES280A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES280A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES290B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES290",
+      "stageLabel": "授课单元 2-90 另一名学生",
+      "storyLabel": "另一名学生 (战斗前剧情)",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.7901
+      ],
+      "searchText": "es290b 间章剧情 切磋琢春 授课单元 290 战斗前剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES290B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES290B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES290B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES290B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
+      "code": "ES300A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "ES 开头，间章8授课剧情，置于切磋琢春E803B之后。",
+      "prefix": "ES",
+      "chapterKey": "E8",
+      "chapterLabel": "间章 第8章 切磋琢春 切磋琢春",
+      "stageKey": "ES300",
+      "stageLabel": "授课单元 3-00 另一名学生",
+      "storyLabel": "另一名学生 (战斗后剧情)",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        8,
+        0,
+        3,
+        1.8003
+      ],
+      "searchText": "es300a 间章剧情 切磋琢春 授课单元 300 战斗后剧情 切磋琢春 另一名学生",
+      "gameChapterId": "9119",
+      "gameStageId": "911903",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES300A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES300A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES300A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES300A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "切磋琢春",
+        "JP": "切磋琢春",
+        "EN": "Spring Cultivation",
+        "KR": "절차탁춘"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "另一名学生",
+        "JP": "もう1人の学生",
+        "EN": "Another Student",
+        "KR": "또 한 명의 학생"
+      }
+    },
+    {
       "code": "E805B",
       "category": "intervallo",
       "categoryLabel": "间章剧情",
@@ -34425,1336 +35103,6 @@
         "EN": "The Next Destination",
         "KR": "다음 목적지"
       }
-    },
-    {
-      "code": "ES000B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES000",
-      "stageLabel": "节次 00",
-      "storyLabel": "间章8 授课剧情 000 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        0,
-        1
-      ],
-      "searchText": "es000b 间章8 授课剧情 000 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES000B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES000B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES000B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES000B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES011B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES011",
-      "stageLabel": "节次 11",
-      "storyLabel": "间章8 授课剧情 011 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        11,
-        1
-      ],
-      "searchText": "es011b 间章8 授课剧情 011 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES011B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES011B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES011B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES011B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES011A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES011",
-      "stageLabel": "节次 11",
-      "storyLabel": "间章8 授课剧情 011 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        0,
-        11,
-        3
-      ],
-      "searchText": "es011a 间章8 授课剧情 011 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES011A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES011A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES011A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES011A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES012B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES012",
-      "stageLabel": "节次 12",
-      "storyLabel": "间章8 授课剧情 012 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        12,
-        1
-      ],
-      "searchText": "es012b 间章8 授课剧情 012 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES012B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES012B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES012B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES012B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES012A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES012",
-      "stageLabel": "节次 12",
-      "storyLabel": "间章8 授课剧情 012 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        0,
-        12,
-        3
-      ],
-      "searchText": "es012a 间章8 授课剧情 012 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES012A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES012A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES012A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES012A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES013B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES013",
-      "stageLabel": "节次 13",
-      "storyLabel": "间章8 授课剧情 013 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        13,
-        1
-      ],
-      "searchText": "es013b 间章8 授课剧情 013 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES013B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES013B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES013B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES013B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES013A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES013",
-      "stageLabel": "节次 13",
-      "storyLabel": "间章8 授课剧情 013 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        0,
-        13,
-        3
-      ],
-      "searchText": "es013a 间章8 授课剧情 013 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES013A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES013A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES013A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES013A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES030B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES030",
-      "stageLabel": "节次 30",
-      "storyLabel": "间章8 授课剧情 030 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        30,
-        1
-      ],
-      "searchText": "es030b 间章8 授课剧情 030 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES030B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES030B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES030B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES030B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES030A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES030",
-      "stageLabel": "节次 30",
-      "storyLabel": "间章8 授课剧情 030 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        0,
-        30,
-        3
-      ],
-      "searchText": "es030a 间章8 授课剧情 030 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES030A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES030A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES030A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES030A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES040B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES040",
-      "stageLabel": "节次 40",
-      "storyLabel": "间章8 授课剧情 040 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        40,
-        1
-      ],
-      "searchText": "es040b 间章8 授课剧情 040 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES040B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES040B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES040B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES040B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES040A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES040",
-      "stageLabel": "节次 40",
-      "storyLabel": "间章8 授课剧情 040 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        0,
-        40,
-        3
-      ],
-      "searchText": "es040a 间章8 授课剧情 040 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES040A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES040A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES040A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES040A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES050B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES050",
-      "stageLabel": "节次 50",
-      "storyLabel": "间章8 授课剧情 050 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        50,
-        1
-      ],
-      "searchText": "es050b 间章8 授课剧情 050 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES050B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES050B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES050B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES050B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES050A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES050",
-      "stageLabel": "节次 50",
-      "storyLabel": "间章8 授课剧情 050 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        0,
-        50,
-        3
-      ],
-      "searchText": "es050a 间章8 授课剧情 050 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES050A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES050A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES050A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES050A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES060B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES060",
-      "stageLabel": "节次 60",
-      "storyLabel": "间章8 授课剧情 060 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        60,
-        1
-      ],
-      "searchText": "es060b 间章8 授课剧情 060 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES060B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES060B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES060B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES060B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES061B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES061",
-      "stageLabel": "节次 61",
-      "storyLabel": "间章8 授课剧情 061 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        61,
-        1
-      ],
-      "searchText": "es061b 间章8 授课剧情 061 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES061B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES061B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES061B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES061B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES061A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES061",
-      "stageLabel": "节次 61",
-      "storyLabel": "间章8 授课剧情 061 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        0,
-        61,
-        3
-      ],
-      "searchText": "es061a 间章8 授课剧情 061 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES061A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES061A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES061A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES061A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES070B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES070",
-      "stageLabel": "节次 70",
-      "storyLabel": "间章8 授课剧情 070 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        70,
-        1
-      ],
-      "searchText": "es070b 间章8 授课剧情 070 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES070B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES070B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES070B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES070B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES090B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES0",
-      "chapterLabel": "间章8 授课单元 0",
-      "stageKey": "ES090",
-      "stageLabel": "节次 90",
-      "storyLabel": "间章8 授课剧情 090 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        0,
-        90,
-        1
-      ],
-      "searchText": "es090b 间章8 授课剧情 090 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES090B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES090B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES090B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES090B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES120B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES120",
-      "stageLabel": "节次 20",
-      "storyLabel": "间章8 授课剧情 120 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        1,
-        20,
-        1
-      ],
-      "searchText": "es120b 间章8 授课剧情 120 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES120B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES120B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES120B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES120B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES120A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES120",
-      "stageLabel": "节次 20",
-      "storyLabel": "间章8 授课剧情 120 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        1,
-        20,
-        3
-      ],
-      "searchText": "es120a 间章8 授课剧情 120 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES120A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES120A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES120A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES120A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES130B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES130",
-      "stageLabel": "节次 30",
-      "storyLabel": "间章8 授课剧情 130 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        1,
-        30,
-        1
-      ],
-      "searchText": "es130b 间章8 授课剧情 130 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES130B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES130B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES130B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES130B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES130A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES130",
-      "stageLabel": "节次 30",
-      "storyLabel": "间章8 授课剧情 130 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        1,
-        30,
-        3
-      ],
-      "searchText": "es130a 间章8 授课剧情 130 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES130A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES130A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES130A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES130A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES150B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES150",
-      "stageLabel": "节次 50",
-      "storyLabel": "间章8 授课剧情 150 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        1,
-        50,
-        1
-      ],
-      "searchText": "es150b 间章8 授课剧情 150 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES150B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES150B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES150B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES150B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES180B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES180",
-      "stageLabel": "节次 80",
-      "storyLabel": "间章8 授课剧情 180 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        1,
-        80,
-        1
-      ],
-      "searchText": "es180b 间章8 授课剧情 180 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES180B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES180B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES180B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES180B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES180A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES180",
-      "stageLabel": "节次 80",
-      "storyLabel": "间章8 授课剧情 180 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        1,
-        80,
-        3
-      ],
-      "searchText": "es180a 间章8 授课剧情 180 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES180A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES180A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES180A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES180A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES190B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES1",
-      "chapterLabel": "间章8 授课单元 1",
-      "stageKey": "ES190",
-      "stageLabel": "节次 90",
-      "storyLabel": "间章8 授课剧情 190 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        1,
-        90,
-        1
-      ],
-      "searchText": "es190b 间章8 授课剧情 190 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES190B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES190B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES190B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES190B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES210B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES210",
-      "stageLabel": "节次 10",
-      "storyLabel": "间章8 授课剧情 210 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        2,
-        10,
-        1
-      ],
-      "searchText": "es210b 间章8 授课剧情 210 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES210B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES210B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES210B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES210B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES240B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES240",
-      "stageLabel": "节次 40",
-      "storyLabel": "间章8 授课剧情 240 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        2,
-        40,
-        1
-      ],
-      "searchText": "es240b 间章8 授课剧情 240 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES240B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES240B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES240B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES240B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES240A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES240",
-      "stageLabel": "节次 40",
-      "storyLabel": "间章8 授课剧情 240 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        2,
-        40,
-        3
-      ],
-      "searchText": "es240a 间章8 授课剧情 240 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES240A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES240A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES240A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES240A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES250B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES250",
-      "stageLabel": "节次 50",
-      "storyLabel": "间章8 授课剧情 250 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        2,
-        50,
-        1
-      ],
-      "searchText": "es250b 间章8 授课剧情 250 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES250B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES250B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES250B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES250B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES260B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES260",
-      "stageLabel": "节次 60",
-      "storyLabel": "间章8 授课剧情 260 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        2,
-        60,
-        1
-      ],
-      "searchText": "es260b 间章8 授课剧情 260 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES260B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES260B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES260B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES260B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES260A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES260",
-      "stageLabel": "节次 60",
-      "storyLabel": "间章8 授课剧情 260 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        2,
-        60,
-        3
-      ],
-      "searchText": "es260a 间章8 授课剧情 260 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES260A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES260A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES260A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES260A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES280A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES280",
-      "stageLabel": "节次 80",
-      "storyLabel": "间章8 授课剧情 280 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        2,
-        80,
-        3
-      ],
-      "searchText": "es280a 间章8 授课剧情 280 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES280A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES280A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES280A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES280A.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES290B",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES2",
-      "chapterLabel": "间章8 授课单元 2",
-      "stageKey": "ES290",
-      "stageLabel": "节次 90",
-      "storyLabel": "间章8 授课剧情 290 战斗前剧情",
-      "part": {
-        "raw": "B",
-        "code": "B",
-        "label": "战斗前剧情",
-        "sort": 1
-      },
-      "sortKey": [
-        3,
-        2,
-        90,
-        1
-      ],
-      "searchText": "es290b 间章8 授课剧情 290 战斗前剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES290B.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES290B.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES290B.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES290B.json"
-      },
-      "languageCount": 4
-    },
-    {
-      "code": "ES300A",
-      "category": "intervalloLecture",
-      "categoryLabel": "间章8 授课剧情",
-      "categoryDescription": "ES 开头，特殊标注为间章8授课剧情。",
-      "prefix": "ES",
-      "chapterKey": "ES3",
-      "chapterLabel": "间章8 授课单元 3",
-      "stageKey": "ES300",
-      "stageLabel": "节次 00",
-      "storyLabel": "间章8 授课剧情 300 战斗后剧情",
-      "part": {
-        "raw": "A",
-        "code": "A",
-        "label": "战斗后剧情",
-        "sort": 3
-      },
-      "sortKey": [
-        3,
-        3,
-        0,
-        3
-      ],
-      "searchText": "es300a 间章8 授课剧情 300 战斗后剧情",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/ES300A.json",
-        "JP": "../LocalizeLimbusCompany/JP/StoryData/ES300A.json",
-        "EN": "../LocalizeLimbusCompany/EN/StoryData/ES300A.json",
-        "KR": "../LocalizeLimbusCompany/KR/StoryData/ES300A.json"
-      },
-      "languageCount": 4
     },
     {
       "code": "P10102",
@@ -50623,6 +49971,766 @@
       "languageCount": 4
     },
     {
+      "code": "E041X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP1",
+      "chapterLabel": "第1次 瓦尔普吉斯之夜",
+      "stageKey": "E041X",
+      "stageLabel": "第1节",
+      "storyLabel": "第1次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        1,
+        1,
+        4
+      ],
+      "searchText": "e041x 瓦尔普吉斯之夜 第1次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "gameChapterId": "9011",
+      "gameStageId": "901101",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E041X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E041X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E041X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E041X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E042X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP1",
+      "chapterLabel": "第1次 瓦尔普吉斯之夜",
+      "stageKey": "E042X",
+      "stageLabel": "第2节",
+      "storyLabel": "第1次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        1,
+        2,
+        4
+      ],
+      "searchText": "e042x 瓦尔普吉斯之夜 第1次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "gameChapterId": "9011",
+      "gameStageId": "901102",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E042X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E042X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E042X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E042X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E050X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP2",
+      "chapterLabel": "第2次 瓦尔普吉斯之夜",
+      "stageKey": "E050X",
+      "stageLabel": "第0节",
+      "storyLabel": "第2次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        2,
+        0,
+        4
+      ],
+      "searchText": "e050x 瓦尔普吉斯之夜 第2次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "gameChapterId": "9012",
+      "gameStageId": "901200",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E050X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E050X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E050X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E050X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E051X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP2",
+      "chapterLabel": "第2次 瓦尔普吉斯之夜",
+      "stageKey": "E051X",
+      "stageLabel": "第1节",
+      "storyLabel": "第2次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        2,
+        1,
+        4
+      ],
+      "searchText": "e051x 瓦尔普吉斯之夜 第2次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "gameChapterId": "9012",
+      "gameStageId": "901201",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E051X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E051X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E051X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E051X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E052X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP2",
+      "chapterLabel": "第2次 瓦尔普吉斯之夜",
+      "stageKey": "E052X",
+      "stageLabel": "第2节",
+      "storyLabel": "第2次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        2,
+        2,
+        4
+      ],
+      "searchText": "e052x 瓦尔普吉斯之夜 第2次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "gameChapterId": "9012",
+      "gameStageId": "901202",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E052X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E052X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E052X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E052X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E053X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP2",
+      "chapterLabel": "第2次 瓦尔普吉斯之夜",
+      "stageKey": "E053X",
+      "stageLabel": "第3节",
+      "storyLabel": "第2次 瓦尔普吉斯之夜 第3节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        2,
+        3,
+        4
+      ],
+      "searchText": "e053x 瓦尔普吉斯之夜 第2次 瓦尔普吉斯之夜 第3节 特殊剧情",
+      "gameChapterId": "9012",
+      "gameStageId": "901203",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E053X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E053X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E053X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E053X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E054X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP2",
+      "chapterLabel": "第2次 瓦尔普吉斯之夜",
+      "stageKey": "E054X",
+      "stageLabel": "第4节",
+      "storyLabel": "第2次 瓦尔普吉斯之夜 第4节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        2,
+        4,
+        4
+      ],
+      "searchText": "e054x 瓦尔普吉斯之夜 第2次 瓦尔普吉斯之夜 第4节 特殊剧情",
+      "gameChapterId": "9012",
+      "gameStageId": "901204",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E054X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E054X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E054X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E054X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E061X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP3",
+      "chapterLabel": "第3次 瓦尔普吉斯之夜",
+      "stageKey": "E061X",
+      "stageLabel": "第1节",
+      "storyLabel": "第3次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        3,
+        1,
+        4
+      ],
+      "searchText": "e061x 瓦尔普吉斯之夜 第3次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "gameChapterId": "9013",
+      "gameStageId": "901301",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E061X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E061X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E061X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E061X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E062X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP3",
+      "chapterLabel": "第3次 瓦尔普吉斯之夜",
+      "stageKey": "E062X",
+      "stageLabel": "第2节",
+      "storyLabel": "第3次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        3,
+        2,
+        4
+      ],
+      "searchText": "e062x 瓦尔普吉斯之夜 第3次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "gameChapterId": "9013",
+      "gameStageId": "901302",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E062X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E062X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E062X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E062X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E063X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP3",
+      "chapterLabel": "第3次 瓦尔普吉斯之夜",
+      "stageKey": "E063X",
+      "stageLabel": "第3节",
+      "storyLabel": "第3次 瓦尔普吉斯之夜 第3节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        3,
+        3,
+        4
+      ],
+      "searchText": "e063x 瓦尔普吉斯之夜 第3次 瓦尔普吉斯之夜 第3节 特殊剧情",
+      "gameChapterId": "9013",
+      "gameStageId": "901303",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E063X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E063X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E063X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E063X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E064X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP4",
+      "chapterLabel": "第4次 瓦尔普吉斯之夜",
+      "stageKey": "E064X",
+      "stageLabel": "第4节",
+      "storyLabel": "第4次 瓦尔普吉斯之夜 第4节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        4,
+        4,
+        4
+      ],
+      "searchText": "e064x 瓦尔普吉斯之夜 第4次 瓦尔普吉斯之夜 第4节 特殊剧情",
+      "gameChapterId": "9014",
+      "gameStageId": "901404",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E064X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E064X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E064X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E064X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E065X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP4",
+      "chapterLabel": "第4次 瓦尔普吉斯之夜",
+      "stageKey": "E065X",
+      "stageLabel": "第5节",
+      "storyLabel": "第4次 瓦尔普吉斯之夜 第5节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        4,
+        5,
+        4
+      ],
+      "searchText": "e065x 瓦尔普吉斯之夜 第4次 瓦尔普吉斯之夜 第5节 特殊剧情",
+      "gameChapterId": "9014",
+      "gameStageId": "901405",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E065X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E065X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E065X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E065X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E070X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP5",
+      "chapterLabel": "第5次 瓦尔普吉斯之夜",
+      "stageKey": "E070X",
+      "stageLabel": "第0节",
+      "storyLabel": "第5次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        5,
+        0,
+        4
+      ],
+      "searchText": "e070x 瓦尔普吉斯之夜 第5次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "gameChapterId": "9015",
+      "gameStageId": "901500",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E070X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E070X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E070X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E070X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E071X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP5",
+      "chapterLabel": "第5次 瓦尔普吉斯之夜",
+      "stageKey": "E071X",
+      "stageLabel": "第1节",
+      "storyLabel": "第5次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        5,
+        1,
+        4
+      ],
+      "searchText": "e071x 瓦尔普吉斯之夜 第5次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "gameChapterId": "9015",
+      "gameStageId": "901501",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E071X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E071X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E071X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E071X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E080X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP6",
+      "chapterLabel": "第6次 瓦尔普吉斯之夜",
+      "stageKey": "E080X",
+      "stageLabel": "第0节",
+      "storyLabel": "第6次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        6,
+        0,
+        4
+      ],
+      "searchText": "e080x 瓦尔普吉斯之夜 第6次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "gameChapterId": "9016",
+      "gameStageId": "901600",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E080X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E080X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E080X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E080X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E081X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP6",
+      "chapterLabel": "第6次 瓦尔普吉斯之夜",
+      "stageKey": "E081X",
+      "stageLabel": "第1节",
+      "storyLabel": "第6次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        6,
+        1,
+        4
+      ],
+      "searchText": "e081x 瓦尔普吉斯之夜 第6次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "gameChapterId": "9016",
+      "gameStageId": "901601",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E081X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E081X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E081X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E081X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E082X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP6",
+      "chapterLabel": "第6次 瓦尔普吉斯之夜",
+      "stageKey": "E082X",
+      "stageLabel": "第2节",
+      "storyLabel": "第6次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        6,
+        2,
+        4
+      ],
+      "searchText": "e082x 瓦尔普吉斯之夜 第6次 瓦尔普吉斯之夜 第2节 特殊剧情",
+      "gameChapterId": "9016",
+      "gameStageId": "901602",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E082X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E082X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E082X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E082X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E090X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP8",
+      "chapterLabel": "第8次 瓦尔普吉斯之夜",
+      "stageKey": "E090X",
+      "stageLabel": "第0节",
+      "storyLabel": "第8次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        8,
+        0,
+        4
+      ],
+      "searchText": "e090x 瓦尔普吉斯之夜 第8次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "gameChapterId": "9018",
+      "gameStageId": "901800",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E090X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E090X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E090X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E090X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E091X",
+      "category": "walpurgis",
+      "categoryLabel": "瓦尔普吉斯之夜",
+      "categoryDescription": "瓦尔普吉斯之夜相关短篇",
+      "prefix": "E0",
+      "chapterKey": "WP8",
+      "chapterLabel": "第8次 瓦尔普吉斯之夜",
+      "stageKey": "E091X",
+      "stageLabel": "第1节",
+      "storyLabel": "第8次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        6,
+        8,
+        1,
+        4
+      ],
+      "searchText": "e091x 瓦尔普吉斯之夜 第8次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "gameChapterId": "9018",
+      "gameStageId": "901801",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E091X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E091X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E091X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E091X.json"
+      },
+      "languageCount": 4
+    },
+    {
       "code": "PC01B",
       "category": "arknights",
       "categoryLabel": "方舟联动剧情",
@@ -51571,6 +51679,424 @@
         "EN": "Pilgrimage of Compassion",
         "KR": "선의의 순례"
       }
+    },
+    {
+      "code": "E000X",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF1",
+      "chapterLabel": "第一次愚人节",
+      "stageKey": "E000X",
+      "stageLabel": "第0节",
+      "storyLabel": "第一次愚人节 第0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        7.5,
+        1,
+        0,
+        4
+      ],
+      "searchText": "e000x 愚人节剧情 第一次愚人节 第0节 特殊剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E000X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E000X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E000X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E000X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E001X",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF2",
+      "chapterLabel": "第二次愚人节",
+      "stageKey": "E001X",
+      "stageLabel": "第1节",
+      "storyLabel": "第二次愚人节 第1节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        7.5,
+        2,
+        1,
+        4
+      ],
+      "searchText": "e001x 愚人节剧情 第二次愚人节 第1节 特殊剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E001X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E001X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E001X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E001X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E002X",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF2",
+      "chapterLabel": "第二次愚人节",
+      "stageKey": "E002X",
+      "stageLabel": "第2节",
+      "storyLabel": "第二次愚人节 第2节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        7.5,
+        2,
+        2,
+        4
+      ],
+      "searchText": "e002x 愚人节剧情 第二次愚人节 第2节 特殊剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E002X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E002X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E002X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E002X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E003I1",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF3",
+      "chapterLabel": "第三次愚人节",
+      "stageKey": "E003I1",
+      "stageLabel": "第3节",
+      "storyLabel": "第三次愚人节 第3节 战斗中剧情 1",
+      "part": {
+        "raw": "I1",
+        "code": "I1",
+        "label": "战斗中剧情 1",
+        "sort": 2.01
+      },
+      "sortKey": [
+        7.5,
+        3,
+        3,
+        2.01
+      ],
+      "searchText": "e003i1 愚人节剧情 第三次愚人节 第3节 战斗中剧情 1",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I1.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I1.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I1.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I1.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E003I2",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF3",
+      "chapterLabel": "第三次愚人节",
+      "stageKey": "E003I2",
+      "stageLabel": "第3节",
+      "storyLabel": "第三次愚人节 第3节 战斗中剧情 2",
+      "part": {
+        "raw": "I2",
+        "code": "I2",
+        "label": "战斗中剧情 2",
+        "sort": 2.02
+      },
+      "sortKey": [
+        7.5,
+        3,
+        3,
+        2.02
+      ],
+      "searchText": "e003i2 愚人节剧情 第三次愚人节 第3节 战斗中剧情 2",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I2.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I2.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I2.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I2.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E003I3",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF3",
+      "chapterLabel": "第三次愚人节",
+      "stageKey": "E003I3",
+      "stageLabel": "第3节",
+      "storyLabel": "第三次愚人节 第3节 战斗中剧情 3",
+      "part": {
+        "raw": "I3",
+        "code": "I3",
+        "label": "战斗中剧情 3",
+        "sort": 2.03
+      },
+      "sortKey": [
+        7.5,
+        3,
+        3,
+        2.03
+      ],
+      "searchText": "e003i3 愚人节剧情 第三次愚人节 第3节 战斗中剧情 3",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I3.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I3.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I3.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I3.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E003I4",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF3",
+      "chapterLabel": "第三次愚人节",
+      "stageKey": "E003I4",
+      "stageLabel": "第3节",
+      "storyLabel": "第三次愚人节 第3节 战斗中剧情 4",
+      "part": {
+        "raw": "I4",
+        "code": "I4",
+        "label": "战斗中剧情 4",
+        "sort": 2.04
+      },
+      "sortKey": [
+        7.5,
+        3,
+        3,
+        2.04
+      ],
+      "searchText": "e003i4 愚人节剧情 第三次愚人节 第3节 战斗中剧情 4",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003I4.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003I4.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003I4.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003I4.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E003X",
+      "category": "aprilFools",
+      "categoryLabel": "愚人节剧情",
+      "categoryDescription": "E00 开头，历年愚人节活动剧情。",
+      "prefix": "E00",
+      "chapterKey": "AF3",
+      "chapterLabel": "第三次愚人节",
+      "stageKey": "E003X",
+      "stageLabel": "第3节",
+      "storyLabel": "第三次愚人节 第3节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        7.5,
+        3,
+        3,
+        4
+      ],
+      "searchText": "e003x 愚人节剧情 第三次愚人节 第3节 特殊剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E003X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E003X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E003X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E003X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E010X",
+      "category": "sideStory",
+      "categoryLabel": "其他短篇",
+      "categoryDescription": "边角剧情",
+      "prefix": "E0",
+      "chapterKey": "SS0",
+      "chapterLabel": "但丁的笔记 & 其他记录",
+      "stageKey": "E010X",
+      "stageLabel": "第1-0节",
+      "storyLabel": "但丁的笔记 & 其他记录 第1-0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        8,
+        1,
+        0,
+        4
+      ],
+      "searchText": "e010x 其他短篇 但丁的笔记 & 其他记录 第1-0节 特殊剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E010X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E010X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E010X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E010X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E020X",
+      "category": "sideStory",
+      "categoryLabel": "其他短篇",
+      "categoryDescription": "边角剧情",
+      "prefix": "E0",
+      "chapterKey": "SS0",
+      "chapterLabel": "但丁的笔记 & 其他记录",
+      "stageKey": "E020X",
+      "stageLabel": "第2-0节",
+      "storyLabel": "但丁的笔记 & 其他记录 第2-0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        8,
+        2,
+        0,
+        4
+      ],
+      "searchText": "e020x 其他短篇 但丁的笔记 & 其他记录 第2-0节 特殊剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E020X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E020X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E020X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E020X.json"
+      },
+      "languageCount": 4
+    },
+    {
+      "code": "E030X",
+      "category": "sideStory",
+      "categoryLabel": "其他短篇",
+      "categoryDescription": "边角剧情",
+      "prefix": "E0",
+      "chapterKey": "SS0",
+      "chapterLabel": "但丁的笔记 & 其他记录",
+      "stageKey": "E030X",
+      "stageLabel": "第3-0节",
+      "storyLabel": "但丁的笔记 & 其他记录 第3-0节 特殊剧情",
+      "part": {
+        "raw": "X",
+        "code": "X",
+        "label": "特殊剧情",
+        "sort": 4
+      },
+      "sortKey": [
+        8,
+        3,
+        0,
+        4
+      ],
+      "searchText": "e030x 其他短篇 但丁的笔记 & 其他记录 第3-0节 特殊剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E030X.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E030X.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E030X.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E030X.json"
+      },
+      "languageCount": 4
     },
     {
       "code": "ProjectGS",
