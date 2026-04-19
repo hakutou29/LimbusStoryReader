@@ -38,23 +38,11 @@ async function loadIndex() {
 }
 
 function renderStats() {
-  const cards = [
-    { label: '唯一剧情编号', value: state.storyIndex.stats.totalStories },
-    { label: '剧情类别', value: state.storyIndex.categories.length },
-    { label: '当前筛选语言', value: state.selectedLanguages.size },
-    { label: '中文文件数', value: state.storyIndex.stats.perLanguage['LLC_zh-CN'] },
-  ];
-
-  elements.statsPanel.innerHTML = cards
-    .map(
-      (card) => `
-        <div class="metric-card">
-          <span>${card.label}</span>
-          <strong>${card.value}</strong>
-        </div>
-      `,
-    )
-    .join('');
+  elements.statsPanel.innerHTML = `
+    <div style="font-size: 0.85rem; color: var(--text-dim); line-height: 1.5; background: var(--bg-panel); padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--line-strong); word-break: break-all;">
+      中文翻译出自 <a href="https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/tree/main/LLC_zh-CN" target="_blank" style="color: var(--accent); text-decoration: underline;">https://github.com/LocalizeLimbusCompany/LocalizeLimbusCompany/tree/main/LLC_zh-CN</a>
+    </div>
+  `;
 }
 
 function renderLanguagePicker() {
@@ -164,11 +152,13 @@ function renderCatalog() {
             })
             .join('');
 
+          const countLabel = (category.id === 'identity' || category.id === 'voice') ? '个人格' : '个关卡';
+
           return `
             <details class="chapter-panel">
               <summary class="chapter-panel-header">
                 <h3>${chapter.label}</h3>
-                <span>${chapter.stories.length} 个关卡</span>
+                <span>${chapter.stories.length} ${countLabel}</span>
               </summary>
               <div class="story-card-grid">${storyLinks}</div>
             </details>

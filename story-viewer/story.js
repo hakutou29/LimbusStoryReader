@@ -266,14 +266,32 @@ function createEntryCard(entry, index, language, characterMap) {
   const speaker = resolveSpeakerName(entry, language, characterMap);
   const tone = getSpeakerTone(speaker);
   
+  const isVoice = state.story && state.story.category === 'voice';
+
   let roleText = [entry.title, entry.teller, entry.model].filter(Boolean).join(' · ');
   if (!roleText && entry.desc) roleText = entry.desc;
-  if (!roleText) roleText = '旁白';
-
-  const placeText = entry.place ? `<p class="entry-place">${escapeHtml(entry.place)}</p>` : '';
-  const characterInfo = entry.model && characterMap.has(entry.model) ? characterMap.get(entry.model) : null;
+  if (!roleText && !isVoice) roleText = '旁白';
+    if (isVoice && entry.desc) roleText = entry.desc; // Force using desc for voices if available
   const charNoBadge = characterInfo && characterInfo.no != null ? `<span class="speaker-character-no">#${characterInfo.no}</span>` : '';
   const contentText = entry.content ?? entry.dlg ?? '';
+
+  if (isVoice) {
+    return `
+      <article class="dialogue-card">
+        <aside class="dialogue-speaker" style="width: auto; min-width: 120px;">
+          <div class="speaker-meta">
+            <h3 style="margin: 0; font-size: 1.1rem; color: var(--accent);">${escapeHtml(roleText)}</h3>
+          </div>
+        </aside>
+        <div class="dialogue-body">
+          <div class="dialogue-content-wrap">
+            ${placeText}
+            <div class="dialogue-content">${escapeHtml(contentText)}</div>
+          </div>
+        </div>
+      </article>
+    `;
+  }
 
   return `
     <article class="dialogue-card">

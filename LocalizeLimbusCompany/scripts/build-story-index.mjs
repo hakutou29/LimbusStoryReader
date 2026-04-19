@@ -121,7 +121,8 @@ function parseStoryCode(fileCode) {
     const chapterNumber = toNumber(chapter);
     const stageNumber = toNumber(stage);
     const part = normalizePart('');
-    const sinnerInfo = sinnerIdentityMap[chapter] || { name: '未知', no: 0 };
+    const sinnerInfo = sinnerIdentityMap[chapter] || { name: '特别', no: '' };
+    const chapName = sinnerInfo.no ? `#${sinnerInfo.no} ${sinnerInfo.name}` : sinnerInfo.name;
     
     return {
       code: fileCode,
@@ -130,12 +131,12 @@ function parseStoryCode(fileCode) {
       categoryDescription: 'V 开头，为人格语音。',
       prefix,
       chapterKey: `${prefix}${chapter}`,
-      chapterLabel: `#${sinnerInfo.no} ${sinnerInfo.name}`,
+      chapterLabel: chapName,
       stageKey: `${prefix}${digits}`,
-      stageLabel: `语音 #${sinnerInfo.no} ${sinnerInfo.name} ${stage}`,
-      storyLabel: `人格语音 #${sinnerInfo.no} ${sinnerInfo.name} ${stage}`.trim(),
+      stageLabel: `语音 ${chapName} ${stage}`.trim(),
+      storyLabel: `人格语音 ${chapName} ${stage}`.trim(),
       part,
-      sortKey: [categorySort.voice, sinnerInfo.no, stageNumber, part.sort],
+      sortKey: [categorySort.voice, sinnerInfo.no ? sinnerInfo.no : 999, stageNumber, part.sort],
       searchText: buildSearchText([fileCode, '人格语音', sinnerInfo.name, stage, part.label]),
     };
   }
@@ -239,7 +240,8 @@ function parseStoryCode(fileCode) {
     const chapterNumber = toNumber(chapter);
     const stageNumber = toNumber(stage);
     const part = normalizePart(rawPart);
-    const sinnerInfo = sinnerIdentityMap[chapter] || { name: '未知', no: 0 };
+    const sinnerInfo = sinnerIdentityMap[chapter] || { name: '特别', no: '' };
+    const chapName = sinnerInfo.no ? `#${sinnerInfo.no} ${sinnerInfo.name}` : sinnerInfo.name;
     
     return {
       code: fileCode,
@@ -248,12 +250,12 @@ function parseStoryCode(fileCode) {
       categoryDescription: 'P 开头，为人格剧情。',
       prefix,
       chapterKey: `${prefix}${chapter}`,
-      chapterLabel: `#${sinnerInfo.no} ${sinnerInfo.name}`,
+      chapterLabel: chapName,
       stageKey: `${prefix}${digits}`,
       stageLabel: `第${padStage(stage)}节`,
-      storyLabel: `人格剧情 #${sinnerInfo.no} ${sinnerInfo.name} ${stage} ${part.label}`.trim(),
+      storyLabel: `人格剧情 ${chapName} ${stage} ${part.label === '正篇' ? '' : part.label}`.trim().replace(/\s+/g, ' '),
       part,
-      sortKey: [categorySort.identity, sinnerInfo.no, stageNumber, part.sort],
+      sortKey: [categorySort.identity, sinnerInfo.no ? sinnerInfo.no : 999, stageNumber, part.sort],
       searchText: buildSearchText([fileCode, '人格剧情', sinnerInfo.name, stage, part.label]),
     };
   }
@@ -481,7 +483,8 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personal
           const sName = sinnerNameParts.length > 1 ? sinnerNameParts[1] : '';
           
           const prefixName = isVoice ? '人格语音' : '人格剧情';
-          story.storyLabel = `${prefixName} ${story.chapterLabel} ${pName} ${part.label}`.trim();
+          const partLabel = part.label === '正篇' ? '' : part.label;
+          story.storyLabel = `${prefixName} ${story.chapterLabel} ${pName} ${partLabel}`.trim();
           story.searchText += ' ' + pName;
         }
       }

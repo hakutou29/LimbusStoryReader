@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T13:48:23.659Z",
+  "generatedAt": "2026-04-19T14:04:23.059Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -251,11 +251,6 @@
       "chapterCount": 13,
       "chapters": [
         {
-          "key": "V999",
-          "label": "#0 未知",
-          "count": 1
-        },
-        {
           "key": "V101",
           "label": "#1 李箱",
           "count": 15
@@ -314,6 +309,11 @@
           "key": "V112",
           "label": "#13 格里高尔",
           "count": 15
+        },
+        {
+          "key": "V999",
+          "label": "特别",
+          "count": 1
         }
       ]
     },
@@ -34365,7 +34365,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10102",
       "stageLabel": "Seven协会 南部6科",
-      "storyLabel": "人格剧情 #1 李箱 Seven协会 南部6科 正篇",
+      "storyLabel": "人格剧情 #1 李箱 Seven协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -34409,7 +34409,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10103",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格剧情 #1 李箱 剑契组 杀手 正篇",
+      "storyLabel": "人格剧情 #1 李箱 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -34453,7 +34453,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10104",
       "stageLabel": "绽放E.G.O:: 山茶花",
-      "storyLabel": "人格剧情 #1 李箱 绽放E.G.O:: 山茶花 正篇",
+      "storyLabel": "人格剧情 #1 李箱 绽放E.G.O:: 山茶花",
       "part": {
         "raw": "",
         "code": "",
@@ -34497,7 +34497,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10105",
       "stageLabel": "臼齿事务所 收尾人",
-      "storyLabel": "人格剧情 #1 李箱 臼齿事务所 收尾人 正篇",
+      "storyLabel": "人格剧情 #1 李箱 臼齿事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -34541,7 +34541,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10106",
       "stageLabel": "W公司 3级 清扫人员",
-      "storyLabel": "人格剧情 #1 李箱 W公司 3级 清扫人员 正篇",
+      "storyLabel": "人格剧情 #1 李箱 W公司 3级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -34585,7 +34585,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10107",
       "stageLabel": "裴廓德号 大副",
-      "storyLabel": "人格剧情 #1 李箱 裴廓德号 大副 正篇",
+      "storyLabel": "人格剧情 #1 李箱 裴廓德号 大副",
       "part": {
         "raw": "",
         "code": "",
@@ -34629,7 +34629,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10108",
       "stageLabel": "Dieci协会 南部4科",
-      "storyLabel": "人格剧情 #1 李箱 Dieci协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #1 李箱 Dieci协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -34673,7 +34673,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10109",
       "stageLabel": "环指 点彩派 学徒",
-      "storyLabel": "人格剧情 #1 李箱 环指 点彩派 学徒 正篇",
+      "storyLabel": "人格剧情 #1 李箱 环指 点彩派 学徒",
       "part": {
         "raw": "",
         "code": "",
@@ -34717,7 +34717,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10110",
       "stageLabel": "脑叶公司E.G.O:: 庄严哀悼",
-      "storyLabel": "人格剧情 #1 李箱 脑叶公司E.G.O:: 庄严哀悼 正篇",
+      "storyLabel": "人格剧情 #1 李箱 脑叶公司E.G.O:: 庄严哀悼",
       "part": {
         "raw": "",
         "code": "",
@@ -34761,7 +34761,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10111",
       "stageLabel": "LCE E.G.O:: 提灯",
-      "storyLabel": "人格剧情 #1 李箱 LCE E.G.O:: 提灯 正篇",
+      "storyLabel": "人格剧情 #1 李箱 LCE E.G.O:: 提灯",
       "part": {
         "raw": "",
         "code": "",
@@ -34805,7 +34805,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10112",
       "stageLabel": "六协会 南部3科",
-      "storyLabel": "人格剧情 #1 李箱 六协会 南部3科 正篇",
+      "storyLabel": "人格剧情 #1 李箱 六协会 南部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -34849,7 +34849,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10113",
       "stageLabel": "N公司E.G.O:: 凶弹",
-      "storyLabel": "人格剧情 #1 李箱 N公司E.G.O:: 凶弹 正篇",
+      "storyLabel": "人格剧情 #1 李箱 N公司E.G.O:: 凶弹",
       "part": {
         "raw": "",
         "code": "",
@@ -34893,7 +34893,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10114",
       "stageLabel": "黑兽 - 午 魁首",
-      "storyLabel": "人格剧情 #1 李箱 黑兽 - 午 魁首 正篇",
+      "storyLabel": "人格剧情 #1 李箱 黑兽 - 午 魁首",
       "part": {
         "raw": "",
         "code": "",
@@ -34937,7 +34937,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "P10115",
       "stageLabel": "蜘蛛巢 食指 父辈",
-      "storyLabel": "人格剧情 #1 李箱 蜘蛛巢 食指 父辈 正篇",
+      "storyLabel": "人格剧情 #1 李箱 蜘蛛巢 食指 父辈",
       "part": {
         "raw": "",
         "code": "",
@@ -34981,7 +34981,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10202",
       "stageLabel": "W公司 2级 清扫人员",
-      "storyLabel": "人格剧情 #2 浮士德 W公司 2级 清扫人员 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 W公司 2级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -35025,7 +35025,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10203",
       "stageLabel": "脑叶公司 幸存者",
-      "storyLabel": "人格剧情 #2 浮士德 脑叶公司 幸存者 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 脑叶公司 幸存者",
       "part": {
         "raw": "",
         "code": "",
@@ -35069,7 +35069,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10204",
       "stageLabel": "执柄者",
-      "storyLabel": "人格剧情 #2 浮士德 执柄者 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 执柄者",
       "part": {
         "raw": "",
         "code": "",
@@ -35113,7 +35113,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10205",
       "stageLabel": "Zwei协会 南部4科",
-      "storyLabel": "人格剧情 #2 浮士德 Zwei协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 Zwei协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -35157,7 +35157,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10206",
       "stageLabel": "Seven协会 南部4科",
-      "storyLabel": "人格剧情 #2 浮士德 Seven协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 Seven协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -35201,7 +35201,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10207",
       "stageLabel": "脑叶公司E.G.O:: 悔恨",
-      "storyLabel": "人格剧情 #2 浮士德 脑叶公司E.G.O:: 悔恨 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 脑叶公司E.G.O:: 悔恨",
       "part": {
         "raw": "",
         "code": "",
@@ -35245,7 +35245,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10208",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格剧情 #2 浮士德 剑契组 杀手 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -35289,7 +35289,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10209",
       "stageLabel": "呼啸山庄 管家",
-      "storyLabel": "人格剧情 #2 浮士德 呼啸山庄 管家 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 呼啸山庄 管家",
       "part": {
         "raw": "",
         "code": "",
@@ -35333,7 +35333,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10210",
       "stageLabel": "多裂纹事务所 代表",
-      "storyLabel": "人格剧情 #2 浮士德 多裂纹事务所 代表 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 多裂纹事务所 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -35377,7 +35377,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10211",
       "stageLabel": "LCE E.G.O:: 红艳煞",
-      "storyLabel": "人格剧情 #2 浮士德 LCE E.G.O:: 红艳煞 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 LCE E.G.O:: 红艳煞",
       "part": {
         "raw": "",
         "code": "",
@@ -35421,7 +35421,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10212",
       "stageLabel": "黑兽 - 卯 魁首",
-      "storyLabel": "人格剧情 #2 浮士德 黑兽 - 卯 魁首 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 黑兽 - 卯 魁首",
       "part": {
         "raw": "",
         "code": "",
@@ -35465,7 +35465,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10213",
       "stageLabel": "し协会 东部3科",
-      "storyLabel": "人格剧情 #2 浮士德 し协会 东部3科 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 し协会 东部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -35509,7 +35509,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10214",
       "stageLabel": "食指 苦行者: 【纸条】",
-      "storyLabel": "人格剧情 #2 浮士德 食指 苦行者: 【纸条】 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 食指 苦行者: 【纸条】",
       "part": {
         "raw": "",
         "code": "",
@@ -35553,7 +35553,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "P10215",
       "stageLabel": "蜘蛛巢 环指 子辈",
-      "storyLabel": "人格剧情 #2 浮士德 蜘蛛巢 环指 子辈 正篇",
+      "storyLabel": "人格剧情 #2 浮士德 蜘蛛巢 环指 子辈",
       "part": {
         "raw": "",
         "code": "",
@@ -35597,7 +35597,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10302",
       "stageLabel": "W公司 3级 清扫人员",
-      "storyLabel": "人格剧情 #3 堂吉诃德 W公司 3级 清扫人员 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 W公司 3级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -35641,7 +35641,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10303",
       "stageLabel": "し协会 南部5科科长",
-      "storyLabel": "人格剧情 #3 堂吉诃德 し协会 南部5科科长 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 し协会 南部5科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -35685,7 +35685,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10304",
       "stageLabel": "N公司 中锤",
-      "storyLabel": "人格剧情 #3 堂吉诃德 N公司 中锤 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 N公司 中锤",
       "part": {
         "raw": "",
         "code": "",
@@ -35729,7 +35729,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10305",
       "stageLabel": "Cinq协会 南部5科科长",
-      "storyLabel": "人格剧情 #3 堂吉诃德 Cinq协会 南部5科科长 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 Cinq协会 南部5科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -35773,7 +35773,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10306",
       "stageLabel": "中指 幼妹",
-      "storyLabel": "人格剧情 #3 堂吉诃德 中指 幼妹 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 中指 幼妹",
       "part": {
         "raw": "",
         "code": "",
@@ -35817,7 +35817,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10307",
       "stageLabel": "脑叶公司E.G.O:: 提灯",
-      "storyLabel": "人格剧情 #3 堂吉诃德 脑叶公司E.G.O:: 提灯 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 脑叶公司E.G.O:: 提灯",
       "part": {
         "raw": "",
         "code": "",
@@ -35861,7 +35861,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10308",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格剧情 #3 堂吉诃德 剑契组 杀手 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -35905,7 +35905,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10309",
       "stageLabel": "T公司 3级 征收人员",
-      "storyLabel": "人格剧情 #3 堂吉诃德 T公司 3级 征收人员 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 T公司 3级 征收人员",
       "part": {
         "raw": "",
         "code": "",
@@ -35949,7 +35949,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10310",
       "stageLabel": "拉·曼却领 总督",
-      "storyLabel": "人格剧情 #3 堂吉诃德 拉·曼却领 总督 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 拉·曼却领 总督",
       "part": {
         "raw": "",
         "code": "",
@@ -35993,7 +35993,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10311",
       "stageLabel": "Cinq协会 东部3科",
-      "storyLabel": "人格剧情 #3 堂吉诃德 Cinq协会 东部3科 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 Cinq协会 东部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -36037,7 +36037,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10312",
       "stageLabel": "脑叶公司E.G.O:: 以爱与憎之名",
-      "storyLabel": "人格剧情 #3 堂吉诃德 脑叶公司E.G.O:: 以爱与憎之名 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 脑叶公司E.G.O:: 以爱与憎之名",
       "part": {
         "raw": "",
         "code": "",
@@ -36081,7 +36081,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10313",
       "stageLabel": "黑兽 - 未",
-      "storyLabel": "人格剧情 #3 堂吉诃德 黑兽 - 未 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 黑兽 - 未",
       "part": {
         "raw": "",
         "code": "",
@@ -36125,7 +36125,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "P10314",
       "stageLabel": "食指 代行者 绽放E.G.O:: 代行",
-      "storyLabel": "人格剧情 #3 堂吉诃德 食指 代行者 绽放E.G.O:: 代行 正篇",
+      "storyLabel": "人格剧情 #3 堂吉诃德 食指 代行者 绽放E.G.O:: 代行",
       "part": {
         "raw": "",
         "code": "",
@@ -36169,7 +36169,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10402",
       "stageLabel": "Seven协会 南部6科",
-      "storyLabel": "人格剧情 #4 良秀 Seven协会 南部6科 正篇",
+      "storyLabel": "人格剧情 #4 良秀 Seven协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -36213,7 +36213,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10403",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格剧情 #4 良秀 黑云会 若众 正篇",
+      "storyLabel": "人格剧情 #4 良秀 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -36257,7 +36257,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10404",
       "stageLabel": "良·派 厨师长",
-      "storyLabel": "人格剧情 #4 良秀 良·派 厨师长 正篇",
+      "storyLabel": "人格剧情 #4 良秀 良·派 厨师长",
       "part": {
         "raw": "",
         "code": "",
@@ -36301,7 +36301,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10405",
       "stageLabel": "W公司 3级 清扫人员",
-      "storyLabel": "人格剧情 #4 良秀 W公司 3级 清扫人员 正篇",
+      "storyLabel": "人格剧情 #4 良秀 W公司 3级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -36345,7 +36345,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10406",
       "stageLabel": "LCCB 系长",
-      "storyLabel": "人格剧情 #4 良秀 LCCB 系长 正篇",
+      "storyLabel": "人格剧情 #4 良秀 LCCB 系长",
       "part": {
         "raw": "",
         "code": "",
@@ -36389,7 +36389,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10407",
       "stageLabel": "六协会 南部4科",
-      "storyLabel": "人格剧情 #4 良秀 六协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #4 良秀 六协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -36433,7 +36433,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10408",
       "stageLabel": "埃德加家族 首席管家",
-      "storyLabel": "人格剧情 #4 良秀 埃德加家族 首席管家 正篇",
+      "storyLabel": "人格剧情 #4 良秀 埃德加家族 首席管家",
       "part": {
         "raw": "",
         "code": "",
@@ -36477,7 +36477,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10409",
       "stageLabel": "20区 圣愚",
-      "storyLabel": "人格剧情 #4 良秀 20区 圣愚 正篇",
+      "storyLabel": "人格剧情 #4 良秀 20区 圣愚",
       "part": {
         "raw": "",
         "code": "",
@@ -36521,7 +36521,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10410",
       "stageLabel": "脑叶公司E.G.O:: 赤瞳·忏悔",
-      "storyLabel": "人格剧情 #4 良秀 脑叶公司E.G.O:: 赤瞳·忏悔 正篇",
+      "storyLabel": "人格剧情 #4 良秀 脑叶公司E.G.O:: 赤瞳·忏悔",
       "part": {
         "raw": "",
         "code": "",
@@ -36565,7 +36565,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10411",
       "stageLabel": "黑兽 - 卯",
-      "storyLabel": "人格剧情 #4 良秀 黑兽 - 卯 正篇",
+      "storyLabel": "人格剧情 #4 良秀 黑兽 - 卯",
       "part": {
         "raw": "",
         "code": "",
@@ -36609,7 +36609,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10412",
       "stageLabel": "N公司E.G.O:: 轻蔑，敬畏",
-      "storyLabel": "人格剧情 #4 良秀 N公司E.G.O:: 轻蔑，敬畏 正篇",
+      "storyLabel": "人格剧情 #4 良秀 N公司E.G.O:: 轻蔑，敬畏",
       "part": {
         "raw": "",
         "code": "",
@@ -36653,7 +36653,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10413",
       "stageLabel": "鸿园的 流浪武者",
-      "storyLabel": "人格剧情 #4 良秀 鸿园的 流浪武者 正篇",
+      "storyLabel": "人格剧情 #4 良秀 鸿园的 流浪武者",
       "part": {
         "raw": "",
         "code": "",
@@ -36697,7 +36697,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "P10414",
       "stageLabel": "脑叶公司E.G.O:: 余香·孤独",
-      "storyLabel": "人格剧情 #4 良秀 脑叶公司E.G.O:: 余香·孤独 正篇",
+      "storyLabel": "人格剧情 #4 良秀 脑叶公司E.G.O:: 余香·孤独",
       "part": {
         "raw": "",
         "code": "",
@@ -36741,7 +36741,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10502",
       "stageLabel": "六协会 南部6科",
-      "storyLabel": "人格剧情 #5 默尔索 六协会 南部6科 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 六协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -36785,7 +36785,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10503",
       "stageLabel": "W公司 2级 清扫人员",
-      "storyLabel": "人格剧情 #5 默尔索 W公司 2级 清扫人员 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 W公司 2级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -36829,7 +36829,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10504",
       "stageLabel": "N公司 大锤",
-      "storyLabel": "人格剧情 #5 默尔索 N公司 大锤 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 N公司 大锤",
       "part": {
         "raw": "",
         "code": "",
@@ -36873,7 +36873,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10505",
       "stageLabel": "玫瑰扳手工坊 收尾人",
-      "storyLabel": "人格剧情 #5 默尔索 玫瑰扳手工坊 收尾人 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 玫瑰扳手工坊 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -36917,7 +36917,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10506",
       "stageLabel": "R公司 第四集团军 犀牛队",
-      "storyLabel": "人格剧情 #5 默尔索 R公司 第四集团军 犀牛队 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 R公司 第四集团军 犀牛队",
       "part": {
         "raw": "",
         "code": "",
@@ -36961,7 +36961,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10507",
       "stageLabel": "中指 幼弟",
-      "storyLabel": "人格剧情 #5 默尔索 中指 幼弟 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 中指 幼弟",
       "part": {
         "raw": "",
         "code": "",
@@ -37005,7 +37005,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10508",
       "stageLabel": "剑契组 头领",
-      "storyLabel": "人格剧情 #5 默尔索 剑契组 头领 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 剑契组 头领",
       "part": {
         "raw": "",
         "code": "",
@@ -37049,7 +37049,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10509",
       "stageLabel": "死兔帮 老大",
-      "storyLabel": "人格剧情 #5 默尔索 死兔帮 老大 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 死兔帮 老大",
       "part": {
         "raw": "",
         "code": "",
@@ -37093,7 +37093,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10510",
       "stageLabel": "Dieci协会 南部4科科长",
-      "storyLabel": "人格剧情 #5 默尔索 Dieci协会 南部4科科长 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 Dieci协会 南部4科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -37137,7 +37137,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10511",
       "stageLabel": "Cinq协会 西部3科",
-      "storyLabel": "人格剧情 #5 默尔索 Cinq协会 西部3科 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 Cinq协会 西部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -37181,7 +37181,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10512",
       "stageLabel": "拇指 东部 指挥官IIII",
-      "storyLabel": "人格剧情 #5 默尔索 拇指 东部 指挥官IIII 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 拇指 东部 指挥官IIII",
       "part": {
         "raw": "",
         "code": "",
@@ -37225,7 +37225,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10513",
       "stageLabel": "拉·曼却领 王子",
-      "storyLabel": "人格剧情 #5 默尔索 拉·曼却领 王子 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 拉·曼却领 王子",
       "part": {
         "raw": "",
         "code": "",
@@ -37269,7 +37269,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10514",
       "stageLabel": "脑叶公司E.G.O:: 黄蜂【变调】",
-      "storyLabel": "人格剧情 #5 默尔索 脑叶公司E.G.O:: 黄蜂【变调】 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 脑叶公司E.G.O:: 黄蜂【变调】",
       "part": {
         "raw": "",
         "code": "",
@@ -37313,7 +37313,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "P10515",
       "stageLabel": "环指 野兽派 学徒",
-      "storyLabel": "人格剧情 #5 默尔索 环指 野兽派 学徒 正篇",
+      "storyLabel": "人格剧情 #5 默尔索 环指 野兽派 学徒",
       "part": {
         "raw": "",
         "code": "",
@@ -37357,7 +37357,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10602",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格剧情 #6 鸿璐 黑云会 若众 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -37401,7 +37401,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10603",
       "stageLabel": "豆豆帮 帮主",
-      "storyLabel": "人格剧情 #6 鸿璐 豆豆帮 帮主 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 豆豆帮 帮主",
       "part": {
         "raw": "",
         "code": "",
@@ -37445,7 +37445,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10604",
       "stageLabel": "六协会 南部5科",
-      "storyLabel": "人格剧情 #6 鸿璐 六协会 南部5科 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 六协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -37489,7 +37489,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10605",
       "stageLabel": "K公司 3级 摘除人员",
-      "storyLabel": "人格剧情 #6 鸿璐 K公司 3级 摘除人员 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 K公司 3级 摘除人员",
       "part": {
         "raw": "",
         "code": "",
@@ -37533,7 +37533,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10606",
       "stageLabel": "W公司 2级 清扫人员",
-      "storyLabel": "人格剧情 #6 鸿璐 W公司 2级 清扫人员 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 W公司 2级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -37577,7 +37577,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10607",
       "stageLabel": "吊钩事务所 收尾人",
-      "storyLabel": "人格剧情 #6 鸿璐 吊钩事务所 收尾人 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 吊钩事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -37621,7 +37621,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10608",
       "stageLabel": "Dieci协会 南部4科",
-      "storyLabel": "人格剧情 #6 鸿璐 Dieci协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 Dieci协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -37665,7 +37665,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10609",
       "stageLabel": "20区 圣愚",
-      "storyLabel": "人格剧情 #6 鸿璐 20区 圣愚 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 20区 圣愚",
       "part": {
         "raw": "",
         "code": "",
@@ -37709,7 +37709,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10610",
       "stageLabel": "猎牙事务所 收尾人",
-      "storyLabel": "人格剧情 #6 鸿璐 猎牙事务所 收尾人 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 猎牙事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -37753,7 +37753,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10611",
       "stageLabel": "句点事务所 代表",
-      "storyLabel": "人格剧情 #6 鸿璐 句点事务所 代表 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 句点事务所 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -37797,7 +37797,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10612",
       "stageLabel": "R公司 第四集团军 驯鹿队",
-      "storyLabel": "人格剧情 #6 鸿璐 R公司 第四集团军 驯鹿队 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 R公司 第四集团军 驯鹿队",
       "part": {
         "raw": "",
         "code": "",
@@ -37841,7 +37841,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10613",
       "stageLabel": "鸿园的君主",
-      "storyLabel": "人格剧情 #6 鸿璐 鸿园的君主 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 鸿园的君主",
       "part": {
         "raw": "",
         "code": "",
@@ -37885,7 +37885,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10614",
       "stageLabel": "蜘蛛巢 环指 父辈",
-      "storyLabel": "人格剧情 #6 鸿璐 蜘蛛巢 环指 父辈 正篇",
+      "storyLabel": "人格剧情 #6 鸿璐 蜘蛛巢 环指 父辈",
       "part": {
         "raw": "",
         "code": "",
@@ -37929,7 +37929,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10702",
       "stageLabel": "し协会 南部5科",
-      "storyLabel": "人格剧情 #7 希斯克利夫 し协会 南部5科 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 し协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -37973,7 +37973,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10703",
       "stageLabel": "R公司 第四集团军 兔子队",
-      "storyLabel": "人格剧情 #7 希斯克利夫 R公司 第四集团军 兔子队 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 R公司 第四集团军 兔子队",
       "part": {
         "raw": "",
         "code": "",
@@ -38017,7 +38017,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10704",
       "stageLabel": "N公司 小锤",
-      "storyLabel": "人格剧情 #7 希斯克利夫 N公司 小锤 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 N公司 小锤",
       "part": {
         "raw": "",
         "code": "",
@@ -38061,7 +38061,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10705",
       "stageLabel": "脑叶公司E.G.O:: 狐雨",
-      "storyLabel": "人格剧情 #7 希斯克利夫 脑叶公司E.G.O:: 狐雨 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 脑叶公司E.G.O:: 狐雨",
       "part": {
         "raw": "",
         "code": "",
@@ -38105,7 +38105,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10706",
       "stageLabel": "Seven协会 南部4科",
-      "storyLabel": "人格剧情 #7 希斯克利夫 Seven协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 Seven协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -38149,7 +38149,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10707",
       "stageLabel": "裴廓德号 鱼叉手",
-      "storyLabel": "人格剧情 #7 希斯克利夫 裴廓德号 鱼叉手 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 裴廓德号 鱼叉手",
       "part": {
         "raw": "",
         "code": "",
@@ -38193,7 +38193,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10708",
       "stageLabel": "Öufi协会 南部3科",
-      "storyLabel": "人格剧情 #7 希斯克利夫 Öufi协会 南部3科 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 Öufi协会 南部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -38237,7 +38237,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10709",
       "stageLabel": "多裂纹事务所 收尾人",
-      "storyLabel": "人格剧情 #7 希斯克利夫 多裂纹事务所 收尾人 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 多裂纹事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -38281,7 +38281,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10710",
       "stageLabel": "狂猎",
-      "storyLabel": "人格剧情 #7 希斯克利夫 狂猎 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 狂猎",
       "part": {
         "raw": "",
         "code": "",
@@ -38369,7 +38369,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10711",
       "stageLabel": "句点事务所 收尾人",
-      "storyLabel": "人格剧情 #7 希斯克利夫 句点事务所 收尾人 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 句点事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -38413,7 +38413,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10712",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格剧情 #7 希斯克利夫 黑云会 若众 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -38457,7 +38457,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10713",
       "stageLabel": "W公司 4级 清扫人员 - CCA",
-      "storyLabel": "人格剧情 #7 希斯克利夫 W公司 4级 清扫人员 - CCA 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 W公司 4级 清扫人员 - CCA",
       "part": {
         "raw": "",
         "code": "",
@@ -38501,7 +38501,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "P10714",
       "stageLabel": "黑兽 - 酉 魁首",
-      "storyLabel": "人格剧情 #7 希斯克利夫 黑兽 - 酉 魁首 正篇",
+      "storyLabel": "人格剧情 #7 希斯克利夫 黑兽 - 酉 魁首",
       "part": {
         "raw": "",
         "code": "",
@@ -38545,7 +38545,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10802",
       "stageLabel": "R公司 第四集团军 驯鹿队",
-      "storyLabel": "人格剧情 #8 以实玛利 R公司 第四集团军 驯鹿队 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 R公司 第四集团军 驯鹿队",
       "part": {
         "raw": "",
         "code": "",
@@ -38589,7 +38589,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10803",
       "stageLabel": "し协会 南部5科",
-      "storyLabel": "人格剧情 #8 以实玛利 し协会 南部5科 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 し协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -38633,7 +38633,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10804",
       "stageLabel": "LCCB 系长",
-      "storyLabel": "人格剧情 #8 以实玛利 LCCB 系长 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 LCCB 系长",
       "part": {
         "raw": "",
         "code": "",
@@ -38677,7 +38677,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10805",
       "stageLabel": "脑叶公司E.G.O:: 荡漾",
-      "storyLabel": "人格剧情 #8 以实玛利 脑叶公司E.G.O:: 荡漾 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 脑叶公司E.G.O:: 荡漾",
       "part": {
         "raw": "",
         "code": "",
@@ -38721,7 +38721,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10806",
       "stageLabel": "六协会 南部4科",
-      "storyLabel": "人格剧情 #8 以实玛利 六协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 六协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -38765,7 +38765,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10807",
       "stageLabel": "臼齿修船厂 收尾人",
-      "storyLabel": "人格剧情 #8 以实玛利 臼齿修船厂 收尾人 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 臼齿修船厂 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -38809,7 +38809,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10808",
       "stageLabel": "裴廓德号 船长",
-      "storyLabel": "人格剧情 #8 以实玛利 裴廓德号 船长 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 裴廓德号 船长",
       "part": {
         "raw": "",
         "code": "",
@@ -38853,7 +38853,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10809",
       "stageLabel": "埃德加家族 管家",
-      "storyLabel": "人格剧情 #8 以实玛利 埃德加家族 管家 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 埃德加家族 管家",
       "part": {
         "raw": "",
         "code": "",
@@ -38897,7 +38897,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10810",
       "stageLabel": "Zwei协会 西部3科",
-      "storyLabel": "人格剧情 #8 以实玛利 Zwei协会 西部3科 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 Zwei协会 西部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -38941,7 +38941,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10811",
       "stageLabel": "黑云会 副会长",
-      "storyLabel": "人格剧情 #8 以实玛利 黑云会 副会长 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 黑云会 副会长",
       "part": {
         "raw": "",
         "code": "",
@@ -38985,7 +38985,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10812",
       "stageLabel": "家主候选人",
-      "storyLabel": "人格剧情 #8 以实玛利 家主候选人 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 家主候选人",
       "part": {
         "raw": "",
         "code": "",
@@ -39029,7 +39029,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10813",
       "stageLabel": "定事务所 代表",
-      "storyLabel": "人格剧情 #8 以实玛利 定事务所 代表 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 定事务所 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -39073,7 +39073,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "P10814",
       "stageLabel": "蜘蛛巢 中指 子辈",
-      "storyLabel": "人格剧情 #8 以实玛利 蜘蛛巢 中指 子辈 正篇",
+      "storyLabel": "人格剧情 #8 以实玛利 蜘蛛巢 中指 子辈",
       "part": {
         "raw": "",
         "code": "",
@@ -39117,7 +39117,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10902",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格剧情 #9 罗佳 黑云会 若众 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -39161,7 +39161,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10903",
       "stageLabel": "LCCB 系长",
-      "storyLabel": "人格剧情 #9 罗佳 LCCB 系长 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 LCCB 系长",
       "part": {
         "raw": "",
         "code": "",
@@ -39205,7 +39205,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10904",
       "stageLabel": "N公司 中锤",
-      "storyLabel": "人格剧情 #9 罗佳 N公司 中锤 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 N公司 中锤",
       "part": {
         "raw": "",
         "code": "",
@@ -39249,7 +39249,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10905",
       "stageLabel": "玫瑰扳手工坊 代表",
-      "storyLabel": "人格剧情 #9 罗佳 玫瑰扳手工坊 代表 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 玫瑰扳手工坊 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -39293,7 +39293,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10906",
       "stageLabel": "Zwei协会 南部5科",
-      "storyLabel": "人格剧情 #9 罗佳 Zwei协会 南部5科 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 Zwei协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -39337,7 +39337,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10907",
       "stageLabel": "Dieci协会 南部4科",
-      "storyLabel": "人格剧情 #9 罗佳 Dieci协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 Dieci协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -39381,7 +39381,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10908",
       "stageLabel": "六协会 南部4科科长",
-      "storyLabel": "人格剧情 #9 罗佳 六协会 南部4科科长 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 六协会 南部4科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -39425,7 +39425,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10909",
       "stageLabel": "T公司 2级 征收人员",
-      "storyLabel": "人格剧情 #9 罗佳 T公司 2级 征收人员 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 T公司 2级 征收人员",
       "part": {
         "raw": "",
         "code": "",
@@ -39469,7 +39469,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10910",
       "stageLabel": "Девять协会 北部3科",
-      "storyLabel": "人格剧情 #9 罗佳 Девять协会 北部3科 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 Девять协会 北部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -39513,7 +39513,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10911",
       "stageLabel": "拉·曼却领 公主",
-      "storyLabel": "人格剧情 #9 罗佳 拉·曼却领 公主 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 拉·曼却领 公主",
       "part": {
         "raw": "",
         "code": "",
@@ -39557,7 +39557,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10912",
       "stageLabel": "黑兽 - 巳",
-      "storyLabel": "人格剧情 #9 罗佳 黑兽 - 巳 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 黑兽 - 巳",
       "part": {
         "raw": "",
         "code": "",
@@ -39601,7 +39601,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10913",
       "stageLabel": "脑叶公司E.G.O:: 泪锋之剑",
-      "storyLabel": "人格剧情 #9 罗佳 脑叶公司E.G.O:: 泪锋之剑 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 脑叶公司E.G.O:: 泪锋之剑",
       "part": {
         "raw": "",
         "code": "",
@@ -39645,7 +39645,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10914",
       "stageLabel": "R公司 第四集团军 驯鹿队",
-      "storyLabel": "人格剧情 #9 罗佳 R公司 第四集团军 驯鹿队 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 R公司 第四集团军 驯鹿队",
       "part": {
         "raw": "",
         "code": "",
@@ -39689,7 +39689,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "P10915",
       "stageLabel": "环指 野兽派 讲解员",
-      "storyLabel": "人格剧情 #9 罗佳 环指 野兽派 讲解员 正篇",
+      "storyLabel": "人格剧情 #9 罗佳 环指 野兽派 讲解员",
       "part": {
         "raw": "",
         "code": "",
@@ -39733,7 +39733,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11002",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格剧情 #11 辛克莱 剑契组 杀手 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -39777,7 +39777,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11003",
       "stageLabel": "Zwei协会 南部6科",
-      "storyLabel": "人格剧情 #11 辛克莱 Zwei协会 南部6科 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 Zwei协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -39821,7 +39821,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11004",
       "stageLabel": "流浪乐队 头目",
-      "storyLabel": "人格剧情 #11 辛克莱 流浪乐队 头目 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 流浪乐队 头目",
       "part": {
         "raw": "",
         "code": "",
@@ -39865,7 +39865,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11005",
       "stageLabel": "准执柄者",
-      "storyLabel": "人格剧情 #11 辛克莱 准执柄者 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 准执柄者",
       "part": {
         "raw": "",
         "code": "",
@@ -39909,7 +39909,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11006",
       "stageLabel": "脑叶公司E.G.O:: 朱符",
-      "storyLabel": "人格剧情 #11 辛克莱 脑叶公司E.G.O:: 朱符 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 脑叶公司E.G.O:: 朱符",
       "part": {
         "raw": "",
         "code": "",
@@ -39953,7 +39953,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11007",
       "stageLabel": "臼齿修船厂 收尾人",
-      "storyLabel": "人格剧情 #11 辛克莱 臼齿修船厂 收尾人 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 臼齿修船厂 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -39997,7 +39997,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11008",
       "stageLabel": "Cinq协会 南部4科科长",
-      "storyLabel": "人格剧情 #11 辛克莱 Cinq协会 南部4科科长 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 Cinq协会 南部4科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -40041,7 +40041,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11009",
       "stageLabel": "黎明事务所 收尾人",
-      "storyLabel": "人格剧情 #11 辛克莱 黎明事务所 收尾人 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 黎明事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -40085,7 +40085,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11010",
       "stageLabel": "Zwei协会 西部3科",
-      "storyLabel": "人格剧情 #11 辛克莱 Zwei协会 西部3科 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 Zwei协会 西部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -40129,7 +40129,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11011",
       "stageLabel": "Девять协会 北部3科",
-      "storyLabel": "人格剧情 #11 辛克莱 Девять协会 北部3科 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 Девять协会 北部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -40173,7 +40173,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11012",
       "stageLabel": "中指 幼弟",
-      "storyLabel": "人格剧情 #11 辛克莱 中指 幼弟 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 中指 幼弟",
       "part": {
         "raw": "",
         "code": "",
@@ -40217,7 +40217,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11013",
       "stageLabel": "拇指 东部 士兵II",
-      "storyLabel": "人格剧情 #11 辛克莱 拇指 东部 士兵II 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 拇指 东部 士兵II",
       "part": {
         "raw": "",
         "code": "",
@@ -40261,7 +40261,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11014",
       "stageLabel": "黑兽 - 酉",
-      "storyLabel": "人格剧情 #11 辛克莱 黑兽 - 酉 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 黑兽 - 酉",
       "part": {
         "raw": "",
         "code": "",
@@ -40305,7 +40305,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11015",
       "stageLabel": "蜘蛛巢 小指 子辈",
-      "storyLabel": "人格剧情 #11 辛克莱 蜘蛛巢 小指 子辈 正篇",
+      "storyLabel": "人格剧情 #11 辛克莱 蜘蛛巢 小指 子辈",
       "part": {
         "raw": "",
         "code": "",
@@ -40349,7 +40349,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11102",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格剧情 #12 奥提斯 剑契组 杀手 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -40393,7 +40393,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11103",
       "stageLabel": "G公司 部长",
-      "storyLabel": "人格剧情 #12 奥提斯 G公司 部长 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 G公司 部长",
       "part": {
         "raw": "",
         "code": "",
@@ -40437,7 +40437,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11104",
       "stageLabel": "Seven协会 南部6科科长",
-      "storyLabel": "人格剧情 #12 奥提斯 Seven协会 南部6科科长 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 Seven协会 南部6科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -40481,7 +40481,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11105",
       "stageLabel": "臼齿事务所 收尾人",
-      "storyLabel": "人格剧情 #12 奥提斯 臼齿事务所 收尾人 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 臼齿事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -40525,7 +40525,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11106",
       "stageLabel": "Cinq协会 南部4科",
-      "storyLabel": "人格剧情 #12 奥提斯 Cinq协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 Cinq协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -40569,7 +40569,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11107",
       "stageLabel": "脑叶公司E.G.O:: 魔弹",
-      "storyLabel": "人格剧情 #12 奥提斯 脑叶公司E.G.O:: 魔弹 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 脑叶公司E.G.O:: 魔弹",
       "part": {
         "raw": "",
         "code": "",
@@ -40613,7 +40613,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11108",
       "stageLabel": "呼啸山庄 首席管家",
-      "storyLabel": "人格剧情 #12 奥提斯 呼啸山庄 首席管家 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 呼啸山庄 首席管家",
       "part": {
         "raw": "",
         "code": "",
@@ -40657,7 +40657,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11109",
       "stageLabel": "环指 点彩派 学徒",
-      "storyLabel": "人格剧情 #12 奥提斯 环指 点彩派 学徒 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 环指 点彩派 学徒",
       "part": {
         "raw": "",
         "code": "",
@@ -40701,7 +40701,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11110",
       "stageLabel": "W公司 3级 清扫组长",
-      "storyLabel": "人格剧情 #12 奥提斯 W公司 3级 清扫组长 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 W公司 3级 清扫组长",
       "part": {
         "raw": "",
         "code": "",
@@ -40745,7 +40745,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11111",
       "stageLabel": "拉·曼却领 理发师",
-      "storyLabel": "人格剧情 #12 奥提斯 拉·曼却领 理发师 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 拉·曼却领 理发师",
       "part": {
         "raw": "",
         "code": "",
@@ -40789,7 +40789,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11112",
       "stageLabel": "黑兽 - 卯",
-      "storyLabel": "人格剧情 #12 奥提斯 黑兽 - 卯 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 黑兽 - 卯",
       "part": {
         "raw": "",
         "code": "",
@@ -40833,7 +40833,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11113",
       "stageLabel": "T公司 3级 强制征收人员",
-      "storyLabel": "人格剧情 #12 奥提斯 T公司 3级 强制征收人员 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 T公司 3级 强制征收人员",
       "part": {
         "raw": "",
         "code": "",
@@ -40877,7 +40877,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "P11114",
       "stageLabel": "LCA 瓦吉特 先锋三队 队长",
-      "storyLabel": "人格剧情 #12 奥提斯 LCA 瓦吉特 先锋三队 队长 正篇",
+      "storyLabel": "人格剧情 #12 奥提斯 LCA 瓦吉特 先锋三队 队长",
       "part": {
         "raw": "",
         "code": "",
@@ -40921,7 +40921,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11202",
       "stageLabel": "六协会 南部6科",
-      "storyLabel": "人格剧情 #13 格里高尔 六协会 南部6科 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 六协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -40965,7 +40965,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11203",
       "stageLabel": "G公司 科长代理",
-      "storyLabel": "人格剧情 #13 格里高尔 G公司 科长代理 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 G公司 科长代理",
       "part": {
         "raw": "",
         "code": "",
@@ -41009,7 +41009,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11204",
       "stageLabel": "良·派 帮厨",
-      "storyLabel": "人格剧情 #13 格里高尔 良·派 帮厨 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 良·派 帮厨",
       "part": {
         "raw": "",
         "code": "",
@@ -41053,7 +41053,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11205",
       "stageLabel": "玫瑰扳手工坊 收尾人",
-      "storyLabel": "人格剧情 #13 格里高尔 玫瑰扳手工坊 收尾人 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 玫瑰扳手工坊 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -41097,7 +41097,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11206",
       "stageLabel": "Zwei协会 南部4科",
-      "storyLabel": "人格剧情 #13 格里高尔 Zwei协会 南部4科 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 Zwei协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -41141,7 +41141,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11207",
       "stageLabel": "双钩海盗团 大副",
-      "storyLabel": "人格剧情 #13 格里高尔 双钩海盗团 大副 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 双钩海盗团 大副",
       "part": {
         "raw": "",
         "code": "",
@@ -41185,7 +41185,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11208",
       "stageLabel": "黑云会 副会长",
-      "storyLabel": "人格剧情 #13 格里高尔 黑云会 副会长 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 黑云会 副会长",
       "part": {
         "raw": "",
         "code": "",
@@ -41229,7 +41229,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11209",
       "stageLabel": "埃德加家族 继承人",
-      "storyLabel": "人格剧情 #13 格里高尔 埃德加家族 继承人 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 埃德加家族 继承人",
       "part": {
         "raw": "",
         "code": "",
@@ -41273,7 +41273,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11210",
       "stageLabel": "拉·曼却领 神父",
-      "storyLabel": "人格剧情 #13 格里高尔 拉·曼却领 神父 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 拉·曼却领 神父",
       "part": {
         "raw": "",
         "code": "",
@@ -41317,7 +41317,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11211",
       "stageLabel": "炎拳事务所 幸存者",
-      "storyLabel": "人格剧情 #13 格里高尔 炎拳事务所 幸存者 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 炎拳事务所 幸存者",
       "part": {
         "raw": "",
         "code": "",
@@ -41361,7 +41361,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11212",
       "stageLabel": "黑兽 - 巳",
-      "storyLabel": "人格剧情 #13 格里高尔 黑兽 - 巳 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 黑兽 - 巳",
       "part": {
         "raw": "",
         "code": "",
@@ -41405,7 +41405,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11213",
       "stageLabel": "夜锥组 队长",
-      "storyLabel": "人格剧情 #13 格里高尔 夜锥组 队长 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 夜锥组 队长",
       "part": {
         "raw": "",
         "code": "",
@@ -41449,7 +41449,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11214",
       "stageLabel": "脑叶公司E.G.O:: 目灯",
-      "storyLabel": "人格剧情 #13 格里高尔 脑叶公司E.G.O:: 目灯 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 脑叶公司E.G.O:: 目灯",
       "part": {
         "raw": "",
         "code": "",
@@ -41493,7 +41493,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "P11215",
       "stageLabel": "LCE E.G.O:: AEDD",
-      "storyLabel": "人格剧情 #13 格里高尔 LCE E.G.O:: AEDD 正篇",
+      "storyLabel": "人格剧情 #13 格里高尔 LCE E.G.O:: AEDD",
       "part": {
         "raw": "",
         "code": "",
@@ -41528,44 +41528,6 @@
       }
     },
     {
-      "code": "V999",
-      "category": "voice",
-      "categoryLabel": "人格语音",
-      "categoryDescription": "V 开头，为人格语音。",
-      "prefix": "V",
-      "chapterKey": "V999",
-      "chapterLabel": "#0 未知",
-      "stageKey": "V999",
-      "stageLabel": "语音 #0 未知 ",
-      "storyLabel": "人格语音 #0 未知",
-      "part": {
-        "raw": "",
-        "code": "",
-        "label": "正篇",
-        "sort": 0
-      },
-      "sortKey": [
-        5,
-        0,
-        0,
-        0
-      ],
-      "searchText": "v999 人格语音 未知 正篇",
-      "availableLanguages": {
-        "LLC_zh-CN": true,
-        "JP": true,
-        "EN": true,
-        "KR": true
-      },
-      "paths": {
-        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Special_999.json",
-        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Special_999.json",
-        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Special_999.json",
-        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Special_999.json"
-      },
-      "languageCount": 4
-    },
-    {
       "code": "V10101",
       "category": "voice",
       "categoryLabel": "人格语音",
@@ -41575,7 +41537,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10101",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #1 李箱 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #1 李箱 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -41619,7 +41581,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10102",
       "stageLabel": "Seven协会 南部6科",
-      "storyLabel": "人格语音 #1 李箱 Seven协会 南部6科 正篇",
+      "storyLabel": "人格语音 #1 李箱 Seven协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -41663,7 +41625,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10103",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格语音 #1 李箱 剑契组 杀手 正篇",
+      "storyLabel": "人格语音 #1 李箱 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -41707,7 +41669,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10104",
       "stageLabel": "绽放E.G.O:: 山茶花",
-      "storyLabel": "人格语音 #1 李箱 绽放E.G.O:: 山茶花 正篇",
+      "storyLabel": "人格语音 #1 李箱 绽放E.G.O:: 山茶花",
       "part": {
         "raw": "",
         "code": "",
@@ -41751,7 +41713,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10105",
       "stageLabel": "臼齿事务所 收尾人",
-      "storyLabel": "人格语音 #1 李箱 臼齿事务所 收尾人 正篇",
+      "storyLabel": "人格语音 #1 李箱 臼齿事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -41795,7 +41757,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10106",
       "stageLabel": "W公司 3级 清扫人员",
-      "storyLabel": "人格语音 #1 李箱 W公司 3级 清扫人员 正篇",
+      "storyLabel": "人格语音 #1 李箱 W公司 3级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -41839,7 +41801,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10107",
       "stageLabel": "裴廓德号 大副",
-      "storyLabel": "人格语音 #1 李箱 裴廓德号 大副 正篇",
+      "storyLabel": "人格语音 #1 李箱 裴廓德号 大副",
       "part": {
         "raw": "",
         "code": "",
@@ -41883,7 +41845,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10108",
       "stageLabel": "Dieci协会 南部4科",
-      "storyLabel": "人格语音 #1 李箱 Dieci协会 南部4科 正篇",
+      "storyLabel": "人格语音 #1 李箱 Dieci协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -41927,7 +41889,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10109",
       "stageLabel": "环指 点彩派 学徒",
-      "storyLabel": "人格语音 #1 李箱 环指 点彩派 学徒 正篇",
+      "storyLabel": "人格语音 #1 李箱 环指 点彩派 学徒",
       "part": {
         "raw": "",
         "code": "",
@@ -41971,7 +41933,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10110",
       "stageLabel": "脑叶公司E.G.O:: 庄严哀悼",
-      "storyLabel": "人格语音 #1 李箱 脑叶公司E.G.O:: 庄严哀悼 正篇",
+      "storyLabel": "人格语音 #1 李箱 脑叶公司E.G.O:: 庄严哀悼",
       "part": {
         "raw": "",
         "code": "",
@@ -42015,7 +41977,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10111",
       "stageLabel": "LCE E.G.O:: 提灯",
-      "storyLabel": "人格语音 #1 李箱 LCE E.G.O:: 提灯 正篇",
+      "storyLabel": "人格语音 #1 李箱 LCE E.G.O:: 提灯",
       "part": {
         "raw": "",
         "code": "",
@@ -42059,7 +42021,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10112",
       "stageLabel": "六协会 南部3科",
-      "storyLabel": "人格语音 #1 李箱 六协会 南部3科 正篇",
+      "storyLabel": "人格语音 #1 李箱 六协会 南部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -42103,7 +42065,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10113",
       "stageLabel": "N公司E.G.O:: 凶弹",
-      "storyLabel": "人格语音 #1 李箱 N公司E.G.O:: 凶弹 正篇",
+      "storyLabel": "人格语音 #1 李箱 N公司E.G.O:: 凶弹",
       "part": {
         "raw": "",
         "code": "",
@@ -42147,7 +42109,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10114",
       "stageLabel": "黑兽 - 午 魁首",
-      "storyLabel": "人格语音 #1 李箱 黑兽 - 午 魁首 正篇",
+      "storyLabel": "人格语音 #1 李箱 黑兽 - 午 魁首",
       "part": {
         "raw": "",
         "code": "",
@@ -42191,7 +42153,7 @@
       "chapterLabel": "#1 李箱",
       "stageKey": "V10115",
       "stageLabel": "蜘蛛巢 食指 父辈",
-      "storyLabel": "人格语音 #1 李箱 蜘蛛巢 食指 父辈 正篇",
+      "storyLabel": "人格语音 #1 李箱 蜘蛛巢 食指 父辈",
       "part": {
         "raw": "",
         "code": "",
@@ -42235,7 +42197,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10201",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #2 浮士德 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #2 浮士德 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -42279,7 +42241,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10202",
       "stageLabel": "W公司 2级 清扫人员",
-      "storyLabel": "人格语音 #2 浮士德 W公司 2级 清扫人员 正篇",
+      "storyLabel": "人格语音 #2 浮士德 W公司 2级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -42323,7 +42285,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10203",
       "stageLabel": "脑叶公司 幸存者",
-      "storyLabel": "人格语音 #2 浮士德 脑叶公司 幸存者 正篇",
+      "storyLabel": "人格语音 #2 浮士德 脑叶公司 幸存者",
       "part": {
         "raw": "",
         "code": "",
@@ -42367,7 +42329,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10204",
       "stageLabel": "执柄者",
-      "storyLabel": "人格语音 #2 浮士德 执柄者 正篇",
+      "storyLabel": "人格语音 #2 浮士德 执柄者",
       "part": {
         "raw": "",
         "code": "",
@@ -42411,7 +42373,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10205",
       "stageLabel": "Zwei协会 南部4科",
-      "storyLabel": "人格语音 #2 浮士德 Zwei协会 南部4科 正篇",
+      "storyLabel": "人格语音 #2 浮士德 Zwei协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -42455,7 +42417,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10206",
       "stageLabel": "Seven协会 南部4科",
-      "storyLabel": "人格语音 #2 浮士德 Seven协会 南部4科 正篇",
+      "storyLabel": "人格语音 #2 浮士德 Seven协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -42499,7 +42461,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10207",
       "stageLabel": "脑叶公司E.G.O:: 悔恨",
-      "storyLabel": "人格语音 #2 浮士德 脑叶公司E.G.O:: 悔恨 正篇",
+      "storyLabel": "人格语音 #2 浮士德 脑叶公司E.G.O:: 悔恨",
       "part": {
         "raw": "",
         "code": "",
@@ -42543,7 +42505,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10208",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格语音 #2 浮士德 剑契组 杀手 正篇",
+      "storyLabel": "人格语音 #2 浮士德 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -42587,7 +42549,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10209",
       "stageLabel": "呼啸山庄 管家",
-      "storyLabel": "人格语音 #2 浮士德 呼啸山庄 管家 正篇",
+      "storyLabel": "人格语音 #2 浮士德 呼啸山庄 管家",
       "part": {
         "raw": "",
         "code": "",
@@ -42631,7 +42593,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10210",
       "stageLabel": "多裂纹事务所 代表",
-      "storyLabel": "人格语音 #2 浮士德 多裂纹事务所 代表 正篇",
+      "storyLabel": "人格语音 #2 浮士德 多裂纹事务所 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -42675,7 +42637,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10211",
       "stageLabel": "LCE E.G.O:: 红艳煞",
-      "storyLabel": "人格语音 #2 浮士德 LCE E.G.O:: 红艳煞 正篇",
+      "storyLabel": "人格语音 #2 浮士德 LCE E.G.O:: 红艳煞",
       "part": {
         "raw": "",
         "code": "",
@@ -42719,7 +42681,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10212",
       "stageLabel": "黑兽 - 卯 魁首",
-      "storyLabel": "人格语音 #2 浮士德 黑兽 - 卯 魁首 正篇",
+      "storyLabel": "人格语音 #2 浮士德 黑兽 - 卯 魁首",
       "part": {
         "raw": "",
         "code": "",
@@ -42763,7 +42725,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10213",
       "stageLabel": "し协会 东部3科",
-      "storyLabel": "人格语音 #2 浮士德 し协会 东部3科 正篇",
+      "storyLabel": "人格语音 #2 浮士德 し协会 东部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -42807,7 +42769,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10214",
       "stageLabel": "食指 苦行者: 【纸条】",
-      "storyLabel": "人格语音 #2 浮士德 食指 苦行者: 【纸条】 正篇",
+      "storyLabel": "人格语音 #2 浮士德 食指 苦行者: 【纸条】",
       "part": {
         "raw": "",
         "code": "",
@@ -42851,7 +42813,7 @@
       "chapterLabel": "#2 浮士德",
       "stageKey": "V10215",
       "stageLabel": "蜘蛛巢 环指 子辈",
-      "storyLabel": "人格语音 #2 浮士德 蜘蛛巢 环指 子辈 正篇",
+      "storyLabel": "人格语音 #2 浮士德 蜘蛛巢 环指 子辈",
       "part": {
         "raw": "",
         "code": "",
@@ -42895,7 +42857,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10301",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #3 堂吉诃德 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -42939,7 +42901,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10302",
       "stageLabel": "W公司 3级 清扫人员",
-      "storyLabel": "人格语音 #3 堂吉诃德 W公司 3级 清扫人员 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 W公司 3级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -42983,7 +42945,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10303",
       "stageLabel": "し协会 南部5科科长",
-      "storyLabel": "人格语音 #3 堂吉诃德 し协会 南部5科科长 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 し协会 南部5科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -43027,7 +42989,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10304",
       "stageLabel": "N公司 中锤",
-      "storyLabel": "人格语音 #3 堂吉诃德 N公司 中锤 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 N公司 中锤",
       "part": {
         "raw": "",
         "code": "",
@@ -43071,7 +43033,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10305",
       "stageLabel": "Cinq协会 南部5科科长",
-      "storyLabel": "人格语音 #3 堂吉诃德 Cinq协会 南部5科科长 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 Cinq协会 南部5科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -43115,7 +43077,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10306",
       "stageLabel": "中指 幼妹",
-      "storyLabel": "人格语音 #3 堂吉诃德 中指 幼妹 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 中指 幼妹",
       "part": {
         "raw": "",
         "code": "",
@@ -43159,7 +43121,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10307",
       "stageLabel": "脑叶公司E.G.O:: 提灯",
-      "storyLabel": "人格语音 #3 堂吉诃德 脑叶公司E.G.O:: 提灯 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 脑叶公司E.G.O:: 提灯",
       "part": {
         "raw": "",
         "code": "",
@@ -43203,7 +43165,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10308",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格语音 #3 堂吉诃德 剑契组 杀手 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -43247,7 +43209,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10309",
       "stageLabel": "T公司 3级 征收人员",
-      "storyLabel": "人格语音 #3 堂吉诃德 T公司 3级 征收人员 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 T公司 3级 征收人员",
       "part": {
         "raw": "",
         "code": "",
@@ -43291,7 +43253,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10310",
       "stageLabel": "拉·曼却领 总督",
-      "storyLabel": "人格语音 #3 堂吉诃德 拉·曼却领 总督 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 拉·曼却领 总督",
       "part": {
         "raw": "",
         "code": "",
@@ -43335,7 +43297,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10311",
       "stageLabel": "Cinq协会 东部3科",
-      "storyLabel": "人格语音 #3 堂吉诃德 Cinq协会 东部3科 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 Cinq协会 东部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -43379,7 +43341,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10312",
       "stageLabel": "脑叶公司E.G.O:: 以爱与憎之名",
-      "storyLabel": "人格语音 #3 堂吉诃德 脑叶公司E.G.O:: 以爱与憎之名 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 脑叶公司E.G.O:: 以爱与憎之名",
       "part": {
         "raw": "",
         "code": "",
@@ -43423,7 +43385,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10313",
       "stageLabel": "黑兽 - 未",
-      "storyLabel": "人格语音 #3 堂吉诃德 黑兽 - 未 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 黑兽 - 未",
       "part": {
         "raw": "",
         "code": "",
@@ -43467,7 +43429,7 @@
       "chapterLabel": "#3 堂吉诃德",
       "stageKey": "V10314",
       "stageLabel": "食指 代行者 绽放E.G.O:: 代行",
-      "storyLabel": "人格语音 #3 堂吉诃德 食指 代行者 绽放E.G.O:: 代行 正篇",
+      "storyLabel": "人格语音 #3 堂吉诃德 食指 代行者 绽放E.G.O:: 代行",
       "part": {
         "raw": "",
         "code": "",
@@ -43511,7 +43473,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10401",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #4 良秀 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #4 良秀 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -43555,7 +43517,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10402",
       "stageLabel": "Seven协会 南部6科",
-      "storyLabel": "人格语音 #4 良秀 Seven协会 南部6科 正篇",
+      "storyLabel": "人格语音 #4 良秀 Seven协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -43599,7 +43561,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10403",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格语音 #4 良秀 黑云会 若众 正篇",
+      "storyLabel": "人格语音 #4 良秀 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -43643,7 +43605,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10404",
       "stageLabel": "良·派 厨师长",
-      "storyLabel": "人格语音 #4 良秀 良·派 厨师长 正篇",
+      "storyLabel": "人格语音 #4 良秀 良·派 厨师长",
       "part": {
         "raw": "",
         "code": "",
@@ -43687,7 +43649,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10405",
       "stageLabel": "W公司 3级 清扫人员",
-      "storyLabel": "人格语音 #4 良秀 W公司 3级 清扫人员 正篇",
+      "storyLabel": "人格语音 #4 良秀 W公司 3级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -43731,7 +43693,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10406",
       "stageLabel": "LCCB 系长",
-      "storyLabel": "人格语音 #4 良秀 LCCB 系长 正篇",
+      "storyLabel": "人格语音 #4 良秀 LCCB 系长",
       "part": {
         "raw": "",
         "code": "",
@@ -43775,7 +43737,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10407",
       "stageLabel": "六协会 南部4科",
-      "storyLabel": "人格语音 #4 良秀 六协会 南部4科 正篇",
+      "storyLabel": "人格语音 #4 良秀 六协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -43819,7 +43781,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10408",
       "stageLabel": "埃德加家族 首席管家",
-      "storyLabel": "人格语音 #4 良秀 埃德加家族 首席管家 正篇",
+      "storyLabel": "人格语音 #4 良秀 埃德加家族 首席管家",
       "part": {
         "raw": "",
         "code": "",
@@ -43863,7 +43825,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10409",
       "stageLabel": "20区 圣愚",
-      "storyLabel": "人格语音 #4 良秀 20区 圣愚 正篇",
+      "storyLabel": "人格语音 #4 良秀 20区 圣愚",
       "part": {
         "raw": "",
         "code": "",
@@ -43907,7 +43869,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10410",
       "stageLabel": "脑叶公司E.G.O:: 赤瞳·忏悔",
-      "storyLabel": "人格语音 #4 良秀 脑叶公司E.G.O:: 赤瞳·忏悔 正篇",
+      "storyLabel": "人格语音 #4 良秀 脑叶公司E.G.O:: 赤瞳·忏悔",
       "part": {
         "raw": "",
         "code": "",
@@ -43951,7 +43913,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10411",
       "stageLabel": "黑兽 - 卯",
-      "storyLabel": "人格语音 #4 良秀 黑兽 - 卯 正篇",
+      "storyLabel": "人格语音 #4 良秀 黑兽 - 卯",
       "part": {
         "raw": "",
         "code": "",
@@ -43995,7 +43957,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10412",
       "stageLabel": "N公司E.G.O:: 轻蔑，敬畏",
-      "storyLabel": "人格语音 #4 良秀 N公司E.G.O:: 轻蔑，敬畏 正篇",
+      "storyLabel": "人格语音 #4 良秀 N公司E.G.O:: 轻蔑，敬畏",
       "part": {
         "raw": "",
         "code": "",
@@ -44039,7 +44001,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10413",
       "stageLabel": "鸿园的 流浪武者",
-      "storyLabel": "人格语音 #4 良秀 鸿园的 流浪武者 正篇",
+      "storyLabel": "人格语音 #4 良秀 鸿园的 流浪武者",
       "part": {
         "raw": "",
         "code": "",
@@ -44083,7 +44045,7 @@
       "chapterLabel": "#4 良秀",
       "stageKey": "V10414",
       "stageLabel": "脑叶公司E.G.O:: 余香·孤独",
-      "storyLabel": "人格语音 #4 良秀 脑叶公司E.G.O:: 余香·孤独 正篇",
+      "storyLabel": "人格语音 #4 良秀 脑叶公司E.G.O:: 余香·孤独",
       "part": {
         "raw": "",
         "code": "",
@@ -44127,7 +44089,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10501",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #5 默尔索 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #5 默尔索 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -44171,7 +44133,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10502",
       "stageLabel": "六协会 南部6科",
-      "storyLabel": "人格语音 #5 默尔索 六协会 南部6科 正篇",
+      "storyLabel": "人格语音 #5 默尔索 六协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -44215,7 +44177,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10503",
       "stageLabel": "W公司 2级 清扫人员",
-      "storyLabel": "人格语音 #5 默尔索 W公司 2级 清扫人员 正篇",
+      "storyLabel": "人格语音 #5 默尔索 W公司 2级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -44259,7 +44221,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10504",
       "stageLabel": "N公司 大锤",
-      "storyLabel": "人格语音 #5 默尔索 N公司 大锤 正篇",
+      "storyLabel": "人格语音 #5 默尔索 N公司 大锤",
       "part": {
         "raw": "",
         "code": "",
@@ -44303,7 +44265,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10505",
       "stageLabel": "玫瑰扳手工坊 收尾人",
-      "storyLabel": "人格语音 #5 默尔索 玫瑰扳手工坊 收尾人 正篇",
+      "storyLabel": "人格语音 #5 默尔索 玫瑰扳手工坊 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -44347,7 +44309,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10506",
       "stageLabel": "R公司 第四集团军 犀牛队",
-      "storyLabel": "人格语音 #5 默尔索 R公司 第四集团军 犀牛队 正篇",
+      "storyLabel": "人格语音 #5 默尔索 R公司 第四集团军 犀牛队",
       "part": {
         "raw": "",
         "code": "",
@@ -44391,7 +44353,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10507",
       "stageLabel": "中指 幼弟",
-      "storyLabel": "人格语音 #5 默尔索 中指 幼弟 正篇",
+      "storyLabel": "人格语音 #5 默尔索 中指 幼弟",
       "part": {
         "raw": "",
         "code": "",
@@ -44435,7 +44397,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10508",
       "stageLabel": "剑契组 头领",
-      "storyLabel": "人格语音 #5 默尔索 剑契组 头领 正篇",
+      "storyLabel": "人格语音 #5 默尔索 剑契组 头领",
       "part": {
         "raw": "",
         "code": "",
@@ -44479,7 +44441,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10509",
       "stageLabel": "死兔帮 老大",
-      "storyLabel": "人格语音 #5 默尔索 死兔帮 老大 正篇",
+      "storyLabel": "人格语音 #5 默尔索 死兔帮 老大",
       "part": {
         "raw": "",
         "code": "",
@@ -44523,7 +44485,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10510",
       "stageLabel": "Dieci协会 南部4科科长",
-      "storyLabel": "人格语音 #5 默尔索 Dieci协会 南部4科科长 正篇",
+      "storyLabel": "人格语音 #5 默尔索 Dieci协会 南部4科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -44567,7 +44529,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10511",
       "stageLabel": "Cinq协会 西部3科",
-      "storyLabel": "人格语音 #5 默尔索 Cinq协会 西部3科 正篇",
+      "storyLabel": "人格语音 #5 默尔索 Cinq协会 西部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -44611,7 +44573,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10512",
       "stageLabel": "拇指 东部 指挥官IIII",
-      "storyLabel": "人格语音 #5 默尔索 拇指 东部 指挥官IIII 正篇",
+      "storyLabel": "人格语音 #5 默尔索 拇指 东部 指挥官IIII",
       "part": {
         "raw": "",
         "code": "",
@@ -44655,7 +44617,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10513",
       "stageLabel": "拉·曼却领 王子",
-      "storyLabel": "人格语音 #5 默尔索 拉·曼却领 王子 正篇",
+      "storyLabel": "人格语音 #5 默尔索 拉·曼却领 王子",
       "part": {
         "raw": "",
         "code": "",
@@ -44699,7 +44661,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10514",
       "stageLabel": "脑叶公司E.G.O:: 黄蜂【变调】",
-      "storyLabel": "人格语音 #5 默尔索 脑叶公司E.G.O:: 黄蜂【变调】 正篇",
+      "storyLabel": "人格语音 #5 默尔索 脑叶公司E.G.O:: 黄蜂【变调】",
       "part": {
         "raw": "",
         "code": "",
@@ -44743,7 +44705,7 @@
       "chapterLabel": "#5 默尔索",
       "stageKey": "V10515",
       "stageLabel": "环指 野兽派 学徒",
-      "storyLabel": "人格语音 #5 默尔索 环指 野兽派 学徒 正篇",
+      "storyLabel": "人格语音 #5 默尔索 环指 野兽派 学徒",
       "part": {
         "raw": "",
         "code": "",
@@ -44787,7 +44749,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10601",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #6 鸿璐 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -44831,7 +44793,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10602",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格语音 #6 鸿璐 黑云会 若众 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -44875,7 +44837,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10603",
       "stageLabel": "豆豆帮 帮主",
-      "storyLabel": "人格语音 #6 鸿璐 豆豆帮 帮主 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 豆豆帮 帮主",
       "part": {
         "raw": "",
         "code": "",
@@ -44919,7 +44881,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10604",
       "stageLabel": "六协会 南部5科",
-      "storyLabel": "人格语音 #6 鸿璐 六协会 南部5科 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 六协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -44963,7 +44925,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10605",
       "stageLabel": "K公司 3级 摘除人员",
-      "storyLabel": "人格语音 #6 鸿璐 K公司 3级 摘除人员 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 K公司 3级 摘除人员",
       "part": {
         "raw": "",
         "code": "",
@@ -45007,7 +44969,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10606",
       "stageLabel": "W公司 2级 清扫人员",
-      "storyLabel": "人格语音 #6 鸿璐 W公司 2级 清扫人员 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 W公司 2级 清扫人员",
       "part": {
         "raw": "",
         "code": "",
@@ -45051,7 +45013,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10607",
       "stageLabel": "吊钩事务所 收尾人",
-      "storyLabel": "人格语音 #6 鸿璐 吊钩事务所 收尾人 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 吊钩事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -45095,7 +45057,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10608",
       "stageLabel": "Dieci协会 南部4科",
-      "storyLabel": "人格语音 #6 鸿璐 Dieci协会 南部4科 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 Dieci协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -45139,7 +45101,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10609",
       "stageLabel": "20区 圣愚",
-      "storyLabel": "人格语音 #6 鸿璐 20区 圣愚 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 20区 圣愚",
       "part": {
         "raw": "",
         "code": "",
@@ -45183,7 +45145,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10610",
       "stageLabel": "猎牙事务所 收尾人",
-      "storyLabel": "人格语音 #6 鸿璐 猎牙事务所 收尾人 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 猎牙事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -45227,7 +45189,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10611",
       "stageLabel": "句点事务所 代表",
-      "storyLabel": "人格语音 #6 鸿璐 句点事务所 代表 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 句点事务所 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -45271,7 +45233,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10612",
       "stageLabel": "R公司 第四集团军 驯鹿队",
-      "storyLabel": "人格语音 #6 鸿璐 R公司 第四集团军 驯鹿队 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 R公司 第四集团军 驯鹿队",
       "part": {
         "raw": "",
         "code": "",
@@ -45315,7 +45277,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10613",
       "stageLabel": "鸿园的君主",
-      "storyLabel": "人格语音 #6 鸿璐 鸿园的君主 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 鸿园的君主",
       "part": {
         "raw": "",
         "code": "",
@@ -45359,7 +45321,7 @@
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10614",
       "stageLabel": "蜘蛛巢 环指 父辈",
-      "storyLabel": "人格语音 #6 鸿璐 蜘蛛巢 环指 父辈 正篇",
+      "storyLabel": "人格语音 #6 鸿璐 蜘蛛巢 环指 父辈",
       "part": {
         "raw": "",
         "code": "",
@@ -45403,7 +45365,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10701",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #7 希斯克利夫 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -45447,7 +45409,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10702",
       "stageLabel": "し协会 南部5科",
-      "storyLabel": "人格语音 #7 希斯克利夫 し协会 南部5科 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 し协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -45491,7 +45453,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10703",
       "stageLabel": "R公司 第四集团军 兔子队",
-      "storyLabel": "人格语音 #7 希斯克利夫 R公司 第四集团军 兔子队 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 R公司 第四集团军 兔子队",
       "part": {
         "raw": "",
         "code": "",
@@ -45535,7 +45497,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10704",
       "stageLabel": "N公司 小锤",
-      "storyLabel": "人格语音 #7 希斯克利夫 N公司 小锤 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 N公司 小锤",
       "part": {
         "raw": "",
         "code": "",
@@ -45579,7 +45541,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10705",
       "stageLabel": "脑叶公司E.G.O:: 狐雨",
-      "storyLabel": "人格语音 #7 希斯克利夫 脑叶公司E.G.O:: 狐雨 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 脑叶公司E.G.O:: 狐雨",
       "part": {
         "raw": "",
         "code": "",
@@ -45623,7 +45585,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10706",
       "stageLabel": "Seven协会 南部4科",
-      "storyLabel": "人格语音 #7 希斯克利夫 Seven协会 南部4科 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 Seven协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -45667,7 +45629,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10707",
       "stageLabel": "裴廓德号 鱼叉手",
-      "storyLabel": "人格语音 #7 希斯克利夫 裴廓德号 鱼叉手 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 裴廓德号 鱼叉手",
       "part": {
         "raw": "",
         "code": "",
@@ -45711,7 +45673,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10708",
       "stageLabel": "Öufi协会 南部3科",
-      "storyLabel": "人格语音 #7 希斯克利夫 Öufi协会 南部3科 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 Öufi协会 南部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -45755,7 +45717,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10709",
       "stageLabel": "多裂纹事务所 收尾人",
-      "storyLabel": "人格语音 #7 希斯克利夫 多裂纹事务所 收尾人 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 多裂纹事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -45799,7 +45761,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10710",
       "stageLabel": "狂猎",
-      "storyLabel": "人格语音 #7 希斯克利夫 狂猎 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 狂猎",
       "part": {
         "raw": "",
         "code": "",
@@ -45843,7 +45805,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10711",
       "stageLabel": "句点事务所 收尾人",
-      "storyLabel": "人格语音 #7 希斯克利夫 句点事务所 收尾人 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 句点事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -45887,7 +45849,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10712",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格语音 #7 希斯克利夫 黑云会 若众 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -45931,7 +45893,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10713",
       "stageLabel": "W公司 4级 清扫人员 - CCA",
-      "storyLabel": "人格语音 #7 希斯克利夫 W公司 4级 清扫人员 - CCA 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 W公司 4级 清扫人员 - CCA",
       "part": {
         "raw": "",
         "code": "",
@@ -45975,7 +45937,7 @@
       "chapterLabel": "#7 希斯克利夫",
       "stageKey": "V10714",
       "stageLabel": "黑兽 - 酉 魁首",
-      "storyLabel": "人格语音 #7 希斯克利夫 黑兽 - 酉 魁首 正篇",
+      "storyLabel": "人格语音 #7 希斯克利夫 黑兽 - 酉 魁首",
       "part": {
         "raw": "",
         "code": "",
@@ -46019,7 +45981,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10801",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #8 以实玛利 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -46063,7 +46025,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10802",
       "stageLabel": "R公司 第四集团军 驯鹿队",
-      "storyLabel": "人格语音 #8 以实玛利 R公司 第四集团军 驯鹿队 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 R公司 第四集团军 驯鹿队",
       "part": {
         "raw": "",
         "code": "",
@@ -46107,7 +46069,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10803",
       "stageLabel": "し协会 南部5科",
-      "storyLabel": "人格语音 #8 以实玛利 し协会 南部5科 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 し协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -46151,7 +46113,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10804",
       "stageLabel": "LCCB 系长",
-      "storyLabel": "人格语音 #8 以实玛利 LCCB 系长 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 LCCB 系长",
       "part": {
         "raw": "",
         "code": "",
@@ -46195,7 +46157,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10805",
       "stageLabel": "脑叶公司E.G.O:: 荡漾",
-      "storyLabel": "人格语音 #8 以实玛利 脑叶公司E.G.O:: 荡漾 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 脑叶公司E.G.O:: 荡漾",
       "part": {
         "raw": "",
         "code": "",
@@ -46239,7 +46201,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10806",
       "stageLabel": "六协会 南部4科",
-      "storyLabel": "人格语音 #8 以实玛利 六协会 南部4科 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 六协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -46283,7 +46245,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10807",
       "stageLabel": "臼齿修船厂 收尾人",
-      "storyLabel": "人格语音 #8 以实玛利 臼齿修船厂 收尾人 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 臼齿修船厂 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -46327,7 +46289,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10808",
       "stageLabel": "裴廓德号 船长",
-      "storyLabel": "人格语音 #8 以实玛利 裴廓德号 船长 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 裴廓德号 船长",
       "part": {
         "raw": "",
         "code": "",
@@ -46371,7 +46333,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10809",
       "stageLabel": "埃德加家族 管家",
-      "storyLabel": "人格语音 #8 以实玛利 埃德加家族 管家 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 埃德加家族 管家",
       "part": {
         "raw": "",
         "code": "",
@@ -46415,7 +46377,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10810",
       "stageLabel": "Zwei协会 西部3科",
-      "storyLabel": "人格语音 #8 以实玛利 Zwei协会 西部3科 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 Zwei协会 西部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -46459,7 +46421,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10811",
       "stageLabel": "黑云会 副会长",
-      "storyLabel": "人格语音 #8 以实玛利 黑云会 副会长 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 黑云会 副会长",
       "part": {
         "raw": "",
         "code": "",
@@ -46503,7 +46465,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10812",
       "stageLabel": "家主候选人",
-      "storyLabel": "人格语音 #8 以实玛利 家主候选人 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 家主候选人",
       "part": {
         "raw": "",
         "code": "",
@@ -46547,7 +46509,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10813",
       "stageLabel": "定事务所 代表",
-      "storyLabel": "人格语音 #8 以实玛利 定事务所 代表 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 定事务所 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -46591,7 +46553,7 @@
       "chapterLabel": "#8 以实玛利",
       "stageKey": "V10814",
       "stageLabel": "蜘蛛巢 中指 子辈",
-      "storyLabel": "人格语音 #8 以实玛利 蜘蛛巢 中指 子辈 正篇",
+      "storyLabel": "人格语音 #8 以实玛利 蜘蛛巢 中指 子辈",
       "part": {
         "raw": "",
         "code": "",
@@ -46635,7 +46597,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10901",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #9 罗佳 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #9 罗佳 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -46679,7 +46641,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10902",
       "stageLabel": "黑云会 若众",
-      "storyLabel": "人格语音 #9 罗佳 黑云会 若众 正篇",
+      "storyLabel": "人格语音 #9 罗佳 黑云会 若众",
       "part": {
         "raw": "",
         "code": "",
@@ -46723,7 +46685,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10903",
       "stageLabel": "LCCB 系长",
-      "storyLabel": "人格语音 #9 罗佳 LCCB 系长 正篇",
+      "storyLabel": "人格语音 #9 罗佳 LCCB 系长",
       "part": {
         "raw": "",
         "code": "",
@@ -46767,7 +46729,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10904",
       "stageLabel": "N公司 中锤",
-      "storyLabel": "人格语音 #9 罗佳 N公司 中锤 正篇",
+      "storyLabel": "人格语音 #9 罗佳 N公司 中锤",
       "part": {
         "raw": "",
         "code": "",
@@ -46811,7 +46773,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10905",
       "stageLabel": "玫瑰扳手工坊 代表",
-      "storyLabel": "人格语音 #9 罗佳 玫瑰扳手工坊 代表 正篇",
+      "storyLabel": "人格语音 #9 罗佳 玫瑰扳手工坊 代表",
       "part": {
         "raw": "",
         "code": "",
@@ -46855,7 +46817,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10906",
       "stageLabel": "Zwei协会 南部5科",
-      "storyLabel": "人格语音 #9 罗佳 Zwei协会 南部5科 正篇",
+      "storyLabel": "人格语音 #9 罗佳 Zwei协会 南部5科",
       "part": {
         "raw": "",
         "code": "",
@@ -46899,7 +46861,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10907",
       "stageLabel": "Dieci协会 南部4科",
-      "storyLabel": "人格语音 #9 罗佳 Dieci协会 南部4科 正篇",
+      "storyLabel": "人格语音 #9 罗佳 Dieci协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -46943,7 +46905,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10908",
       "stageLabel": "六协会 南部4科科长",
-      "storyLabel": "人格语音 #9 罗佳 六协会 南部4科科长 正篇",
+      "storyLabel": "人格语音 #9 罗佳 六协会 南部4科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -46987,7 +46949,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10909",
       "stageLabel": "T公司 2级 征收人员",
-      "storyLabel": "人格语音 #9 罗佳 T公司 2级 征收人员 正篇",
+      "storyLabel": "人格语音 #9 罗佳 T公司 2级 征收人员",
       "part": {
         "raw": "",
         "code": "",
@@ -47031,7 +46993,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10910",
       "stageLabel": "Девять协会 北部3科",
-      "storyLabel": "人格语音 #9 罗佳 Девять协会 北部3科 正篇",
+      "storyLabel": "人格语音 #9 罗佳 Девять协会 北部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -47075,7 +47037,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10911",
       "stageLabel": "拉·曼却领 公主",
-      "storyLabel": "人格语音 #9 罗佳 拉·曼却领 公主 正篇",
+      "storyLabel": "人格语音 #9 罗佳 拉·曼却领 公主",
       "part": {
         "raw": "",
         "code": "",
@@ -47119,7 +47081,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10912",
       "stageLabel": "黑兽 - 巳",
-      "storyLabel": "人格语音 #9 罗佳 黑兽 - 巳 正篇",
+      "storyLabel": "人格语音 #9 罗佳 黑兽 - 巳",
       "part": {
         "raw": "",
         "code": "",
@@ -47163,7 +47125,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10913",
       "stageLabel": "脑叶公司E.G.O:: 泪锋之剑",
-      "storyLabel": "人格语音 #9 罗佳 脑叶公司E.G.O:: 泪锋之剑 正篇",
+      "storyLabel": "人格语音 #9 罗佳 脑叶公司E.G.O:: 泪锋之剑",
       "part": {
         "raw": "",
         "code": "",
@@ -47207,7 +47169,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10914",
       "stageLabel": "R公司 第四集团军 驯鹿队",
-      "storyLabel": "人格语音 #9 罗佳 R公司 第四集团军 驯鹿队 正篇",
+      "storyLabel": "人格语音 #9 罗佳 R公司 第四集团军 驯鹿队",
       "part": {
         "raw": "",
         "code": "",
@@ -47251,7 +47213,7 @@
       "chapterLabel": "#9 罗佳",
       "stageKey": "V10915",
       "stageLabel": "环指 野兽派 讲解员",
-      "storyLabel": "人格语音 #9 罗佳 环指 野兽派 讲解员 正篇",
+      "storyLabel": "人格语音 #9 罗佳 环指 野兽派 讲解员",
       "part": {
         "raw": "",
         "code": "",
@@ -47295,7 +47257,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11001",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #11 辛克莱 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -47339,7 +47301,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11002",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格语音 #11 辛克莱 剑契组 杀手 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -47383,7 +47345,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11003",
       "stageLabel": "Zwei协会 南部6科",
-      "storyLabel": "人格语音 #11 辛克莱 Zwei协会 南部6科 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 Zwei协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -47427,7 +47389,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11004",
       "stageLabel": "流浪乐队 头目",
-      "storyLabel": "人格语音 #11 辛克莱 流浪乐队 头目 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 流浪乐队 头目",
       "part": {
         "raw": "",
         "code": "",
@@ -47471,7 +47433,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11005",
       "stageLabel": "准执柄者",
-      "storyLabel": "人格语音 #11 辛克莱 准执柄者 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 准执柄者",
       "part": {
         "raw": "",
         "code": "",
@@ -47515,7 +47477,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11006",
       "stageLabel": "脑叶公司E.G.O:: 朱符",
-      "storyLabel": "人格语音 #11 辛克莱 脑叶公司E.G.O:: 朱符 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 脑叶公司E.G.O:: 朱符",
       "part": {
         "raw": "",
         "code": "",
@@ -47559,7 +47521,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11007",
       "stageLabel": "臼齿修船厂 收尾人",
-      "storyLabel": "人格语音 #11 辛克莱 臼齿修船厂 收尾人 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 臼齿修船厂 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -47603,7 +47565,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11008",
       "stageLabel": "Cinq协会 南部4科科长",
-      "storyLabel": "人格语音 #11 辛克莱 Cinq协会 南部4科科长 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 Cinq协会 南部4科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -47647,7 +47609,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11009",
       "stageLabel": "黎明事务所 收尾人",
-      "storyLabel": "人格语音 #11 辛克莱 黎明事务所 收尾人 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 黎明事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -47691,7 +47653,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11010",
       "stageLabel": "Zwei协会 西部3科",
-      "storyLabel": "人格语音 #11 辛克莱 Zwei协会 西部3科 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 Zwei协会 西部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -47735,7 +47697,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11011",
       "stageLabel": "Девять协会 北部3科",
-      "storyLabel": "人格语音 #11 辛克莱 Девять协会 北部3科 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 Девять协会 北部3科",
       "part": {
         "raw": "",
         "code": "",
@@ -47779,7 +47741,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11012",
       "stageLabel": "中指 幼弟",
-      "storyLabel": "人格语音 #11 辛克莱 中指 幼弟 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 中指 幼弟",
       "part": {
         "raw": "",
         "code": "",
@@ -47823,7 +47785,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11013",
       "stageLabel": "拇指 东部 士兵II",
-      "storyLabel": "人格语音 #11 辛克莱 拇指 东部 士兵II 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 拇指 东部 士兵II",
       "part": {
         "raw": "",
         "code": "",
@@ -47867,7 +47829,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11014",
       "stageLabel": "黑兽 - 酉",
-      "storyLabel": "人格语音 #11 辛克莱 黑兽 - 酉 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 黑兽 - 酉",
       "part": {
         "raw": "",
         "code": "",
@@ -47911,7 +47873,7 @@
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11015",
       "stageLabel": "蜘蛛巢 小指 子辈",
-      "storyLabel": "人格语音 #11 辛克莱 蜘蛛巢 小指 子辈 正篇",
+      "storyLabel": "人格语音 #11 辛克莱 蜘蛛巢 小指 子辈",
       "part": {
         "raw": "",
         "code": "",
@@ -47955,7 +47917,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11101",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #12 奥提斯 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -47999,7 +47961,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11102",
       "stageLabel": "剑契组 杀手",
-      "storyLabel": "人格语音 #12 奥提斯 剑契组 杀手 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 剑契组 杀手",
       "part": {
         "raw": "",
         "code": "",
@@ -48043,7 +48005,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11103",
       "stageLabel": "G公司 部长",
-      "storyLabel": "人格语音 #12 奥提斯 G公司 部长 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 G公司 部长",
       "part": {
         "raw": "",
         "code": "",
@@ -48087,7 +48049,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11104",
       "stageLabel": "Seven协会 南部6科科长",
-      "storyLabel": "人格语音 #12 奥提斯 Seven协会 南部6科科长 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 Seven协会 南部6科科长",
       "part": {
         "raw": "",
         "code": "",
@@ -48131,7 +48093,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11105",
       "stageLabel": "臼齿事务所 收尾人",
-      "storyLabel": "人格语音 #12 奥提斯 臼齿事务所 收尾人 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 臼齿事务所 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -48175,7 +48137,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11106",
       "stageLabel": "Cinq协会 南部4科",
-      "storyLabel": "人格语音 #12 奥提斯 Cinq协会 南部4科 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 Cinq协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -48219,7 +48181,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11107",
       "stageLabel": "脑叶公司E.G.O:: 魔弹",
-      "storyLabel": "人格语音 #12 奥提斯 脑叶公司E.G.O:: 魔弹 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 脑叶公司E.G.O:: 魔弹",
       "part": {
         "raw": "",
         "code": "",
@@ -48263,7 +48225,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11108",
       "stageLabel": "呼啸山庄 首席管家",
-      "storyLabel": "人格语音 #12 奥提斯 呼啸山庄 首席管家 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 呼啸山庄 首席管家",
       "part": {
         "raw": "",
         "code": "",
@@ -48307,7 +48269,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11109",
       "stageLabel": "环指 点彩派 学徒",
-      "storyLabel": "人格语音 #12 奥提斯 环指 点彩派 学徒 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 环指 点彩派 学徒",
       "part": {
         "raw": "",
         "code": "",
@@ -48351,7 +48313,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11110",
       "stageLabel": "W公司 3级 清扫组长",
-      "storyLabel": "人格语音 #12 奥提斯 W公司 3级 清扫组长 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 W公司 3级 清扫组长",
       "part": {
         "raw": "",
         "code": "",
@@ -48395,7 +48357,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11111",
       "stageLabel": "拉·曼却领 理发师",
-      "storyLabel": "人格语音 #12 奥提斯 拉·曼却领 理发师 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 拉·曼却领 理发师",
       "part": {
         "raw": "",
         "code": "",
@@ -48439,7 +48401,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11112",
       "stageLabel": "黑兽 - 卯",
-      "storyLabel": "人格语音 #12 奥提斯 黑兽 - 卯 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 黑兽 - 卯",
       "part": {
         "raw": "",
         "code": "",
@@ -48483,7 +48445,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11113",
       "stageLabel": "T公司 3级 强制征收人员",
-      "storyLabel": "人格语音 #12 奥提斯 T公司 3级 强制征收人员 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 T公司 3级 强制征收人员",
       "part": {
         "raw": "",
         "code": "",
@@ -48527,7 +48489,7 @@
       "chapterLabel": "#12 奥提斯",
       "stageKey": "V11114",
       "stageLabel": "LCA 瓦吉特 先锋三队 队长",
-      "storyLabel": "人格语音 #12 奥提斯 LCA 瓦吉特 先锋三队 队长 正篇",
+      "storyLabel": "人格语音 #12 奥提斯 LCA 瓦吉特 先锋三队 队长",
       "part": {
         "raw": "",
         "code": "",
@@ -48571,7 +48533,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11201",
       "stageLabel": "LCB 罪人",
-      "storyLabel": "人格语音 #13 格里高尔 LCB 罪人 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 LCB 罪人",
       "part": {
         "raw": "",
         "code": "",
@@ -48615,7 +48577,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11202",
       "stageLabel": "六协会 南部6科",
-      "storyLabel": "人格语音 #13 格里高尔 六协会 南部6科 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 六协会 南部6科",
       "part": {
         "raw": "",
         "code": "",
@@ -48659,7 +48621,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11203",
       "stageLabel": "G公司 科长代理",
-      "storyLabel": "人格语音 #13 格里高尔 G公司 科长代理 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 G公司 科长代理",
       "part": {
         "raw": "",
         "code": "",
@@ -48703,7 +48665,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11204",
       "stageLabel": "良·派 帮厨",
-      "storyLabel": "人格语音 #13 格里高尔 良·派 帮厨 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 良·派 帮厨",
       "part": {
         "raw": "",
         "code": "",
@@ -48747,7 +48709,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11205",
       "stageLabel": "玫瑰扳手工坊 收尾人",
-      "storyLabel": "人格语音 #13 格里高尔 玫瑰扳手工坊 收尾人 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 玫瑰扳手工坊 收尾人",
       "part": {
         "raw": "",
         "code": "",
@@ -48791,7 +48753,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11206",
       "stageLabel": "Zwei协会 南部4科",
-      "storyLabel": "人格语音 #13 格里高尔 Zwei协会 南部4科 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 Zwei协会 南部4科",
       "part": {
         "raw": "",
         "code": "",
@@ -48835,7 +48797,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11207",
       "stageLabel": "双钩海盗团 大副",
-      "storyLabel": "人格语音 #13 格里高尔 双钩海盗团 大副 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 双钩海盗团 大副",
       "part": {
         "raw": "",
         "code": "",
@@ -48879,7 +48841,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11208",
       "stageLabel": "黑云会 副会长",
-      "storyLabel": "人格语音 #13 格里高尔 黑云会 副会长 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 黑云会 副会长",
       "part": {
         "raw": "",
         "code": "",
@@ -48923,7 +48885,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11209",
       "stageLabel": "埃德加家族 继承人",
-      "storyLabel": "人格语音 #13 格里高尔 埃德加家族 继承人 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 埃德加家族 继承人",
       "part": {
         "raw": "",
         "code": "",
@@ -48967,7 +48929,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11210",
       "stageLabel": "拉·曼却领 神父",
-      "storyLabel": "人格语音 #13 格里高尔 拉·曼却领 神父 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 拉·曼却领 神父",
       "part": {
         "raw": "",
         "code": "",
@@ -49011,7 +48973,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11211",
       "stageLabel": "炎拳事务所 幸存者",
-      "storyLabel": "人格语音 #13 格里高尔 炎拳事务所 幸存者 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 炎拳事务所 幸存者",
       "part": {
         "raw": "",
         "code": "",
@@ -49055,7 +49017,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11212",
       "stageLabel": "黑兽 - 巳",
-      "storyLabel": "人格语音 #13 格里高尔 黑兽 - 巳 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 黑兽 - 巳",
       "part": {
         "raw": "",
         "code": "",
@@ -49099,7 +49061,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11213",
       "stageLabel": "夜锥组 队长",
-      "storyLabel": "人格语音 #13 格里高尔 夜锥组 队长 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 夜锥组 队长",
       "part": {
         "raw": "",
         "code": "",
@@ -49143,7 +49105,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11214",
       "stageLabel": "脑叶公司E.G.O:: 目灯",
-      "storyLabel": "人格语音 #13 格里高尔 脑叶公司E.G.O:: 目灯 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 脑叶公司E.G.O:: 目灯",
       "part": {
         "raw": "",
         "code": "",
@@ -49187,7 +49149,7 @@
       "chapterLabel": "#13 格里高尔",
       "stageKey": "V11215",
       "stageLabel": "LCE E.G.O:: AEDD",
-      "storyLabel": "人格语音 #13 格里高尔 LCE E.G.O:: AEDD 正篇",
+      "storyLabel": "人格语音 #13 格里高尔 LCE E.G.O:: AEDD",
       "part": {
         "raw": "",
         "code": "",
@@ -49220,6 +49182,44 @@
         "EN": "LCE E.G.O:: AEDD",
         "KR": "LCE E.G.O:: AEDD"
       }
+    },
+    {
+      "code": "V999",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "V 开头，为人格语音。",
+      "prefix": "V",
+      "chapterKey": "V999",
+      "chapterLabel": "特别",
+      "stageKey": "V999",
+      "stageLabel": "语音 特别",
+      "storyLabel": "人格语音 特别",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        999,
+        0,
+        0
+      ],
+      "searchText": "v999 人格语音 特别 正篇",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Special_999.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Special_999.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Special_999.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Special_999.json"
+      },
+      "languageCount": 4
     },
     {
       "code": "PC01B",
