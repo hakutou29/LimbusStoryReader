@@ -657,3 +657,11 @@ body::before {
     width: 6.2rem;
   }
 }
+
+.tab-btn { background: var(--color-surface-elevated); color: var(--color-text-secondary); padding: 0.5rem 1rem; border: 1px solid var(--color-border); border-radius: 4px; cursor: pointer; transition: all 0.2s; font-size: 1rem; font-weight: 500; }
+.tab-btn:hover { background: var(--color-surface-hover); }
+.tab-btn.active { background: var(--color-primary); color: var(--color-background); border-color: var(--color-primary); box-shadow: 0 0 10px rgba(var(--color-primary-rgb), 0.3); }
+
+.tab-btn { background: var(--bg-secondary); color: var(--text-dim); padding: 0.5rem 1rem; border: 1px solid var(--line-strong); border-radius: var(--radius-md); cursor: pointer; transition: all 0.2s; font-size: 0.95rem; font-weight: 500; font-family: var(--font-display); }
+.tab-btn:hover { background: rgba(246, 219, 186, 0.05); }
+.tab-btn.active { background: var(--accent); color: var(--bg); border-color: var(--accent-strong); }

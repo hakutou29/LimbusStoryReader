@@ -1,0 +1,11 @@
+const categorySort = {
+  main: 1,
+  intervallo: 2,
+  intervalloLecture: 3,
+  identity: 4,
+  voice: 5,
+  walpurgis: 6,
+  arknights: 7,
+  sideStory: 8,
+  other: 9,
+};

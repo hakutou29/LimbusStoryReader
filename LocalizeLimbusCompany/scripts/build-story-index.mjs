@@ -36,10 +36,11 @@ const categorySort = {
   intervallo: 2,
   intervalloLecture: 3,
   identity: 4,
-  walpurgis: 4,
-  arknights: 5,
-  sideStory: 6,
-  other: 7,
+  voice: 5,
+  walpurgis: 6,
+  arknights: 7,
+  sideStory: 8,
+  other: 9,
 };
 
 const sinnerIdentityMap = {
@@ -112,7 +113,34 @@ function buildSearchText(parts) {
 }
 
 function parseStoryCode(fileCode) {
-  let match = fileCode.match(/^(S)(\d+)(A|B|X|I\d*)?$/);
+  let match = fileCode.match(/^(V)(\d+)$/);
+  if (match) {
+    const [, prefix, digits] = match;
+    const chapter = digits.slice(0, 3);
+    const stage = digits.slice(3);
+    const chapterNumber = toNumber(chapter);
+    const stageNumber = toNumber(stage);
+    const part = normalizePart('');
+    const sinnerInfo = sinnerIdentityMap[chapter] || { name: '未知', no: 0 };
+    
+    return {
+      code: fileCode,
+      category: 'voice',
+      categoryLabel: '人格语音',
+      categoryDescription: 'V 开头，为人格语音。',
+      prefix,
+      chapterKey: `${prefix}${chapter}`,
+      chapterLabel: `#${sinnerInfo.no} ${sinnerInfo.name}`,
+      stageKey: `${prefix}${digits}`,
+      stageLabel: `语音 #${sinnerInfo.no} ${sinnerInfo.name} ${stage}`,
+      storyLabel: `人格语音 #${sinnerInfo.no} ${sinnerInfo.name} ${stage}`.trim(),
+      part,
+      sortKey: [categorySort.voice, sinnerInfo.no, stageNumber, part.sort],
+      searchText: buildSearchText([fileCode, '人格语音', sinnerInfo.name, stage, part.label]),
+    };
+  }
+
+  match = fileCode.match(/^(S)(\d+)(A|B|X|I\d*)?$/);
   if (match) {
     const [, prefix, digits, rawPart = ''] = match;
     const chapter = digits.slice(0, 1) || '0';
@@ -273,24 +301,50 @@ function parseStoryCode(fileCode) {
 }
 
 async function readStoryDirectory(language) {
-  const storyDir = path.join(repoRoot, language.folder, 'StoryData');
-  const entries = await fs.readdir(storyDir, { withFileTypes: true });
-  return entries
-    .filter((entry) => entry.isFile() && entry.name.endsWith('.json'))
-    .map((entry) => path.parse(entry.name).name)
-    .sort();
+  const result = [];
+  try {
+    const storyDir = path.join(repoRoot, language.folder, 'StoryData');
+    const entries = await fs.readdir(storyDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith('.json')) {
+        result.push({
+          code: path.parse(entry.name).name,
+          relativePath: `StoryData/${entry.name}`,
+        });
+      }
+    }
+  } catch (e) {}
+
+  try {
+    const voiceDir = path.join(repoRoot, language.folder, 'PersonalityVoiceDlg');
+    const entries = await fs.readdir(voiceDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith('.json')) {
+        const match = entry.name.match(/_(\d+)\.json$/);
+        if (match) {
+          result.push({
+            code: `V${match[1]}`,
+            relativePath: `PersonalityVoiceDlg/${entry.name}`,
+          });
+        }
+      }
+    }
+  } catch (e) {}
+
+  return result.sort((a, b) => a.code.localeCompare(b.code));
 }
 
 function createStoryIndex(storyCodesByLanguage) {
   const storyMap = new Map();
 
   for (const language of languageConfigs) {
-    const storyCodes = storyCodesByLanguage[language.id] ?? [];
-    for (const code of storyCodes) {
+    const storyList = storyCodesByLanguage[language.id] ?? [];
+    for (const item of storyList) {
+      const code = item.code;
       const existing = storyMap.get(code);
       if (existing) {
         existing.availableLanguages[language.id] = true;
-        existing.paths[language.id] = `../LocalizeLimbusCompany/${language.folder}/StoryData/${code}.json`;
+        existing.paths[language.id] = `../LocalizeLimbusCompany/${language.folder}/${item.relativePath}`;
         continue;
       }
 
@@ -302,7 +356,7 @@ function createStoryIndex(storyCodesByLanguage) {
       });
       const created = storyMap.get(code);
       created.availableLanguages[language.id] = true;
-      created.paths[language.id] = `../LocalizeLimbusCompany/${language.folder}/StoryData/${code}.json`;
+      created.paths[language.id] = `../LocalizeLimbusCompany/${language.folder}/${item.relativePath}`;
     }
   }
 
@@ -410,7 +464,7 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personal
       }
     }
 
-    if (story.category === 'identity') {
+    if (story.category === 'identity' || story.category === 'voice') {
       const pId = story.stageKey.slice(1);
       if (personalitiesMap && personalitiesMap[pId]) {
         story.stageNames = personalitiesMap[pId];
@@ -418,14 +472,16 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personal
           const pName = personalitiesMap[pId]['LLC_zh-CN'];
           story.stageLabel = pName;
           
-          const match = story.code.match(/^(P)(\d+)(A|B|X|I\d*)?$/);
-          const rawPart = match ? match[3] || '' : '';
+          const isVoice = story.category === 'voice';
+          const match = story.code.match(isVoice ? /^(V)(\d+)$/ : /^(P)(\d+)(A|B|X|I\d*)?$/);
+          const rawPart = match && !isVoice ? match[3] || '' : '';
           const part = normalizePart(rawPart);
           
           const sinnerNameParts = story.chapterLabel.split(' '); // e.g. ["#1", "李箱"]
           const sName = sinnerNameParts.length > 1 ? sinnerNameParts[1] : '';
           
-          story.storyLabel = `人格剧情 ${story.chapterLabel} ${pName} ${part.label}`.trim();
+          const prefixName = isVoice ? '人格语音' : '人格剧情';
+          story.storyLabel = `${prefixName} ${story.chapterLabel} ${pName} ${part.label}`.trim();
           story.searchText += ' ' + pName;
         }
       }

@@ -183,7 +183,9 @@ function buildMergedRows(loadedData) {
       // Check if at least one selected language has translated content (content without Korean characters)
       const hasTranslatedContent = Array.from(state.selectedLanguages).some((lang) => {
         const entry = row.entries.get(lang);
-        return entry && entry.content && !/[가-힣]/.test(entry.content);
+        if (!entry) return false;
+        const text = entry.content ?? entry.dlg ?? '';
+        return text && !/[가-힣]/.test(text);
       });
       
       return hasTranslatedContent;
@@ -196,6 +198,14 @@ function buildMergedRows(loadedData) {
 function resolveSpeakerName(entry, language, characterMap) {
   if (entry.model && characterMap.has(entry.model)) {
     return characterMap.get(entry.model).name;
+  }
+
+  // Handle voice files
+  if (entry.dlg) {
+    if (state.story && state.story.category === 'voice') {
+      const match = state.story.chapterLabel.match(/#\d+\s+(.+)/);
+      if (match) return match[1];
+    }
   }
 
   const defaultName = entry.teller || entry.title || entry.model || entry.place || '旁白';
@@ -255,10 +265,15 @@ function createSpeakerPortrait(entry, speaker) {
 function createEntryCard(entry, index, language, characterMap) {
   const speaker = resolveSpeakerName(entry, language, characterMap);
   const tone = getSpeakerTone(speaker);
-  const roleText = [entry.title, entry.teller, entry.model].filter(Boolean).join(' · ') || '旁白';
+  
+  let roleText = [entry.title, entry.teller, entry.model].filter(Boolean).join(' · ');
+  if (!roleText && entry.desc) roleText = entry.desc;
+  if (!roleText) roleText = '旁白';
+
   const placeText = entry.place ? `<p class="entry-place">${escapeHtml(entry.place)}</p>` : '';
   const characterInfo = entry.model && characterMap.has(entry.model) ? characterMap.get(entry.model) : null;
   const charNoBadge = characterInfo && characterInfo.no != null ? `<span class="speaker-character-no">#${characterInfo.no}</span>` : '';
+  const contentText = entry.content ?? entry.dlg ?? '';
 
   return `
     <article class="dialogue-card">
@@ -273,7 +288,7 @@ function createEntryCard(entry, index, language, characterMap) {
       <div class="dialogue-body">
         <div class="dialogue-content-wrap">
           ${placeText}
-          <div class="dialogue-content">${escapeHtml(entry.content ?? '')}</div>
+          <div class="dialogue-content">${escapeHtml(contentText)}</div>
         </div>
       </div>
     </article>

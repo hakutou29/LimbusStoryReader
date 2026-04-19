@@ -2,6 +2,7 @@ const state = {
   storyIndex: null,
   selectedLanguages: new Set(['LLC_zh-CN']),
   searchTerm: '',
+  activeTab: 'story',
 };
 
 const elements = {
@@ -10,6 +11,7 @@ const elements = {
   languagePicker: document.querySelector('#language-picker'),
   catalogSummary: document.querySelector('#catalog-summary'),
   catalogTree: document.querySelector('#catalog-tree'),
+  categoryTabs: document.querySelector('#category-tabs'),
 };
 
 function debounce(callback, delay) {
@@ -95,6 +97,12 @@ function getFilteredStories() {
     if (term && !story.searchText.includes(term)) {
       return false;
     }
+
+    const isIdentityTab = state.activeTab === 'identity';
+    const isIdentityCategory = story.category === 'identity' || story.category === 'voice';
+
+    if (isIdentityTab && !isIdentityCategory) return false;
+    if (!isIdentityTab && isIdentityCategory) return false;
 
     return [...state.selectedLanguages].some((languageId) => story.availableLanguages[languageId]);
   });
@@ -189,6 +197,15 @@ function bindEvents() {
       renderCatalog();
     }, 120),
   );
+
+  elements.categoryTabs.querySelectorAll('.tab-btn').forEach((btn) => {
+    btn.addEventListener('click', (event) => {
+      elements.categoryTabs.querySelectorAll('.tab-btn').forEach((b) => b.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+      state.activeTab = event.currentTarget.dataset.tab;
+      renderCatalog();
+    });
+  });
 }
 
 async function init() {
