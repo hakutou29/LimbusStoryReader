@@ -129,7 +129,7 @@ function parseStoryCode(fileCode) {
       code: fileCode,
       category: 'voice',
       categoryLabel: '人格语音',
-      categoryDescription: 'V 开头，为人格语音。',
+      categoryDescription: '人格语音。',
       prefix,
       chapterKey: `${prefix}${chapter}`,
       chapterLabel: chapName,
@@ -153,7 +153,7 @@ function parseStoryCode(fileCode) {
       displayCode: `${chapter}-${padStage(stage)}${rawPart}`,
       category: 'main',
       categoryLabel: '主线剧情',
-      categoryDescription: 'S 开头，按主线章节与关卡索引。',
+      categoryDescription: '按主线章节与关卡索引。',
       prefix,
       chapterKey: `${prefix}${chapter}`,
       chapterLabel: `主线 第${toNumber(chapter)}章`,
@@ -176,7 +176,7 @@ function parseStoryCode(fileCode) {
       code: fileCode,
       category: 'intervallo',
       categoryLabel: '间章剧情',
-      categoryDescription: 'ES 开头，间章8授课剧情，置于切磋琢春E803B之后。',
+      categoryDescription: '间章8授课剧情，置于切磋琢春E803B之后。',
       prefix,
       chapterKey: `E8_0`,
       chapterLabel: `间章 第8章 切磋琢春`,
@@ -202,7 +202,7 @@ function parseStoryCode(fileCode) {
     else if (stageNum === 1 || stageNum === 2) { foolsChapter = 2; label = "第二次愚人节"; }
     else { foolsChapter = 3; label = "第三次愚人节"; }
     const part = normalizePart(rawPart);
-    return { code: fileCode, category: "aprilFools", categoryLabel: "愚人节剧情", categoryDescription: "E00 开头，历年愚人节活动剧情。", prefix, chapterKey: "AF" + foolsChapter, chapterLabel: label, stageKey: fileCode, stageLabel: "第" + stageNum + "节", storyLabel: label + " 第" + stageNum + "节 " + part.label, part, sortKey: [categorySort.aprilFools, foolsChapter, stageNum, part.sort], searchText: buildSearchText([fileCode, "愚人节剧情", label, "第" + stageNum + "节", part.label]) };
+    return { code: fileCode, category: "aprilFools", categoryLabel: "愚人节剧情", categoryDescription: "历年愚人节活动剧情。", prefix, chapterKey: "AF" + foolsChapter, chapterLabel: label, stageKey: fileCode, stageLabel: "第" + stageNum + "节", storyLabel: label + " 第" + stageNum + "节 " + part.label, part, sortKey: [categorySort.aprilFools, foolsChapter, stageNum, part.sort], searchText: buildSearchText([fileCode, "愚人节剧情", label, "第" + stageNum + "节", part.label]) };
   }
 
   match = fileCode.match(/^(E0)(\d+)(A|B|X|I\d*)?$/);
@@ -287,7 +287,7 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
       code: fileCode,
       category: 'intervallo',
       categoryLabel: '间章剧情',
-      categoryDescription: 'E 开头，按间章章节与关卡索引。',
+      categoryDescription: '按间章章节与关卡索引。',
       prefix,
       chapterKey: `${prefix}${origChapter}_${chapterSubSort}`,
       chapterLabel: actualChapterTitle,
@@ -310,7 +310,7 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
       code: fileCode,
       category: 'arknights',
       categoryLabel: '方舟联动剧情',
-      categoryDescription: 'PC 开头，为方舟联动剧情。',
+      categoryDescription: '方舟联动剧情。',
       prefix,
       chapterKey: prefix,
       chapterLabel: '方舟联动',
@@ -338,7 +338,7 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
       code: fileCode,
       category: 'identity',
       categoryLabel: '人格剧情',
-      categoryDescription: 'P 开头，为人格剧情。',
+      categoryDescription: '人格剧情。',
       prefix,
       chapterKey: `${prefix}${chapter}`,
       chapterLabel: chapName,
@@ -363,7 +363,7 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
       displayCode: `${chapStr}D-${digits}${rawPart}`,
       category: 'main',
       categoryLabel: '主线剧情',
-      categoryDescription: 'S 开头，按主线章节与关卡索引 (包含附加 Dungeon)。',
+      categoryDescription: '按主线章节与关卡索引 (包含附加 Dungeon)。',
       prefix: 'S',
       chapterKey: `S${chapStr}`,
       chapterLabel: `主线 第${chapterNum}章`,
