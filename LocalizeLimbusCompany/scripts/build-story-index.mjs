@@ -244,11 +244,12 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
 
     let gameChapterId = '';
     let gameStageId = '';
+    let gameStageIndex = origStage;
 
     if (origChapter === '5') {
        if (origStage > 13) {
           gameChapterId = '9107'; // 肉斩骨断
-          actualStage = origStage - 13;
+          gameStageIndex = origStage - 13;
           chapterSubSort = 2;
        } else {
           gameChapterId = '9105'; // 20区的奇迹
@@ -257,7 +258,7 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
     } else if (origChapter === '6') {
        if (origStage > 15) {
           gameChapterId = '9110'; // WARP快车
-          actualStage = origStage - 15;
+          gameStageIndex = origStage - 15;
           chapterSubSort = 2;
        } else {
           gameChapterId = '9109'; // 时间杀人时间
@@ -266,7 +267,7 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
     } else if (origChapter === '7') {
          if (origStage > 14) {
             gameChapterId = '9116'; // 深夜清扫
-            actualStage = origStage - 14;
+            gameStageIndex = origStage - 14;
             chapterSubSort = 2;
          } else {
             gameChapterId = '9114'; // LCB体检
@@ -280,7 +281,7 @@ match = fileCode.match(/^(E)(\d+)(A|B|X|I\d*)?$/);
        gameChapterId = '91' + origChapter.padStart(2, '0');
     }
     
-    gameStageId = gameChapterId + String(actualStage).padStart(2, '0');
+    gameStageId = gameChapterId + String(gameStageIndex).padStart(2, '0');
 
     return {
       code: fileCode,

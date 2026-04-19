@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T23:08:25.794Z",
+  "generatedAt": "2026-04-19T23:16:53.900Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -27287,8 +27287,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E514",
-      "stageLabel": "第1节 20区 后巷",
-      "storyLabel": "5.5-1 20区 后巷 (战斗前剧情)",
+      "stageLabel": "第14节 20区 后巷",
+      "storyLabel": "5.5-14 20区 后巷 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -27299,10 +27299,10 @@
         2,
         5,
         2,
-        1,
+        14,
         1
       ],
-      "searchText": "e514b 间章剧情 间章 第5章 第1节 战斗前剧情 肉斩骨断 20区 后巷 5.5-1 ",
+      "searchText": "e514b 间章剧情 间章 第5章 第14节 战斗前剧情 肉斩骨断 20区 后巷 5.5-14 ",
       "gameChapterId": "9107",
       "gameStageId": "910701",
       "availableLanguages": {
@@ -27340,8 +27340,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E515",
-      "stageLabel": "第2节 争斗",
-      "storyLabel": "5.5-2 争斗 (战斗后剧情)",
+      "stageLabel": "第15节 争斗",
+      "storyLabel": "5.5-15 争斗 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -27352,10 +27352,10 @@
         2,
         5,
         2,
-        2,
+        15,
         3
       ],
-      "searchText": "e515a 间章剧情 间章 第5章 第2节 战斗后剧情 肉斩骨断 争斗 5.5-2 ",
+      "searchText": "e515a 间章剧情 间章 第5章 第15节 战斗后剧情 肉斩骨断 争斗 5.5-15 ",
       "gameChapterId": "9107",
       "gameStageId": "910702",
       "availableLanguages": {
@@ -27393,8 +27393,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E516",
-      "stageLabel": "第3节 执剑之契",
-      "storyLabel": "5.5-3 执剑之契 (战斗前剧情)",
+      "stageLabel": "第16节 执剑之契",
+      "storyLabel": "5.5-16 执剑之契 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -27405,10 +27405,10 @@
         2,
         5,
         2,
-        3,
+        16,
         1
       ],
-      "searchText": "e516b 间章剧情 间章 第5章 第3节 战斗前剧情 肉斩骨断 执剑之契 5.5-3 ",
+      "searchText": "e516b 间章剧情 间章 第5章 第16节 战斗前剧情 肉斩骨断 执剑之契 5.5-16 ",
       "gameChapterId": "9107",
       "gameStageId": "910703",
       "availableLanguages": {
@@ -27446,8 +27446,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E516",
-      "stageLabel": "第3节 执剑之契",
-      "storyLabel": "5.5-3 执剑之契 (战斗后剧情)",
+      "stageLabel": "第16节 执剑之契",
+      "storyLabel": "5.5-16 执剑之契 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -27458,10 +27458,10 @@
         2,
         5,
         2,
-        3,
+        16,
         3
       ],
-      "searchText": "e516a 间章剧情 间章 第5章 第3节 战斗后剧情 肉斩骨断 执剑之契 5.5-3 ",
+      "searchText": "e516a 间章剧情 间章 第5章 第16节 战斗后剧情 肉斩骨断 执剑之契 5.5-16 ",
       "gameChapterId": "9107",
       "gameStageId": "910703",
       "availableLanguages": {
@@ -27499,8 +27499,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E517",
-      "stageLabel": "第4节 不速之客",
-      "storyLabel": "5.5-4 不速之客 (战斗前剧情)",
+      "stageLabel": "第17节 不速之客",
+      "storyLabel": "5.5-17 不速之客 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -27511,10 +27511,10 @@
         2,
         5,
         2,
-        4,
+        17,
         1
       ],
-      "searchText": "e517b 间章剧情 间章 第5章 第4节 战斗前剧情 肉斩骨断 不速之客 5.5-4 ",
+      "searchText": "e517b 间章剧情 间章 第5章 第17节 战斗前剧情 肉斩骨断 不速之客 5.5-17 ",
       "gameChapterId": "9107",
       "gameStageId": "910704",
       "availableLanguages": {
@@ -27552,8 +27552,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E518",
-      "stageLabel": "第5节 前往龙进大楼",
-      "storyLabel": "5.5-5 前往龙进大楼 (战斗前剧情)",
+      "stageLabel": "第18节 前往龙进大楼",
+      "storyLabel": "5.5-18 前往龙进大楼 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -27564,10 +27564,10 @@
         2,
         5,
         2,
-        5,
+        18,
         1
       ],
-      "searchText": "e518b 间章剧情 间章 第5章 第5节 战斗前剧情 肉斩骨断 前往龙进大楼 5.5-5 ",
+      "searchText": "e518b 间章剧情 间章 第5章 第18节 战斗前剧情 肉斩骨断 前往龙进大楼 5.5-18 ",
       "gameChapterId": "9107",
       "gameStageId": "910705",
       "availableLanguages": {
@@ -27605,8 +27605,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E519",
-      "stageLabel": "第6节 前往龙进大楼 2",
-      "storyLabel": "5.5-6 前往龙进大楼 2 (战斗前剧情)",
+      "stageLabel": "第19节 前往龙进大楼 2",
+      "storyLabel": "5.5-19 前往龙进大楼 2 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -27617,10 +27617,10 @@
         2,
         5,
         2,
-        6,
+        19,
         1
       ],
-      "searchText": "e519b 间章剧情 间章 第5章 第6节 战斗前剧情 肉斩骨断 前往龙进大楼 2 5.5-6 ",
+      "searchText": "e519b 间章剧情 间章 第5章 第19节 战斗前剧情 肉斩骨断 前往龙进大楼 2 5.5-19 ",
       "gameChapterId": "9107",
       "gameStageId": "910706",
       "availableLanguages": {
@@ -27658,8 +27658,8 @@
       "chapterKey": "E5_2",
       "chapterLabel": "间章 第5章 肉斩骨断",
       "stageKey": "E519",
-      "stageLabel": "第6节 前往龙进大楼 2",
-      "storyLabel": "5.5-6 前往龙进大楼 2 (战斗后剧情)",
+      "stageLabel": "第19节 前往龙进大楼 2",
+      "storyLabel": "5.5-19 前往龙进大楼 2 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -27670,10 +27670,10 @@
         2,
         5,
         2,
-        6,
+        19,
         3
       ],
-      "searchText": "e519a 间章剧情 间章 第5章 第6节 战斗后剧情 肉斩骨断 前往龙进大楼 2 5.5-6 ",
+      "searchText": "e519a 间章剧情 间章 第5章 第19节 战斗后剧情 肉斩骨断 前往龙进大楼 2 5.5-19 ",
       "gameChapterId": "9107",
       "gameStageId": "910706",
       "availableLanguages": {
@@ -28718,8 +28718,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E616",
-      "stageLabel": "第1节 头等舱",
-      "storyLabel": "6.5-1 头等舱 (战斗前剧情)",
+      "stageLabel": "第16节 头等舱",
+      "storyLabel": "6.5-16 头等舱 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -28730,10 +28730,10 @@
         2,
         6,
         2,
-        1,
+        16,
         1
       ],
-      "searchText": "e616b 间章剧情 间章 第6章 第1节 战斗前剧情 WARP快车谋杀案 头等舱 6.5-1 ",
+      "searchText": "e616b 间章剧情 间章 第6章 第16节 战斗前剧情 WARP快车谋杀案 头等舱 6.5-16 ",
       "gameChapterId": "9110",
       "gameStageId": "911001",
       "availableLanguages": {
@@ -28771,8 +28771,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E617",
-      "stageLabel": "第2节 北部收尾人",
-      "storyLabel": "6.5-2 北部收尾人 (战斗前剧情)",
+      "stageLabel": "第17节 北部收尾人",
+      "storyLabel": "6.5-17 北部收尾人 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -28783,10 +28783,10 @@
         2,
         6,
         2,
-        2,
+        17,
         1
       ],
-      "searchText": "e617b 间章剧情 间章 第6章 第2节 战斗前剧情 WARP快车谋杀案 北部收尾人 6.5-2 ",
+      "searchText": "e617b 间章剧情 间章 第6章 第17节 战斗前剧情 WARP快车谋杀案 北部收尾人 6.5-17 ",
       "gameChapterId": "9110",
       "gameStageId": "911002",
       "availableLanguages": {
@@ -28824,8 +28824,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E618",
-      "stageLabel": "第3节 消失的乘客",
-      "storyLabel": "6.5-3 消失的乘客 (战斗前剧情)",
+      "stageLabel": "第18节 消失的乘客",
+      "storyLabel": "6.5-18 消失的乘客 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -28836,10 +28836,10 @@
         2,
         6,
         2,
-        3,
+        18,
         1
       ],
-      "searchText": "e618b 间章剧情 间章 第6章 第3节 战斗前剧情 WARP快车谋杀案 消失的乘客 6.5-3 ",
+      "searchText": "e618b 间章剧情 间章 第6章 第18节 战斗前剧情 WARP快车谋杀案 消失的乘客 6.5-18 ",
       "gameChapterId": "9110",
       "gameStageId": "911003",
       "availableLanguages": {
@@ -28877,8 +28877,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E619",
-      "stageLabel": "第4节 无法阅览",
-      "storyLabel": "6.5-4 无法阅览 (战斗前剧情)",
+      "stageLabel": "第19节 无法阅览",
+      "storyLabel": "6.5-19 无法阅览 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -28889,10 +28889,10 @@
         2,
         6,
         2,
-        4,
+        19,
         1
       ],
-      "searchText": "e619b 间章剧情 间章 第6章 第4节 战斗前剧情 WARP快车谋杀案 无法阅览 6.5-4 ",
+      "searchText": "e619b 间章剧情 间章 第6章 第19节 战斗前剧情 WARP快车谋杀案 无法阅览 6.5-19 ",
       "gameChapterId": "9110",
       "gameStageId": "911004",
       "availableLanguages": {
@@ -28930,8 +28930,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E619",
-      "stageLabel": "第4节 无法阅览",
-      "storyLabel": "6.5-4 无法阅览 (战斗后剧情)",
+      "stageLabel": "第19节 无法阅览",
+      "storyLabel": "6.5-19 无法阅览 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -28942,10 +28942,10 @@
         2,
         6,
         2,
-        4,
+        19,
         3
       ],
-      "searchText": "e619a 间章剧情 间章 第6章 第4节 战斗后剧情 WARP快车谋杀案 无法阅览 6.5-4 ",
+      "searchText": "e619a 间章剧情 间章 第6章 第19节 战斗后剧情 WARP快车谋杀案 无法阅览 6.5-19 ",
       "gameChapterId": "9110",
       "gameStageId": "911004",
       "availableLanguages": {
@@ -28983,8 +28983,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E620",
-      "stageLabel": "第5节 多裂纹事务所",
-      "storyLabel": "6.5-5 多裂纹事务所 (战斗前剧情)",
+      "stageLabel": "第20节 多裂纹事务所",
+      "storyLabel": "6.5-20 多裂纹事务所 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -28995,10 +28995,10 @@
         2,
         6,
         2,
-        5,
+        20,
         1
       ],
-      "searchText": "e620b 间章剧情 间章 第6章 第5节 战斗前剧情 WARP快车谋杀案 多裂纹事务所 6.5-5 ",
+      "searchText": "e620b 间章剧情 间章 第6章 第20节 战斗前剧情 WARP快车谋杀案 多裂纹事务所 6.5-20 ",
       "gameChapterId": "9110",
       "gameStageId": "911005",
       "availableLanguages": {
@@ -29036,8 +29036,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E621",
-      "stageLabel": "第6节 地狱般的图景",
-      "storyLabel": "6.5-6 地狱般的图景 (战斗后剧情)",
+      "stageLabel": "第21节 地狱般的图景",
+      "storyLabel": "6.5-21 地狱般的图景 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -29048,10 +29048,10 @@
         2,
         6,
         2,
-        6,
+        21,
         3
       ],
-      "searchText": "e621a 间章剧情 间章 第6章 第6节 战斗后剧情 WARP快车谋杀案 地狱般的图景 6.5-6 ",
+      "searchText": "e621a 间章剧情 间章 第6章 第21节 战斗后剧情 WARP快车谋杀案 地狱般的图景 6.5-21 ",
       "gameChapterId": "9110",
       "gameStageId": "911006",
       "availableLanguages": {
@@ -29089,8 +29089,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E622",
-      "stageLabel": "第7节 地狱般的图景 2",
-      "storyLabel": "6.5-7 地狱般的图景 2 (战斗前剧情)",
+      "stageLabel": "第22节 地狱般的图景 2",
+      "storyLabel": "6.5-22 地狱般的图景 2 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -29101,10 +29101,10 @@
         2,
         6,
         2,
-        7,
+        22,
         1
       ],
-      "searchText": "e622b 间章剧情 间章 第6章 第7节 战斗前剧情 WARP快车谋杀案 地狱般的图景 2 6.5-7 ",
+      "searchText": "e622b 间章剧情 间章 第6章 第22节 战斗前剧情 WARP快车谋杀案 地狱般的图景 2 6.5-22 ",
       "gameChapterId": "9110",
       "gameStageId": "911007",
       "availableLanguages": {
@@ -29142,8 +29142,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E623",
-      "stageLabel": "第8节 血魔",
-      "storyLabel": "6.5-8 血魔 (战斗后剧情)",
+      "stageLabel": "第23节 血魔",
+      "storyLabel": "6.5-23 血魔 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -29154,10 +29154,10 @@
         2,
         6,
         2,
-        8,
+        23,
         3
       ],
-      "searchText": "e623a 间章剧情 间章 第6章 第8节 战斗后剧情 WARP快车谋杀案 血魔 6.5-8 ",
+      "searchText": "e623a 间章剧情 间章 第6章 第23节 战斗后剧情 WARP快车谋杀案 血魔 6.5-23 ",
       "gameChapterId": "9110",
       "gameStageId": "911008",
       "availableLanguages": {
@@ -29195,8 +29195,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E624",
-      "stageLabel": "第9节 清扫人员",
-      "storyLabel": "6.5-9 清扫人员 (战斗后剧情)",
+      "stageLabel": "第24节 清扫人员",
+      "storyLabel": "6.5-24 清扫人员 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -29207,10 +29207,10 @@
         2,
         6,
         2,
-        9,
+        24,
         3
       ],
-      "searchText": "e624a 间章剧情 间章 第6章 第9节 战斗后剧情 WARP快车谋杀案 清扫人员 6.5-9 ",
+      "searchText": "e624a 间章剧情 间章 第6章 第24节 战斗后剧情 WARP快车谋杀案 清扫人员 6.5-24 ",
       "gameChapterId": "9110",
       "gameStageId": "911009",
       "availableLanguages": {
@@ -29248,8 +29248,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E625",
-      "stageLabel": "第10节 下一节车厢",
-      "storyLabel": "6.5-10 下一节车厢 (战斗前剧情)",
+      "stageLabel": "第25节 下一节车厢",
+      "storyLabel": "6.5-25 下一节车厢 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -29260,10 +29260,10 @@
         2,
         6,
         2,
-        10,
+        25,
         1
       ],
-      "searchText": "e625b 间章剧情 间章 第6章 第10节 战斗前剧情 WARP快车谋杀案 下一节车厢 6.5-10 ",
+      "searchText": "e625b 间章剧情 间章 第6章 第25节 战斗前剧情 WARP快车谋杀案 下一节车厢 6.5-25 ",
       "gameChapterId": "9110",
       "gameStageId": "911010",
       "availableLanguages": {
@@ -29301,8 +29301,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E625",
-      "stageLabel": "第10节 下一节车厢",
-      "storyLabel": "6.5-10 下一节车厢 (战斗中剧情)",
+      "stageLabel": "第25节 下一节车厢",
+      "storyLabel": "6.5-25 下一节车厢 (战斗中剧情)",
       "part": {
         "raw": "I",
         "code": "I",
@@ -29313,10 +29313,10 @@
         2,
         6,
         2,
-        10,
+        25,
         2
       ],
-      "searchText": "e625i 间章剧情 间章 第6章 第10节 战斗中剧情 WARP快车谋杀案 下一节车厢 6.5-10 ",
+      "searchText": "e625i 间章剧情 间章 第6章 第25节 战斗中剧情 WARP快车谋杀案 下一节车厢 6.5-25 ",
       "gameChapterId": "9110",
       "gameStageId": "911010",
       "availableLanguages": {
@@ -29354,8 +29354,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E625",
-      "stageLabel": "第10节 下一节车厢",
-      "storyLabel": "6.5-10 下一节车厢 (战斗后剧情)",
+      "stageLabel": "第25节 下一节车厢",
+      "storyLabel": "6.5-25 下一节车厢 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -29366,10 +29366,10 @@
         2,
         6,
         2,
-        10,
+        25,
         3
       ],
-      "searchText": "e625a 间章剧情 间章 第6章 第10节 战斗后剧情 WARP快车谋杀案 下一节车厢 6.5-10 ",
+      "searchText": "e625a 间章剧情 间章 第6章 第25节 战斗后剧情 WARP快车谋杀案 下一节车厢 6.5-25 ",
       "gameChapterId": "9110",
       "gameStageId": "911010",
       "availableLanguages": {
@@ -29407,8 +29407,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E626",
-      "stageLabel": "第11节 下一节车厢 2",
-      "storyLabel": "6.5-11 下一节车厢 2 (战斗前剧情)",
+      "stageLabel": "第26节 下一节车厢 2",
+      "storyLabel": "6.5-26 下一节车厢 2 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -29419,10 +29419,10 @@
         2,
         6,
         2,
-        11,
+        26,
         1
       ],
-      "searchText": "e626b 间章剧情 间章 第6章 第11节 战斗前剧情 WARP快车谋杀案 下一节车厢 2 6.5-11 ",
+      "searchText": "e626b 间章剧情 间章 第6章 第26节 战斗前剧情 WARP快车谋杀案 下一节车厢 2 6.5-26 ",
       "gameChapterId": "9110",
       "gameStageId": "911011",
       "availableLanguages": {
@@ -29460,8 +29460,8 @@
       "chapterKey": "E6_2",
       "chapterLabel": "间章 第6章 WARP快车谋杀案",
       "stageKey": "E627",
-      "stageLabel": "第12节 义体收尾人",
-      "storyLabel": "6.5-12 义体收尾人 (战斗前剧情)",
+      "stageLabel": "第27节 义体收尾人",
+      "storyLabel": "6.5-27 义体收尾人 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -29472,10 +29472,10 @@
         2,
         6,
         2,
-        12,
+        27,
         1
       ],
-      "searchText": "e627b 间章剧情 间章 第6章 第12节 战斗前剧情 WARP快车谋杀案 义体收尾人 6.5-12 ",
+      "searchText": "e627b 间章剧情 间章 第6章 第27节 战斗前剧情 WARP快车谋杀案 义体收尾人 6.5-27 ",
       "gameChapterId": "9110",
       "gameStageId": "911012",
       "availableLanguages": {
@@ -30467,8 +30467,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E715",
-      "stageLabel": "第1节 新年",
-      "storyLabel": "7.5-1 新年 (战斗前剧情)",
+      "stageLabel": "第15节 新年",
+      "storyLabel": "7.5-15 新年 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -30479,10 +30479,10 @@
         2,
         7,
         2,
-        1,
+        15,
         1
       ],
-      "searchText": "e715b 间章剧情 间章 第7章 第1节 战斗前剧情 深夜清扫 新年 7.5-1 ",
+      "searchText": "e715b 间章剧情 间章 第7章 第15节 战斗前剧情 深夜清扫 新年 7.5-15 ",
       "gameChapterId": "9116",
       "gameStageId": "911601",
       "availableLanguages": {
@@ -30520,8 +30520,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E716",
-      "stageLabel": "第2节 决斗",
-      "storyLabel": "7.5-2 决斗 (战斗前剧情)",
+      "stageLabel": "第16节 决斗",
+      "storyLabel": "7.5-16 决斗 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -30532,10 +30532,10 @@
         2,
         7,
         2,
-        2,
+        16,
         1
       ],
-      "searchText": "e716b 间章剧情 间章 第7章 第2节 战斗前剧情 深夜清扫 决斗 7.5-2 ",
+      "searchText": "e716b 间章剧情 间章 第7章 第16节 战斗前剧情 深夜清扫 决斗 7.5-16 ",
       "gameChapterId": "9116",
       "gameStageId": "911602",
       "availableLanguages": {
@@ -30573,8 +30573,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E716",
-      "stageLabel": "第2节 决斗",
-      "storyLabel": "7.5-2 决斗 (战斗后剧情)",
+      "stageLabel": "第16节 决斗",
+      "storyLabel": "7.5-16 决斗 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -30585,10 +30585,10 @@
         2,
         7,
         2,
-        2,
+        16,
         3
       ],
-      "searchText": "e716a 间章剧情 间章 第7章 第2节 战斗后剧情 深夜清扫 决斗 7.5-2 ",
+      "searchText": "e716a 间章剧情 间章 第7章 第16节 战斗后剧情 深夜清扫 决斗 7.5-16 ",
       "gameChapterId": "9116",
       "gameStageId": "911602",
       "availableLanguages": {
@@ -30626,8 +30626,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E717",
-      "stageLabel": "第3节 向导",
-      "storyLabel": "7.5-3 向导 (战斗前剧情)",
+      "stageLabel": "第17节 向导",
+      "storyLabel": "7.5-17 向导 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -30638,10 +30638,10 @@
         2,
         7,
         2,
-        3,
+        17,
         1
       ],
-      "searchText": "e717b 间章剧情 间章 第7章 第3节 战斗前剧情 深夜清扫 向导 7.5-3 ",
+      "searchText": "e717b 间章剧情 间章 第7章 第17节 战斗前剧情 深夜清扫 向导 7.5-17 ",
       "gameChapterId": "9116",
       "gameStageId": "911603",
       "availableLanguages": {
@@ -30679,8 +30679,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E717",
-      "stageLabel": "第3节 向导",
-      "storyLabel": "7.5-3 向导 (战斗后剧情)",
+      "stageLabel": "第17节 向导",
+      "storyLabel": "7.5-17 向导 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -30691,10 +30691,10 @@
         2,
         7,
         2,
-        3,
+        17,
         3
       ],
-      "searchText": "e717a 间章剧情 间章 第7章 第3节 战斗后剧情 深夜清扫 向导 7.5-3 ",
+      "searchText": "e717a 间章剧情 间章 第7章 第17节 战斗后剧情 深夜清扫 向导 7.5-17 ",
       "gameChapterId": "9116",
       "gameStageId": "911603",
       "availableLanguages": {
@@ -30732,8 +30732,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E718",
-      "stageLabel": "第4节 袭击",
-      "storyLabel": "7.5-4 袭击 (战斗前剧情)",
+      "stageLabel": "第18节 袭击",
+      "storyLabel": "7.5-18 袭击 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -30744,10 +30744,10 @@
         2,
         7,
         2,
-        4,
+        18,
         1
       ],
-      "searchText": "e718b 间章剧情 间章 第7章 第4节 战斗前剧情 深夜清扫 袭击 7.5-4 ",
+      "searchText": "e718b 间章剧情 间章 第7章 第18节 战斗前剧情 深夜清扫 袭击 7.5-18 ",
       "gameChapterId": "9116",
       "gameStageId": "911604",
       "availableLanguages": {
@@ -30785,8 +30785,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E719",
-      "stageLabel": "第5节 客栈",
-      "storyLabel": "7.5-5 客栈 (战斗前剧情)",
+      "stageLabel": "第19节 客栈",
+      "storyLabel": "7.5-19 客栈 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -30797,10 +30797,10 @@
         2,
         7,
         2,
-        5,
+        19,
         1
       ],
-      "searchText": "e719b 间章剧情 间章 第7章 第5节 战斗前剧情 深夜清扫 客栈 7.5-5 ",
+      "searchText": "e719b 间章剧情 间章 第7章 第19节 战斗前剧情 深夜清扫 客栈 7.5-19 ",
       "gameChapterId": "9116",
       "gameStageId": "911605",
       "availableLanguages": {
@@ -30838,8 +30838,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E719",
-      "stageLabel": "第5节 客栈",
-      "storyLabel": "7.5-5 客栈 (战斗后剧情)",
+      "stageLabel": "第19节 客栈",
+      "storyLabel": "7.5-19 客栈 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -30850,10 +30850,10 @@
         2,
         7,
         2,
-        5,
+        19,
         3
       ],
-      "searchText": "e719a 间章剧情 间章 第7章 第5节 战斗后剧情 深夜清扫 客栈 7.5-5 ",
+      "searchText": "e719a 间章剧情 间章 第7章 第19节 战斗后剧情 深夜清扫 客栈 7.5-19 ",
       "gameChapterId": "9116",
       "gameStageId": "911605",
       "availableLanguages": {
@@ -30891,8 +30891,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E720",
-      "stageLabel": "第6节 疑心",
-      "storyLabel": "7.5-6 疑心 (战斗前剧情)",
+      "stageLabel": "第20节 疑心",
+      "storyLabel": "7.5-20 疑心 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -30903,10 +30903,10 @@
         2,
         7,
         2,
-        6,
+        20,
         1
       ],
-      "searchText": "e720b 间章剧情 间章 第7章 第6节 战斗前剧情 深夜清扫 疑心 7.5-6 ",
+      "searchText": "e720b 间章剧情 间章 第7章 第20节 战斗前剧情 深夜清扫 疑心 7.5-20 ",
       "gameChapterId": "9116",
       "gameStageId": "911606",
       "availableLanguages": {
@@ -30944,8 +30944,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E721",
-      "stageLabel": "第7节 观望",
-      "storyLabel": "7.5-7 观望 (战斗前剧情)",
+      "stageLabel": "第21节 观望",
+      "storyLabel": "7.5-21 观望 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -30956,10 +30956,10 @@
         2,
         7,
         2,
-        7,
+        21,
         1
       ],
-      "searchText": "e721b 间章剧情 间章 第7章 第7节 战斗前剧情 深夜清扫 观望 7.5-7 ",
+      "searchText": "e721b 间章剧情 间章 第7章 第21节 战斗前剧情 深夜清扫 观望 7.5-21 ",
       "gameChapterId": "9116",
       "gameStageId": "911607",
       "availableLanguages": {
@@ -30997,8 +30997,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E721",
-      "stageLabel": "第7节 观望",
-      "storyLabel": "7.5-7 观望 (战斗后剧情)",
+      "stageLabel": "第21节 观望",
+      "storyLabel": "7.5-21 观望 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31009,10 +31009,10 @@
         2,
         7,
         2,
-        7,
+        21,
         3
       ],
-      "searchText": "e721a 间章剧情 间章 第7章 第7节 战斗后剧情 深夜清扫 观望 7.5-7 ",
+      "searchText": "e721a 间章剧情 间章 第7章 第21节 战斗后剧情 深夜清扫 观望 7.5-21 ",
       "gameChapterId": "9116",
       "gameStageId": "911607",
       "availableLanguages": {
@@ -31050,8 +31050,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E722",
-      "stageLabel": "第8节 黑兽",
-      "storyLabel": "7.5-8 黑兽 (战斗前剧情)",
+      "stageLabel": "第22节 黑兽",
+      "storyLabel": "7.5-22 黑兽 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31062,10 +31062,10 @@
         2,
         7,
         2,
-        8,
+        22,
         1
       ],
-      "searchText": "e722b 间章剧情 间章 第7章 第8节 战斗前剧情 深夜清扫 黑兽 7.5-8 ",
+      "searchText": "e722b 间章剧情 间章 第7章 第22节 战斗前剧情 深夜清扫 黑兽 7.5-22 ",
       "gameChapterId": "9116",
       "gameStageId": "911608",
       "availableLanguages": {
@@ -31103,8 +31103,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E722",
-      "stageLabel": "第8节 黑兽",
-      "storyLabel": "7.5-8 黑兽 (战斗后剧情)",
+      "stageLabel": "第22节 黑兽",
+      "storyLabel": "7.5-22 黑兽 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31115,10 +31115,10 @@
         2,
         7,
         2,
-        8,
+        22,
         3
       ],
-      "searchText": "e722a 间章剧情 间章 第7章 第8节 战斗后剧情 深夜清扫 黑兽 7.5-8 ",
+      "searchText": "e722a 间章剧情 间章 第7章 第22节 战斗后剧情 深夜清扫 黑兽 7.5-22 ",
       "gameChapterId": "9116",
       "gameStageId": "911608",
       "availableLanguages": {
@@ -31156,8 +31156,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E723",
-      "stageLabel": "第9节 史易华",
-      "storyLabel": "7.5-9 史易华 (战斗前剧情)",
+      "stageLabel": "第23节 史易华",
+      "storyLabel": "7.5-23 史易华 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31168,10 +31168,10 @@
         2,
         7,
         2,
-        9,
+        23,
         1
       ],
-      "searchText": "e723b 间章剧情 间章 第7章 第9节 战斗前剧情 深夜清扫 史易华 7.5-9 ",
+      "searchText": "e723b 间章剧情 间章 第7章 第23节 战斗前剧情 深夜清扫 史易华 7.5-23 ",
       "gameChapterId": "9116",
       "gameStageId": "911609",
       "availableLanguages": {
@@ -31209,8 +31209,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E724",
-      "stageLabel": "第10节 意外之敌",
-      "storyLabel": "7.5-10 意外之敌 (战斗前剧情)",
+      "stageLabel": "第24节 意外之敌",
+      "storyLabel": "7.5-24 意外之敌 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31221,10 +31221,10 @@
         2,
         7,
         2,
-        10,
+        24,
         1
       ],
-      "searchText": "e724b 间章剧情 间章 第7章 第10节 战斗前剧情 深夜清扫 意外之敌 7.5-10 ",
+      "searchText": "e724b 间章剧情 间章 第7章 第24节 战斗前剧情 深夜清扫 意外之敌 7.5-24 ",
       "gameChapterId": "9116",
       "gameStageId": "911610",
       "availableLanguages": {
@@ -31262,8 +31262,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E725",
-      "stageLabel": "第11节 后巷深宵",
-      "storyLabel": "7.5-11 后巷深宵 (战斗前剧情)",
+      "stageLabel": "第25节 后巷深宵",
+      "storyLabel": "7.5-25 后巷深宵 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31274,10 +31274,10 @@
         2,
         7,
         2,
-        11,
+        25,
         1
       ],
-      "searchText": "e725b 间章剧情 间章 第7章 第11节 战斗前剧情 深夜清扫 后巷深宵 7.5-11 ",
+      "searchText": "e725b 间章剧情 间章 第7章 第25节 战斗前剧情 深夜清扫 后巷深宵 7.5-25 ",
       "gameChapterId": "9116",
       "gameStageId": "911611",
       "availableLanguages": {
@@ -31315,8 +31315,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E725",
-      "stageLabel": "第11节 后巷深宵",
-      "storyLabel": "7.5-11 后巷深宵 (战斗后剧情)",
+      "stageLabel": "第25节 后巷深宵",
+      "storyLabel": "7.5-25 后巷深宵 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31327,10 +31327,10 @@
         2,
         7,
         2,
-        11,
+        25,
         3
       ],
-      "searchText": "e725a 间章剧情 间章 第7章 第11节 战斗后剧情 深夜清扫 后巷深宵 7.5-11 ",
+      "searchText": "e725a 间章剧情 间章 第7章 第25节 战斗后剧情 深夜清扫 后巷深宵 7.5-25 ",
       "gameChapterId": "9116",
       "gameStageId": "911611",
       "availableLanguages": {
@@ -31368,8 +31368,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第12节 同盟",
-      "storyLabel": "7.5-12 同盟 (战斗前剧情)",
+      "stageLabel": "第26节 同盟",
+      "storyLabel": "7.5-26 同盟 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31380,10 +31380,10 @@
         2,
         7,
         2,
-        12,
+        26,
         1
       ],
-      "searchText": "e726b 间章剧情 间章 第7章 第12节 战斗前剧情 深夜清扫 同盟 7.5-12 ",
+      "searchText": "e726b 间章剧情 间章 第7章 第26节 战斗前剧情 深夜清扫 同盟 7.5-26 ",
       "gameChapterId": "9116",
       "gameStageId": "911612",
       "availableLanguages": {
@@ -31421,8 +31421,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第12节 同盟",
-      "storyLabel": "7.5-12 同盟 (战斗中剧情)",
+      "stageLabel": "第26节 同盟",
+      "storyLabel": "7.5-26 同盟 (战斗中剧情)",
       "part": {
         "raw": "I",
         "code": "I",
@@ -31433,10 +31433,10 @@
         2,
         7,
         2,
-        12,
+        26,
         2
       ],
-      "searchText": "e726i 间章剧情 间章 第7章 第12节 战斗中剧情 深夜清扫 同盟 7.5-12 ",
+      "searchText": "e726i 间章剧情 间章 第7章 第26节 战斗中剧情 深夜清扫 同盟 7.5-26 ",
       "gameChapterId": "9116",
       "gameStageId": "911612",
       "availableLanguages": {
@@ -31474,8 +31474,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第12节 同盟",
-      "storyLabel": "7.5-12 同盟 (战斗中剧情 2)",
+      "stageLabel": "第26节 同盟",
+      "storyLabel": "7.5-26 同盟 (战斗中剧情 2)",
       "part": {
         "raw": "I2",
         "code": "I2",
@@ -31486,10 +31486,10 @@
         2,
         7,
         2,
-        12,
+        26,
         2.02
       ],
-      "searchText": "e726i2 间章剧情 间章 第7章 第12节 战斗中剧情 2 深夜清扫 同盟 7.5-12 ",
+      "searchText": "e726i2 间章剧情 间章 第7章 第26节 战斗中剧情 2 深夜清扫 同盟 7.5-26 ",
       "gameChapterId": "9116",
       "gameStageId": "911612",
       "availableLanguages": {
@@ -31527,8 +31527,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第12节 同盟",
-      "storyLabel": "7.5-12 同盟 (战斗后剧情)",
+      "stageLabel": "第26节 同盟",
+      "storyLabel": "7.5-26 同盟 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31539,10 +31539,10 @@
         2,
         7,
         2,
-        12,
+        26,
         3
       ],
-      "searchText": "e726a 间章剧情 间章 第7章 第12节 战斗后剧情 深夜清扫 同盟 7.5-12 ",
+      "searchText": "e726a 间章剧情 间章 第7章 第26节 战斗后剧情 深夜清扫 同盟 7.5-26 ",
       "gameChapterId": "9116",
       "gameStageId": "911612",
       "availableLanguages": {
@@ -31580,8 +31580,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E727",
-      "stageLabel": "第13节",
-      "storyLabel": "间章 第7章 第13节 战斗中剧情",
+      "stageLabel": "第27节",
+      "storyLabel": "间章 第7章 第27节 战斗中剧情",
       "part": {
         "raw": "I",
         "code": "I",
@@ -31592,10 +31592,10 @@
         2,
         7,
         2,
-        13,
+        27,
         2
       ],
-      "searchText": "e727i 间章剧情 间章 第7章 第13节 战斗中剧情 深夜清扫",
+      "searchText": "e727i 间章剧情 间章 第7章 第27节 战斗中剧情 深夜清扫",
       "gameChapterId": "9116",
       "gameStageId": "911613",
       "availableLanguages": {
@@ -31627,8 +31627,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E727",
-      "stageLabel": "第13节",
-      "storyLabel": "间章 第7章 第13节 战斗后剧情",
+      "stageLabel": "第27节",
+      "storyLabel": "间章 第7章 第27节 战斗后剧情",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31639,10 +31639,10 @@
         2,
         7,
         2,
-        13,
+        27,
         3
       ],
-      "searchText": "e727a 间章剧情 间章 第7章 第13节 战斗后剧情 深夜清扫",
+      "searchText": "e727a 间章剧情 间章 第7章 第27节 战斗后剧情 深夜清扫",
       "gameChapterId": "9116",
       "gameStageId": "911613",
       "availableLanguages": {
@@ -31674,8 +31674,8 @@
       "chapterKey": "E7_2",
       "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E728",
-      "stageLabel": "第14节",
-      "storyLabel": "间章 第7章 第14节 战斗前剧情",
+      "stageLabel": "第28节",
+      "storyLabel": "间章 第7章 第28节 战斗前剧情",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31686,10 +31686,10 @@
         2,
         7,
         2,
-        14,
+        28,
         1
       ],
-      "searchText": "e728b 间章剧情 间章 第7章 第14节 战斗前剧情 深夜清扫",
+      "searchText": "e728b 间章剧情 间章 第7章 第28节 战斗前剧情 深夜清扫",
       "gameChapterId": "9116",
       "gameStageId": "911614",
       "availableLanguages": {
