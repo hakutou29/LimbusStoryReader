@@ -178,7 +178,7 @@ function parseStoryCode(fileCode) {
       categoryLabel: '间章剧情',
       categoryDescription: 'ES 开头，间章8授课剧情，置于切磋琢春E803B之后。',
       prefix,
-      chapterKey: `E8`,
+      chapterKey: `E8_0`,
       chapterLabel: `间章 第8章 切磋琢春`,
       stageKey: `${prefix}${digits}`,
       stageLabel: `授课单元 ${toNumber(chapter)}-${stage}`,
