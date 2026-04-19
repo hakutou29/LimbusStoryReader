@@ -222,11 +222,18 @@ function parseStoryCode(fileCode) {
           chapterSubSort = 1;
        }
     } else if (origChapter === '7') {
-       gameChapterId = '9114'; // LCB体检
-    } else if (origChapter === '8') {
-       gameChapterId = '9119'; // 深夜清扫
-    } else if (origChapter === '9') {
-       gameChapterId = '9125'; // 善意的巡礼 / 切磋琢春
+         if (origStage > 14) {
+            gameChapterId = '9116'; // 深夜清扫
+            actualStage = origStage - 14;
+            chapterSubSort = 2;
+         } else {
+            gameChapterId = '9114'; // LCB体检
+            chapterSubSort = 1;
+         }
+      } else if (origChapter === '8') {
+         gameChapterId = '9119'; // 切磋琢春
+      } else if (origChapter === '9') {
+         gameChapterId = '9125'; // 绞丝结线
     } else {
        gameChapterId = '91' + origChapter.padStart(2, '0');
     }

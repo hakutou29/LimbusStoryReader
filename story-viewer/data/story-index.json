@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T14:57:49.510Z",
+  "generatedAt": "2026-04-19T22:37:08.986Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -101,7 +101,7 @@
       "label": "间章剧情",
       "description": "E 开头，按间章章节与关卡索引。",
       "count": 184,
-      "chapterCount": 10,
+      "chapterCount": 11,
       "chapters": [
         {
           "key": "E0_0",
@@ -139,9 +139,14 @@
           "count": 15
         },
         {
-          "key": "E7_0",
+          "key": "E7_1",
           "label": "间章 第7章 LCB定期体检",
-          "count": 42
+          "count": 18
+        },
+        {
+          "key": "E7_2",
+          "label": "间章 第7章 深夜清扫",
+          "count": 24
         },
         {
           "key": "E8_0",
@@ -30682,7 +30687,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E701",
       "stageLabel": "第1节 数据收集",
@@ -30696,7 +30701,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         1,
         1
       ],
@@ -30735,7 +30740,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E701",
       "stageLabel": "第1节 数据收集",
@@ -30749,7 +30754,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         1,
         3
       ],
@@ -30788,7 +30793,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E702",
       "stageLabel": "第2节 健康体检",
@@ -30802,7 +30807,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         2,
         1
       ],
@@ -30841,7 +30846,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E703",
       "stageLabel": "第3节 移动装置",
@@ -30855,7 +30860,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         3,
         1
       ],
@@ -30894,7 +30899,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E704",
       "stageLabel": "第4节 霍恩海姆",
@@ -30908,7 +30913,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         4,
         1
       ],
@@ -30947,7 +30952,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E704",
       "stageLabel": "第4节 霍恩海姆",
@@ -30961,7 +30966,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         4,
         3
       ],
@@ -31000,7 +31005,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E705",
       "stageLabel": "第5节 助手",
@@ -31014,7 +31019,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         5,
         1
       ],
@@ -31053,7 +31058,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E706",
       "stageLabel": "第6节 无意义的愤怒",
@@ -31067,7 +31072,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         6,
         1
       ],
@@ -31106,7 +31111,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E707",
       "stageLabel": "第7节 迷失方向的怠惰",
@@ -31120,7 +31125,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         7,
         1
       ],
@@ -31159,7 +31164,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E708",
       "stageLabel": "第8节 自愿的沉溺",
@@ -31173,7 +31178,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         8,
         1
       ],
@@ -31212,7 +31217,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E709",
       "stageLabel": "第9节 钝鱼叉",
@@ -31226,7 +31231,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         9,
         1
       ],
@@ -31265,7 +31270,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E710",
       "stageLabel": "第10节 刺痛不已",
@@ -31279,7 +31284,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         10,
         1
       ],
@@ -31318,7 +31323,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E711",
       "stageLabel": "第11节 好奇心的代价",
@@ -31332,7 +31337,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         11,
         1
       ],
@@ -31371,7 +31376,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E711",
       "stageLabel": "第11节 好奇心的代价",
@@ -31385,7 +31390,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         11,
         2
       ],
@@ -31424,7 +31429,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E711",
       "stageLabel": "第11节 好奇心的代价",
@@ -31438,7 +31443,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         11,
         3
       ],
@@ -31477,7 +31482,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E712",
       "stageLabel": "第12节 排名",
@@ -31491,7 +31496,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         12,
         1
       ],
@@ -31530,7 +31535,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E713",
       "stageLabel": "第13节 新的编号",
@@ -31544,7 +31549,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         13,
         1
       ],
@@ -31583,7 +31588,7 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
+      "chapterKey": "E7_1",
       "chapterLabel": "间章 第7章 LCB定期体检",
       "stageKey": "E714",
       "stageLabel": "第14节 最后的体检",
@@ -31597,7 +31602,7 @@
       "sortKey": [
         2,
         7,
-        0,
+        1,
         14,
         1
       ],
@@ -31636,11 +31641,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E715",
-      "stageLabel": "第15节",
-      "storyLabel": "间章 第7章 第15节 战斗前剧情",
+      "stageLabel": "第1节 新年",
+      "storyLabel": "新年 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31650,13 +31655,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        15,
+        2,
+        1,
         1
       ],
-      "searchText": "e715b 间章剧情 间章 第7章 第15节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911415",
+      "searchText": "e715b 间章剧情 间章 第7章 第1节 战斗前剧情 深夜清扫 新年",
+      "gameChapterId": "9116",
+      "gameStageId": "911601",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -31671,10 +31676,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "新年",
+        "JP": "新年",
+        "EN": "Happy New Year",
+        "KR": "신년"
       }
     },
     {
@@ -31683,11 +31694,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E716",
-      "stageLabel": "第16节",
-      "storyLabel": "间章 第7章 第16节 战斗前剧情",
+      "stageLabel": "第2节 决斗",
+      "storyLabel": "决斗 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31697,13 +31708,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        16,
+        2,
+        2,
         1
       ],
-      "searchText": "e716b 间章剧情 间章 第7章 第16节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911416",
+      "searchText": "e716b 间章剧情 间章 第7章 第2节 战斗前剧情 深夜清扫 决斗",
+      "gameChapterId": "9116",
+      "gameStageId": "911602",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -31718,10 +31729,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "决斗",
+        "JP": "決闘",
+        "EN": "The Duel",
+        "KR": "결투"
       }
     },
     {
@@ -31730,11 +31747,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E716",
-      "stageLabel": "第16节",
-      "storyLabel": "间章 第7章 第16节 战斗后剧情",
+      "stageLabel": "第2节 决斗",
+      "storyLabel": "决斗 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31744,13 +31761,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        16,
+        2,
+        2,
         3
       ],
-      "searchText": "e716a 间章剧情 间章 第7章 第16节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911416",
+      "searchText": "e716a 间章剧情 间章 第7章 第2节 战斗后剧情 深夜清扫 决斗",
+      "gameChapterId": "9116",
+      "gameStageId": "911602",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -31765,10 +31782,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "决斗",
+        "JP": "決闘",
+        "EN": "The Duel",
+        "KR": "결투"
       }
     },
     {
@@ -31777,11 +31800,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E717",
-      "stageLabel": "第17节",
-      "storyLabel": "间章 第7章 第17节 战斗前剧情",
+      "stageLabel": "第3节 向导",
+      "storyLabel": "向导 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31791,13 +31814,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        17,
+        2,
+        3,
         1
       ],
-      "searchText": "e717b 间章剧情 间章 第7章 第17节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911417",
+      "searchText": "e717b 间章剧情 间章 第7章 第3节 战斗前剧情 深夜清扫 向导",
+      "gameChapterId": "9116",
+      "gameStageId": "911603",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -31812,10 +31835,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "向导",
+        "JP": "案内者",
+        "EN": "A Guide",
+        "KR": "안내자"
       }
     },
     {
@@ -31824,11 +31853,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E717",
-      "stageLabel": "第17节",
-      "storyLabel": "间章 第7章 第17节 战斗后剧情",
+      "stageLabel": "第3节 向导",
+      "storyLabel": "向导 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31838,13 +31867,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        17,
+        2,
+        3,
         3
       ],
-      "searchText": "e717a 间章剧情 间章 第7章 第17节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911417",
+      "searchText": "e717a 间章剧情 间章 第7章 第3节 战斗后剧情 深夜清扫 向导",
+      "gameChapterId": "9116",
+      "gameStageId": "911603",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -31859,10 +31888,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "向导",
+        "JP": "案内者",
+        "EN": "A Guide",
+        "KR": "안내자"
       }
     },
     {
@@ -31871,11 +31906,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E718",
-      "stageLabel": "第18节",
-      "storyLabel": "间章 第7章 第18节 战斗前剧情",
+      "stageLabel": "第4节 袭击",
+      "storyLabel": "袭击 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31885,13 +31920,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        18,
+        2,
+        4,
         1
       ],
-      "searchText": "e718b 间章剧情 间章 第7章 第18节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911418",
+      "searchText": "e718b 间章剧情 间章 第7章 第4节 战斗前剧情 深夜清扫 袭击",
+      "gameChapterId": "9116",
+      "gameStageId": "911604",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -31906,10 +31941,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "袭击",
+        "JP": "襲撃",
+        "EN": "Ambush",
+        "KR": "습격"
       }
     },
     {
@@ -31918,11 +31959,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E719",
-      "stageLabel": "第19节",
-      "storyLabel": "间章 第7章 第19节 战斗前剧情",
+      "stageLabel": "第5节 客栈",
+      "storyLabel": "客栈 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -31932,13 +31973,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        19,
+        2,
+        5,
         1
       ],
-      "searchText": "e719b 间章剧情 间章 第7章 第19节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911419",
+      "searchText": "e719b 间章剧情 间章 第7章 第5节 战斗前剧情 深夜清扫 客栈",
+      "gameChapterId": "9116",
+      "gameStageId": "911605",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -31953,10 +31994,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "客栈",
+        "JP": "客桟",
+        "EN": "Kezhan",
+        "KR": "객잔"
       }
     },
     {
@@ -31965,11 +32012,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E719",
-      "stageLabel": "第19节",
-      "storyLabel": "间章 第7章 第19节 战斗后剧情",
+      "stageLabel": "第5节 客栈",
+      "storyLabel": "客栈 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -31979,13 +32026,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        19,
+        2,
+        5,
         3
       ],
-      "searchText": "e719a 间章剧情 间章 第7章 第19节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911419",
+      "searchText": "e719a 间章剧情 间章 第7章 第5节 战斗后剧情 深夜清扫 客栈",
+      "gameChapterId": "9116",
+      "gameStageId": "911605",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32000,10 +32047,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "客栈",
+        "JP": "客桟",
+        "EN": "Kezhan",
+        "KR": "객잔"
       }
     },
     {
@@ -32012,11 +32065,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E720",
-      "stageLabel": "第20节",
-      "storyLabel": "间章 第7章 第20节 战斗前剧情",
+      "stageLabel": "第6节 疑心",
+      "storyLabel": "疑心 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32026,13 +32079,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        20,
+        2,
+        6,
         1
       ],
-      "searchText": "e720b 间章剧情 间章 第7章 第20节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911420",
+      "searchText": "e720b 间章剧情 间章 第7章 第6节 战斗前剧情 深夜清扫 疑心",
+      "gameChapterId": "9116",
+      "gameStageId": "911606",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32047,10 +32100,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "疑心",
+        "JP": "疑心",
+        "EN": "Suspicion",
+        "KR": "의심"
       }
     },
     {
@@ -32059,11 +32118,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E721",
-      "stageLabel": "第21节",
-      "storyLabel": "间章 第7章 第21节 战斗前剧情",
+      "stageLabel": "第7节 观望",
+      "storyLabel": "观望 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32073,13 +32132,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        21,
+        2,
+        7,
         1
       ],
-      "searchText": "e721b 间章剧情 间章 第7章 第21节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911421",
+      "searchText": "e721b 间章剧情 间章 第7章 第7节 战斗前剧情 深夜清扫 观望",
+      "gameChapterId": "9116",
+      "gameStageId": "911607",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32094,10 +32153,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "观望",
+        "JP": "観望",
+        "EN": "Witnessing",
+        "KR": "관망"
       }
     },
     {
@@ -32106,11 +32171,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E721",
-      "stageLabel": "第21节",
-      "storyLabel": "间章 第7章 第21节 战斗后剧情",
+      "stageLabel": "第7节 观望",
+      "storyLabel": "观望 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -32120,13 +32185,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        21,
+        2,
+        7,
         3
       ],
-      "searchText": "e721a 间章剧情 间章 第7章 第21节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911421",
+      "searchText": "e721a 间章剧情 间章 第7章 第7节 战斗后剧情 深夜清扫 观望",
+      "gameChapterId": "9116",
+      "gameStageId": "911607",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32141,10 +32206,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "观望",
+        "JP": "観望",
+        "EN": "Witnessing",
+        "KR": "관망"
       }
     },
     {
@@ -32153,11 +32224,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E722",
-      "stageLabel": "第22节",
-      "storyLabel": "间章 第7章 第22节 战斗前剧情",
+      "stageLabel": "第8节 黑兽",
+      "storyLabel": "黑兽 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32167,13 +32238,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        22,
+        2,
+        8,
         1
       ],
-      "searchText": "e722b 间章剧情 间章 第7章 第22节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911422",
+      "searchText": "e722b 间章剧情 间章 第7章 第8节 战斗前剧情 深夜清扫 黑兽",
+      "gameChapterId": "9116",
+      "gameStageId": "911608",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32188,10 +32259,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "黑兽",
+        "JP": "黒獣",
+        "EN": "The Heishou Pack",
+        "KR": "흑수"
       }
     },
     {
@@ -32200,11 +32277,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E722",
-      "stageLabel": "第22节",
-      "storyLabel": "间章 第7章 第22节 战斗后剧情",
+      "stageLabel": "第8节 黑兽",
+      "storyLabel": "黑兽 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -32214,13 +32291,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        22,
+        2,
+        8,
         3
       ],
-      "searchText": "e722a 间章剧情 间章 第7章 第22节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911422",
+      "searchText": "e722a 间章剧情 间章 第7章 第8节 战斗后剧情 深夜清扫 黑兽",
+      "gameChapterId": "9116",
+      "gameStageId": "911608",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32235,10 +32312,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "黑兽",
+        "JP": "黒獣",
+        "EN": "The Heishou Pack",
+        "KR": "흑수"
       }
     },
     {
@@ -32247,11 +32330,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E723",
-      "stageLabel": "第23节",
-      "storyLabel": "间章 第7章 第23节 战斗前剧情",
+      "stageLabel": "第9节 史易华",
+      "storyLabel": "史易华 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32261,13 +32344,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        23,
+        2,
+        9,
         1
       ],
-      "searchText": "e723b 间章剧情 间章 第7章 第23节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911423",
+      "searchText": "e723b 间章剧情 间章 第7章 第9节 战斗前剧情 深夜清扫 史易华",
+      "gameChapterId": "9116",
+      "gameStageId": "911609",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32282,10 +32365,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "史易华",
+        "JP": "シー・イーファ",
+        "EN": "Shi Yihua",
+        "KR": "사이화"
       }
     },
     {
@@ -32294,11 +32383,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E724",
-      "stageLabel": "第24节",
-      "storyLabel": "间章 第7章 第24节 战斗前剧情",
+      "stageLabel": "第10节 意外之敌",
+      "storyLabel": "意外之敌 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32308,13 +32397,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        24,
+        2,
+        10,
         1
       ],
-      "searchText": "e724b 间章剧情 间章 第7章 第24节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911424",
+      "searchText": "e724b 间章剧情 间章 第7章 第10节 战斗前剧情 深夜清扫 意外之敌",
+      "gameChapterId": "9116",
+      "gameStageId": "911610",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32329,10 +32418,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "意外之敌",
+        "JP": "予想外の敵",
+        "EN": "Unexpected Foe",
+        "KR": "예상치 못한 적"
       }
     },
     {
@@ -32341,11 +32436,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E725",
-      "stageLabel": "第25节",
-      "storyLabel": "间章 第7章 第25节 战斗前剧情",
+      "stageLabel": "第11节 后巷深宵",
+      "storyLabel": "后巷深宵 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32355,13 +32450,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        25,
+        2,
+        11,
         1
       ],
-      "searchText": "e725b 间章剧情 间章 第7章 第25节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911425",
+      "searchText": "e725b 间章剧情 间章 第7章 第11节 战斗前剧情 深夜清扫 后巷深宵",
+      "gameChapterId": "9116",
+      "gameStageId": "911611",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32376,10 +32471,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "后巷深宵",
+        "JP": "裏路地の夜",
+        "EN": "Night in the Backstreets",
+        "KR": "뒷골목의 밤"
       }
     },
     {
@@ -32388,11 +32489,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E725",
-      "stageLabel": "第25节",
-      "storyLabel": "间章 第7章 第25节 战斗后剧情",
+      "stageLabel": "第11节 后巷深宵",
+      "storyLabel": "后巷深宵 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -32402,13 +32503,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        25,
+        2,
+        11,
         3
       ],
-      "searchText": "e725a 间章剧情 间章 第7章 第25节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911425",
+      "searchText": "e725a 间章剧情 间章 第7章 第11节 战斗后剧情 深夜清扫 后巷深宵",
+      "gameChapterId": "9116",
+      "gameStageId": "911611",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32423,10 +32524,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "后巷深宵",
+        "JP": "裏路地の夜",
+        "EN": "Night in the Backstreets",
+        "KR": "뒷골목의 밤"
       }
     },
     {
@@ -32435,11 +32542,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第26节",
-      "storyLabel": "间章 第7章 第26节 战斗前剧情",
+      "stageLabel": "第12节 同盟",
+      "storyLabel": "同盟 (战斗前剧情)",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32449,13 +32556,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        26,
+        2,
+        12,
         1
       ],
-      "searchText": "e726b 间章剧情 间章 第7章 第26节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911426",
+      "searchText": "e726b 间章剧情 间章 第7章 第12节 战斗前剧情 深夜清扫 同盟",
+      "gameChapterId": "9116",
+      "gameStageId": "911612",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32470,10 +32577,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "同盟",
+        "JP": "同盟",
+        "EN": "Alliance",
+        "KR": "동맹"
       }
     },
     {
@@ -32482,11 +32595,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第26节",
-      "storyLabel": "间章 第7章 第26节 战斗中剧情",
+      "stageLabel": "第12节 同盟",
+      "storyLabel": "同盟 (战斗中剧情)",
       "part": {
         "raw": "I",
         "code": "I",
@@ -32496,13 +32609,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        26,
+        2,
+        12,
         2
       ],
-      "searchText": "e726i 间章剧情 间章 第7章 第26节 战斗中剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911426",
+      "searchText": "e726i 间章剧情 间章 第7章 第12节 战斗中剧情 深夜清扫 同盟",
+      "gameChapterId": "9116",
+      "gameStageId": "911612",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32517,10 +32630,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "同盟",
+        "JP": "同盟",
+        "EN": "Alliance",
+        "KR": "동맹"
       }
     },
     {
@@ -32529,11 +32648,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第26节",
-      "storyLabel": "间章 第7章 第26节 战斗中剧情 2",
+      "stageLabel": "第12节 同盟",
+      "storyLabel": "同盟 (战斗中剧情 2)",
       "part": {
         "raw": "I2",
         "code": "I2",
@@ -32543,13 +32662,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        26,
+        2,
+        12,
         2.02
       ],
-      "searchText": "e726i2 间章剧情 间章 第7章 第26节 战斗中剧情 2 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911426",
+      "searchText": "e726i2 间章剧情 间章 第7章 第12节 战斗中剧情 2 深夜清扫 同盟",
+      "gameChapterId": "9116",
+      "gameStageId": "911612",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32564,10 +32683,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "同盟",
+        "JP": "同盟",
+        "EN": "Alliance",
+        "KR": "동맹"
       }
     },
     {
@@ -32576,11 +32701,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E726",
-      "stageLabel": "第26节",
-      "storyLabel": "间章 第7章 第26节 战斗后剧情",
+      "stageLabel": "第12节 同盟",
+      "storyLabel": "同盟 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -32590,13 +32715,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        26,
+        2,
+        12,
         3
       ],
-      "searchText": "e726a 间章剧情 间章 第7章 第26节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911426",
+      "searchText": "e726a 间章剧情 间章 第7章 第12节 战斗后剧情 深夜清扫 同盟",
+      "gameChapterId": "9116",
+      "gameStageId": "911612",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32611,10 +32736,16 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
+      },
+      "stageNames": {
+        "LLC_zh-CN": "同盟",
+        "JP": "同盟",
+        "EN": "Alliance",
+        "KR": "동맹"
       }
     },
     {
@@ -32623,11 +32754,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E727",
-      "stageLabel": "第27节",
-      "storyLabel": "间章 第7章 第27节 战斗中剧情",
+      "stageLabel": "第13节",
+      "storyLabel": "间章 第7章 第13节 战斗中剧情",
       "part": {
         "raw": "I",
         "code": "I",
@@ -32637,13 +32768,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        27,
+        2,
+        13,
         2
       ],
-      "searchText": "e727i 间章剧情 间章 第7章 第27节 战斗中剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911427",
+      "searchText": "e727i 间章剧情 间章 第7章 第13节 战斗中剧情 深夜清扫",
+      "gameChapterId": "9116",
+      "gameStageId": "911613",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32658,10 +32789,10 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
       }
     },
     {
@@ -32670,11 +32801,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E727",
-      "stageLabel": "第27节",
-      "storyLabel": "间章 第7章 第27节 战斗后剧情",
+      "stageLabel": "第13节",
+      "storyLabel": "间章 第7章 第13节 战斗后剧情",
       "part": {
         "raw": "A",
         "code": "A",
@@ -32684,13 +32815,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        27,
+        2,
+        13,
         3
       ],
-      "searchText": "e727a 间章剧情 间章 第7章 第27节 战斗后剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911427",
+      "searchText": "e727a 间章剧情 间章 第7章 第13节 战斗后剧情 深夜清扫",
+      "gameChapterId": "9116",
+      "gameStageId": "911613",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32705,10 +32836,10 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
       }
     },
     {
@@ -32717,11 +32848,11 @@
       "categoryLabel": "间章剧情",
       "categoryDescription": "E 开头，按间章章节与关卡索引。",
       "prefix": "E",
-      "chapterKey": "E7_0",
-      "chapterLabel": "间章 第7章 LCB定期体检",
+      "chapterKey": "E7_2",
+      "chapterLabel": "间章 第7章 深夜清扫",
       "stageKey": "E728",
-      "stageLabel": "第28节",
-      "storyLabel": "间章 第7章 第28节 战斗前剧情",
+      "stageLabel": "第14节",
+      "storyLabel": "间章 第7章 第14节 战斗前剧情",
       "part": {
         "raw": "B",
         "code": "B",
@@ -32731,13 +32862,13 @@
       "sortKey": [
         2,
         7,
-        0,
-        28,
+        2,
+        14,
         1
       ],
-      "searchText": "e728b 间章剧情 间章 第7章 第28节 战斗前剧情 LCB定期体检",
-      "gameChapterId": "9114",
-      "gameStageId": "911428",
+      "searchText": "e728b 间章剧情 间章 第7章 第14节 战斗前剧情 深夜清扫",
+      "gameChapterId": "9116",
+      "gameStageId": "911614",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -32752,10 +32883,10 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "LCB定期体检",
-        "JP": "LCB定期検診",
-        "EN": "LCB Regular Check-up",
-        "KR": "LCB 정기검진"
+        "LLC_zh-CN": "深夜清扫",
+        "JP": "深夜清掃",
+        "EN": "Nocturnal Sweeping",
+        "KR": "심야청소"
       }
     },
     {
