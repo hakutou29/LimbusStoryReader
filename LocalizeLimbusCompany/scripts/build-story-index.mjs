@@ -564,8 +564,16 @@ function enrichStoryTitles(stories, { chapterTitlesMap, stageTitlesMap, personal
       if (story.stageNames['LLC_zh-CN']) {
          const sName = story.stageNames['LLC_zh-CN'];
          story.stageLabel = `${story.stageLabel} ${sName}`;
-         story.storyLabel = `${sName} (${story.part.label})`;
-         story.searchText += ' ' + sName;
+         
+         let prefixStr = '';
+         if (story.category === 'main' && story.code.match(/^S(\d+)(A|B|X|I.*)?$/)) {
+            prefixStr = `${story.sortKey[1]}-${story.sortKey[2]} `;
+         } else if (story.category === 'intervallo' && story.code.match(/^E(S)?(\d+)(A|B|X|I.*)?$/)) {
+            prefixStr = `${story.sortKey[1]}.5-${story.sortKey[3]} `;
+         }
+
+         story.storyLabel = `${prefixStr}${sName} (${story.part.label})`;
+         story.searchText += ' ' + sName + ' ' + prefixStr;
       }
     }
 
