@@ -725,7 +725,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身获得1层DevyatDimensionalSack"
+                  "desc": "[OnSucceedAttack] 使自身获得1层[DevyatDimensionalSack]"
                 }
               ]
             },
@@ -741,12 +741,12 @@
         {
           "level": 2,
           "name": "派送箱-崩解刀",
-          "desc": "<style=\"highlight\">若自身的DevyatDimensionalSack层数不低于10层或目标的[Burst]强度不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数，且本技能的命中时效果不会增加[Burst]强度",
+          "desc": "<style=\"highlight\">若自身的[DevyatDimensionalSack]层数不低于10层或目标的[Burst]强度不低于6级，则使本技能的硬币威力+1</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数，且本技能的命中时效果不会增加[Burst]强度",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身获得1层DevyatDimensionalSack\n<style=\"highlight\">- 若自身的DevyatDimensionalSack层数低于15层，则使自身额外获得1层DevyatDimensionalSack</style>"
+                  "desc": "[OnSucceedAttack] 使自身获得1层[DevyatDimensionalSack]\n<style=\"highlight\">- 若自身的[DevyatDimensionalSack]层数低于15层，则使自身额外获得1层[DevyatDimensionalSack]</style>"
                 }
               ]
             },
@@ -762,12 +762,12 @@
         {
           "level": 4,
           "name": "派送箱-崩解刀",
-          "desc": "<style=\"highlight\">自身每带有10层DevyatDimensionalSack或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数，且本技能的命中时效果不会增加[Burst]强度",
+          "desc": "<style=\"highlight\">自身每带有10层[DevyatDimensionalSack]或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数，且本技能的命中时效果不会增加[Burst]强度",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身获得1层DevyatDimensionalSack\n- 若自身的DevyatDimensionalSack层数低于15层，则使自身额外获得1层DevyatDimensionalSack<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] 使自身获得1层[DevyatDimensionalSack]\n- 若自身的[DevyatDimensionalSack]层数低于15层，则使自身额外获得1层[DevyatDimensionalSack]<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -788,12 +788,12 @@
         {
           "level": 1,
           "name": "派送箱-工具射出",
-          "desc": "若自身的DevyatDimensionalSack层数不低于10层或目标的[Burst]强度不低于6级，则使本技能的硬币威力+1\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数",
+          "desc": "若自身的[DevyatDimensionalSack]层数不低于10层或目标的[Burst]强度不低于6级，则使本技能的硬币威力+1\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身获得1层DevyatDimensionalSack"
+                  "desc": "[OnSucceedAttack] 使自身获得1层[DevyatDimensionalSack]"
                 }
               ]
             },
@@ -807,7 +807,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自身每带有10层DevyatDimensionalSack或目标每带有5级[Burst]强度，对目标施加1层[DefenseDown](最多2层，每回合最多1次)"
+                  "desc": "[OnSucceedAttack] 自身每带有10层[DevyatDimensionalSack]或目标每带有5级[Burst]强度，对目标施加1层[DefenseDown](最多2层，每回合最多1次)"
                 }
               ]
             }
@@ -816,12 +816,12 @@
         {
           "level": 2,
           "name": "派送箱-工具射出",
-          "desc": "<style=\"highlight\">自身每带有10层DevyatDimensionalSack或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数",
+          "desc": "<style=\"highlight\">自身每带有10层[DevyatDimensionalSack]或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身获得1层DevyatDimensionalSack\n<style=\"highlight\">- 若自身的DevyatDimensionalSack层数低于15层，则使自身额外获得1层DevyatDimensionalSack</style>"
+                  "desc": "[OnSucceedAttack] 使自身获得1层[DevyatDimensionalSack]\n<style=\"highlight\">- 若自身的[DevyatDimensionalSack]层数低于15层，则使自身额外获得1层[DevyatDimensionalSack]</style>"
                 }
               ]
             },
@@ -835,7 +835,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自身每带有5层DevyatDimensionalSack或目标每带有<style=\"highlight\">5</style>级[Burst]强度，对目标施加1层[DefenseDown](最多<style=\"highlight\">4</style>层，每回合最多1次)"
+                  "desc": "[OnSucceedAttack] 自身每带有5层[DevyatDimensionalSack]或目标每带有<style=\"highlight\">5</style>级[Burst]强度，对目标施加1层[DefenseDown](最多<style=\"highlight\">4</style>层，每回合最多1次)"
                 }
               ]
             }
@@ -844,26 +844,26 @@
         {
           "level": 4,
           "name": "派送箱-工具射出",
-          "desc": "<style=\"highlight\">自身每带有1层DevyatDimensionalSack，使本技能造成的伤害+2%(最多+40%)</style>\n自身每带有10层DevyatDimensionalSack或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数",
+          "desc": "<style=\"highlight\">自身每带有1层[DevyatDimensionalSack]，使本技能造成的伤害+2%(最多+40%)</style>\n自身每带有10层[DevyatDimensionalSack]或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能命中时不消耗目标的[Burst]层数",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 使自身获得1层DevyatDimensionalSack\n- 若自身的DevyatDimensionalSack层数低于15层，则使自身额外获得<style=\"highlight\">2</style>层DevyatDimensionalSack"
+                  "desc": "[OnSucceedAttack] 使自身获得1层[DevyatDimensionalSack]\n- 若自身的[DevyatDimensionalSack]层数低于15层，则使自身额外获得<style=\"highlight\">2</style>层[DevyatDimensionalSack]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 下回合使自身获得1层[Agility](每回合最多1次)\n<style=\"highlight\">- 若自身的DevyatDimensionalSack层数不低于15层，则使自身额外获得1层[Agility]</style>"
+                  "desc": "[OnSucceedAttackHead] 下回合使自身获得1层[Agility](每回合最多1次)\n<style=\"highlight\">- 若自身的[DevyatDimensionalSack]层数不低于15层，则使自身额外获得1层[Agility]</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 自身每带有5层DevyatDimensionalSack或目标每带有5级[Burst]强度，对目标施加1层[DefenseDown](最多<style=\"highlight\">6</style>层，每回合最多1次)"
+                  "desc": "[OnSucceedAttack] 自身每带有5层[DevyatDimensionalSack]或目标每带有5级[Burst]强度，对目标施加1层[DefenseDown](最多<style=\"highlight\">6</style>层，每回合最多1次)"
                 }
               ]
             }
@@ -877,7 +877,7 @@
         {
           "level": 3,
           "name": "波鲁！加把劲！",
-          "desc": "自身每带有1层DevyatDimensionalSack，使本技能造成的伤害+2%(最多+40%)\n若自身的DevyatDimensionalSack层数不低于10层或目标的[Burst]强度不低于6级，则使本技能的硬币威力+1\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能的命中时效果不会施加[Burst]层数，而改为重复使用最后一枚硬币",
+          "desc": "自身每带有1层[DevyatDimensionalSack]，使本技能造成的伤害+2%(最多+40%)\n若自身的[DevyatDimensionalSack]层数不低于10层或目标的[Burst]强度不低于6级，则使本技能的硬币威力+1\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能的命中时效果不会施加[Burst]层数，而改为重复使用最后一枚硬币",
           "coinlist": [
             {},
             {
@@ -890,7 +890,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若自身的DevyatDimensionalSack层数不低于15层，则使本硬币造成的伤害+15%"
+                  "desc": "[OnSucceedAttack] 若自身的[DevyatDimensionalSack]层数不低于15层，则使本硬币造成的伤害+15%"
                 },
                 {
                   "desc": "[EndSkill] 若目标陷入混乱或击杀目标，则下回合使自身获得1层[Agility](每回合最多1次)"
@@ -902,20 +902,20 @@
         {
           "level": 4,
           "name": "波鲁！加把劲！",
-          "desc": "自身每带有1层DevyatDimensionalSack，使本技能造成的伤害<style=\"highlight\">+4%</style>(最多+<style=\"highlight\">80%</style>)\n<style=\"highlight\">自身每带有10层DevyatDimensionalSack或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能的命中时效果不会施加[Burst]层数，而改为重复使用最后一枚硬币",
+          "desc": "自身每带有1层[DevyatDimensionalSack]，使本技能造成的伤害<style=\"highlight\">+4%</style>(最多+<style=\"highlight\">80%</style>)\n<style=\"highlight\">自身每带有10层[DevyatDimensionalSack]或目标每带有6级[Burst]强度，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 若目标的[Burst]强度不低于15级且[Burst]层数不低于3层，则本技能的命中时效果不会施加[Burst]层数，而改为重复使用最后一枚硬币",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 对目标施加3层[Burst](每回合最多1次)\n<style=\"highlight\">- 自身每带有10层DevyatDimensionalSack，对目标额外施加1层[Burst](最多额外施加2层)</style>"
+                  "desc": "[OnSucceedAttack] 对目标施加3层[Burst](每回合最多1次)\n<style=\"highlight\">- 自身每带有10层[DevyatDimensionalSack]，对目标额外施加1层[Burst](最多额外施加2层)</style>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若自身的DevyatDimensionalSack层数不低于15层，则使本硬币造成的伤害<style=\"highlight\">+25%</style>"
+                  "desc": "[OnSucceedAttack] 若自身的[DevyatDimensionalSack]层数不低于15层，则使本硬币造成的伤害<style=\"highlight\">+25%</style>"
                 },
                 {
                   "desc": "[EndSkill] 若目标陷入混乱或击杀目标，则下回合使自身获得<style=\"highlight\">2</style>层[Agility](每回合最多1次)"
@@ -932,7 +932,7 @@
         {
           "level": 1,
           "name": "派送辅助及管理流程",
-          "desc": "[StartBattle] 若自身的DevyatDimensionalSack不低于15层，则改为使用“只是…战略性休息而已！”(每回合最多1次)\n[StartBattle] 若使用的为本技能，则使自身获得体力上限(自身的DevyatDimensionalSack层数/2)%的护盾(最多15%，每回合最多1次)\n[WhenUse] 使自身获得2层DevyatDimensionalSack(每回合最多1次)\n- 若自身的DevyatDimensionalSack层数低于15层，则使自身额外获得1层DevyatDimensionalSack",
+          "desc": "[StartBattle] 若自身的[DevyatDimensionalSack]不低于15层，则改为使用“只是…战略性休息而已！”(每回合最多1次)\n[StartBattle] 若使用的为本技能，则使自身获得体力上限(自身的[DevyatDimensionalSack]层数/2)%的护盾(最多15%，每回合最多1次)\n[WhenUse] 使自身获得2层[DevyatDimensionalSack](每回合最多1次)\n- 若自身的[DevyatDimensionalSack]层数低于15层，则使自身额外获得1层[DevyatDimensionalSack]",
           "coinlist": [
             {}
           ]
@@ -940,7 +940,7 @@
         {
           "level": 4,
           "name": "派送辅助及管理流程",
-          "desc": "[StartBattle] 若自身的DevyatDimensionalSack不低于15层，则改为使用“只是…战略性休息而已！”(每回合最多1次)\n[StartBattle] 若使用的为本技能，则使自身获得体力上限<style=\"highlight\">(自身的DevyatDimensionalSack层数)%</style>的护盾(最多<style=\"highlight\">25%</style>，每回合最多1次)\n[WhenUse] 使自身获得2层DevyatDimensionalSack(每回合最多1次)\n- 若自身的DevyatDimensionalSack层数低于15层，则使自身额外获得1层DevyatDimensionalSack",
+          "desc": "[StartBattle] 若自身的[DevyatDimensionalSack]不低于15层，则改为使用“只是…战略性休息而已！”(每回合最多1次)\n[StartBattle] 若使用的为本技能，则使自身获得体力上限<style=\"highlight\">(自身的[DevyatDimensionalSack]层数)%</style>的护盾(最多<style=\"highlight\">25%</style>，每回合最多1次)\n[WhenUse] 使自身获得2层[DevyatDimensionalSack](每回合最多1次)\n- 若自身的[DevyatDimensionalSack]层数低于15层，则使自身额外获得1层[DevyatDimensionalSack]",
           "coinlist": [
             {}
           ]
@@ -953,7 +953,7 @@
         {
           "level": 1,
           "name": "只是…战略性休息而已！",
-          "desc": "[StartBattle] 若使用的为本技能，则使自身获得体力上限(自身的DevyatDimensionalSack层数/2)%的护盾(最多15%，每回合最多1次)\n[EndBattle] 激活战略性休息福利模式 ",
+          "desc": "[StartBattle] 若使用的为本技能，则使自身获得体力上限(自身的[DevyatDimensionalSack]层数/2)%的护盾(最多15%，每回合最多1次)\n[EndBattle] 激活战略性休息福利模式 ",
           "coinlist": [
             {}
           ]
@@ -961,7 +961,7 @@
         {
           "level": 4,
           "name": "只是…战略性休息而已！",
-          "desc": "[StartBattle] 若使用的为本技能，则使自身获得体力上限<style=\"highlight\">(自身的DevyatDimensionalSack层数)%</style>的护盾(最多<style=\"highlight\">25%</style>，每回合最多1次)\n[EndBattle] 激活战略性休息福利模式 ",
+          "desc": "[StartBattle] 若使用的为本技能，则使自身获得体力上限<style=\"highlight\">(自身的[DevyatDimensionalSack]层数)%</style>的护盾(最多<style=\"highlight\">25%</style>，每回合最多1次)\n[EndBattle] 激活战略性休息福利模式 ",
           "coinlist": [
             {}
           ]
@@ -2358,6 +2358,522 @@
           "desc": "<style=\"highlight\">[WhenUse] 若自身的[Charge]层数不低于5层，则使本技能的基础威力+2</style>\n[WhenUse] 使自身获得3层[Charge](每回合最多2次)",
           "coinlist": [
             {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "强烈覆涂",
+          "desc": "若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "强烈覆涂",
+          "desc": "若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%\n<style=\"highlight\">[WhenUse] 目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "强烈覆涂",
+          "desc": "<style=\"highlight\">目标每带有1种负面状态，使本技能造成的伤害+5%(最多+15%)</style>\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%\n[WhenUse] 目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的<style=\"highlight\">拼点威力+1</style>，最终威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">若目标带有的负面状态不少于4种，则重复使用本硬币(最多1次)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "原色表现",
+          "desc": "若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[EagleClawWoundAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于6种，则对其施加1层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "原色表现",
+          "desc": "若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%\n<style=\"highlight\">[WhenUse] 目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加<style=\"highlight\">3</style>层[EagleClawWoundAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于6种，则对其施加1层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "原色表现",
+          "desc": "<style=\"highlight\">目标每带有1种负面状态，使本技能造成的伤害+20%(最多+60%)</style>\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%\n<style=\"highlight\">若目标带有的被撕裂的色彩不少于2种，则使本技能造成的伤害+20%</style>\n[WhenUse] 目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+2)\n<style=\"highlight\">[WhenUse] 目标每带有2种负面状态，使本技能的硬币威力+1(最多+3)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[EagleClawWoundAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于<style=\"highlight\">5</style>种，则对其施加1层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "野兽派-暴烈呈现",
+          "desc": "若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%\n[BeforeUse] 若目标带有的负面状态不少于6种，\n则改为使用“令你皮肤下搏动着的那赤红色彩更加狂野”(每回合最多1次)\n[WhenUse] 目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的硬币威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Sinking]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[EagleClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "野兽派-暴烈呈现",
+          "desc": "<style=\"highlight\">目标每带有1种负面状态，使本技能造成的伤害+20%(最多+60%)</style>\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%\n[BeforeUse] 若目标带有的负面状态不少于6种，\n则改为使用“令你皮肤下搏动着的那赤红色彩更加狂野”(每回合最多1次)\n[WhenUse] 目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的硬币威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Sinking]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加3层[EagleClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 若目标带有的负面状态不少于5种，则下回合对其施加1层[BoldBrushstrokesRodion]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BoldBrushstrokesRodion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "处理素材",
+          "desc": "[DuelCounter]\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[EagleClawWoundAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "处理素材",
+          "desc": "[DuelCounter]\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+20%\n<style=\"highlight\">[BeforeUse] 若自身未带有[TestWaitDocentRodion]且目标带有的负面状态不少于3种，则改为使用“批评”\n[WhenUse] 目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的最终威力+1(最多+2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                },
+                {
+                  "desc": "<style=\"highlight\">- 若目标未带有[BearClawWoundAlly]，则对其额外施加1层[BearClawWoundAlly]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[EagleClawWoundAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- 若目标未带有[EagleClawWoundAlly]，则对其额外施加1层[EagleClawWoundAlly]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091505,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "令你皮肤下搏动着的那赤红色彩更加狂野",
+          "desc": "[WideAreaRampage]\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+40%\n[WhenUse] 主要目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的硬币威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Sinking]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加4层[EagleClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "本硬币会命中全体攻击目标"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "令你皮肤下搏动着的那赤红色彩更加狂野",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">目标每带有1种负面状态，使本技能造成的伤害+15%(最多+90%)</style>\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+40%\n[WhenUse] 主要目标的[Laceration]强度与[Sinking]强度之和每有4级，使本技能的硬币威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[BearClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Sinking]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加4层[EagleClawWoundAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "本硬币会命中全体攻击目标"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091506,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "批评",
+          "desc": "[DuelCounter]\n目标每带有1种负面状态，使本技能造成的伤害+8%(最多+40%)\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+30%\n[WhenUse] 若目标带有[IntenseColorsRodion]，则使自身获得2层[ParryingResultUp]\n[WhenUse] 若目标的[Laceration]强度与[Sinking]强度之和不低于4级，则使本技能的最终威力+3\n[EndSkillAll] 使自身获得2层[TestWaitDocentRodion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "目标每带有3种负面状态，重复使用本硬币1次(最多2次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度(每个技能最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度(每个技能最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 随机对目标施加1层[BearClawWoundAlly]或[EagleClawWoundAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若本硬币为第3次使用的硬币，则对目标施加1层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "批评",
+          "desc": "[DuelCounter]\n目标每带有1种负面状态，使本技能造成的伤害<style=\"highlight\">+10%</style>(最多+40%)\n若目标带有[IntenseColorsRodion]，则使本技能造成的伤害+30%\n[WhenUse] 若目标带有[IntenseColorsRodion]，则使自身获得2层[ParryingResultUp]\n[WhenUse] 若目标的[Laceration]强度与[Sinking]强度之和不低于4级，则使本技能的最终威力+3\n<style=\"highlight\">[WhenUse] 目标每带有2种负面状态，使本技能的拼点威力+2(最多+6)</style>\n[EndSkillAll] 使自身获得2层[TestWaitDocentRodion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "目标每带有3种负面状态，重复使用本硬币1次(最多2次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度(每个技能最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Sinking]强度(每个技能最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 随机对目标施加1层[BearClawWoundAlly]或[EagleClawWoundAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若本硬币为第3次使用的硬币，则对目标施加1层[BoldBrushstrokesRodion]"
+                }
+              ]
+            }
           ]
         }
       ]

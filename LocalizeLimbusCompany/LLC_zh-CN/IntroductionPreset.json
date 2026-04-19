@@ -1915,6 +1915,38 @@
     {
       "id": "introduce_sentence_240",
       "content": "直到双手触及那{0}为止，不论多少次……！"
+    },
+    {
+      "id": "introduce_word_241",
+      "content": "感想"
+    },
+    {
+      "id": "introduce_sentence_241",
+      "content": "您的{0}如何！"
+    },
+    {
+      "id": "introduce_word_242",
+      "content": "法西娅"
+    },
+    {
+      "id": "introduce_sentence_242",
+      "content": "你在害怕吗，{0}？"
+    },
+    {
+      "id": "introduce_word_243",
+      "content": "审查"
+    },
+    {
+      "id": "introduce_sentence_243",
+      "content": "期待您的严正{0}。"
+    },
+    {
+      "id": "introduce_word_244",
+      "content": "色彩"
+    },
+    {
+      "id": "introduce_sentence_244",
+      "content": "用在任何地方都见不到的{0}。"
     }
   ]
 }

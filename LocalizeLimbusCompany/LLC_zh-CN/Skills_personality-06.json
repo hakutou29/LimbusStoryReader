@@ -2218,7 +2218,7 @@
         {
           "level": 3,
           "name": "全体黑兽，回应于我",
-          "desc": "本技能不会触发守备技能\n\n[WhenUse] 使自身增加3级[Breath]强度并使自身获得1层[Breath]\n\n[EndSkill] 使可以行动的属于黑兽的友方单位中[HeishouComboCount]层数最低的1名单位获得1层[HeishouComboCount]，并让其[HeishouCombo](每回合最多1次)\n- [HeishouCombo]结束后，使用“开辟君主之道吧”\n- 若[HeishouCombo]未触发，或连携的友方单位在[HeishouCombo]结束前陷入混乱或阵亡，则改为使用“孑然一身，舍生取园”",
+          "desc": "本技能不会触发守备技能\n\n[WhenUse] 使自身增加3级[Breath]强度并使自身获得1层[Breath]\n\n[EndSkill] 使可以行动的属于黑兽的友方单位中[HeishouComboCount]层数最低的1名单位获得1层[HeishouComboCount]，并让其[HeishouCombo](每回合最多1次)\n- [HeishouCombo]结束后，使用“开辟君主之道吧”\n- 若[HeishouCombo]未触发，或连携的人格在[HeishouCombo]结束前陷入混乱或阵亡，则改为使用“孑然一身，舍生取园”",
           "coinlist": [
             {
               "coindescs": [
@@ -2238,7 +2238,7 @@
         {
           "level": 4,
           "name": "全体黑兽，回应于我",
-          "desc": "本技能不会触发守备技能\n\n<style=\"highlight\">[WhenUse] 目标的[Burst]强度与自身的[Breath]强度之和每有4级，使本技能的硬币威力+1(最多+3)</style>\n[WhenUse] 使自身增加<style=\"highlight\">5</style>级[Breath]强度并使自身获得<style=\"highlight\">3</style>层[Breath]\n\n[EndSkill] 使可以行动的属于黑兽的友方单位中[HeishouComboCount]层数最低的1名单位获得1层[HeishouComboCount]，并让其[HeishouCombo](每回合最多1次)\n- [HeishouCombo]结束后，使用“开辟君主之道吧”\n- 若[HeishouCombo]未触发，或连携的友方单位在[HeishouCombo]结束前陷入混乱或阵亡，则改为使用“孑然一身，舍生取园”",
+          "desc": "本技能不会触发守备技能\n\n<style=\"highlight\">[WhenUse] 目标的[Burst]强度与自身的[Breath]强度之和每有4级，使本技能的硬币威力+1(最多+3)</style>\n[WhenUse] 使自身增加<style=\"highlight\">5</style>级[Breath]强度并使自身获得<style=\"highlight\">3</style>层[Breath]\n\n[EndSkill] 使可以行动的属于黑兽的友方单位中[HeishouComboCount]层数最低的1名单位获得1层[HeishouComboCount]，并让其[HeishouCombo](每回合最多1次)\n- [HeishouCombo]结束后，使用“开辟君主之道吧”\n- 若[HeishouCombo]未触发，或连携的人格在[HeishouCombo]结束前陷入混乱或阵亡，则改为使用“孑然一身，舍生取园”",
           "coinlist": [
             {
               "coindescs": [
@@ -2263,7 +2263,7 @@
         {
           "level": 1,
           "name": "黑兽利爪",
-          "desc": "[DuelCounter]\n[StartBattle] 使(最大共鸣数)名属于黑兽的友方单位获得1层[SlashResultUp](每回合最多1次)\n\n[StartBattle] 若有待命人员，则选择现存体力比例最低的1名属于黑兽的友方单位\n- 使用本技能时，使选择的友方单位获得[HeishouAttack]，回合结束时使其进行[RetreatForCommon]，并使其在撤退时恢复其体力上限10%的体力(每回合最多1次)\n- 属于黑兽的友方单位因该效果而撤退时，其会移动到比即将重返战斗的友方单位中不属于黑兽的友方单位更靠前的位置\n[StartBattle] 若没有待命人员，则使现存体力比例最低的1名属于黑兽的友方单位获得2层[Enhancement](每回合最多1次)",
+          "desc": "[DuelCounter]\n[StartBattle] 使(最大共鸣数)名属于黑兽的人格获得1层[SlashResultUp](每回合最多1次)\n\n[StartBattle] 若有待命人员，则选择现存体力比例最低的1名属于黑兽的友方单位\n- 使用本技能时，使选择的友方单位获得[HeishouAttack]，回合结束时使其进行[RetreatForCommon]，并使其在撤退时恢复其体力上限10%的体力(每回合最多1次)\n- 属于黑兽的人格因该效果而撤退时，其会移动到比即将重返战斗的人格中不属于黑兽的人格更靠前的位置\n[StartBattle] 若没有待命人员，则使现存体力比例最低的1名属于黑兽的友方单位获得2层[Enhancement](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": [
@@ -2277,7 +2277,7 @@
         {
           "level": 4,
           "name": "黑兽利爪",
-          "desc": "[DuelCounter]\n[StartBattle] 使(最大共鸣数)名属于黑兽的友方单位获得1层[SlashResultUp](每回合最多1次)\n\n[StartBattle] 若有待命人员，则选择现存体力比例最低的1名属于黑兽的友方单位\n- 使用本技能时，使选择的友方单位获得[HeishouAttack]，回合结束时使其进行[RetreatForCommon]，并使其在撤退时恢复其体力上限10%的体力(每回合最多1次)\n- 属于黑兽的友方单位因该效果而撤退时，其会移动到比即将重返战斗的友方单位中不属于黑兽的友方单位更靠前的位置\n[StartBattle] 若没有待命人员，则使现存体力比例最低的1名属于黑兽的友方单位获得2层[Enhancement](每回合最多1次)<style=\"highlight\"></style>",
+          "desc": "[DuelCounter]\n[StartBattle] 使(最大共鸣数)名属于黑兽的人格获得1层[SlashResultUp](每回合最多1次)\n\n[StartBattle] 若有待命人员，则选择现存体力比例最低的1名属于黑兽的友方单位\n- 使用本技能时，使选择的友方单位获得[HeishouAttack]，回合结束时使其进行[RetreatForCommon]，并使其在撤退时恢复其体力上限10%的体力(每回合最多1次)\n- 属于黑兽的人格因该效果而撤退时，其会移动到比即将重返战斗的人格中不属于黑兽的人格更靠前的位置\n[StartBattle] 若没有待命人员，则使现存体力比例最低的1名属于黑兽的友方单位获得2层[Enhancement](每回合最多1次)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2296,7 +2296,7 @@
         {
           "level": 1,
           "name": "开辟君主之道吧",
-          "desc": "[WhenUse] 若自身与属于黑兽 魁首的友方单位触发连携，则使本技能的基础威力+1，硬币威力+1\n\n[WhenUse] 若目标的[Burst]强度与自身的[Breath]强度之和不低于6级，则使本技能的硬币威力+1\n[WhenUse] 自身每带有1层[HeishouComboCountHonglu]，使本技能造成的伤害+5%\n[EndSkill] 根据触发[HeishouCombo]的属于黑兽的友方单位，使自身获得[HeishouComboCountHonglu]",
+          "desc": "[WhenUse] 若自身与属于黑兽 魁首的人格触发连携，则使本技能的基础威力+1，硬币威力+1\n\n[WhenUse] 若目标的[Burst]强度与自身的[Breath]强度之和不低于6级，则使本技能的硬币威力+1\n[WhenUse] 自身每带有1层[HeishouComboCountHonglu]，使本技能造成的伤害+5%\n[EndSkill] 根据触发[HeishouCombo]的属于黑兽的人格，使自身获得[HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
@@ -2311,7 +2311,7 @@
                   "desc": "[OnSucceedAttack] 使目标增加2级[Burst]强度"
                 },
                 {
-                  "desc": "[EnemyKill] 使属于黑兽的友方单位中理智值最低的2名单位恢复10点理智值，下回合使其获得1层[Enhancement]"
+                  "desc": "[EnemyKill] 使属于黑兽的友方人格中理智值最低的2名单位恢复10点理智值，下回合使其获得1层[Enhancement]"
                 }
               ]
             }
@@ -2320,7 +2320,7 @@
         {
           "level": 4,
           "name": "开辟君主之道吧",
-          "desc": "[WhenUse] 若自身与属于黑兽 魁首的友方单位触发连携，则使本技能的基础威力+1，硬币威力+1\n\n<style=\"highlight\">目标与自身已失去体力比例之和每有1%，使本技能造成的伤害+1%(最多+50%)</style>\n<style=\"highlight\">[WhenUse] 目标的[Burst]强度与自身的[Breath]强度之和每有6级，使本技能的硬币威力+1(最多+3)</style>\n<style=\"highlight\">[WhenUse] 目标每带有2种负面状态，使本技能造成的伤害+10%(最多+30%)</style>\n[WhenUse] 自身每带有1层[HeishouComboCountHonglu]，使本技能造成的伤害+<style=\"highlight\">10%</style>\n[EndSkill] 根据触发[HeishouCombo]的属于黑兽的友方单位，使自身获得[HeishouComboCountHonglu]",
+          "desc": "[WhenUse] 若自身与属于黑兽 魁首的人格触发连携，则使本技能的基础威力+1，硬币威力+1\n\n<style=\"highlight\">目标与自身已失去体力比例之和每有1%，使本技能造成的伤害+1%(最多+50%)</style>\n<style=\"highlight\">[WhenUse] 目标的[Burst]强度与自身的[Breath]强度之和每有6级，使本技能的硬币威力+1(最多+3)</style>\n<style=\"highlight\">[WhenUse] 目标每带有2种负面状态，使本技能造成的伤害+10%(最多+30%)</style>\n[WhenUse] 自身每带有1层[HeishouComboCountHonglu]，使本技能造成的伤害+<style=\"highlight\">10%</style>\n[EndSkill] 根据触发[HeishouCombo]的属于黑兽的人格，使自身获得[HeishouComboCountHonglu]",
           "coinlist": [
             {
               "coindescs": [
@@ -2341,7 +2341,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] 下回合对目标施加1层[SlashResistDown](每回合最多1次)</style>"
                 },
                 {
-                  "desc": "[EnemyKill] 使属于黑兽的友方单位中理智值最低的2名单位恢复10点理智值，下回合使其获得1层[Enhancement]<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] 使属于黑兽的友方人格中理智值最低的2名单位恢复10点理智值，下回合使其获得1层[Enhancement]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2440,6 +2440,594 @@
               "coindescs": [
                 {
                   "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "解剖",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[DefenseDown](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得2层[DefenseUp](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "解剖",
+          "desc": "目标每带有1种负面状态，使本技能造成的伤害+5%(最多+20%)\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[DefenseDown](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得2层[DefenseUp](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "解剖",
+          "desc": "目标每带有1种负面状态，使本技能造成的伤害+<style=\"highlight\">10</style>%(最多+<style=\"highlight\">30</style>%)\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+<style=\"highlight\">3</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加2层[DefenseDown](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得2层[DefenseUp](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "材料获取-浴血之物",
+          "desc": "[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗5层[ChargeBodyArt]并触发以下效果\n- 使本技能的拼点威力+1\n- 使本技能的最后一枚硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得4层[ChargeBodyArt]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于5种，则对其使用装置艺术第3号 “简易肋骨”(每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "材料获取-浴血之物",
+          "desc": "<style=\"highlight\">目标每带有1种负面状态，使本技能造成的伤害+5%(最多+20%)</style>\n<style=\"highlight\">[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)</style>\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗5层[ChargeBodyArt]并触发以下效果\n- 使本技能的拼点威力+1\n- 使本技能的最后一枚硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得4层[ChargeBodyArt]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于5种，则对其使用装置艺术第3号 “简易肋骨”(每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "材料获取-浴血之物",
+          "desc": "目标每带有1种负面状态，使本技能造成的伤害+<style=\"highlight\">10</style>%(最多+<style=\"highlight\">30</style>%)\n[WhenUse] 目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+<style=\"highlight\">4</style>)\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗5层[ChargeBodyArt]并触发以下效果\n- 使本技能的拼点威力+1\n- 使本技能的最后一枚硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加2层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身获得4层[ChargeBodyArt]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目标带有的负面状态不少于5种，则对其使用装置艺术第3号 “简易肋骨”(每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "提比娅的旋律-以被解剖之物解剖未被解剖之物",
+          "desc": "[WhenUse] 本技能的攻击容量高于攻击目标数时，每高于1点，使本技能造成的伤害+30%(若是集中遭遇战，则改为以部位判定)\n[WhenUse] 主要目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+2)\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗至多20层[ChargeBodyArt]并触发以下效果\n- 使本技能的最终威力+2\n- 每消耗1层[ChargeBodyArt]，使本技能造成的伤害+1%\n- 若自身的[ChargeBodyArt]强度不低于3级/5级，则使本技能的攻击容量+1/+2\n- 使本技能的所有硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[AttackDmgDown](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[SlashDamageUp](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "目标每带有1种负面状态，使本硬币造成的伤害+5%(最多+30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "提比娅的旋律-以被解剖之物解剖未被解剖之物",
+          "desc": "[WhenUse] 本技能的攻击容量高于攻击目标数时，每高于1点，使本技能造成的伤害+30%(若是集中遭遇战，则改为以部位判定)\n[WhenUse] 主要目标每带有4级[Laceration]强度，使本技能的最终威力+1(最多+<style=\"highlight\">3</style>)\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗至多20层[ChargeBodyArt]并触发以下效果\n- 使本技能的最终威力+2\n- 每消耗1层[ChargeBodyArt]，使本技能造成的伤害+1%\n- 若自身的[ChargeBodyArt]强度不低于3级/5级，则使本技能的攻击容量+1/+2\n- 使本技能的所有硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加4级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[AttackDmgDown](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[SlashDamageUp](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "目标每带有1种负面状态，使本硬币造成的伤害+5%(最多+30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "展览的主办方",
+          "desc": "[StartBattle] 使自身获得1层[SupportProtect](每回合最多1次)\n[OnSucceedEvade] 下回合对攻击者施加1层[Binding](每回合最多1次)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "展览的主办方",
+          "desc": "[StartBattle] 使自身获得1层[SupportProtect](每回合最多1次)\n[OnSucceedEvade] 下回合对攻击者施加1层[Binding](每回合最多1次)\n[OnSucceedEvade] 下回合使自身获得1层[Agility](每回合最多1次)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061405,
+      "levelList": [
+        {
+          "level": 2,
+          "name": "我们深爱着血与肉",
+          "desc": "[CantIdentify]\n[CantDuel]\n本技能适用以下效果\n- 不会触发守备技能\n- 不会因外部效果而重复使用\n- 不会命中目标\n[WhenUse] 使目标获得4层[AttackUp]",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "我们深爱着血与肉",
+          "desc": "[CantIdentify]\n[CantDuel]\n本技能适用以下效果\n- 不会触发守备技能\n- 不会因外部效果而重复使用\n- 不会命中目标\n[WhenUse] 使目标获得6层[AttackUp]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061406,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "闭馆-装置艺术第1号“各位四散的肉与骨将化为观众席”",
+          "desc": "[WhenUse] 本技能的攻击容量高于攻击目标数时，每高于1点，使本技能造成的伤害+30%(若是集中遭遇战，则改为以部位判定)\n- 若本技能仅指定1名目标，则使本技能造成的伤害额外+100%\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗至多20层[ChargeBodyArt]并触发以下效果\n- 使本技能的最终威力+2\n- 每消耗1层[ChargeBodyArt]，使本技能造成的伤害+1%\n- 若自身的[ChargeBodyArt]强度不低于3级/5级，则使本技能的攻击容量+1/+2\n[EndSkill] 使属于环指的全体人格恢复10点理智值并获得[MelodyBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[AttackDmgDown](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[SlashDamageUp](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "目标每带有1种负面状态，使本硬币造成的伤害+5%(最多+30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加5级[Combustion]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加[LivingSpecimenPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "闭馆-装置艺术第1号“各位四散的肉与骨将化为观众席”",
+          "desc": "[WhenUse] 本技能的攻击容量高于攻击目标数时，每高于1点，使本技能造成的伤害+30%(若是集中遭遇战，则改为以部位判定)\n- 若本技能仅指定1名目标，则使本技能造成的伤害额外+100%\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗至多20层[ChargeBodyArt]并触发以下效果\n- 使本技能的最终威力+2\n- 每消耗1层[ChargeBodyArt]，使本技能造成的伤害+1%\n- 若自身的[ChargeBodyArt]强度不低于3级/5级，则使本技能的攻击容量+1/+2\n[EndSkill] 使属于环指的全体人格恢复10点理智值并获得[MelodyBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加3级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[Binding](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[Agility](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合对目标施加1层[AttackDmgDown](每回合最多1次)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身获得1层[SlashDamageUp](每回合最多1次)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "目标每带有1种负面状态，使本硬币造成的伤害+5%(最多+30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加5级[Combustion]强度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加[LivingSpecimenPersonality]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "请勿破坏展品",
+          "desc": "[DuelCounter]\n[SupportProtect]专用技能\n目标每带有1种负面状态，使本技能造成的伤害+5%(最多+20%)\n[WhenUse] 若目标的[Laceration]强度不低于6级，则使本技能的硬币威力+1\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗5层[ChargeBodyArt]并触发以下效果\n- 使本技能的拼点威力+1\n- 使本技能的最后一枚硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "请勿破坏展品",
+          "desc": "[DuelCounter]\n[SupportProtect]专用技能\n目标每带有1种负面状态，使本技能造成的伤害+<style=\"highlight\">10</style>%(最多+<style=\"highlight\">30</style>%)\n[WhenUse] <style=\"highlight\">目标每带有6级[Laceration]强度，使本技能的硬币威力+1(最多+2)</style>\n[WhenUse] 若自身的[ChargeBodyArt]层数不低于10层，则消耗5层[ChargeBodyArt]并触发以下效果\n- 使本技能的拼点威力+1\n- 使本技能的最后一枚硬币转化为[SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加1层[Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "装置艺术第3号 “简易肋骨”",
+          "desc": "[CantDuel]\n本技能不会触发守备技能\n[WhenUse] 消耗自身4层[ChargeBodyArt]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 对目标造成5点理智伤害"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢复5点理智值"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加[LivingSpecimenPersonality]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "装置艺术第3号 “简易肋骨”",
+          "desc": "[CantDuel]\n本技能不会触发守备技能\n[WhenUse] 消耗自身4层[ChargeBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加1级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "目标每带有1种负面状态，使本硬币造成的伤害+5%(最多+20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标造成5点理智伤害<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢复5点理智值<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加[LivingSpecimenPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "装置艺术第3号 “简易肋骨”",
+          "desc": "[CantDuel]\n本技能不会触发守备技能\n[WhenUse] 消耗自身4层[ChargeBodyArt]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目标增加2级[Laceration]强度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "目标每带有1种负面状态，使本硬币造成的伤害+<style=\"highlight\">10</style>%(最多+<style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标造成5点理智伤害<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢复5点理智值<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 对目标施加[LivingSpecimenPersonality]<style=\"highlight\"></style>"
                 }
               ]
             }
