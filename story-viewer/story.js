@@ -227,7 +227,7 @@ function resolveSpeakerName(entry, language, characterMap) {
 }
 
 function getSpeakerGlyph(speakerName) {
-  const speaker = speakerName.replace(/[\[\]【】（）()\s]/g, '');
+  const speaker = String(speakerName).replace(/[\[\]【】（）()\s]/g, '');
   return speaker.slice(0, 1) || '旁';
 }
 
