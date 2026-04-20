@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T23:29:06.602Z",
+  "generatedAt": "2026-04-20T02:24:46.632Z",
   "repoRoot": ".",
   "languages": [
     {
@@ -336,8 +336,8 @@
           "count": 3
         },
         {
-          "key": "WP8",
-          "label": "第8次 瓦尔普吉斯之夜",
+          "key": "WP7",
+          "label": "第7次 瓦尔普吉斯之夜",
           "count": 2
         }
       ]
@@ -50651,11 +50651,11 @@
       "categoryLabel": "瓦尔普吉斯之夜",
       "categoryDescription": "瓦尔普吉斯之夜相关短篇",
       "prefix": "E0",
-      "chapterKey": "WP8",
-      "chapterLabel": "第8次 瓦尔普吉斯之夜",
+      "chapterKey": "WP7",
+      "chapterLabel": "第7次 瓦尔普吉斯之夜",
       "stageKey": "E090X",
       "stageLabel": "第0节",
-      "storyLabel": "第8次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "storyLabel": "第7次 瓦尔普吉斯之夜 第0节 特殊剧情",
       "part": {
         "raw": "X",
         "code": "X",
@@ -50664,13 +50664,13 @@
       },
       "sortKey": [
         6,
-        8,
+        7,
         0,
         4
       ],
-      "searchText": "e090x 瓦尔普吉斯之夜 第8次 瓦尔普吉斯之夜 第0节 特殊剧情",
-      "gameChapterId": "9018",
-      "gameStageId": "901800",
+      "searchText": "e090x 瓦尔普吉斯之夜 第7次 瓦尔普吉斯之夜 第0节 特殊剧情",
+      "gameChapterId": "9017",
+      "gameStageId": "901700",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -50691,11 +50691,11 @@
       "categoryLabel": "瓦尔普吉斯之夜",
       "categoryDescription": "瓦尔普吉斯之夜相关短篇",
       "prefix": "E0",
-      "chapterKey": "WP8",
-      "chapterLabel": "第8次 瓦尔普吉斯之夜",
+      "chapterKey": "WP7",
+      "chapterLabel": "第7次 瓦尔普吉斯之夜",
       "stageKey": "E091X",
       "stageLabel": "第1节",
-      "storyLabel": "第8次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "storyLabel": "第7次 瓦尔普吉斯之夜 第1节 特殊剧情",
       "part": {
         "raw": "X",
         "code": "X",
@@ -50704,13 +50704,13 @@
       },
       "sortKey": [
         6,
-        8,
+        7,
         1,
         4
       ],
-      "searchText": "e091x 瓦尔普吉斯之夜 第8次 瓦尔普吉斯之夜 第1节 特殊剧情",
-      "gameChapterId": "9018",
-      "gameStageId": "901801",
+      "searchText": "e091x 瓦尔普吉斯之夜 第7次 瓦尔普吉斯之夜 第1节 特殊剧情",
+      "gameChapterId": "9017",
+      "gameStageId": "901701",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,

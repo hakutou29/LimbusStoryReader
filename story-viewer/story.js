@@ -232,6 +232,7 @@ function getSpeakerGlyph(speakerName) {
 }
 
 function getSpeakerTone(seed) {
+  seed = String(seed);
   let hash = 0;
   for (const char of seed) {
     hash = (hash * 31 + char.charCodeAt(0)) % 360;

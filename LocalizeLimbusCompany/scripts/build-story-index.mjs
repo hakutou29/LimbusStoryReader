@@ -217,7 +217,7 @@ function parseStoryCode(fileCode) {
     else if (stageGroup === 6 && stageNum > 3) walpurgisNum = 4;
     else if (stageGroup === 7) walpurgisNum = 5;
     else if (stageGroup === 8) walpurgisNum = 6;
-    else if (stageGroup === 9) walpurgisNum = 8;
+    else if (stageGroup === 9) walpurgisNum = 7;
     else walpurgisNum = 99;
 
     if (walpurgisNum !== 99) {
