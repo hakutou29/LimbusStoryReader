@@ -639,22 +639,33 @@ body::before {
     grid-template-columns: 1fr;
   }
 
-  .dialogue-card,
-  .dialogue-body,
-  .dialogue-speaker {
-    grid-template-columns: 1fr;
+  .dialogue-card {
+    grid-template-columns: 6rem minmax(0, 1fr);
   }
 
   .dialogue-speaker {
-    border-right: 0;
-    border-bottom: 1px solid rgba(246, 219, 186, 0.08);
-    justify-items: start;
-    text-align: left;
+    padding: 0.6rem 0.4rem;
+    gap: 0.4rem;
+  }
+
+  .dialogue-speaker h3 {
+    font-size: 0.85rem;
+    word-break: break-all;
+  }
+
+  .dialogue-body {
+    padding: 0.6rem 0.8rem;
   }
 
   .speaker-portrait-shell,
   .speaker-portrait-frame {
-    width: 6.2rem;
+    width: 4.8rem;
+  }
+
+  .speaker-portrait-fallback {
+    width: 3.5rem;
+    height: 3.8rem;
+    font-size: 1.2rem;
   }
 }
 
