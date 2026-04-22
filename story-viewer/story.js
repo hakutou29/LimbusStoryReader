@@ -158,13 +158,28 @@ function buildMergedRows(loadedData) {
 
   for (const [languageId, payload] of loadedData.entries()) {
     const dataList = Array.isArray(payload?.dataList) ? payload.dataList : [];
+    let currentOrderBase = -1;
+    let fallbackOffset = 0.001;
+
     dataList.forEach((item, index) => {
+      const hasValidId = typeof item.id === 'number' && item.id !== -1;
+      let objOrder;
+
+      if (hasValidId) {
+        objOrder = item.id;
+        currentOrderBase = item.id;
+        fallbackOffset = 0.001;
+      } else {
+        objOrder = currentOrderBase !== -1 ? currentOrderBase + fallbackOffset : index * 0.001;
+        fallbackOffset += 0.001;
+      }
+
       const rowKey = toRowKey(item, index);
       if (!rows.has(rowKey)) {
         rows.set(rowKey, {
           key: rowKey,
           id: typeof item.id === 'number' ? item.id : null,
-          order: typeof item.id === 'number' && item.id !== -1 ? item.id : 100000 + index,
+          order: objOrder,
           entries: new Map(),
         });
       }
