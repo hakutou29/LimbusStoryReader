@@ -718,3 +718,8 @@ body::before {
   background: var(--accent);
   border-color: var(--accent);
 }
+
+
+.dialogue-card-narrator {
+  grid-template-columns: 1fr;
+}

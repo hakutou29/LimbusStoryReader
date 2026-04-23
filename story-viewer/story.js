@@ -303,11 +303,46 @@ function createEntryCard(entry, index, language, characterMap) {
   const contentText = entry.content ?? entry.dlg ?? '';
 
   if (isVoice) {
+      return `
+        <article class="dialogue-card">
+          <aside class="dialogue-speaker" style="width: auto; min-width: 120px;">
+            <div class="speaker-meta">
+              <h3 style="margin: 0; font-size: 1.1rem; color: var(--accent);">${escapeHtml(roleText)}</h3>
+            </div>
+          </aside>
+          <div class="dialogue-body">
+            <div class="dialogue-content-wrap">
+              ${placeText}
+              <div class="dialogue-content">${formatRichText(contentText)}</div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    if (speaker === '旁白') {
+      const optRoleText = roleText !== '旁白' && roleText ? `<p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.4rem;">${escapeHtml(roleText)}</p>` : '';
+      return `
+        <article class="dialogue-card dialogue-card-narrator">
+          <div class="dialogue-body" style="padding-left: 1.2rem;">
+            <div class="dialogue-content-wrap">
+              ${placeText}
+              ${optRoleText}
+              <div class="dialogue-content">${formatRichText(contentText)}</div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
     return `
       <article class="dialogue-card">
-        <aside class="dialogue-speaker" style="width: auto; min-width: 120px;">
+        <aside class="dialogue-speaker">
+          <div class="speaker-portrait-shell" style="--speaker-tone:${tone}">${createSpeakerPortrait(entry, speaker)}</div>
           <div class="speaker-meta">
-            <h3 style="margin: 0; font-size: 1.1rem; color: var(--accent);">${escapeHtml(roleText)}</h3>
+            ${charNoBadge}
+            <p class="speaker-role">${escapeHtml(roleText)}</p>
+            <h3>${escapeHtml(speaker)}</h3>
           </div>
         </aside>
         <div class="dialogue-body">
@@ -318,26 +353,6 @@ function createEntryCard(entry, index, language, characterMap) {
         </div>
       </article>
     `;
-  }
-
-  return `
-    <article class="dialogue-card">
-      <aside class="dialogue-speaker">
-        <div class="speaker-portrait-shell" style="--speaker-tone:${tone}">${createSpeakerPortrait(entry, speaker)}</div>
-        <div class="speaker-meta">
-          ${charNoBadge}
-          <p class="speaker-role">${escapeHtml(roleText)}</p>
-          <h3>${escapeHtml(speaker)}</h3>
-        </div>
-      </aside>
-      <div class="dialogue-body">
-        <div class="dialogue-content-wrap">
-          ${placeText}
-          <div class="dialogue-content">${formatRichText(contentText)}</div>
-        </div>
-      </div>
-    </article>
-  `;
 }
 
 function createMissingEntryCard(language) {
