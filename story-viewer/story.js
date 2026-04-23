@@ -42,6 +42,14 @@ function escapeHtml(value) {
     .replaceAll("'", '&#39;');
 }
 
+function formatRichText(value) {
+  let text = escapeHtml(value);
+  text = text.replace(/&lt;color=(&quot;)?(#[0-9a-fA-F]+)\1&gt;/gi, '<span style="color: $2;">');
+  text = text.replace(/&lt;\/color&gt;/gi, '</span>');
+  text = text.replace(/&lt;(\/??)(b|i|u|s)&gt;/gi, '<$1$2>');
+  return text;
+}
+
 function getQueryState() {
   const params = new URLSearchParams(window.location.search);
   const code = params.get('code');
@@ -196,7 +204,7 @@ function buildMergedRows(loadedData) {
       if (row.id !== -1) return true;
       
       // Check if at least one selected language has translated content (content without Korean characters)
-      const hasTranslatedContent = Array.from(state.selectedLanguages).some((lang) => {
+      const hasTranslatedContent = selectedLangsArray.some((lang) => {
         const entry = row.entries.get(lang);
         if (!entry) return false;
         const text = entry.content ?? entry.dlg ?? '';
@@ -284,7 +292,7 @@ function createEntryCard(entry, index, language, characterMap) {
   
   const isVoice = state.story && state.story.category === 'voice';
 
-  let roleText = [entry.title, entry.teller, entry.model].filter(Boolean).join(' · ');
+  let roleText = [entry.title, entry.teller].filter(Boolean).join(' · ');
   if (!roleText && entry.desc) roleText = entry.desc;
   if (!roleText && !isVoice) roleText = '旁白';
   if (isVoice && entry.desc) roleText = entry.desc; // Force using desc for voices if available
@@ -305,7 +313,7 @@ function createEntryCard(entry, index, language, characterMap) {
         <div class="dialogue-body">
           <div class="dialogue-content-wrap">
             ${placeText}
-            <div class="dialogue-content">${escapeHtml(contentText)}</div>
+            <div class="dialogue-content">${formatRichText(contentText)}</div>
           </div>
         </div>
       </article>
@@ -325,7 +333,7 @@ function createEntryCard(entry, index, language, characterMap) {
       <div class="dialogue-body">
         <div class="dialogue-content-wrap">
           ${placeText}
-          <div class="dialogue-content">${escapeHtml(contentText)}</div>
+          <div class="dialogue-content">${formatRichText(contentText)}</div>
         </div>
       </div>
     </article>
@@ -352,35 +360,52 @@ function createMissingEntryCard(language) {
   `;
 }
 
-function createRowPanel(row, languages) {
-  const rowLabel = row.id === null ? row.key : `id ${row.id}`;
+function createRowPanel(row, index, languages) {
   const cards = languages
     .map((language) => {
       const entry = row.entries.get(language.id);
+      const displayId = language.id === 'LLC_zh-CN' ? 'CN' : language.id;
+
+      let innerCard;
       if (!entry) {
-        return createMissingEntryCard(language);
+        innerCard = createMissingEntryCard(language);
+      } else {
+        const characterMap = state.characterMaps.get(language.id) ?? new Map();
+        innerCard = createEntryCard(entry, row.order, language, characterMap);
       }
 
-      const characterMap = state.characterMaps.get(language.id) ?? new Map();
-
-      const displayId = language.id === 'LLC_zh-CN' ? 'CN' : language.id;
-      return `
-        <section class="line-language-block">
+      const isSelectedGlobally = state.selectedLanguages.has(language.id);
+        const displayStyle = isSelectedGlobally ? '' : 'display: none;';
+        return `
+        <section class="line-language-block" data-lang-id="${language.id}" style="${displayStyle}">
           <div class="line-language-head">
             <span class="line-language-code">${escapeHtml(displayId)}</span>
             <strong>${escapeHtml(language.label)}</strong>
           </div>
-          ${createEntryCard(entry, row.order, language, characterMap)}
+          ${innerCard}
         </section>
       `;
     })
     .join('');
 
+  const localPicker = languages.map((lang) => {
+    const isSelectedGlobally = state.selectedLanguages.has(lang.id);
+    return `
+    <label class="local-lang-toggle" style="display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.8rem; color: var(--text-dim); cursor: pointer;">
+      <input type="checkbox" ${isSelectedGlobally ? 'checked' : ''} data-lang-id="${lang.id}">
+      <span>${escapeHtml(lang.label)}</span>
+    </label>
+    `;
+  }).join('');
+
   return `
-    <section class="line-panel shell-panel">
-      <div class="line-panel-header">
-        <p class="section-kicker">Line</p>
-        <span>${escapeHtml(rowLabel)}</span>
+    <section class="line-panel shell-panel" data-row-key="${row.key}">
+      <div class="line-panel-header" style="justify-content: space-between; align-items: center; display: flex; flex-wrap: wrap;">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <p class="section-kicker">Line</p>
+            <span>${index + 1}</span>
+        </div>
+        <div class="local-lang-picker" style="display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap;">${localPicker}</div>
       </div>
       <div class="line-language-stack">${cards}</div>
     </section>
@@ -430,7 +455,12 @@ function renderAvailability() {
 }
 
 async function renderStory() {
-  const languages = state.storyIndex.languages.filter((language) => state.selectedLanguages.has(language.id));
+  elements.storySections.style.opacity = '0.5';
+  elements.storySections.style.pointerEvents = 'none';
+  await new Promise((resolve) => requestAnimationFrame(() => setTimeout(resolve, 0)));
+
+  const coreLangIds = new Set(['LLC_zh-CN', 'JP', 'EN', 'KR']);
+  const languages = state.storyIndex.languages.filter((language) => coreLangIds.has(language.id) || state.selectedLanguages.has(language.id));
   const loadedData = new Map();
   state.localSpeakerMaps.clear();
 
@@ -456,9 +486,15 @@ async function renderStory() {
   }
 
   const mergedRows = buildMergedRows(loadedData);
-  elements.storySections.innerHTML = mergedRows.length
-    ? mergedRows.map((row) => createRowPanel(row, languages)).join('')
+  
+  // Use chunking or direct assignment
+  const htmlContent = mergedRows.length
+    ? mergedRows.map((row, index) => createRowPanel(row, index, languages)).join('')
     : '<section class="shell-panel"><p class="empty-hint">当前剧情没有可显示的台词内容。</p></section>';
+  
+  elements.storySections.innerHTML = htmlContent;
+  elements.storySections.style.opacity = '';
+  elements.storySections.style.pointerEvents = '';
 }
 
 async function init() {
@@ -492,4 +528,23 @@ init().catch((error) => {
   elements.storyTitle.textContent = '无法加载剧情';
   elements.storyMeta.textContent = error.message;
   elements.storySections.innerHTML = `<section class="shell-panel"><p class="empty-hint">${error.message}</p></section>`;
+});
+
+
+
+
+
+
+document.addEventListener('change', (e) => {
+  if (e.target.matches('.local-lang-picker input[type="checkbox"]')) {
+    const langId = e.target.dataset.langId;
+    const isChecked = e.target.checked;
+    const panel = e.target.closest('.line-panel');
+    if (panel) {
+      const block = panel.querySelector(`.line-language-block[data-lang-id="${langId}"]`);
+      if (block) {
+        block.style.display = isChecked ? '' : 'none';
+      }
+    }
+  }
 });
