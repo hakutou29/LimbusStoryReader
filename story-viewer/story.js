@@ -341,7 +341,7 @@ function createEntryCard(entry, index, language, characterMap) {
           <div class="speaker-portrait-shell" style="--speaker-tone:${tone}">${createSpeakerPortrait(entry, speaker)}</div>
           <div class="speaker-meta">
             ${charNoBadge}
-            <p class="speaker-role">${escapeHtml(roleText)}</p>
+            ${roleText ? `<p class="speaker-role">${escapeHtml(roleText)}</p>` : ''}
             <h3>${escapeHtml(speaker)}</h3>
           </div>
         </aside>
