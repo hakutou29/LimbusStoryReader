@@ -390,10 +390,11 @@ function createRowPanel(row, index, languages) {
 
   const localPicker = languages.map((lang) => {
     const isSelectedGlobally = state.selectedLanguages.has(lang.id);
+    const shortId = lang.id === 'LLC_zh-CN' ? 'CN' : lang.id;
     return `
-    <label class="local-lang-toggle" style="display: inline-flex; align-items: center; gap: 0.3rem; font-size: 0.8rem; color: var(--text-dim); cursor: pointer;">
-      <input type="checkbox" ${isSelectedGlobally ? 'checked' : ''} data-lang-id="${lang.id}">
-      <span>${escapeHtml(lang.label)}</span>
+    <label class="local-lang-toggle">
+      <input type="checkbox" class="local-lang-checkbox" ${isSelectedGlobally ? 'checked' : ''} data-lang-id="${lang.id}">
+      <span class="local-lang-label">${escapeHtml(shortId)}</span>
     </label>
     `;
   }).join('');
@@ -405,7 +406,7 @@ function createRowPanel(row, index, languages) {
             <p class="section-kicker">Line</p>
             <span>${index + 1}</span>
         </div>
-        <div class="local-lang-picker" style="display: flex; align-items: center; gap: 0.8rem; flex-wrap: wrap;">${localPicker}</div>
+        <div class="local-lang-picker">${localPicker}</div>
       </div>
       <div class="line-language-stack">${cards}</div>
     </section>
