@@ -294,7 +294,8 @@ function createEntryCard(entry, index, language, characterMap) {
 
   let roleText = [entry.title, entry.teller].filter(Boolean).join(' · ');
   if (!roleText && entry.desc) roleText = entry.desc;
-  if (!roleText && !isVoice) roleText = '旁白';
+  if (!roleText && !isVoice && speaker === '旁白') roleText = '旁白';
+  if (!roleText && !isVoice && speaker !== '旁白') roleText = '';
   if (isVoice && entry.desc) roleText = entry.desc; // Force using desc for voices if available
   
   const placeText = entry.place ? `<p class="entry-place">${escapeHtml(entry.place)}</p>` : '';
