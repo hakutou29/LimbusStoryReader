@@ -721,3 +721,15 @@ body::before {
 
 
 
+
+.dialogue-card-narrator {
+  grid-template-columns: 1fr;
+}
+.dialogue-card-narrator .dialogue-body {
+  padding-left: calc(10rem + 1.1rem);
+}
+@media (max-width: 768px) {
+  .dialogue-card-narrator .dialogue-body {
+    padding-left: calc(6rem + 0.8rem);
+  }
+}

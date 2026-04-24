@@ -325,8 +325,7 @@ function createEntryCard(entry, index, language, characterMap) {
       const optRoleText = roleText !== '旁白' && roleText ? `<p style="font-size: 0.85rem; color: var(--text-dim); margin-bottom: 0.4rem;">${escapeHtml(roleText)}</p>` : '';
       return `
         <article class="dialogue-card dialogue-card-narrator">
-          <aside class="dialogue-speaker" style="opacity: 0; pointer-events: none; user-select: none;"></aside>
-          <div class="dialogue-body" style="padding-left: 1.2rem;">
+            <div class="dialogue-body">
             <div class="dialogue-content-wrap">
               ${placeText}
               ${optRoleText}
