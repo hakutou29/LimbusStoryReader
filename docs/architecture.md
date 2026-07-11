@@ -142,9 +142,10 @@ Rules:
 
 Each row stores a `Map` of `languageId -> entry`, so rendering can show a missing-language card when a language lacks that row.
 
-Known sharp edge:
+Test coverage:
 
-- The current implementation references `selectedLangsArray` inside `buildMergedRows()`, but that variable is not defined. This can break rows with `id === -1` when Korean is not selected. Fix this before larger rendering refactors.
+- Row alignment lives in `story-viewer/lib/row-align.js` so it can be unit-tested outside the browser.
+- The Korean-only continuation row filtering behavior is covered by `tests/unit/row-align.test.js`.
 
 ## Speaker Resolution
 

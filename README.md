@@ -39,8 +39,8 @@ story-viewer/                   Static browser UI
   story.js                      Story loading, row alignment, dialogue rendering
   styles.css                    Shared catalog/detail styling
   data/story-index.json         Generated manifest, not hand-authored
-patch*.mjs, patch_sort.txt      Historical one-off patch helpers
 docs/                           Architecture and maintenance notes
+  archive/patch-helpers/        Historical one-off patch helpers
 ```
 
 ## Main Data Flow

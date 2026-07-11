@@ -1,2 +1,6 @@
 .vs
 .idea
+
+# Local-only scheduled localization sync automation
+scripts/register-localization-sync-task.ps1
+scripts/sync-upstream-localizations.ps1

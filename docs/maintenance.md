@@ -112,9 +112,11 @@ Performance note:
 - Initial DOM should only include globally selected languages. Per-line languages are created on demand when that row's checkbox is enabled.
 - If long stories still feel slow, prefer chunked row insertion before removing the per-line language toggle feature.
 
-Known correctness issue:
+Test coverage:
 
-- `buildMergedRows()` references `selectedLangsArray`, which is not defined. Fix this before relying on the `id === -1` Korean-row filtering branch.
+- Row alignment logic is unit-tested in [tests/unit/row-align.test.js](../tests/unit/row-align.test.js).
+- Rich text escaping and tag restoration are unit-tested in [tests/unit/formatting.test.js](../tests/unit/formatting.test.js).
+- Browser language switching is covered by [tests/e2e/story-viewer.spec.js](../tests/e2e/story-viewer.spec.js).
 
 ## Editing Styles
 
@@ -212,4 +214,4 @@ Then run the local server and manually check at least one catalog page and one d
 
 ## Historical Patch Helpers
 
-The root-level `patch.mjs`, `patch_D.mjs`, and `patch_sort.txt` are historical one-off helpers used to modify the index builder. Treat them as references, not part of the regular workflow. Prefer direct, reviewed edits to `build-story-index.mjs` for future changes.
+The files under [docs/archive/patch-helpers](archive/patch-helpers) are historical one-off helpers used to modify the index builder. Treat them as references, not part of the regular workflow. Prefer direct, reviewed edits to `build-story-index.mjs` for future changes.
