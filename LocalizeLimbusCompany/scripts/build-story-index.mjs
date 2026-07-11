@@ -59,7 +59,7 @@ const sinnerIdentityMap = {
   '112': { name: '格里高尔', no: 13 },
 };
 
-function normalizePart(part) {
+export function normalizePart(part) {
   if (!part) {
     return {
       raw: '',
@@ -113,7 +113,7 @@ function buildSearchText(parts) {
     .toLowerCase();
 }
 
-function parseStoryCode(fileCode) {
+export function parseStoryCode(fileCode) {
   let match = fileCode.match(/^(V)(\d+)$/);
   if (match) {
     const [, prefix, digits] = match;
@@ -679,7 +679,9 @@ async function main() {
   console.log(`Wrote ${stories.length} stories to ${outputPath}`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}
