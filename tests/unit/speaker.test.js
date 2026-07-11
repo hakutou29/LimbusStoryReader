@@ -1,10 +1,33 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 
-import { buildLocalSpeakerMap } from '../../story-viewer/lib/story-data.js';
+import { buildLocalSpeakerMap, loadStoryLanguageData } from '../../story-viewer/lib/story-data.js';
 import { getSpeakerGlyph, getSpeakerTone, resolvePortraitName, resolveSpeakerName } from '../../story-viewer/lib/speaker.js';
 
 describe('speaker helpers', () => {
+  it('loads language payloads concurrently while preserving language order', async () => {
+    const languages = [
+      { id: 'LLC_zh-CN', folder: 'LLC_zh-CN' },
+      { id: 'JP', folder: 'JP' },
+    ];
+    const characterMaps = new Map(languages.map((language) => [language.id, new Map()]));
+    const payloads = new Map([
+      ['LLC_zh-CN', { dataList: [{ model: 'yi01', teller: '李箱' }] }],
+      ['JP', { dataList: [{ model: 'yi01', teller: 'イサン' }] }],
+    ]);
+
+    const { loadedData, localSpeakerMaps } = await loadStoryLanguageData(
+      languages,
+      async (languageId) => payloads.get(languageId),
+      characterMaps,
+    );
+
+    assert.deepEqual([...loadedData.keys()], ['LLC_zh-CN', 'JP']);
+    assert.equal(loadedData.get('JP'), payloads.get('JP'));
+    assert.equal(localSpeakerMaps.get('LLC_zh-CN').get('yi'), '李箱');
+    assert.equal(localSpeakerMaps.get('JP').get('yi'), 'イサン');
+  });
+
   it('builds local speaker names from translated teller rows', () => {
     const localMap = buildLocalSpeakerMap({
       dataList: [

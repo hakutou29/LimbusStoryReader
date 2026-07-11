@@ -1,6 +1,6 @@
 import { escapeHtml, formatRichText } from './lib/formatting.js';
 import { buildMergedRows } from './lib/row-align.js';
-import { buildLocalSpeakerMap, createStoryDataLoader, fetchCharacterMap, loadIndex } from './lib/story-data.js';
+import { createStoryDataLoader, fetchCharacterMap, loadIndex, loadStoryLanguageData } from './lib/story-data.js';
 import { buildStoryIconPath, getSpeakerGlyph, getSpeakerTone, resolvePortraitName, resolveSpeakerName } from './lib/speaker.js';
 
 const state = {
@@ -253,15 +253,8 @@ async function renderStory() {
   const coreLangIds = new Set(['LLC_zh-CN', 'JP', 'EN', 'KR']);
   const languages = state.storyIndex.languages.filter((language) => coreLangIds.has(language.id) || state.selectedLanguages.has(language.id));
   const fetchStoryData = createStoryDataLoader(state.story, state.loadedStories);
-  const loadedData = new Map();
-  state.localSpeakerMaps.clear();
-
-  for (const language of languages) {
-    await fetchCharacterMap(language, state.characterMaps);
-    const payload = await fetchStoryData(language.id);
-    loadedData.set(language.id, payload);
-    state.localSpeakerMaps.set(language.id, buildLocalSpeakerMap(payload));
-  }
+  const { loadedData, localSpeakerMaps } = await loadStoryLanguageData(languages, fetchStoryData, state.characterMaps);
+  state.localSpeakerMaps = localSpeakerMaps;
 
   const mergedRows = buildMergedRows(loadedData, state.selectedLanguages);
   state.renderedRowsByKey = new Map(mergedRows.map((row) => [row.key, row]));

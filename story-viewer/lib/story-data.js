@@ -29,55 +29,79 @@ export function createStoryDataLoader(story, loadedStories) {
   };
 }
 
+async function fetchJsonIfOk(path) {
+  const response = await fetch(path);
+  return response.ok ? response.json() : null;
+}
+
 export async function fetchCharacterMap(language, characterMaps) {
   if (characterMaps.has(language.id)) {
     return characterMaps.get(language.id);
   }
 
   const characterMap = new Map();
-
   const introPath = `../LocalizeLimbusCompany/${language.folder}/IntroduceCharacter.json`;
+  const modelPath = `../LocalizeLimbusCompany/${language.folder}/ScenarioModelCodes-AutoCreated.json`;
+  let introPayload = null;
+  let modelPayload = null;
+
   try {
-    const introRes = await fetch(introPath);
-    if (introRes.ok) {
-      const introPayload = await introRes.json();
-      const dataList = Array.isArray(introPayload?.dataList) ? introPayload.dataList : [];
-      let index = 0;
-      dataList.forEach((item) => {
-        if (item?.id && item?.name) {
-          let displayNo = index + 1;
-          if (displayNo >= 10) displayNo += 1;
-          characterMap.set(item.id, { name: item.name, no: displayNo });
-          index++;
-        }
-      });
-    }
+    [introPayload, modelPayload] = await Promise.all([
+      fetchJsonIfOk(introPath),
+      fetchJsonIfOk(modelPath),
+    ]);
   } catch (err) {
-    console.warn(`Failed to load IntroduceCharacter for ${language.id}`, err);
+    console.warn(`Failed to load character metadata for ${language.id}`, err);
   }
 
-  const modelPath = `../LocalizeLimbusCompany/${language.folder}/ScenarioModelCodes-AutoCreated.json`;
-  try {
-    const modelRes = await fetch(modelPath);
-    if (modelRes.ok) {
-      const modelPayload = await modelRes.json();
-      const dataList = Array.isArray(modelPayload?.dataList) ? modelPayload.dataList : [];
-      dataList.forEach((item) => {
-        if (item?.id && item?.name) {
-          if (characterMap.has(item.id)) {
-            characterMap.get(item.id).name = item.name;
-          } else {
-            characterMap.set(item.id, { name: item.name, no: null });
-          }
-        }
-      });
+  const introList = Array.isArray(introPayload?.dataList) ? introPayload.dataList : [];
+  let index = 0;
+  introList.forEach((item) => {
+    if (item?.id && item?.name) {
+      let displayNo = index + 1;
+      if (displayNo >= 10) displayNo += 1;
+      characterMap.set(item.id, { name: item.name, no: displayNo });
+      index++;
     }
-  } catch (err) {
-    console.warn(`Failed to load ScenarioModelCodes for ${language.id}`, err);
-  }
+  });
+
+  const modelList = Array.isArray(modelPayload?.dataList) ? modelPayload.dataList : [];
+  modelList.forEach((item) => {
+    if (item?.id && item?.name) {
+      if (characterMap.has(item.id)) {
+        characterMap.get(item.id).name = item.name;
+      } else {
+        characterMap.set(item.id, { name: item.name, no: null });
+      }
+    }
+  });
 
   characterMaps.set(language.id, characterMap);
   return characterMap;
+}
+
+export async function loadStoryLanguageData(languages, fetchStoryData, characterMaps) {
+  const results = await Promise.all(languages.map(async (language) => {
+    const [, payload] = await Promise.all([
+      fetchCharacterMap(language, characterMaps),
+      fetchStoryData(language.id),
+    ]);
+
+    return {
+      languageId: language.id,
+      payload,
+      localSpeakerMap: buildLocalSpeakerMap(payload),
+    };
+  }));
+
+  const loadedData = new Map();
+  const localSpeakerMaps = new Map();
+  results.forEach((result) => {
+    loadedData.set(result.languageId, result.payload);
+    localSpeakerMaps.set(result.languageId, result.localSpeakerMap);
+  });
+
+  return { loadedData, localSpeakerMaps };
 }
 
 export function buildLocalSpeakerMap(payload) {
