@@ -305,8 +305,8 @@ function createEntryCard(entry, index, language, characterMap) {
 
   if (isVoice) {
       return `
-        <article class="dialogue-card">
-          <aside class="dialogue-speaker" style="width: auto; min-width: 120px;">
+        <article class="dialogue-card dialogue-card-voice">
+          <aside class="dialogue-speaker">
             <div class="speaker-meta">
               <h3 style="margin: 0; font-size: 1.1rem; color: var(--accent);">${escapeHtml(roleText)}</h3>
             </div>
