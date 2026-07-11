@@ -97,9 +97,11 @@ Protect these behaviors:
 - Missing aligned language rows should render a missing-language card rather than silently disappearing.
 - Rich text tags from source data should be escaped first, then selectively restored by `formatRichText()`.
 
-Known performance issue:
+Performance note:
 
-- Current rendering eagerly creates blocks for all core languages per line. Long stories can generate more than 1,000 cards on load. Prefer lazy per-row language block creation when optimizing.
+- Story data for the four core languages is preloaded so per-line language toggles can respond without network waits.
+- Initial DOM should only include globally selected languages. Per-line languages are created on demand when that row's checkbox is enabled.
+- If long stories still feel slow, prefer chunked row insertion before removing the per-line language toggle feature.
 
 Known correctness issue:
 

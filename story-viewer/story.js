@@ -5,6 +5,9 @@ const state = {
   loadedStories: new Map(),
   characterMaps: new Map(),
   localSpeakerMaps: new Map(),
+  renderedRowsByKey: new Map(),
+  renderLanguagesById: new Map(),
+  renderLanguageOrder: new Map(),
 };
 
 const portraitNames = new Set([
@@ -200,6 +203,7 @@ function buildMergedRows(loadedData) {
 
   // If KR is not selected, hide id === -1 rows that have no translated content in the selected languages
   if (!state.selectedLanguages.has('KR')) {
+    const selectedLangsArray = [...state.selectedLanguages];
     finalRows = finalRows.filter((row) => {
       if (row.id !== -1) return true;
       
@@ -376,32 +380,35 @@ function createMissingEntryCard(language) {
   `;
 }
 
+function createLineLanguageBlock(row, language, isVisible = true) {
+  const entry = row.entries.get(language.id);
+  const displayId = language.id === 'LLC_zh-CN' ? 'CN' : language.id;
+
+  let innerCard;
+  if (!entry) {
+    innerCard = createMissingEntryCard(language);
+  } else {
+    const characterMap = state.characterMaps.get(language.id) ?? new Map();
+    innerCard = createEntryCard(entry, row.order, language, characterMap);
+  }
+
+  const displayStyle = isVisible ? '' : 'display: none;';
+  const order = state.renderLanguageOrder.get(language.id) ?? 999;
+  return `
+    <section class="line-language-block" data-lang-id="${language.id}" data-lang-order="${order}" style="${displayStyle}">
+      <div class="line-language-head">
+        <span class="line-language-code">${escapeHtml(displayId)}</span>
+        <strong>${escapeHtml(language.label)}</strong>
+      </div>
+      ${innerCard}
+    </section>
+  `;
+}
+
 function createRowPanel(row, index, languages) {
   const cards = languages
-    .map((language) => {
-      const entry = row.entries.get(language.id);
-      const displayId = language.id === 'LLC_zh-CN' ? 'CN' : language.id;
-
-      let innerCard;
-      if (!entry) {
-        innerCard = createMissingEntryCard(language);
-      } else {
-        const characterMap = state.characterMaps.get(language.id) ?? new Map();
-        innerCard = createEntryCard(entry, row.order, language, characterMap);
-      }
-
-      const isSelectedGlobally = state.selectedLanguages.has(language.id);
-        const displayStyle = isSelectedGlobally ? '' : 'display: none;';
-        return `
-        <section class="line-language-block" data-lang-id="${language.id}" style="${displayStyle}">
-          <div class="line-language-head">
-            <span class="line-language-code">${escapeHtml(displayId)}</span>
-            <strong>${escapeHtml(language.label)}</strong>
-          </div>
-          ${innerCard}
-        </section>
-      `;
-    })
+    .filter((language) => state.selectedLanguages.has(language.id))
+    .map((language) => createLineLanguageBlock(row, language, true))
     .join('');
 
   const localPicker = languages.map((lang) => {
@@ -503,6 +510,9 @@ async function renderStory() {
   }
 
   const mergedRows = buildMergedRows(loadedData);
+  state.renderedRowsByKey = new Map(mergedRows.map((row) => [row.key, row]));
+  state.renderLanguagesById = new Map(languages.map((language) => [language.id, language]));
+  state.renderLanguageOrder = new Map(languages.map((language, index) => [language.id, index]));
   
   // Use chunking or direct assignment
   const htmlContent = mergedRows.length
@@ -558,7 +568,21 @@ document.addEventListener('change', (e) => {
     const isChecked = e.target.checked;
     const panel = e.target.closest('.line-panel');
     if (panel) {
-      const block = panel.querySelector(`.line-language-block[data-lang-id="${langId}"]`);
+      let block = panel.querySelector(`.line-language-block[data-lang-id="${langId}"]`);
+      if (isChecked && !block) {
+        const row = state.renderedRowsByKey.get(panel.dataset.rowKey);
+        const language = state.renderLanguagesById.get(langId);
+        const stack = panel.querySelector('.line-language-stack');
+        if (row && language && stack) {
+          const template = document.createElement('template');
+          template.innerHTML = createLineLanguageBlock(row, language, true).trim();
+          block = template.content.firstElementChild;
+          const order = state.renderLanguageOrder.get(langId) ?? 999;
+          const nextBlock = [...stack.children].find((item) => Number(item.dataset.langOrder) > order);
+          stack.insertBefore(block, nextBlock ?? null);
+        }
+      }
+
       if (block) {
         block.style.display = isChecked ? '' : 'none';
       }

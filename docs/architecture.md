@@ -159,31 +159,36 @@ Portraits are currently resolved through the Chinese character map and the local
 
 ## Rendering Model
 
-Current detail-page rendering is eager:
+Current detail-page rendering preloads data but lazily creates language DOM:
 
 1. Determine core languages: `LLC_zh-CN`, `JP`, `EN`, `KR`.
-2. Fetch character maps and story data for every core language.
+2. Fetch character maps and story data for every core language so local row toggles can respond without network waits.
 3. Build merged rows across all loaded languages.
-4. Render every line panel and every language block into one large HTML string.
-5. Assign the entire string to `storySections.innerHTML`.
-6. Per-line checkboxes show or hide existing language blocks with `display: none`.
+4. Store merged row data in `state.renderedRowsByKey` and language metadata in `state.renderLanguagesById`.
+5. Render every line panel, but only render language blocks selected by the global top-bar picker.
+6. When a per-line checkbox is turned on for a language that has not been rendered in that row yet, create that single row/language block on demand and insert it in language order.
+7. Turning a per-line checkbox off only hides that row/language block with `display: none`.
 
-This design makes per-line language toggling instantaneous after initial render, but it can cause long initial stalls on large chapters because the DOM size is approximately:
+This keeps per-line language switching immediate while reducing initial DOM size. With one globally selected language, the initial DOM is approximately:
 
 ```text
-row count * loaded language count
+row count * selected global language count
 ```
 
-As of the current data, long files can exceed 300 rows per language, which means more than 1,200 dialogue cards may be generated for one detail page.
+Instead of:
 
-Recommended optimization direction:
+```text
+row count * loaded core language count
+```
+
+Long files can exceed 300 rows per language, so avoiding eager four-language DOM creation prevents more than 1,000 dialogue cards from being created at page load.
+
+Future optimization directions:
 
 - Keep the per-line language picker requirement.
 - Keep loaded story data in memory for quick toggles.
-- Initial-render only globally selected language blocks.
-- Generate additional per-row language blocks on demand when that row's checkbox is toggled.
-- Cache generated row/language DOM or HTML after first use.
-- Insert long story rows in chunks to avoid blocking the main thread.
+- Insert very long story rows in chunks if main-thread stalls remain noticeable.
+- Consider splitting the generated manifest if `story-index.json` parse time becomes a bottleneck.
 
 ## Styling Model
 
