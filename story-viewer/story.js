@@ -1,5 +1,7 @@
 import { escapeHtml, formatRichText } from './lib/formatting.js';
 import { buildMergedRows } from './lib/row-align.js';
+import { buildLocalSpeakerMap, createStoryDataLoader, fetchCharacterMap, loadIndex } from './lib/story-data.js';
+import { buildStoryIconPath, getSpeakerGlyph, getSpeakerTone, resolvePortraitName, resolveSpeakerName } from './lib/speaker.js';
 
 const state = {
   storyIndex: null,
@@ -12,24 +14,6 @@ const state = {
   renderLanguagesById: new Map(),
   renderLanguageOrder: new Map(),
 };
-
-const portraitNames = new Set([
-  '以实玛利',
-  '但丁',
-  '卡戎',
-  '堂吉诃德',
-  '奥提斯',
-  '希斯克利夫',
-  '无',
-  '李箱',
-  '格里高尔',
-  '浮士德',
-  '维吉里乌斯',
-  '罗佳',
-  '良秀',
-  '辛克莱',
-  '默尔索',
-]);
 
 const elements = {
   storyTitle: document.querySelector('#story-title'),
@@ -60,146 +44,8 @@ function updateQuery() {
   window.history.replaceState({}, '', `?${params.toString()}`);
 }
 
-async function loadIndex() {
-  const response = await fetch('./data/story-index.json');
-  if (!response.ok) {
-    throw new Error('无法加载剧情索引。');
-  }
-  return response.json();
-}
-
-async function fetchStoryData(languageId) {
-  const cacheKey = `${state.story.code}:${languageId}`;
-  if (state.loadedStories.has(cacheKey)) {
-    return state.loadedStories.get(cacheKey);
-  }
-
-  const filePath = state.story.paths[languageId];
-  if (!filePath) {
-    return null;
-  }
-
-  const response = await fetch(filePath);
-  if (!response.ok) {
-    throw new Error(`无法加载 ${state.story.code} 的 ${languageId} 版本。`);
-  }
-
-  const payload = await response.json();
-  state.loadedStories.set(cacheKey, payload);
-  return payload;
-}
-
-async function fetchCharacterMap(language) {
-  if (state.characterMaps.has(language.id)) {
-    return state.characterMaps.get(language.id);
-  }
-
-  const characterMap = new Map();
-
-  // Load badged characters
-  const introPath = `../LocalizeLimbusCompany/${language.folder}/IntroduceCharacter.json`;
-  try {
-    const introRes = await fetch(introPath);
-    if (introRes.ok) {
-      const introPayload = await introRes.json();
-      const dataList = Array.isArray(introPayload?.dataList) ? introPayload.dataList : [];
-      let index = 0;
-      dataList.forEach((item) => {
-        if (item?.id && item?.name) {
-          let displayNo = index + 1;
-          if (displayNo >= 10) displayNo += 1;
-          characterMap.set(item.id, { name: item.name, no: displayNo });
-          index++;
-        }
-      });
-    }
-  } catch (err) {
-    console.warn(`Failed to load IntroduceCharacter for ${language.id}`, err);
-  }
-
-  // Load all model codes
-  const modelPath = `../LocalizeLimbusCompany/${language.folder}/ScenarioModelCodes-AutoCreated.json`;
-  try {
-    const modelRes = await fetch(modelPath);
-    if (modelRes.ok) {
-      const modelPayload = await modelRes.json();
-      const dataList = Array.isArray(modelPayload?.dataList) ? modelPayload.dataList : [];
-      dataList.forEach((item) => {
-        if (item?.id && item?.name) {
-          if (characterMap.has(item.id)) {
-            // keep the badge info, just update name just in case
-            characterMap.get(item.id).name = item.name;
-          } else {
-            characterMap.set(item.id, { name: item.name, no: null });
-          }
-        }
-      });
-    }
-  } catch (err) {
-    console.warn(`Failed to load ScenarioModelCodes for ${language.id}`, err);
-  }
-
-  state.characterMaps.set(language.id, characterMap);
-  return characterMap;
-}
-
-function resolveSpeakerName(entry, language, characterMap) {
-  if (entry.model && characterMap.has(entry.model)) {
-    return characterMap.get(entry.model).name;
-  }
-
-  // Handle voice files
-  if (entry.dlg) {
-    if (state.story && state.story.category === 'voice') {
-      const match = state.story.chapterLabel.match(/#\d+\s+(.+)/);
-      if (match) return match[1];
-    }
-  }
-
-  const defaultName = entry.teller || entry.title || entry.model || entry.place || '旁白';
-
-  if (/[가-힣]/.test(defaultName) && state.localSpeakerMaps.has(language.id)) {
-    const localMap = state.localSpeakerMaps.get(language.id);
-    
-    if (entry.model) {
-      if (localMap.has(entry.model)) return localMap.get(entry.model);
-      const baseModel = entry.model.replace(/\d+$/, '');
-      if (localMap.has(baseModel)) return localMap.get(baseModel);
-    }
-    
-    const baseTeller = defaultName.replace(/\d+$/, '');
-    if (localMap.has(baseTeller)) return localMap.get(baseTeller);
-  }
-
-  return defaultName;
-}
-
-function getSpeakerGlyph(speakerName) {
-  const speaker = String(speakerName).replace(/[\[\]【】（）()\s]/g, '');
-  return speaker.slice(0, 1) || '旁';
-}
-
-function getSpeakerTone(seed) {
-  seed = String(seed);
-  let hash = 0;
-  for (const char of seed) {
-    hash = (hash * 31 + char.charCodeAt(0)) % 360;
-  }
-  return `hsl(${hash}deg 55% 60%)`;
-}
-
-function buildStoryIconPath(fileName) {
-  return `../LocalizeLimbusCompany/Assets/StoryIcons/${encodeURIComponent(fileName)}`;
-}
-
-function resolvePortraitName(entry) {
-  const chineseCharacterMap = state.characterMaps.get('LLC_zh-CN') ?? new Map();
-  const candidate = entry.model && chineseCharacterMap.has(entry.model) ? chineseCharacterMap.get(entry.model).name : null;
-  return candidate && portraitNames.has(candidate) ? candidate : '无';
-}
-
 function createSpeakerPortrait(entry, speaker) {
-  const portraitName = resolvePortraitName(entry);
+  const portraitName = resolvePortraitName(entry, state.characterMaps);
   const portraitFileName = `140px-剧情头像-${portraitName}.webp`;
   const fallbackGlyph = getSpeakerGlyph(speaker);
 
@@ -212,7 +58,7 @@ function createSpeakerPortrait(entry, speaker) {
 }
 
 function createEntryCard(entry, index, language, characterMap) {
-  const speaker = resolveSpeakerName(entry, language, characterMap);
+  const speaker = resolveSpeakerName(entry, language, characterMap, state.story, state.localSpeakerMaps);
   const tone = getSpeakerTone(speaker);
   
   const isVoice = state.story && state.story.category === 'voice';
@@ -406,28 +252,15 @@ async function renderStory() {
 
   const coreLangIds = new Set(['LLC_zh-CN', 'JP', 'EN', 'KR']);
   const languages = state.storyIndex.languages.filter((language) => coreLangIds.has(language.id) || state.selectedLanguages.has(language.id));
+  const fetchStoryData = createStoryDataLoader(state.story, state.loadedStories);
   const loadedData = new Map();
   state.localSpeakerMaps.clear();
 
   for (const language of languages) {
-    await fetchCharacterMap(language);
+    await fetchCharacterMap(language, state.characterMaps);
     const payload = await fetchStoryData(language.id);
     loadedData.set(language.id, payload);
-
-    const localMap = new Map();
-    const dataList = Array.isArray(payload?.dataList) ? payload.dataList : [];
-    for (const item of dataList) {
-      if (!item.teller || typeof item.teller !== 'string') continue;
-      
-      if (!/[가-힣]/.test(item.teller)) {
-        if (item.model) {
-          const baseModel = item.model.replace(/\d+$/, '');
-          if (!localMap.has(item.model)) localMap.set(item.model, item.teller);
-          if (!localMap.has(baseModel)) localMap.set(baseModel, item.teller);
-        }
-      }
-    }
-    state.localSpeakerMaps.set(language.id, localMap);
+    state.localSpeakerMaps.set(language.id, buildLocalSpeakerMap(payload));
   }
 
   const mergedRows = buildMergedRows(loadedData, state.selectedLanguages);
@@ -459,7 +292,7 @@ async function init() {
 
   const chineseLanguage = state.storyIndex.languages.find((language) => language.id === 'LLC_zh-CN');
   if (chineseLanguage) {
-    await fetchCharacterMap(chineseLanguage);
+    await fetchCharacterMap(chineseLanguage, state.characterMaps);
   }
 
   const validLanguages = queryState.langs.filter((languageId) => state.story.availableLanguages[languageId]);
