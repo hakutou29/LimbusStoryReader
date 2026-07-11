@@ -18,7 +18,7 @@ describe('speaker helpers', () => {
 
     const { loadedData, localSpeakerMaps } = await loadStoryLanguageData(
       languages,
-      async (languageId) => payloads.get(languageId),
+      async (language) => payloads.get(language.id),
       characterMaps,
     );
 

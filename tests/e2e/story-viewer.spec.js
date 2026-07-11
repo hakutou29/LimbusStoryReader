@@ -50,4 +50,18 @@ test.describe('story viewer', () => {
     await firstLine.locator('.local-lang-toggle', { hasText: 'JP' }).click();
     await expect(firstLine.locator('.line-language-block[data-lang-id="JP"]')).toBeVisible();
   });
+
+  test('shows battle speech bubble text on personality voice pages', async ({ page }) => {
+    await page.goto('/story-viewer/story.html?code=V10808&langs=LLC_zh-CN');
+
+    await expect(page.getByRole('heading', { name: /人格语音 #8 以实玛利/ })).toBeVisible();
+    await expect(page.getByText(/말풍선 특수 대사_피쿼드호 선장 이스마엘/)).toBeVisible();
+    await expect(page.getByText(/那都是我的功劳/)).toBeVisible();
+
+    await page.goto('/story-viewer/story.html?code=V10114&langs=LLC_zh-CN');
+
+    await expect(page.getByRole('heading', { name: /人格语音 #1 李箱/ })).toBeVisible();
+    await expect(page.getByText('战斗中语音').first()).toBeVisible();
+    await expect(page.getByText(/重重中门。我必将其突破/)).toBeVisible();
+  });
 });

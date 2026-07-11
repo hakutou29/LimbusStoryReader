@@ -7,7 +7,8 @@ export async function loadIndex() {
 }
 
 export function createStoryDataLoader(story, loadedStories) {
-  return async function fetchStoryData(languageId) {
+  return async function fetchStoryData(languageOrId) {
+    const languageId = typeof languageOrId === 'string' ? languageOrId : languageOrId.id;
     const cacheKey = `${story.code}:${languageId}`;
     if (loadedStories.has(cacheKey)) {
       return loadedStories.get(cacheKey);
@@ -23,7 +24,13 @@ export function createStoryDataLoader(story, loadedStories) {
       throw new Error(`无法加载 ${story.code} 的 ${languageId} 版本。`);
     }
 
-    const payload = await response.json();
+    let payload = await response.json();
+    const identityId = getVoiceIdentityId(story);
+    if (identityId && typeof languageOrId === 'object') {
+      const battlePayload = await fetchBattleSpeechData(languageOrId, loadedStories);
+      payload = appendBattleSpeechRows(payload, battlePayload, identityId);
+    }
+
     loadedStories.set(cacheKey, payload);
     return payload;
   };
@@ -32,6 +39,60 @@ export function createStoryDataLoader(story, loadedStories) {
 async function fetchJsonIfOk(path) {
   const response = await fetch(path);
   return response.ok ? response.json() : null;
+}
+
+async function fetchBattleSpeechData(language, loadedStories) {
+  const cacheKey = `BattleSpeechBubbleDlg:${language.id}`;
+  if (loadedStories.has(cacheKey)) {
+    return loadedStories.get(cacheKey);
+  }
+
+  const path = `../LocalizeLimbusCompany/${language.folder}/BattleSpeechBubbleDlg.json`;
+  try {
+    const payload = await fetchJsonIfOk(path);
+    loadedStories.set(cacheKey, payload);
+    return payload;
+  } catch (err) {
+    console.warn(`Failed to load BattleSpeechBubbleDlg for ${language.id}`, err);
+    loadedStories.set(cacheKey, null);
+    return null;
+  }
+}
+
+export function getVoiceIdentityId(story) {
+  if (story?.category !== 'voice') {
+    return null;
+  }
+
+  const match = String(story.stageKey ?? story.code ?? '').match(/^V(\d+)$/);
+  return match ? match[1] : null;
+}
+
+function isBattleSpeechForIdentity(id, identityId) {
+  return typeof id === 'string'
+    && id.startsWith('battle_')
+    && id.split('_').slice(1).includes(identityId);
+}
+
+export function appendBattleSpeechRows(payload, battlePayload, identityId) {
+  const baseRows = Array.isArray(payload?.dataList) ? payload.dataList : [];
+  const existingIds = new Set(baseRows.map((item) => item?.id).filter(Boolean));
+  const battleRows = Array.isArray(battlePayload?.dataList) ? battlePayload.dataList : [];
+  const extraRows = battleRows
+    .filter((item) => item?.dlg && isBattleSpeechForIdentity(item.id, identityId) && !existingIds.has(item.id))
+    .map((item) => {
+      const row = {
+        id: item.id,
+        desc: typeof item.desc === 'string' && item.desc.trim() ? item.desc : '战斗中语音',
+        dlg: item.dlg,
+      };
+      return row;
+    });
+
+  return {
+    ...(payload ?? {}),
+    dataList: [...baseRows, ...extraRows],
+  };
 }
 
 export async function fetchCharacterMap(language, characterMaps) {
@@ -84,7 +145,7 @@ export async function loadStoryLanguageData(languages, fetchStoryData, character
   const results = await Promise.all(languages.map(async (language) => {
     const [, payload] = await Promise.all([
       fetchCharacterMap(language, characterMaps),
-      fetchStoryData(language.id),
+      fetchStoryData(language),
     ]);
 
     return {
