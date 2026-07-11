@@ -144,7 +144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Tremor Count, spend all Tremor Count to inflict target with the same amount of Tremor Count\n[OnSucceedAttack] At less than 10 Tremor Count, gain 6 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
+                  "desc": "[OnSucceedAttack] At 10+ Tremor Count, consume all Tremor Count on self to inflict the same amount of Tremor Count on target\n[OnSucceedAttack] At less than 10 Tremor Count, gain 6 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
                 }
               ]
             }
@@ -158,7 +158,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] At 10+ Tremor Count, spend all Tremor Count to inflict target with the same amount of Tremor Count\n[OnSucceedAttack] At less than 10 Tremor Count, gain 10 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
+                  "desc": "[OnSucceedAttack] At 10+ Tremor Count, consume all Tremor Count on self to inflict the same amount of Tremor Count on target\n[OnSucceedAttack] At less than 10 Tremor Count, gain 10 Tremor and trigger Tremor Burst on self\nDeal Blunt damage equal to Tremor Burst damage"
                 }
               ]
             }
@@ -560,7 +560,7 @@
         {
           "level": 3,
           "name": "Stigmatize",
-          "desc": "If target has 10+ [Combustion], Coin Power +1\nWhen in a Volatile E.G.O State, activate Blazing Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
+          "desc": "If target has 10+ [Combustion], Coin Power +1\nWhen in a Volatile E.G.O State, activate Blazing[TabExplain] Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -581,7 +581,7 @@
         {
           "level": 4,
           "name": "Stigmatize",
-          "desc": "<style=\"highlight\">Coin Power +1 for every 7 [Combustion] on target (max 2)</style>\nWhen in a Volatile E.G.O state, activate Blazing Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
+          "desc": "<style=\"highlight\">Coin Power +1 for every 7 [Combustion] on target (max 2)</style>\nWhen in a Volatile E.G.O state, activate Blazing[TabExplain] Strike instead\n[WinDuel] Heal 10 SP\n[DefeatDuel] Lose 10 SP",
           "coinlist": [
             {
               "coindescs": [
@@ -688,6 +688,15 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": 1100906,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Rekindled Strike"
         }
       ]
     },

@@ -477,6 +477,176 @@
       "simpleDesc": [
         {}
       ]
+    },
+    {
+      "id": 9250,
+      "name": "Mid-range K Corp. Ampule",
+      "desc": "[Effects apply only to #1 Deployed Identity]\nEncounter Start: Gain 1 [KAmpouleMirror]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9251,
+      "name": "Burning Fate",
+      "desc": "Max [Combustion] Potency +30\n \nOn Clash Win against targets that have [Combustion], activate [Combustion] on target once and reduce the target's [Combustion] Count by 1 (once per Identity)\n\nOn Skill Use against enemies that have [Combustion], the said Skill gains Offense Level equal to ([Combustion] Potency on the main target / 10) (max 8)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9252,
+      "name": "Nail and Hammer",
+      "desc": "<noparse>N Corp. Fanatic</noparse> Identities: Base Skills gain Base Power +3\n\nWhen an <noparse>N Corp. Fanatic</noparse> Identity gains [AssemblePersonality], all <noparse>N Corp. Fanatic</noparse> Identities gain the same Stack of [AssemblePersonality] (once per turn including the first unit)\n- If there is a Lust A-Reson., triple the Stack gained\n\nEncounter Start: Inflict 2 [NailPersonality] on all enemies\n\nWhen an <noparse>N Corp. Fanatic</noparse> Identity uses a Base Skill to Clash against a target that has [NailPersonality], inflict 3 [Laceration] (once per Skill)\n\n<noparse>N Corp. Fanatic</noparse> Identities deal +100% damage using Base Skills against targets that have [NailPersonality]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9253,
+      "name": "Carousel Figurine",
+      "desc": "First Turn Start: Increase [BloodDinner] by 300\nDouble the amount of [BloodDinner] increased by [Laceration]\nOn Use of a Skill that consumes [BloodDinner], at Attack End, consume additional [BloodDinner] equal to the amount consumed by the Skill\n\n[La Manchaland Identities Only]\nWhen a La Manchaland Identity enters the field, the Identity gains their respective effect:\n- The Manager of La Manchaland Don Quixote: Gain 15 [BloodArmorPersonalityFirst]\n- The Princess of La Manchaland Rodion: Gain 15 [BloomingThornsRodionFirst]\n- The Priest of La Manchaland Gregor: Gain 15 [BloodyHandGregFirst]\n- The Barber of La Manchaland Outis: Gain 15 [BloodScissorPersonalityFirst]\n- The Prince of La Manchaland Meursault: Gain 3 [BloodArmorMeursault]\n\n[The Manager of La Manchaland Don Quixote Only]\nThe Manager of La Manchaland Don Quixote's Base Skills gain Final Power +1 and deal +30% damage for every La Manchaland Identity in the Team (max 4; max 120%; including Backup Units; including defeated units; excluding undeployed units)",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9254,
+      "name": "Another Round!",
+      "desc": "Base Skills that consume [Vibration] Count or [Charge] Count deal +20% damage (including 'Unique Charge'; excluding 'Unique Charge'(fixed Potency))\n\nWhen consuming [Vibration] Count or [Charge] Count by using Base Skills, regain the half of consumed Count at Skill End (min 1, rounded down; including 'Unique Charge', excluding 'Unique Charge'(fixed Potency))",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9255,
+      "name": "Clappity Clap!",
+      "desc": "On Clash Win using a Base Skill that inflicts [Vibration] Potency, Count, or 'Unique Tremor' against an enemy, trigger [FusionVibration] into a random 'Unique Tremor' from the following (once per turn):\n- [VibrationIgnition]\n- [VibrationBleeding]\n- [VibrationEcho]\n- [VibrationCollapse]\n- [VibrationChainPersonality]",
+      "simpleDesc": [
+        {}
+      ]
+    },
+    {
+      "id": 9273,
+      "name": "Spiderweb Entangled in Red",
+      "desc": "All allies gain 1 Offense Level and 1 Defense Level for every defeated ally (max 10)\n\nIf Blade of the House of Spiders Ryōshū is in the Team loadout, any defeated Identities excluding Blade of the House of Spiders Ryōshū will not be revived after clearing an Encounter (Floor final boss nodes and Hidden nodes)\n\n[Effects apply only to #1 Deployed Identity]\n\nTurn Start: If there are no surviving allies apart from this unit, gain [RedButterfly]\n\n[Effects apply only to Blade of the House of Spiders Ryōshū]\n\nUpon entering the Encounter for the first time, for every The House of Spiders allied Identity that is defeated, gain 5 [PhantomIncisionTotalID]\nFor every 2 defeated The House of Spiders allies, Final Power +1, Coin Power +1, and deal +10% damage (max 3 and 30%, respectively)\nIf there are no surviving allies apart from Blade of the House of Spiders Ryōshū, gain +12 modifier for all Choice Event Skill checks",
+      "simpleDesc": [
+        {
+          "abilityID": 9273,
+          "simpleDesc": "Gain Offense Level and Defense Level"
+        },
+        {
+          "abilityID": 92731,
+          "simpleDesc": "Gain [RedButterfly]"
+        },
+        {
+          "abilityID": 92732,
+          "simpleDesc": "Gain [PhantomIncisionTotalID]"
+        },
+        {
+          "abilityID": 92733,
+          "simpleDesc": "Gain Final Power, Coin Power, deal more damage"
+        }
+      ]
+    },
+    {
+      "id": 9274,
+      "name": "Ohra Bond",
+      "desc": "On Crit against an enemy, inflict 1 [Binding] next turn (2 times per turn)\nOn Hit using a Skill against an enemy that has [Binding], gain 1 [Breath] (2 times per turn per Identity)\n\nTurn Start: All enemies that have [Laceration] gain [AttackDown] equal to [Binding] on themselves (max 5)\n\nTurn Start: If all enemies(for Focused Encounters, all Parts) have [Binding], all allies gain 3 [Breath]",
+      "simpleDesc": [
+        {
+          "abilityID": 9274,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9275,
+      "name": "N Corp. Service des Clous Briefcase",
+      "desc": "When hitting an enemy using a Skill that inflicts [Laceration] Potency, Count, or 'Unique Bleed', inflict 1 [NailPersonality] (once per Skill)\nWhen triggering [VibrationExplosion] on an enemy that has [NailPersonality], inflict 1 [Binding] next turn (3 times per turn)",
+      "simpleDesc": [
+        {
+          "abilityID": 9275,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9276,
+      "name": "Baekja Water Dropper",
+      "desc": "When an allied Identity gains [SupportProtect], the said ally gains 2 [AttackDmgUp] and 2 [Protection]\n\n[Effects apply only to #1 Deployed Identity]\nTurn End: Gain 2 [Agility] next turn\nWhen an Identity's Speed is faster than the enemy's, deal +3% damage for every Speed difference (max 30%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9276,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9277,
+      "name": "Flagroot Cane Sword",
+      "desc": "If an ally was not hit by an enemy this turn, the said ally gains 1 [SlashDamageUp] next turn\nWhen an ally is hit by an enemy, the said ally gains 4 [Breath], and gains 1 [CriticalDamageUp] this turn and next turn (once per turn per Identity)\n- If the affected ally is a Blade Lineage Identity, gain double the effects of this E.G.O Gift",
+      "simpleDesc": [
+        {
+          "abilityID": 9277,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9278,
+      "name": "Crushed Wooden Manacle",
+      "desc": "On Hit against an enemy using a Slash Skill, inflict 1 [DefenseDown] next turn (2 times per Skill)\nIf an ally is faster than the enemy, the said ally deals +3% damage using Base Attack Skills for every 1 Speed Difference (max 12%)\n- If the enemy has [Binding], double the above damage boost and its maximum cap",
+      "simpleDesc": [
+        {
+          "abilityID": 9278,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9279,
+      "name": "Unadorned Sword-guard",
+      "desc": "Slash Skills deal +1% damage for every [Breath] (max 15%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9279,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9280,
+      "name": "The Book of the Homeland Swordplay [本國劍譜]",
+      "desc": "If an enemy has 1.5 or lower Slash Resist., Slash Resist. +0.3\nSlash Skills gain Offense Level +2\nWhen attacking enemies that are Weak (greater than 1.0 Resist.; Staggered states do not count) to Slash, deal +(5 + (target's Slash Resist. x 10))% damage (max 25%)\n\nSlash Skills deal +1.5% damage for every [Breath] (max 30%)\n\nCount 1 non-Blade Lineage S Corp. Identity with the earliest Deployment order as a Blade Lineage Identity and apply [BongukGiftEnhance] on it every turn\n\nTurn Start: Activates when there are 3 or more Blade Lineage Identities (only counts Identities on the field at Encounter Start)\n- Combat Start: Apply 1 [BongukGiftEnhance] on allied Blade Lineage Identities that have equipped Wrath or Pride Skills",
+      "simpleDesc": [
+        {
+          "abilityID": 9280,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9282,
+      "name": "Wing-shaped Waxen Candle",
+      "desc": "Turn Start: Activates when there are 3 or more <noparse>Dawn Office</noparse> Identities (counts Backup Identities)\n\nTurn 1: Apply 2 [DawnLight] on all allies\nCombat Start: <noparse>Dawn Office</noparse> Fixer Sinclair heals 10 SP, and the said Identity may enter the \"Volatile E.G.O::Waxen Pinion\" state via the Passive effect of \"Unstable Shell of Ego\" at 25+ SP instead of 40+ SP\n\n[<noparse>Dawn Office</noparse> Identities Exclusive Effect]\nOn Hit using Base Skills, inflict 2 [Combustion] and 2 [Vibration] on target (once per Skill)\n<noparse>Dawn Office</noparse> Identities are considered \"Identities that inflict [Combustion] and [Vibration]\"\n- <noparse>Dawn Office</noparse> Identities' Base Skills count as \"Skills that inflict [Combustion] and [Vibration]\"\nEncounter Start: If <noparse>Dawn Office</noparse> Faust is on the field, apply 1 [Firstlight] on the said Identity",
+      "simpleDesc": [
+        {
+          "abilityID": 9281,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9283,
+      "name": "Tributary Cigar",
+      "desc": "Turn Start: Activates when there are 3 or more \"The Thumb\" Identities (only counts Identities on the field)\nTurn Start: \"The Thumb\" Identities gain 1 [PlusCoinValueUp] and 2 [AttackDmgUp]\n\"The Thumb\" Identities gain 1 [AttackUp] for every \"The Thumb\" Identity on the field (max 4)\nDeal +1% damage for every [VibrationIgnition] on target (max 20%)\n- Skills that spend [Bullet] deal an additional +1% damage (max 20%)\n- \"The Thumb\" Identities deal an additional +1% damage (max 20%)\n\nUnits that triggered [VibrationExplosion] with their Skill effects gain 2 [AttackUp] next turn (3 times per turn)\n\nAt Attack End of The House of Spiders: The Thumb Nursefather Rodion's Skill 3, apply 1 [EvolvingManual] on The House of Spiders: The Thumb Apprentice Heathcliff",
+      "simpleDesc": [
+        {
+          "abilityID": 9282,
+          "simpleDesc": ""
+        }
+      ]
     }
   ]
 }

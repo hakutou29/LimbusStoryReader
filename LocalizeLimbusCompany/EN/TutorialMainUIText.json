@@ -1290,7 +1290,7 @@
     },
     {
       "id": "tutorial_manual_1_season_information_07_desc_01",
-      "content": "A new Season’s Identities and E.G.O will be added to the list of Extractable items.\nIdentities from previous Seasons remain in the pool, so you can still acquire them from Extraction.\n※ Event Identities & E.G.O from previous Seasons may appear from Sinner Target Extractions. (except reward Identities & E.G.O from the immediately preceding Season)"
+      "content": "A new Season’s Identities and E.G.O will be added to the list of Extractable items.\nIdentities from previous Seasons remain in the pool, so you can still acquire them from Extraction.\n※ Event Identities & E.G.O from previous Seasons may appear from Sinner Target Extractions."
     },
     {
       "id": "tutorial_manual_1_season_information_08_title_01",
@@ -2666,7 +2666,7 @@
     },
     {
       "id": "tutorial_mainui_railway4_page_07_desc_02",
-      "content": "You can enter the Section only when you have selected both your Deployment units and the Backup units, six in each category."
+      "content": "You can enter the Station only when you have selected both your Deployment and Backup units: 7 and 5 units, respectively."
     },
     {
       "id": "tutorial_mainui_railway4_page_08_title_01",
@@ -4599,6 +4599,510 @@
     {
       "id": "TutoEvent9125_P8_D1",
       "content": "Even after the event fully ends, you will be able to experience the Twining Threads combat Encounters and view its story anytime at the Driverside - [Deviazione] and Theater - [Detour Tales]."
+    },
+    {
+      "id": "TutoEvent9125_P9_T1",
+      "content": "Reflectrial][lairtcelfeR"
+    },
+    {
+      "id": "TutoEvent9125_P9_D1",
+      "content": "Reflectrial][lairtcelfeR will be added to the game in the second week of the Twining Threads Event.\n\nEntry to Reflectrial][lairtcelfeR will be unlocked upon clearing all Event Stages."
+    },
+    {
+      "id": "TutoEvent9125_P9_D2",
+      "content": "Reflectrial][lairtcelfeR features a stronger version of the Event Boss unit.\nPlan out your teams and clear the battle against the Event Boss unit within a certain number of turns."
+    },
+    {
+      "id": "TutoBossraid_Title",
+      "content": "Reflectrial][lairtcelfeR"
+    },
+    {
+      "id": "TutoBossraid_P1_T1",
+      "content": "Entry Period"
+    },
+    {
+      "id": "TutoBossraid_P1_D1",
+      "content": "Reflectrial][lairtcelfeR has a limited availability period during which you may battle the Event Boss unit of the selected Chapter."
+    },
+    {
+      "id": "TutoBossraid_P1_D2",
+      "content": "Clearing the boss battle yields a first-time clear reward.\nClear the boss fight under certain turn counts to obtain extra rewards."
+    },
+    {
+      "id": "TutoBossraid_P1_D3",
+      "content": "Battle against boss units added in BokGak Events are available indefinitely."
+    },
+    {
+      "id": "TutoBossraid_P2_T1",
+      "content": "Recommended Specs"
+    },
+    {
+      "id": "TutoBossraid_P2_D1",
+      "content": "Reflectrial][lairtcelfeR is a high-difficulty challenge. Level up and Uptie/Threadspin your Identities and E.G.O to meet the recommended specs before entering the battle."
+    },
+    {
+      "id": "TutoBossraid_P2_T2",
+      "content": "Difficulty"
+    },
+    {
+      "id": "TutoBossraid_P2_D2",
+      "content": "Reflectrial][lairtcelfeR has 2 difficulty levels: Normal and Hard.\nHard Difficulty is unlocked upon clearing the content on Normal Difficulty."
+    },
+    {
+      "id": "TutoBossraid_P3_T1",
+      "content": "Effect: Shade of Reflection"
+    },
+    {
+      "id": "TutoBossraid_P3_D1",
+      "content": "Reflectrial][lairtcelfeR features unique effects in each Encounter and combat phase.\n\nIt is recommended to plan out your teams by taking these effects into account before entering the battle."
+    },
+    {
+      "id": "TutoBossraid_P4_T1",
+      "content": "Progression"
+    },
+    {
+      "id": "TutoBossraid_P4_D1",
+      "content": "You can view the general progression method of Reflectrial][lairtcelfeR under the \"Progression\" menu."
+    },
+    {
+      "id": "TutoBossraid_P5_T1",
+      "content": "Enemy Information"
+    },
+    {
+      "id": "TutoBossraid_P5_D1",
+      "content": "You can view the enemy information, such as Skills and passives, before entering the battle."
+    },
+    {
+      "id": "TutoBossraid_P6_T1",
+      "content": "Team Loadout"
+    },
+    {
+      "id": "TutoBossraid_P6_D1",
+      "content": "Reflectrial][lairtcelfeR battles allow a maximum of 3 Team Loadouts to be used in order."
+    },
+    {
+      "id": "TutoBossraid_P6_D2",
+      "content": "However, Identities assigned to a previous battle cannot be reused in subsequent Loadouts."
+    },
+    {
+      "id": "TutoBossraid_P7_D1",
+      "content": "A 12-turn limit is applied to each Team Loadout."
+    },
+    {
+      "id": "TutoBossraid_P8_D1",
+      "content": "Exceeding 12 turns or opting to end the battle on your current loadout will save the state of battle progression (Boss Unit's Combat Phase, HP, and SP; as well as E.G.O Resources owned).\n\nYou may continue progressing through the battle with the next loadout."
+    },
+    {
+      "id": "TutoBossraid_P9_D1",
+      "content": "Hard Difficulty is unlocked upon clearing Normal Difficulty."
+    },
+    {
+      "id": "TutoBossraid_P10_D1",
+      "content": "Hard Difficulty features \"Tribulation\" effects in addition to \"Shade of Reflection\" effects."
+    },
+    {
+      "id": "TutoBossraid_P11_T1",
+      "content": "Rewards"
+    },
+    {
+      "id": "TutoBossraid_P11_D1",
+      "content": "Clearing the boss battle on each difficulty yields their respective first-time clear rewards.\nClear the boss fight under certain turn counts to obtain extra rewards."
+    },
+    {
+      "id": "TutoEvent7522_P1_T1",
+      "content": "Nocturnal Sweeping BokGak"
+    },
+    {
+      "id": "TutoEvent7522_P1_D1",
+      "content": "Unlocking Nocturnal Sweeping"
+    },
+    {
+      "id": "TutoEvent7522_P1_D2",
+      "content": "Select the Event banner from either the Window or the Drive menu to enter the [Nocturnal Sweeping BokGak Event] menu."
+    },
+    {
+      "id": "TutoEvent7522_P2_T1",
+      "content": "Event Period"
+    },
+    {
+      "id": "TutoEvent7522_P2_D1",
+      "content": "The duration of Nocturnal Sweeping BokGak Event is shown here.\n\nDuring the event, you can earn [Sweeper Fuel Cylinder] by clearing Event Stages. You can also earn [Sweeper Fuel Cylinder] by clearing the Mirror Dungeons or clearing Main Story Stages for the first time.\n\n※ However, [Sweeper Fuel Cylinder] cannot be obtained in Luxcavations and Refraction Railways."
+    },
+    {
+      "id": "TutoEvent7522_P3_T1",
+      "content": "Event Encounters"
+    },
+    {
+      "id": "TutoEvent7522_P3_D1",
+      "content": "Including Story Stages, Nocturnal Sweeping BokGak Event is composed of 12 Stages."
+    },
+    {
+      "id": "TutoEvent7522_P3_D2",
+      "content": "Event Stages offer batches of [Sweeper Fuel Cylinder] as a first-time Clear bonus (only for first-time clears of each Stage)."
+    },
+    {
+      "id": "TutoEvent7522_P4_T1",
+      "content": "Event Bonus Units"
+    },
+    {
+      "id": "TutoEvent7522_P4_D1",
+      "content": "Having Identities and E.G.O from the Nocturnal Sweeping BokGak event on your team increases the amount of [Sweeper Fuel Cylinder] earned from Stages and Mirror Dungeons."
+    },
+    {
+      "id": "TutoEvent7522_P5_T1",
+      "content": "Reward Exchange"
+    },
+    {
+      "id": "TutoEvent7522_P5_D1",
+      "content": "You can redeem various rewards from [Reward Exchange] by spending the [Sweeper Fuel Cylinder] you collected."
+    },
+    {
+      "id": "TutoEvent7522_P6_D1",
+      "content": "The [Reward Exchange]'s open duration is shown here."
+    },
+    {
+      "id": "TutoEvent7522_P6_D2",
+      "content": "You can acquire the Event Reward Identity, Announcer, Ticket Deco, Banners, and various currencies from the [Reward Exchange] menu."
+    },
+    {
+      "id": "TutoEvent7522_P7_T1",
+      "content": "Chain Battle Encounters"
+    },
+    {
+      "id": "TutoEvent7522_P7_D1",
+      "content": "Encounters in the Nocturnal Sweeping event are Chain Battles. In Chain Battles, the Sinners will not lose their Sanity (SP) even if their allies are defeated."
+    },
+    {
+      "id": "TutoEvent7522_P8_T1",
+      "content": "[Sweeper Fuel Tank]"
+    },
+    {
+      "id": "TutoEvent7522_P8_D1",
+      "content": "There is a small chance to obtain a [Sweeper Fuel Tank] upon clearing an Encounter. [Sweeper Fuel Tank] are automatically converted to 20 [Sweeper Fuel Cylinder]."
+    },
+    {
+      "id": "TutoEvent7522_P9_T1",
+      "content": "Hard Difficulty"
+    },
+    {
+      "id": "TutoEvent7522_P9_D1",
+      "content": "Nocturnal Sweeping Hard Difficulty will be unlocked during the Event period. The Hard Difficulty is unlocked upon clearing the Main Story Stage 8-33."
+    },
+    {
+      "id": "TutoEvent7522_P9_D2",
+      "content": "Hard Difficulty rewards more Event currencies than the Normal Difficulty does."
+    },
+    {
+      "id": "TutoEvent7522_P9_D3",
+      "content": "You can earn first-time clear rewards, EX Clear rewards, and Chapter Progress rewards from clearing the Hard Difficulty Stages as well."
+    },
+    {
+      "id": "TutoEvent7522_P10_D1",
+      "content": "Even after the event fully ends, you will be able to experience the Nocturnal Sweeping combat Encounters and view its story anytime at Drive - [Deviazione] and Theater - [Detour Tales]."
+    },
+    {
+      "id": "TutoBossraid_P12_T1",
+      "content": "Reward Exchange - Standard Rewards"
+    },
+    {
+      "id": "TutoBossraid_P12_D1",
+      "content": "In the Standard Rewards tab, you can earn various currencies by using the Burnt-in Lens you have collected."
+    },
+    {
+      "id": "TutoRailway6_P1_T1",
+      "content": "Refraction Railway Opening"
+    },
+    {
+      "id": "TutoRailway6_P1_D1",
+      "content": "You can enter the available Lines at no cost."
+    },
+    {
+      "id": "TutoRailway6_P2_T1",
+      "content": "Recommended Level & Tier"
+    },
+    {
+      "id": "TutoRailway6_P2_D1",
+      "content": "Recommended levels & upgrade tiers are displayed on the side of the Line."
+    },
+    {
+      "id": "TutoRailway6_P2_D2",
+      "content": "Refraction Railways present combat Encounters with high levels of difficulty. We suggest that you enter the Railway after meeting the recommended levels & upgrade tiers."
+    },
+    {
+      "id": "TutoRailway6_P3_T1",
+      "content": "Line 6: Stations and Sections"
+    },
+    {
+      "id": "TutoRailway6_P3_D1",
+      "content": "Refraction Railway Line 6 is composed of several Sections that tie several Stations into a single Stage. There are a total of 8 Stations."
+    },
+    {
+      "id": "TutoRailway6_P3_D2",
+      "content": "There are 5 Combat Encounter Stages, each called a 'Section'."
+    },
+    {
+      "id": "TutoRailway6_P3_D3",
+      "content": "Clearing the Section will record your Clear Turn Count."
+    },
+    {
+      "id": "TutoRailway6_P3_D4",
+      "content": "You can view the rewards for clearing that Station. Claim them at the Lost & Found."
+    },
+    {
+      "id": "TutoRailway6_P4_T1",
+      "content": "Entering Section"
+    },
+    {
+      "id": "TutoRailway6_P4_D1",
+      "content": "Clearing the Section will record your Clear Turn Count."
+    },
+    {
+      "id": "TutoRailway6_P4_D2",
+      "content": "Below the Clear Turn Count is the Total Turn Count, which is the sum of all Clear Turn Counts from each Section."
+    },
+    {
+      "id": "TutoRailway6_P4_D3",
+      "content": "Below each Section, you can view the rewards for clearing that Section. Claim them at the Lost & Found."
+    },
+    {
+      "id": "TutoRailway6_P5_T1",
+      "content": "Observation Logs"
+    },
+    {
+      "id": "TutoRailway6_P5_D1",
+      "content": "In Line 6, save for a certain boss enemy, all enemy info will be unlocked for viewing from the start. Prepare the appropriate strategy, Identity, and E.G.O loadout based on this information."
+    },
+    {
+      "id": "TutoRailway6_P5_D2",
+      "content": "However, the damage bonus based on Observation Levels does not apply in the Refraction Railway."
+    },
+    {
+      "id": "TutoRailway6_P5_D3",
+      "content": "In Line 6, the updated Observation Level will be saved even if you give up or retry mid-Encounter."
+    },
+    {
+      "id": "TutoRailway6_P6_T1",
+      "content": "Team Setup"
+    },
+    {
+      "id": "TutoRailway6_P6_D1",
+      "content": "Choose a number of Identities and E.G.O to enter the Railway with."
+    },
+    {
+      "id": "TutoRailway6_P6_D2",
+      "content": "If you level up, Uptie, or Threadspin your Identities or E.G.O outside the Refraction Railway, the changes will be applied to your characters in the Refraction Railway as well."
+    },
+    {
+      "id": "TutoRailway6_P6_D3",
+      "content": "Backup Units receive Starting SP buffs, and Backup Units further back in the Deployment order receive greater Starting SP buffs."
+    },
+    {
+      "id": "TutoRailway6_P6_D4",
+      "content": "\nMinus Coin Identities receive negative Starting SP buffs."
+    },
+    {
+      "id": "TutoRailway6_P7_T1",
+      "content": "Combat Deployment - Chain Battles"
+    },
+    {
+      "id": "TutoRailway6_P7_D1",
+      "content": "Combat Encounters in Line 6 are \"Chain Battles.\""
+    },
+    {
+      "id": "TutoRailway6_P7_D2",
+      "content": "In Chain Battles, when a Deployed unit is defeated, the Backup Units will fill their spot according to the Deployment order."
+    },
+    {
+      "id": "TutoRailway6_P7_D3",
+      "content": "You can enter the Station only when you have selected both your Deployment and Backup units: 7 and 5 units, respectively."
+    },
+    {
+      "id": "TutoRailway6_P8_T1",
+      "content": "Identity Deployment Limits"
+    },
+    {
+      "id": "TutoRailway6_P8_D1",
+      "content": "In Line 6, your Team's HP percentage and SP at the point of clearing Section 1 will carry over to Section 5.\nIn Sections 3 and 4, you will be unable to use the Identities assigned in the Team Loadout used in the immediately preceding Sections."
+    },
+    {
+      "id": "TutoRailway6_P9_T1",
+      "content": "Combat"
+    },
+    {
+      "id": "TutoRailway6_P9_D1",
+      "content": "Every battle in the Refraction Railway will allow you to directly match ally skills against enemy skills, just like in Focused Encounters."
+    },
+    {
+      "id": "TutoRailway6_P9_D2",
+      "content": "The highest Turn Count that can be recorded in each Station is 100 Turns. If your Turn Count goes beyond 100 Turns in a single Stage, the Encounter will end in defeat."
+    },
+    {
+      "id": "TutoRailway6_P10_T1",
+      "content": "Combat - Chain Battles"
+    },
+    {
+      "id": "TutoRailway6_P10_D1",
+      "content": "When a Deployed unit is defeated, the Backup units will fill their spot in the Deployment order."
+    },
+    {
+      "id": "TutoRailway6_P10_D2",
+      "content": "When a Backup unit is Deployed into battle, its Combat Passive activates instead of its Support Passive."
+    },
+    {
+      "id": "TutoRailway6_P10_D3",
+      "content": "When a unit on the field is defeated, its Support Passive will activate instead of its Combat Passive."
+    },
+    {
+      "id": "TutoRailway6_P11_T1",
+      "content": "Combat - Lingering Determination"
+    },
+    {
+      "id": "TutoRailway6_P11_D1",
+      "content": "In Line 6, when an Identity is killed, they release E.G.O resources based on the ranks and Affinities of their Base Attack Skills. And just like in Chain Battles, their deaths will not reduce other allies' SP."
+    },
+    {
+      "id": "TutoRailway6_P12_T1",
+      "content": "Certain enemies in Line 6 will gain certain effects based on their Deployment orders."
+    },
+    {
+      "id": "TutoRailway6_P13_T1",
+      "content": "Clear Info"
+    },
+    {
+      "id": "TutoRailway6_P13_D1",
+      "content": "After clearing each Station, you can view statistics such as Clear Turns, Total Turns, effects obtained in each Encounter, and participating Identities in the Clear Info menu."
+    },
+    {
+      "id": "TutoRailway6_P14_D1",
+      "content": "The E.G.O resources held after clearing a Station can be carried over to the next Station."
+    },
+    {
+      "id": "TutoRailway6_P15_D1",
+      "content": "If all of your allies are defeated, you can choose between returning to the Team Loadout menu to change your Deployment orders, and immediately retrying the battle."
+    },
+    {
+      "id": "TutoRailway6_P16_T1",
+      "content": "Breaking Records"
+    },
+    {
+      "id": "TutoRailway6_P16_D1",
+      "content": "During an expedition, you can choose to start over from previously cleared Stages."
+    },
+    {
+      "id": "TutoRailway6_P16_D2",
+      "content": "When you do so, the battle will start with the Sinners’ statuses and E.G.O resources reverted to that point, and any progress you've made since that Stage will be reset."
+    },
+    {
+      "id": "TutoRailway6_P17_T1",
+      "content": "Banner Requisites"
+    },
+    {
+      "id": "TutoRailway6_P17_D1",
+      "content": "You can check the requirements for acquiring Refraction Railway Line 6 banners here."
+    },
+    {
+      "id": "TutoRailway6_P18_T1",
+      "content": "The Lost & Found"
+    },
+    {
+      "id": "TutoRailway6_P18_D1",
+      "content": "After clearing a Stage in the Line for the first time, the rewards will be sent to the Lost & Found."
+    },
+    {
+      "id": "TutoRailway6_P18_D2",
+      "content": "To gain access to a reward for the first time at Lost & Found, a number of Enkephalin Modules will be required."
+    },
+    {
+      "id": "TutoRailway6_P18_D3",
+      "content": "Afterward, you may freely access it and claim rewards you’ve earned at no additional cost."
+    },
+    {
+      "id": "TutoRailway6_P19_T1",
+      "content": "Total Record"
+    },
+    {
+      "id": "TutoRailway6_P19_D1",
+      "content": "Upon clearing the final Stage, your Refraction Railway play record will be saved. Up to 20 records can be viewed. "
+    },
+    {
+      "id": "TutoRailway6_P19_D2",
+      "content": "If you have more than 20 records, records with the highest Total Turns will be deleted first."
+    },
+    {
+      "id": "TutoEvent9127_Title",
+      "content": "Mnestic Experience"
+    },
+    {
+      "id": "TutoEvent9127_P1_T1",
+      "content": "Accessing the Event"
+    },
+    {
+      "id": "TutoEvent9127_P1_D1",
+      "content": "The [Mnestic Experience Event Page] opens after clearing Stage 0-4 of the Main Story. You may enter the event page via the banner on the Window or the Driverside."
+    },
+    {
+      "id": "TutoEvent9127_P2_T1",
+      "content": "Event Period"
+    },
+    {
+      "id": "TutoEvent9127_P2_D1",
+      "content": "The duration of the Mnestic Experience event is shown here.\nDuring the event, you can earn [Photos] by clearing Event Stages. You can also earn [Photos] by clearing the Mirror Dungeons or clearing Main Story Stages for the first time.\n※ However, [Photos] cannot be obtained in Luxcavations and Refraction Railways."
+    },
+    {
+      "id": "TutoEvent9127_P3_T1",
+      "content": "Event Encounters"
+    },
+    {
+      "id": "TutoEvent9127_P3_D1",
+      "content": "Mnestic Experience Event consists of 11 stages, including story stages, and a single dungeon. Said stages also offer batches of [Photos] as a first-time Clear bonus (only for first-time clears of each Stage).\n\nYou can earn considerably more [Photos] from Mnestic Experience Stages compared to Main Story Stages. "
+    },
+    {
+      "id": "TutoEvent9127_P4_T1",
+      "content": "Event Bonus Units"
+    },
+    {
+      "id": "TutoEvent9127_P4_D1",
+      "content": "Having Bonus Identities on your team increases the amount of [Photos] earned from Stages and Mirror Dungeons."
+    },
+    {
+      "id": "TutoEvent9127_P5_T1",
+      "content": "Reward Exchange"
+    },
+    {
+      "id": "TutoEvent9127_P5_D1",
+      "content": "You can redeem various rewards from the [Reward Exchange] based on the number of [Photos] you have."
+    },
+    {
+      "id": "TutoEvent9127_P6_D1",
+      "content": "The [Reward Exchange]'s open duration is shown here."
+    },
+    {
+      "id": "TutoEvent9127_P6_D2",
+      "content": "You can acquire the event reward Identity, Ticket Deco, banners, and various currencies from [Reward Exchange] menu."
+    },
+    {
+      "id": "TutoEvent9127_P7_T1",
+      "content": "Photo Bundles"
+    },
+    {
+      "id": "TutoEvent9127_P7_D1",
+      "content": "Rarely, you may obtain [Photo Bundles] from clearing Encounters. [Photo Bundles] is automatically converted to 20 [Photos] upon acquisition."
+    },
+    {
+      "id": "TutoEvent9127_P8_D1",
+      "content": "Even after the event fully ends, you will be able to experience the Mnestic Experience combat Encounters and view its story anytime at the Driverside - [Deviazione] and Theater - [Detour Tales]."
+    },
+    {
+      "id": "TutoBossraid_P13_T1",
+      "content": "Reward Exchange - Limited Rewards"
+    },
+    {
+      "id": "TutoBossraid_P13_D1",
+      "content": "In the Limited Rewards tab, you can earn event Limited Rewards by using the Unrolled Film you have collected."
+    },
+    {
+      "id": "TutoBossraid_P13_D2",
+      "content": "Limited Reward exchange is only available during the Event Reward Exchange Period. Once the Event Reward Exchange Period is over, the Limited Rewards tab will become inaccessible, and any Unrolled Film you have obtained will be converted into Burnt-in Lens."
     }
   ]
 }

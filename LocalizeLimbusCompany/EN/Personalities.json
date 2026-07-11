@@ -1224,6 +1224,78 @@
       "name": "Rodion",
       "nameWithTitle": "Rodion",
       "desc": "Rodion’s 15th Identity"
+    },
+    {
+      "id": 10715,
+      "title": "The Middle\nBig Brother",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff’s 15th Identity"
+    },
+    {
+      "id": 10415,
+      "title": "Blade of the House of Spiders",
+      "name": "Ryōshū",
+      "nameWithTitle": "Ryōshū",
+      "desc": "Ryōshū's 15th Identity"
+    },
+    {
+      "id": 11115,
+      "title": "The House of Spiders:\nThe Middle Nursefather",
+      "name": "Outis",
+      "nameWithTitle": "Outis",
+      "desc": "Outis's 15th Identity"
+    },
+    {
+      "id": 10615,
+      "title": "S Corp. Ch'unokkun",
+      "name": "Hong Lu",
+      "nameWithTitle": "Hong Lu",
+      "desc": "Hong Lu's 15th Identity"
+    },
+    {
+      "id": 10815,
+      "title": "LCD OSIR Team",
+      "name": "Ishmael",
+      "nameWithTitle": "Ishmael",
+      "desc": "Ishmael's 15th Identity"
+    },
+    {
+      "id": 40501,
+      "title": "A Moonlit Farewell to Home",
+      "name": "Meursault",
+      "nameWithTitle": "",
+      "desc": "Reflectrial][lairtcelfeR - Mnestic Experience Limited Reward",
+      "skinItemTitle": "[Façade] A Moonlit Farewell to Home",
+      "skinItemDesc": "Reflectrial][lairtcelfeR - Mnestic Experience Limited Reward"
+    },
+    {
+      "id": 10716,
+      "title": "The House of Spiders:\nThe Thumb Apprentice",
+      "name": "Heathcliff",
+      "nameWithTitle": "Heathcliff",
+      "desc": "Heathcliff’s 16th Identity"
+    },
+    {
+      "id": 10916,
+      "title": "The House of Spiders:\nThe Thumb Nursefather",
+      "name": "Rodion",
+      "nameWithTitle": "Rodion",
+      "desc": "Rodion’s 16th Identity"
+    },
+    {
+      "id": 11216,
+      "title": "Dawn Office Rep",
+      "name": "Gregor",
+      "nameWithTitle": "Gregor",
+      "desc": "Gregor's 16th Identity"
+    },
+    {
+      "id": 10216,
+      "title": "Dawn Office\nFixer",
+      "name": "Faust",
+      "nameWithTitle": "Faust",
+      "desc": "Faust's 16th Identity"
     }
   ]
 }

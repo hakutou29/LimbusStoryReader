@@ -112,6 +112,24 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "<style=\"highlight\">[BeforeAttack] 全攻撃対象の[Combustion]の合計\n- 6につき、最終威力 +1 (最大4)\n- 1につき、ダメージ量 +1% (最大30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]4を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] [Combustion]6を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -161,6 +179,27 @@
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 火傷 6を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify]\nランダムな対象を攻撃\n<style=\"highlight\">[BeforeAttack] 全攻撃対象の[Combustion]の合計\n- 6につき、最終威力 +1 (最大6)\n- 1につき、ダメージ量 +1.5% (最大45%)\n[DefeatDuel] 基本威力 -12\n[EndSkill] 次のターンに[MatchesPersonality]を得る (1ターンにつき1回)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]4を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[UnBrokenCoinOnSucceedAttack]</style> [Combustion]6を付与"
                 }
               ]
             }
@@ -864,6 +903,24 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "対象に[Combustion]があるならスキル威力 +2\n<style=\"highlight\">[BeforeAttack] 全攻撃対象の[Combustion]の合計</style>1につき、ダメージ量 +5% (最大100%)\n[EnemyKill] 次のターンに[Enhancement]2を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">このコインの最終ダメージ量の(対象の[Combustion]威力 × 2)%だけ憤怒ダメージ (最大20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]4を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -910,6 +967,27 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] 火傷 4を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "4本目のマッチの火",
+          "abName": "燃え尽きた少女",
+          "desc": "[CantIdentify]\nランダムな対象を攻撃\n対象に[Combustion]があるならスキル威力 +4\n<style=\"highlight\">[BeforeAttack] 全攻撃対象の[Combustion]の合計</style>1につき、ダメージ量 +5% (最大100%)\n<style=\"highlight\">[DefeatDuel] 基本威力 -16</style>\n[EnemyKill] 次のターンに[Enhancement]3を得る\n[EnemyKillFail] 次のターンに[Enhancement]3, [Combustion]10を得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">このコインの最終ダメージ量の(対象の[Combustion]威力 × 3)%だけ憤怒ダメージ (最大30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]4を付与<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -3678,7 +3756,7 @@
         {
           "level": 1,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[BeforeAttack] 自分の充電 回数が5増加",
           "coinlist": [
             {
@@ -3693,7 +3771,7 @@
         {
           "level": 3,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[BeforeAttack] 自分の充電 回数が7増加",
           "coinlist": [
             {
@@ -3708,7 +3786,7 @@
         {
           "level": 4,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[BeforeAttack] 自分の充電 回数が10増加",
           "coinlist": [
             {
@@ -3728,7 +3806,7 @@
         {
           "level": 1,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[CantIdentify] \n充電を保有したランダムな対象を優先して攻撃\n[BeforeAttack] 自分の充電 回数が5増加",
           "coinlist": [
             {
@@ -3743,7 +3821,7 @@
         {
           "level": 3,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[CantIdentify] \n充電を保有したランダムな対象を優先して攻撃\n[BeforeAttack] 自分の充電 回数が7増加",
           "coinlist": [
             {
@@ -3758,7 +3836,7 @@
         {
           "level": 4,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[CantIdentify]\n充電を保有したランダムな対象を優先して攻撃\n[BeforeAttack] 自分の充電 回数が10増加",
           "coinlist": [
             {
@@ -3778,7 +3856,7 @@
         {
           "level": 1,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[BeforeAttack] 自分の失った体力10%につき、充電 回数を1増加(最大5)\n次のターンにクイック 2を得る",
           "coinlist": [
             {
@@ -3793,7 +3871,7 @@
         {
           "level": 3,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[BeforeAttack] 自分の失った体力10%につき、充電 回数を1増加(最大7)\n次のターンにクイック 2を得る",
           "coinlist": [
             {
@@ -3813,7 +3891,7 @@
         {
           "level": 1,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[CantIdentify]\nランダムな対象を攻撃\n[BeforeAttack] 自分の失った体力10%につき、充電 回数を1増加(最大5)\n次のターンにクイック 2を得る",
           "coinlist": [
             {
@@ -3831,7 +3909,7 @@
         {
           "level": 3,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[CantIdentify]\nランダムな対象を攻撃\n[BeforeAttack] 自分の失った体力10%につき、充電 回数を1増加(最大7)\n次のターンにクイック 2を得る",
           "coinlist": [
             {
@@ -3849,7 +3927,7 @@
         {
           "level": 4,
           "name": "AEDD",
-          "abName": "衝擊ムカデ",
+          "abName": "衝撃ムカデ",
           "desc": "[CantIdentify]\nランダムな対象を攻撃\n[BeforeAttack] 自分の失った体力10%につき、充電 回数を1増加(最大7)\n次のターンにクイック 2を得る",
           "coinlist": [
             {

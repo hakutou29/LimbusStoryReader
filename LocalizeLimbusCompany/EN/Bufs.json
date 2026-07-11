@@ -289,7 +289,7 @@
     {
       "id": "Sinking",
       "name": "Sinking",
-      "desc": "The next {1} time(s) the unit is hit, take {0} fixed SP damage. (Units with no Sanity take Gloom damage.)",
+      "desc": "The next {1} time(s) the unit is hit, take {0} fixed SP damage. (Non-SP Units take Gloom damage.)",
       "summary": "{0} Sinking DMG"
     },
     {
@@ -674,7 +674,7 @@
     {
       "id": "Assemble",
       "name": "Fanatic",
-      "desc": "Skill Final Power +{0} against units with Nails for this turn. (Applies to clashes as well)",
+      "desc": "Skill Final Power +{0} against units that have Nails for this turn. (Applies to clashes as well)",
       "summary": "Final Power +{0}"
     },
     {
@@ -901,7 +901,7 @@
     {
       "id": "AssemblePersonality",
       "name": "Fanatic",
-      "desc": "Skill Final Power +{0} against units with Nails for this turn. (Applies to clashes as well)",
+      "desc": "Skill Final Power +{0} against units that have Nails for this turn. (Applies to clashes as well)",
       "summary": "Final Power +{0}"
     },
     {
@@ -1320,7 +1320,7 @@
     {
       "id": "SinkingSurge",
       "name": "Sinking Deluge",
-      "desc": "Deal SP damage by (Sinking Count * Sinking Potency), then remove Sinking\nIf target's SP is -45 or lower, the excess SP damage is dealt as Gloom-affinity HP damage\n(Units with no Sanity take all of it as Gloom HP damage)"
+      "desc": "Deal SP damage by (Sinking Count * Sinking Potency), then remove Sinking\nIf target's SP is -45 or lower, the excess SP damage is dealt as Gloom-affinity HP damage\n(Non-SP Units take all of it as Gloom HP damage)"
     },
     {
       "id": "Blue",
@@ -1648,7 +1648,7 @@
     {
       "id": "Unjust_Enrichment",
       "name": "Unjust Enrichment",
-      "desc": "- Gained on Heads Hit against target with Bleed (Max 4)\n- When 'Bullets are Pricey' Passive activates, consume all Unjust Enrichment stack to deal bonus damage"
+      "desc": "- Gained on Heads Hit against targets that have Bleed (Max 4)\n- When 'Bullets are Pricey' Passive activates, consume all Unjust Enrichment Stack to deal bonus damage"
     },
     {
       "id": "RetaliationBook",
@@ -1675,7 +1675,7 @@
     {
       "id": "DuelDeclaration_Sinclair",
       "name": "Declared Duel - Sinclair",
-      "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit with the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when another unit inflicts Declared Duel on the same target."
+      "desc": "- In a Clash between the unit that inflicted Declared Duel and the unit that has the status, the declarer has +1 Clash Power. On Hit, the declarer gains 1 Haste next turn. (4 times per turn)\n- Expires when the unit inflicts Declared Duel on a different target. Replaced when another unit inflicts Declared Duel on the same target."
     },
     {
       "id": "VibrationExplosion",
@@ -1850,7 +1850,7 @@
     {
       "id": "EchoOfMansion",
       "name": "Echoes of the Manor",
-      "desc": "- 50% chance to gain +1 Sinking Count when gaining Sinking Potency or Count from Skill or Coin effects\n- Units with SP: Change Panic Type to Echoes of the Manor. When this unit Panics, inflict 2 Echoes of the Manor to 2 random other allies of this unit next turn\n- Units without SP: -10% chance to flip Heads\n- Reduce by 1 at Turn End",
+      "desc": "- 50% chance to gain +1 Sinking Count when gaining Sinking Potency or Count from Skill or Coin effects\n- SP Units: Change Panic Type to Echoes of the Manor. When this unit Panics, inflict 2 Echoes of the Manor to 2 random other allies of this unit next turn\n- Non-SP Units: -10% chance to flip Heads\n- Reduce by 1 at Turn End",
       "summary": ""
     },
     {
@@ -1951,7 +1951,7 @@
     {
       "id": "TimeSuspend",
       "name": "Time Moratorium",
-      "desc": "- Does not take any damage as long as this effect is active; store all damage received instead\n- Combat End: If there is only 1 Count left of this effect, the effect triggers {0} Tremor Burst(s) after dealing {3} Sloth damage.\n- Turn End: gain 1 Stack and lose 1 Count\n- The Time Moratorium will immediately expire after triggering the Tremor Burst and the Sloth damage effect if another instance of Time Moratorium is inflicted on a unit with Time Moratorium.\n- Stored damage: {2}",
+      "desc": "- Does not take any damage as long as this effect is active; store all damage received instead\n- Combat End: If there is only 1 Count left of this effect, the effect triggers {0} Tremor Burst(s) after dealing {3} Sloth damage.\n- Turn End: Gain 1 Stack and lose 1 Count\n- The Time Moratorium will immediately expire after triggering the Tremor Burst and the Sloth damage effect if another instance of Time Moratorium is inflicted on a unit that has Time Moratorium.\n- Stored damage: {2}",
       "summary": ""
     },
     {
@@ -2072,13 +2072,13 @@
     {
       "id": "WanderingFootsteps",
       "name": "Impending Ruin",
-      "desc": "- Units with SP: change their Panic Type to \"\"Ruin\"\".\n(Ruin: When this unit enters Low Morale state, gain 3 Sinking at every Turn End and lose 1 Clash Power. When this unit Panics, gain 5 Sinking and 3 Sinking Count at every Turn End and lose 2 Clash Power)\n- Units without SP: -10% chance to flip Heads\n- Reduced by 1 at Turn End\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value.\n※ Apply the \"\"Units without SP\"\" conditional to certain enemies that have SP but can't change their Panic Types.",
+      "desc": "- SP Units: change their Panic Type to \"Ruin\".\n(Ruin: When this unit enters Low Morale state, gain 3 Sinking at every Turn End and lose 1 Clash Power. When this unit Panics, gain 5 Sinking and 3 Sinking Count at every Turn End and lose 2 Clash Power)\n- Non-SP Units: -10% chance to flip Heads\n- Reduced by 1 at Turn End\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value.\n※ Apply the \"Non-SP Units\" conditional to certain enemies that have SP but can't change their Panic Types.",
       "summary": ""
     },
     {
       "id": "WanderingFootsteps_Main",
       "name": "Impending Ruin",
-      "desc": "- Targets with SP: Change their Panic Type to 'Ruin'\n- Reduced by 1 at Turn End",
+      "desc": "- SP Units: Change their Panic Type to 'Ruin'\n- Reduced by 1 at Turn End",
       "summary": ""
     },
     {
@@ -2118,7 +2118,7 @@
     {
       "id": "Retreat",
       "name": "Strategic R&R Mode",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (excluding forced Staggers; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
+      "desc": "- Turn End: Recover from Stagger and Retreat from the Encounter (excluding forced Staggers; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
       "summary": "",
       "undefined": "-"
     },
@@ -2206,21 +2206,21 @@
     {
       "id": "BloomingThornsRodionFirst",
       "name": "Blooming Thorn",
-      "desc": "- Max Value: 10\n- Stage 1 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
+      "desc": "- Max Value: 10\n- Stage 1 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture using this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionSecond",
       "name": "Blooming Thorn II",
-      "desc": "- Max Value: 20\n- Stage 2 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
+      "desc": "- Max Value: 20\n- Stage 2 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture using this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BloomingThornsRodionThird",
       "name": "Blooming Thorn III",
-      "desc": "- Max Value: 30\n- Stage 3 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture with this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
+      "desc": "- Max Value: 30\n- Stage 3 Blooming Thorn\n- Gain 1 Defense Level for every 2 Stack (max 5)\n- When hit, inflict 1 Bleed against the attacker and lose 1 Stack\n- [The Princess of La Manchaland Rodion Only]\n· At max Stack, convert to the next Stage of this effect.\n· Inflict +(Stage - 1) more Bleed and Rupture using this unit's Base Attack Skill Coin effects.\n· Reverts to previous Stage when the Stack drops below the requirements.",
       "summary": "",
       "undefined": "-"
     },
@@ -2339,7 +2339,7 @@
     {
       "id": "Retreat_FullStop",
       "name": "Overwatch Assignment",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (excluding forced Staggers; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)"
+      "desc": "- Turn End: Recover from Stagger and Retreat from the Encounter (excluding forced Staggers; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)"
     },
     {
       "id": "LogicAtelierAM",
@@ -2398,7 +2398,7 @@
     {
       "id": "EngageToBattle",
       "name": "Battle Ready",
-      "desc": "Max Value: 1\nBleed Potency and Count inflicted with this unit's Skill or Coin effects: +1\nGain 1 Slash Power Up and 3 Slash DMG Up for the duration of this Encounter",
+      "desc": "Max Value: 1\nBleed Potency and Count inflicted using this unit's Skill or Coin effects: +1\nGain 1 Slash Power Up and 3 Slash DMG Up for the duration of this Encounter",
       "summary": "Enhance Slash Skills and inflict more Bleed"
     },
     {
@@ -2448,7 +2448,7 @@
     {
       "id": "VendettaMark",
       "name": "Vendetta Mark",
-      "desc": "- Max Stack: 10\n- Consumed by certain Skills or Passives\n- Take +2% damage from The Middle enemies for every Stack (max 20%)\n- Turn End: the unit with the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance Mark; if more than a single unit has the highest Stack of this effect, this effect targets the one with a higher HP percentage)",
+      "desc": "- Max Stack: 10\n- Consumed by certain Skills or Passives\n- Take +2% damage from The Middle enemies for every Stack (max 20%)\n- Turn End: The unit that has the highest Stack of this effect gains 1 Sibling Vengeance Mark next turn\n(Counted separately from Vengeance Mark; if more than a single unit has the highest Stack of this effect, this effect targets the one that has a higher HP percentage)",
       "summary": "",
       "undefined": "-"
     },
@@ -2504,7 +2504,7 @@
     {
       "id": "SupportProtect",
       "name": "Assist Defense",
-      "desc": "- Max Stack: 3\n- When an ally is about take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, use the exclusive Skill that activates for Assist Defense\n- When there are multiple allies with Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\n- Does not activate for allies who equipped Defense Skills\n- Expires at Turn End",
+      "desc": "- Max Stack: 3\n- When an ally is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, use the unique Skill that activates for Assist Defense\n- When there are multiple allies that have Assist Defense Stacks, the ally that has the highest Stack has the highest activation priority\n- Does not activate for allies who equipped Defense Skills\n- Expires at Turn End",
       "summary": "",
       "undefined": "-"
     },
@@ -2602,7 +2602,7 @@
     {
       "id": "RetreatForCommon",
       "name": "Battlefield Retreat",
-      "desc": "- Turn End: recover from Stagger and Retreat from the Encounter (excluding forced Staggers; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
+      "desc": "- Turn End: Recover from Stagger and Retreat from the Encounter (excluding forced Staggers; does not count as death)\n· In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n· When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
       "summary": "",
       "undefined": "-"
     },
@@ -2686,7 +2686,7 @@
     {
       "id": "WaveSinking",
       "name": "Reflux",
-      "desc": "- Max Stack: 3\nWhen hit, gain Sinking Potency equal to Stack\n\nTurn End: if this unit has -30 or less SP, activate the following effects (for units without SP, activates at 60+ Sinking Potency)\n- Take (Sinking Potency on self x Stack) Gloom damage\n- Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then, deal (Sinking Potency x Stack) Gloom damage to both targets, respectively\nIf the unit with Reflux dies, transfer its Reflux Stack to its ally with the highest Reflux stack",
+      "desc": "- Max Stack: 3\nWhen hit, gain Sinking Potency equal to Stack\n\nTurn End: if this unit has -30 or less SP, activate the following effects (for Non-SP Units, activates at 60+ Sinking Potency)\n- Take (Sinking Potency on self x Stack) Gloom damage\n- Inflict 1 Reflux against 2 other targets with the least SP (for Abnormalities, Parts); then, deal (Sinking Potency x Stack) Gloom damage to both targets, respectively\nIf the unit with Reflux dies, transfer its Reflux Stack to its ally with the highest Reflux stack",
       "summary": "",
       "undefined": "-"
     },
@@ -2721,7 +2721,7 @@
     {
       "id": "HeishouSupportProtect",
       "name": "Lordsguard",
-      "desc": "- Unique Assist Defense\n- Max Stack: 1\n- When The Lord of Hongyuan Hong Lu is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, copy and use The Lord of Hongyuan Hong Lu's 'Lordsguard' Skill\n- When there are multiple allies with Assist Defense Stacks, the ally with the highest Stack has the highest activation priority\n- This effect counts as Assist Defense, and is counted toward calculating Assist Defense Stacks\n- Expires at Turn End",
+      "desc": "- Unique Assist Defense\n- Max Stack: 1\n- When The Lord of Hongyuan Hong Lu is about to take an Unopposed Attack from an enemy, consume 1 Stack to redirect the enemy's targeting to self; then, copy and use The Lord of Hongyuan Hong Lu's 'Lordsguard' Skill\n- When there are multiple allies that have Assist Defense Stacks, the ally that has the highest Stack has the highest activation priority\n- This effect counts as Assist Defense, and is counted toward calculating Assist Defense Stacks\n- Expires at Turn End",
       "summary": "",
       "undefined": "-"
     },
@@ -2827,14 +2827,14 @@
     {
       "id": "GazeRyoshu",
       "name": "Gaze",
-      "desc": "- Max Stack: 7\n- Take and deal +10% damage from and against Ryōshū for every 1 Stack of Gaze\n- On death, transfers to this unit's ally(for Focused Encounters, a different Part) either without or with the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: at 7 Stacks, convert this effect into Contempt next turn",
+      "desc": "- Max Stack: 7\n- Take and deal +10% damage from and against Ryōshū for every 1 Stack of Gaze\n- On death, transfers to this unit's ally (for Focused Encounters, a different Part) that has no Contempt or Gaze, or has the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: At 7 Stacks, convert this effect into Contempt next turn",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "ContemptRyoshu",
       "name": "Contempt",
-      "desc": "- Max Stack: 1\n- Take and deal -50% damage from and against Ryōshū\n- Targets with Contempt cannot gain Gaze\n- On death, transfers to this unit's ally(for Focused Encounters, a different Part) either without or with the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: expires; then, this unit gains 7 Gaze next turn",
+      "desc": "- Max Stack: 1\n- Take and deal -50% damage from and against Ryōshū\n- Targets that have Contempt cannot gain Gaze\n- On death, transfers to this unit's ally (for Focused Encounters, a different Part) that has no Contempt or Gaze, or has the least Contempt or Gaze (this effect does not activate if this unit was killed during the Skill attack 'Cascading Gaze of Awe Underneath Contempt')\n- Turn End: Expires; then, this unit gains 7 Gaze next turn",
       "summary": "",
       "undefined": "-"
     },
@@ -2997,21 +2997,21 @@
     {
       "id": "CrushMarks",
       "name": "Shattermark",
-      "desc": "- Take +10% damage from Gluttony and Gloom Skills\n- Units with SP: change their Panic Type to \"Shattermark\"\n- Units without SP: Clash Power -1\n- Turn End: Reduce 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Shattermark Panic-type Effects\n- Low Morale: Clash Power -1, Defense Level -2 on self\n- Panic: Clash Power -2, Defense Level -3 on self",
-      "summary": "Take +10% damage from Gluttony and Gloom Skills\n- Units with SP: change their Panic Type to \"Shattermark\"\n- Units without SP: -10% chance to flip Heads for Plus Coins",
+      "desc": "- Take +10% damage from Gluttony and Gloom Skills\n- SP Units: change their Panic Type to \"Shattermark\"\n- Non-SP Units: Clash Power -1\n- Turn End: Reduce 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Non-SP Units\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Shattermark Panic-type Effects\n- Low Morale: Clash Power -1, Defense Level -2 on self\n- Panic: Clash Power -2, Defense Level -3 on self",
+      "summary": "Take +10% damage from Gluttony and Gloom Skills\n- SP Units: change their Panic Type to \"Shattermark\"\n- Non-SP Units: -10% chance to flip Heads for Plus Coins",
       "undefined": "-"
     },
     {
       "id": "CrushMarks_Main",
       "name": "Shattermark",
-      "desc": "Take +10% damage from Gluttony and Gloom Skills\n- Units with SP: change their Panic Type to \"Shattermark\"\n- Turn End: Reduce 1 Stack",
+      "desc": "Take +10% damage from Gluttony and Gloom Skills\n- SP Units: change their Panic Type to \"Shattermark\"\n- Turn End: Reduce 1 Stack",
       "summary": "Take +10% damage from Gluttony and Gloom Skills\n- Change Panic Type to \"Shattermark\"",
       "undefined": "-"
     },
     {
       "id": "CrushMarks_Sub",
       "name": "Shattermark",
-      "desc": "- Take +10% damage from Gluttony and Gloom Skills\n- Units without SP: Clash Power -1\n- Turn End: Reduce 1 Stack",
+      "desc": "- Take +10% damage from Gluttony and Gloom Skills\n- Non-SP Units: Clash Power -1\n- Turn End: Reduce 1 Stack",
       "summary": "Take +10% damage from Gluttony and Gloom Skills\n- Clash Power -1",
       "undefined": "-"
     },
@@ -3053,22 +3053,22 @@
     {
       "id": "BlueSand",
       "name": "Blue Sand",
-      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units with SP: change their Panic Type to \"Blue Sand\"\n- Units without SP: Min & Max Speed -1\n- Turn End: Reduce 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Blue Sand Panic Effects\n- Low Morale: Clash Power -1, Min & Max Speed -1\n- Panic: Clash Power -2, Min & Max Speed -1",
+      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- SP Units: change their Panic Type to \"Blue Sand\"\n- Non-SP Units: Min & Max Speed -1\n- Turn End: Reduce 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Non-SP Units\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Blue Sand Panic Effects\n- Low Morale: Clash Power -1, Min & Max Speed -1\n- Panic: Clash Power -2, Min & Max Speed -1",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Main",
       "name": "Blue Sand",
-      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units with SP: change their Panic Type to \"Blue Sand\"\n- Turn End: Reduce 1 Stack",
-      "summary": "On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units with SP: change their Panic Type to \"Blue Sand\"",
+      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- SP Units: change their Panic Type to \"Blue Sand\"\n- Turn End: Reduce 1 Stack",
+      "summary": "On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- SP Units: change their Panic Type to \"Blue Sand\"",
       "undefined": "-"
     },
     {
       "id": "BlueSand_Sub",
       "name": "Blue Sand",
-      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units without SP: Min & Max Speed -1\n- Turn End: Reduce 1 Stack",
-      "summary": "On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Units without SP: Min & Max Speed -1",
+      "desc": "- On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Non-SP Units: Min & Max Speed -1\n- Turn End: Reduce 1 Stack",
+      "summary": "On Clash Lose, gain +1 Sinking Count (3 times per turn)\n- Non-SP Units: Min & Max Speed -1",
       "undefined": "-"
     },
     {
@@ -3088,7 +3088,7 @@
     {
       "id": "SheutFracture",
       "name": "Sheut Fracture",
-      "desc": "- Unique Sinking\n- Max Stack: 10\n- For every Stack, take +1% more damage from Sloth and Gloom Skills\n- At max Stack, gain 1 Gloom Fragility (once per turn), take Gloom damage equal to Sinking Potency on self (lose 1 Sinking Count), then expires\n- If the unit with this effect dies, transfer half of its Stack to its ally with the highest SP (rounded down)\n- Turn Start: If there are no LCA Identities on the field, expires",
+      "desc": "- Unique Sinking\n- Max Stack: 10\n- For every Stack, take +1% more damage from Sloth and Gloom Skills\n- At max Stack, gain 1 Gloom Fragility (once per turn), take Gloom damage equal to Sinking Potency on self (lose 1 Sinking Count), then expires\n- If the unit that has this effect dies, transfer half of its Stack to its ally that has the highest SP (rounded down)\n- Turn Start: If there are no LCA Identities on the field, expires",
       "summary": "",
       "undefined": "-"
     },
@@ -3157,21 +3157,21 @@
     {
       "id": "DelusionGregBigBird",
       "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Dazzle Panic-type Effects\n- Low Morale: Turn End: Gain 1 Bind and 2 Offense Level Down next turn\n- Panic: Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
-      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nUnits with SP: Change their Panic Type to \"Dazzle\"\nUnits without SP: Defense Level -2",
+      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- SP Units: Change their Panic Type to \"Dazzle\"\n- Non-SP Units: Defense Level -2\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Non-SP Units\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Dazzle Panic-type Effects\n- Low Morale: Turn End: Gain 1 Bind and 2 Offense Level Down next turn\n- Panic: Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nSP Units: Change their Panic Type to \"Dazzle\"\nNon-SP Units: Defense Level -2",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Main",
       "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units with SP: Change their Panic Type to \"Dazzle\"\n- Turn End: Lose 1 Stack",
+      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- SP Units: Change their Panic Type to \"Dazzle\"\n- Turn End: Lose 1 Stack",
       "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nChange Panic Type to \"Dazzle\"",
       "undefined": "-"
     },
     {
       "id": "DelusionGregBigBird_Sub",
       "name": "Dazzle",
-      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Units without SP: Defense Level -2\n- Turn End: Lose 1 Stack",
+      "desc": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Non-SP Units: Defense Level -2\n- Turn End: Lose 1 Stack",
       "summary": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nDefense Level -2",
       "undefined": "-"
     },
@@ -3239,7 +3239,7 @@
     {
       "id": "Shin_IndexFingerYisang",
       "name": "Shin (心) - Fate",
-      "desc": "- Min & Max Speed +1\n- Gain +1 more Poise Potency and Count from Base Skills\n- If this unit's SP is higher than the target's, deal +1% damage for every 3 SP difference (max 15%; units without SP are considered to be at 0 SP)",
+      "desc": "- Min & Max Speed +1\n- Gain +1 more Poise Potency and Count from Base Skills\n- If this unit's SP is higher than the target's, deal +1% damage for every 3 SP difference (max 15%; Non-SP Units are considered to be at 0 SP)",
       "summary": "",
       "undefined": "-",
       "flavor": ""
@@ -3429,7 +3429,7 @@
     {
       "id": "GodokPanicType",
       "name": "Solitude",
-      "desc": "- Take +10% damage from Gloom Skills\n- Units with SP: Change their Panic Type to 'Solitude'\n- Units without SP: Gain +2 Sinking Count at Turn End\n\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Units without SP\" conditional to certain enemies that have SP but cannot change their Panic Types\n\n※ Solitude Panic Effect:\n- Low Morale: Gain +2 Sinking Count at Turn End\n- Panic: Gain +3 Sinking Count at Turn End",
+      "desc": "- Take +10% damage from Gloom Skills\n- SP Units: Change their Panic Type to 'Solitude'\n- Non-SP Units: Gain +2 Sinking Count at Turn End\n\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Non-SP Units\" conditional to certain enemies that have SP but cannot change their Panic Types\n\n※ Solitude Panic Effect:\n- Low Morale: Gain +2 Sinking Count at Turn End\n- Panic: Gain +3 Sinking Count at Turn End",
       "summary": "",
       "undefined": "-"
     },
@@ -3614,6 +3614,445 @@
       "desc": "- Max Stack: 9\n- When hit, gain 1 Sinking Potency for every 3 Stack (once per turn)\n- Turn End: At 5+ Stack, lose 5 SP\n- Turn End: Lose 1 Stack",
       "summary": "",
       "undefined": "-"
+    },
+    {
+      "id": "VengeanceBookHeathcliff",
+      "name": "Book of Vengeance [Heathcliff]",
+      "desc": "- Max Stack: 30\n- Offense Level +1, Defense Level +1 for every 5 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MiddleFingerTattooID",
+      "name": "Vengeance Tattoo",
+      "desc": "- Max Stack: 20\n- Base Skills deal +1% damage for every Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "ScarletMothRodion",
+      "name": "Scarlet Moth",
+      "desc": "- Max Stack: 3\n- Turn End: Heal (Stack)% HP (minimum HP healed: 1)\n- Turn End: Heal SP equal to Stack\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "SojiRyoshuEchoPast",
+      "name": "Entanglement",
+      "desc": "- Max Stack: {0} ({1} gained)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "The threads of fate are entwined by encounter, and by the length of time surrendered unto another.\nThe myriad moments wherein one's time and another's overlap, be they fair or foul, will bind their strings in pitiless entanglement.\nThe time that has already been shared cannot be undone."
+    },
+    {
+      "id": "SojiRyoshuEchoFuture",
+      "name": "Phantom Trace",
+      "desc": "- Max Stack: 1\n- Take +5% damage from Blade of the House of Spiders Ryōshū's Base Attack Skills",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "A phantom trace (殘影) is not simply a faint shade left in passing. It is the shadow of times past, cruelly drawn across bygone days."
+    },
+    {
+      "id": "SojiRyoshuEntangle",
+      "name": "String Severance [絕緣]",
+      "desc": "- Max Stack: 4\n- Gain 1 Stack for every defeated The House of Spiders Nursefather Identity\n- Gain a different unique effect based on which of The House of Spiders ally was defeated\n- Take -7.5% damage for every Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "And so, let it be cut and severed. Even if it strays from what must be."
+    },
+    {
+      "id": "SojiRyoshuShin",
+      "name": "Shin (心) - Dihui Star [地慧星]",
+      "desc": "- Min & Max Speed +2\n- Upon using a Base Attack Skill, gain 2 Poise Potency and +1 Poise Count\n- This unit's Base Attack Skills deal +10% damage on Critical Hit\n- Take -20% damage from Unopposed Attacks and Unbreakable Coins",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "PhantomIncisionID",
+      "name": "Bladetrail [Afterimage]",
+      "desc": "- Max Stack: 100\n- Take +1% damage from Slash Skills for every 10 Stacks",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "PhantomIncisionTotalID",
+      "name": "Dihui Star's Blade",
+      "desc": "- Max Stack: 70\n- Total sum of Bladetrail Stacks inflicted by this unit\n- Can gain up to 25 Stacks per turn",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Etch a mark into the earth. Such is the purpose this blade was made to serve.\nInto this sword was poured the light of a star, so that something may be left behind in this land."
+    },
+    {
+      "id": "RetaliationBookSpiderOutis",
+      "name": "Book of Vengeance [The House of Spiders]",
+      "desc": "- Against units that have this effect, The House of Spiders: The Middle Nursefather Outis and The House of Spiders: The Middle Apprentice Ishmael heal 5 SP On Hit using a Skill (once per Skill, 2 times per turn)\n- On Hit using a Skill against The House of Spiders: The Middle Nursefather Outis, gain 1 additional Stack of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- On Hit using a Skill against The House of Spiders: The Middle Apprentice Ishmael, gain 1 additional Stack of The Middle - Grudge (once per Skill, 2 times per turn for each Identity)\n- Expires at Turn End",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "ResentmentSpiderOutis",
+      "name": "The Middle - Grudge",
+      "desc": "- Max Stack: 15\n- If target has Vengeance Mark, deal +20% damage",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "ReinforcedTattooSpiderOutis",
+      "name": "The Middle - Vengeance Tattoo [<s>Great Sister</s>]",
+      "desc": "- Max Stack: 10\n- Final Power +1 for Base Skills for every 5 Stack (max 2)\n- Envy Skills and Blunt Skills deal +5% damage for every Stack (max 50%)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "DaughterEducationSpiderOutis",
+      "name": "Check This Out, Kiddo!",
+      "desc": "- Max Stack: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- At 5+ Stack, Base Skills gain Final Power +1\n- Blunt Skills deal +1% damage for every Stack (max 10%)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "GotAComplimentIshmael",
+      "name": "I Got Praised!",
+      "desc": "- Max Stack: 10\n- Reduced by 1 when this unit is hit by 2 Skills\n- At 5+ Stack, Base Skills gain Final Power +1\n- Blunt Skills deal +1% damage for every Stack (max 10%)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MiddleFatherGutsOutis",
+      "name": "Ridiculous Grit",
+      "desc": "- Max Stack: 3\n- Fix any Attack Type Resistances that exceed Normal (1.0) to Normal (unless Staggered)\n- Take -(30 + (The Middle - Vengeance Tattoo [<s>Great Sister</s>] Stack x 4))% damage from Skills (max 50%; rounded down)\n- On Clash Win, heal an additional (Clash count x 5) SP (max 15)\n- Turn End: If this unit lost SP this turn due to its Skill effects, deal +10% damage next turn using Base Skills (once per turn)\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MiddleFatherSwordOneOutis",
+      "name": "Sealed Sword",
+      "desc": "- Turn End: Gain 2 Haste next turn\n- Blunt Base Skills deal +2% damage for every 4 Bleed on target (max 10%)\n- On final Coin Hit using Base Skills, if target has 20+ Bleed, deal (10% of the Coin's final damage) Blunt damage (rounded down)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MiddleFatherSwordTwoOutis",
+      "name": "First Seal Removed",
+      "desc": "- Turn End: Gain 1 Haste next turn\n- Blunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final damage) Blunt damage (rounded down)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MiddleFatherSwordThreeOutis",
+      "name": "Second Seal Removed",
+      "desc": "- Turn End: Gain 1 Haste next turn\n- Blunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final damage) Slash damage (rounded down)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MiddleFatherSwordFourOutis",
+      "name": "Lævateinn",
+      "desc": "- Turn Start: Inflict 3 Burn on all units on the field\n- Replace this unit's Base Skills with Lævateinn-exclusive Skills corresponding to each Skill's rank\n- Blunt Base Skills deal +2% damage for every 4 (Burn + Bleed) on target (max 10%)\n- On final Coin Hit using Base Skills, if target has 20+ (Burn + Bleed), deal (10% of the Coin's final damage) Pierce damage (rounded down)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MidFamilyOutis",
+      "name": "Avenging My Family",
+      "desc": "- Envy Base Skills deal +20% damage\n- Base Skills gain Final Power +1",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "CountSkillMidOutis",
+      "name": "Rising Fever",
+      "desc": "Lose 1 Stack when meeting one of the following conditions (once per turn):\n- Using the \"Stamp of Vengeance\" Skill (including activation via Counter)\n- At Turn End after activating 6+ Envy A-Reson.\n\nAt 0 Stack, use the \"Time to Unpack!\" Skill",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "MatchesPersonality",
+      "name": "Blazing",
+      "desc": "- Min & Max Speed +1\n- This turn's first-used Base Attack Skill gains Final Power +2\n- Take 2% HP damage On Hit with the affected Skill (max 10%; this damage does not Stagger or reduce this unit's HP below 1)\n- Expires at Turn End",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "ScratchesHurtID",
+      "name": "Avulsion Wound",
+      "desc": "- Max Stack: 3\n- Turn Start: Gain 2 Bleed\n- Turn End: Gain 1 Bind next turn\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "TiedRopeHonglu",
+      "name": "Trussed [Hong Lu]",
+      "desc": "- Base Stack: 3\n- Min & Max Speed -2\n- Take +10% Pride damage\n- Expires when the inflicter Retreats, is killed, or inflicts it on a different target. Replaced when Trussed by another unit\n- Turn End: Lose 1 Stack if the inflicter did not hit this unit this turn",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "TiedWithRopeID",
+      "name": "Prisoner Transport Arrangements",
+      "desc": "- Base Stack: 1\n- Currently Trussing {0}\n- In a Clash against enemies that have Trussed [Hong Lu], Clash Power +1\n- On Hit against enemies that have Trussed [Hong Lu], inflict 1 Bleed and gain 1 Poise (2 Skills per turn)\n- If there are no Trussed targets, expires",
+      "summary": "",
+      "undefined": "-",
+      "flavor": ""
+    },
+    {
+      "id": "AengduNewArmIshmael",
+      "name": "Dokkaebi Arms",
+      "desc": "- Take -15% damage\n- On Skill Use, gain 1 Haste next turn (2 times per turn)\n- Combat End: This effect expires, and gain +2 Poise Count",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BladelineagePride",
+      "name": "Bearing of a Salsu",
+      "desc": "- Max Stack: 3\n- Gain Offense Level for every Stack\n- On Attack Hit using Slash Skills, gain 1 Poise (2 times per turn) \n- Lose 1 Stack when an allied Blade Lineage Identity is defeated",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WindBladeIshmael",
+      "name": "Mook Workshop - Ye [銳] Type II Bladedraw / Thrust Force: Dokkaebi Fire",
+      "desc": "- Max Stack: 20\n- Can gain up to 10 Stacks per turn\n- Slash Base Attack Skills deal +1% damage for every Stack (max 10%)\n- Defense Skills lose 1 Clash Power for every 2 Stacks (max 5)\n- Turn End: Gain 1 Haste next turn for every 5 Stacks (max 3)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "AlcoholKimPersonal",
+      "name": "Drink to the Fallen",
+      "desc": "- Max Stack: 4\n- Turn Start: Gain 1 Poise for every Stack\n· Blade Lineage Mentor Meursault gains 2 Poise for every Stack instead\n- Base Skills deal +(Poise on self x 1.5)% damage on Critical Hit (max 15%)\n- Base Skills that gain Poise and Poise Count gain Clash Power +1\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GrudgePersonal",
+      "name": "Growing Resentment",
+      "desc": "- Max Stack: 999\n- \"To Claim Their Bones\" gains (Stack / 100) Final Power (max 6; rounded down)\n- On Hit using the final Coins of either \"Yield My Flesh\" or \"To Claim Their Bones\", deal +(Stack / 10)% damage; then, this effect expires",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "GhostKimPersonal",
+      "name": "Resentment",
+      "desc": "- Min & Max Speed +2\n- On Hit, heal HP by 10% of damage dealt using the Skill (can heal up to 50% of this unit's max HP per Skill)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RootSoupKimPersonal",
+      "name": "Resentful Scabbard",
+      "desc": "- When an ally, including this unit, takes HP damage, gain Growing Resentment equal to damage taken\n- In Memoriam Passive now ignores conditionals and activates at max potential\n- When activating Pride Reson., apply Swordplay of the Homeland - The True Essence on all Blade Lineage allies other than this unit\n\n- On Using \"Yield My Flesh\", until Skill End:\n· This unit's HP does not drop below 10 (once per turn)\n· Lose (Poise on self / 2) Clash Power (rounded down)\n- On Using \"To Claim Their Bones\", gain 4 Poise\n\n※ Sword of the Homeland - The True Essence effects:\n- Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / 3) (max 2, rounded down)\n- If this unit is a Blade Lineage Salsu, Base Skills gain Final Power +1 and deal +(120 / # of Coins)% damage\n- Turn End: Gain 1 Haste next turn and this effect expires",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RootSoupKimSatgat",
+      "name": "Sword of the Homeland - The True Essence",
+      "desc": "- Base Attack Skills gain Final Power +(# of Blade Lineage allies on the field / 3) (max 2, rounded down)\n- If this unit is a Blade Lineage Salsu, Base Skills gain Final Power +1 and deal +(120 / # of Coins)% damage\n- Turn End: Gain 1 Haste next turn and this effect expires",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BongukGiftEnhance",
+      "name": "Sword of the Homeland - Striking",
+      "desc": "- Max Stack: 1\n- Plus Coin Power +1, deal +15% damage on Critical Hit\n- Expires at Turn End",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DuelEdgeAlly",
+      "name": "The Duel Escalates",
+      "desc": "- Affects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects\n- Can gain up to 3 Stacks per turn\n- Max Stack: 5",
+      "summary": "Affects The House of Spiders: The Thumb Apprentice Heathcliff's Skills and Passive effects"
+    },
+    {
+      "id": "SeveredTendonAlly",
+      "name": "Severed Tendon",
+      "desc": "- Base Power -1\n- Expires at Turn End\n- Max Stack: 1",
+      "summary": "Base Power -1"
+    },
+    {
+      "id": "EvolvingManual",
+      "name": "Maturing Textbook",
+      "desc": "- Base Skills deal +(10 + (Stack x 5))% damage\n- Can gain up to 2 Stacks per turn\n- Max Stack: 3",
+      "summary": "Base Skills deal more damage"
+    },
+    {
+      "id": "ObsessionAndGreedRodion",
+      "name": "Shin (心) - Disgrace",
+      "desc": "- Min & Max Speed +1\n- Base Skills inflict +1 more Tremor and Burn Potency and Count\n- Deal +3% damage for every 3 Poise Potency on self (max 15%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FutureEyeOnRodion",
+      "name": "Eye of Precognition",
+      "desc": "- Max Stack: 30\n- Can lose up to 10 Stacks per turn",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FutureEyeOffRodion",
+      "name": "Eye of Precognition - Overheat",
+      "desc": "- Max Stack: 30\n- Offense Level +3, Defense Level -3\n- Turn Start: Gain 10 Stacks\n- At 30 Stacks, convert into \"Eye of Precognition\"",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "LookingFutureRodion",
+      "name": "Accelerating Future",
+      "desc": "- Max Stack: 5\n- Base Skills deal +3% damage for every Stack (max 15%)\n- Base Skill Clash Power +1 for every 2 Stacks\n- At 5 Stacks, Base Skill Coin Power +1\n- Expires at Skill End",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TeachersPreyRodion",
+      "name": "Game Target",
+      "desc": "- Take +15% damage from Base Skills used by The House of Spiders: The Thumb Nursefather Rodion",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StigmaWorkshopHandStep1",
+      "name": "Light of Daybreak",
+      "desc": "- Max Stack: 30\n- Can gain up to 20 Stack per turn\n- Turn Start: Gain 1 Burn for every 5 Stack; then, gain +1 Burn Count for every 10 Stack\n- On Hit using a Base Attack Skill, gain (1 + (Burn on target / 3)) Stack (max 3)\n- At 10+ Stack, Base Skills inflict +1 more Burn Potency on enemies\n- At 20+ Stack, Base Skills inflict +1 more Burn Count on enemies",
+      "summary": "Gain Stack On Hit\nWhen conditions are met, inflict more Burn Potency and Count",
+      "undefined": "-",
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+    },
+    {
+      "id": "StigmaWorkshopHandStep2",
+      "name": "Light of Daybreak",
+      "desc": "- Max Stack: 30\n- Can gain up to 20 Stack per turn\n- Turn Start: Gain 1 Burn for every 5 Stack; then, gain +1 Burn Count for every 10 Stack\n- On Hit using a Base Attack Skill, gain (1 + (Burn on target / 3)) Stack (max 3)\n- At 10+ Stack, Base Skills inflict +1 more Burn Potency on enemies\n- At 20+ Stack, Base Skills inflict +1 more Burn Count on enemies",
+      "summary": "Gain Stack On Hit\nWhen conditions are met, inflict more Burn Potency and Count",
+      "undefined": "-",
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+    },
+    {
+      "id": "StigmaWorkshopHandStep3",
+      "name": "Light of Daybreak",
+      "desc": "- Max Stack: 30\n- Can gain up to 20 Stack per turn\n- Turn Start: Gain 1 Burn for every 5 Stack; then, gain +1 Burn Count for every 10 Stack\n- On Hit using a Base Attack Skill, gain (1 + (Burn on target / 3)) Stack (max 3)\n- At 10+ Stack, Base Skills inflict +1 more Burn Potency on enemies\n- At 20+ Stack, Base Skills inflict +1 more Burn Count on enemies",
+      "summary": "Gain Stack On Hit\nWhen conditions are met, inflict more Burn Potency and Count",
+      "undefined": "-",
+      "flavor": "The first flare of dawn is not a fire that scorches, but one that casts its glow on people."
+    },
+    {
+      "id": "DawnLight",
+      "name": "Dawnherald",
+      "desc": "- Max Stack: 3\n- Base Skills that inflict Burn Potency, Count, or 'Unique Burn' deal +10% damage\n· If the said Skill is a Wrath Skill, deal +15% damage instead\n\n- Base Skills that inflict Burn Potency, Count, or 'Unique Burn', gain Clash Power +1\n· If this unit is a Dawn Office Identity, gain Base Power +1 instead\n- Turn End: Lose 1 Stack",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Burn, burn, burn—y'see, Kid, fire's not the be-all, end-all solution to every problem you've got. When it comes to using heat-modulating weapons like these, the deciding factors often come down to <i>when</i> to spark the flame, and <i>how hot</i> you let it burn.\n\"Yeah, that's why I'm always chewing your ear off about how important it is to feel the 'moment' that comes with the territory of using heat-modulating weapons. But on the other hand... when that 'moment' tells you to burn it all down, don't hold back and just let it rip. ... Hm? Oh, you want to know who's the best in the field?\"\n\"Hmm, let's see... Well, the best of the best's got to be the Vermilion Cross, I'd wager.\""
+    },
+    {
+      "id": "RunSinclair",
+      "name": "Escape Apparatus",
+      "desc": "- When this unit takes damage that brings its HP down to 10, this unit's HP does not drop below 10 for the turn\n- Turn End: Recover from Stagger and Retreat from the Encounter (excluding forced Staggers; does not count as death)\n  · In Chain Battles, give this unit's Slots to a Substituted unit and move to the rearmost place in the Backup units' Deployment order (escape from the Encounter entirely if there are no other Backup Units remaining to swap places with next turn. When returning to battle, return in the order they retreated in)\n  · When returning to battle, return with the same amount of HP and SP this unit had when it retreated, and eliminate all effects on self save for a select few (if this unit had less than 0 SP when retreating, reset SP to 0 instead)",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "'... Live.'"
+    },
+    {
+      "id": "FireField",
+      "name": "Scorchfield",
+      "desc": "- Max Value: 999\n- Stores all Burn damage dealt in this zone\n- Resets when moving to a different zone\n- This value is shared by all characters",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "Heat turns air into a breeze, a gust, a firestorm, scorching the forest with abandon as men and beasts alike depart."
+    },
+    {
+      "id": "DawnGregor",
+      "name": "From Dawnbreak to Sunset",
+      "desc": "- If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\n- Turn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3\n(excluding forced Staggers; once per Encounter; prioritizes the Skill of lowest rank)\n\n- Turn Start: Heal 5 SP\n- Passive \"Unstable Shell of Ego\" effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 25\n\n- When in Volatile E.G.O::Waxen Pinion state, gain the following effects:\n  · Turn Start: Gain Shield equal to 15% of max HP\n  · When hit while this unit has Shield, inflict 1 Burn against the attacker (2 times per turn)\n  · Activate Scorchfield on this field\n\n※ Scorchfield effects\n- Stores all Burn damage dealt in this zone\n- Resets when moving to a different zone\n- This value is shared by all characters",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Ah... What a pleasant aroma. You're practically a Color Fixer when it comes to brewing ssanghwa-cha, you know that? I hereby anoint you Color Fixer \"The Yellow Ssanghwa...\"\n\"That's settled, then. I'll be tutoring you myself, so you'd better keep up. I see real potential in you, Kid—your ssanghwa-cha brewing skills have this instinctive grasp of the 'moment'... And being able to recognize that 'moment' is the key to just about everything.\""
+    },
+    {
+      "id": "DawnFaust",
+      "name": "High Noon",
+      "desc": "- Min Speed +2\n- On Base Attack Skill Use: Gain Base Power +2 and deal +(45 / # of Coins)% damage\n\n- Apply the following effects to \"Sunset Blade\"\n· On final Coin Hit: If target has 15+ Burn, activate Burn on target; then, reduce target's Burn Count by 1\n\n- Apply the following effects to \"Blazing Strike\"\n· Deal +100% damage\n· On Use: Convert all Coins into Unbreakable Coins\n· On Hit against an enemy, activate Burn on target; then, reduce target's Burn Count by 1\n· On Use: At 3+ Volatile Passion, consume up to 100 Scorchfield\n· Deal +1% damage for every Scorchfield consumed (max 100%)\n\n* Scorchfield Effects\n- Stores all Burn damage dealt in this zone\n- Resets when moving to a different zone\n- This value is shared by all characters",
+      "summary": "Strengthen Base Attack Skills",
+      "undefined": "-",
+      "flavor": "\"The request has been resolved ahead of schedule, and the weather conditions are optimal today for a team lunch. Shall we all proceed?\""
+    },
+    {
+      "id": "DawnGregorDying",
+      "name": "Blazing Sunset",
+      "desc": "- If this unit has 3+ Stagger Thresholds, remove the first Stagger Threshold\n- Turn End: If this unit is Staggered, recover from Stagger; if this unit is at Uptie 3 or higher, replace 1 of its Base Skills with Skill 3\n(excluding forced Staggers; once per Encounter; prioritizes the Skill of lowest rank)\n\n- Turn Start: Heal 8 SP\n- Passive \"Unstable Shell of Ego\" effects, Base Attack Skill effects, and Volatile Passion effects cannot reduce this unit's SP below 45\n\n- Turn Start: enter the Volatile E.G.O::Waxen Pinion State, heal 50% HP, and heal SP to max (once per Encounter)\n- Volatile E.G.O::Waxen Pinion State is maintained even when this unit has 0 or lower SP at Turn Start\n\n- When in Volatile E.G.O::Waxen Pinion state, gain the following effects:\n  · Turn Start: Gain Shield equal to 20% of max HP\n  · When hit while this unit has Shield, inflict 2 Burn against the attacker (2 times per turn)\n  · Activate Scorchfield on this field\n\n※ Scorchfield effects\n- Stores all Burn damage dealt in this zone\n- Resets when moving to a different zone\n- This value is shared by all characters",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "\"Master, please... I still have so much to learn... You said it yourself...\"\nDawn is a fleeting thing; it soon gives way to morning and fades into daylight, with a promise of sunset that will bring about the evening."
+    },
+    {
+      "id": "DawnFaustDying",
+      "name": "Loneliness at High Noon",
+      "desc": "- Min Speed +2\n- On Base Attack Skill Use: Gain Base Power +3 and deal +(90 / # of Coins)% damage\n\n- Apply the following effects to \"Sunset Blade\"\n· On final Coin Hit: If target has 15+ Burn, activate Burn on target; then, reduce target's Burn Count by 1\n\n- Apply the following effects to \"Blazing Strike\"\n· Deal +150% damage\n· On Use: Convert all Coins into Unbreakable Coins\n· On Hit against an enemy, activate Burn on target; then, reduce target's Burn Count by 1\n· On Use: Consume up to 100 Scorchfield and deal +1% damage for every Scorchfield consumed (max 150%)\n\n- When this unit takes damage that brings its HP down to 0 this turn, this unit's HP cannot drop below 1 for the turn, and recovers from Stagger when Staggered due to damage (once per Encounter)\n\n* Scorchfield Effects\n- Stores all Burn damage dealt in this zone\n- Resets when moving to a different zone\n- This value is shared by all characters",
+      "summary": "Strengthen Base Attack Skills",
+      "undefined": "-",
+      "flavor": "\"Do you understand what 'loneliness' means, Sinclair? Loneliness is being bathed in the light of the sun at high noon, only to realize that the ones you would have shared a luncheon with have departed you. That is how I would put into words the concept of 'loneliness'—for me, at least. I do hope, Sinclair, that you will never have cause to understand that concept.\""
+    },
+    {
+      "id": "DawnTeam",
+      "name": "Dawn Office",
+      "desc": "- Max Stack: 3\n- Gain 1 Offense Level for every Stack\n- Turn Start: At 3 Stack, heal 5 SP\n- Turn Start: If all other allied Identities that have \"Dawn Office\" are defeated, expires",
+      "summary": "",
+      "undefined": "-",
+      "flavor": "The Dawn Office of this Mirror World, unlike that of others, has yet to completely lose its fervor. One can reasonably conjecture that the two leading Fixers of this Office have sufficient competence to find work as Grade 1 of the vocation.\n\nHowever, it must be stated that the Office and its Fixers' grades do not vary from those of other observed Mirror Worlds, as combat capability is hardly the sole criterion by which the Grades are assigned. Failure to meet the conditions stipulated by the contract clauses to the client's satisfaction, eschewal of high-risk contracts that contribute to the advancement of Fixer Grades—these are all conditions that limit one's mobility along the ladder of Fixer Grades."
+    },
+    {
+      "id": "StigmaWorkshopCelloCaseOne",
+      "name": "Fire Butterfly Coffin",
+      "desc": "- Max Stack: 30\n- Can gain up to 20 Stacks per turn\n- On Hit using a Base Skill, gain 2 Stacks\n- Turn End: At 20+ Stacks, gain Burn next turn equal to half of surplus Stacks past 20 (rounded down)\n· At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
+      "summary": "Gain Stack On Hit, gain Burn next turn based on Stack",
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, or in combat against multiple adversaries.\""
+    },
+    {
+      "id": "StigmaWorkshopCelloCaseTwo",
+      "name": "Fire Butterfly Coffin",
+      "desc": "- Max Stack: 30\n- Can gain up to 20 Stacks per turn\n- On Hit using a Base Skill, gain 2 Stacks\n- Turn End: At 20+ Stacks, gain Burn next turn equal to half of surplus Stacks past 20 (rounded down)\n· At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
+      "summary": "Gain Stack On Hit, gain Burn next turn based on Stack",
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, or in combat against multiple adversaries.\""
+    },
+    {
+      "id": "StigmaWorkshopCelloCaseThree",
+      "name": "Fire Butterfly Coffin",
+      "desc": "- Max Stack: 30\n- Can gain up to 20 Stacks per turn\n- On Hit using a Base Skill, gain 2 Stacks\n- Turn End: At 20+ Stacks, gain Burn next turn equal to half of surplus Stacks past 20 (rounded down)\n· At 30 Stacks, gain 5 Burn and +2 Burn Count instead",
+      "summary": "Gain Stack On Hit, gain Burn next turn based on Stack",
+      "flavor": "Heated to a smoldering temperature within the coffin are butterflies, the kaleidoscope spilling forth to melt and tear the target apart.\n\n\"This type of weapon is still too premature for you to wield, Sinclair, but it is advisable that you familiarize yourself with its properties.\"\n\n\"The array of blades within the coffin affords considerable convenience in circumstances where time constraints prove solitary handling of requests impossible, or in combat against multiple adversaries.\""
+    },
+    {
+      "id": "Firstlight",
+      "name": "Battle Instinct",
+      "desc": "- Max Stack: 3\n- Min & Max Speed +2\n- Base Skills inflict +1 more Burn Potency and Burn Count on enemies\n- Skill \"Eject\" deals +(Stack x 5)% damage\n- Skills \"Eject - High Noon\" and \"Dismemberment at High Noon\" deal +(Stack x 10)% damage",
+      "summary": "Deal more damage using \"Eject\", \"Eject - High Noon\", \"Dismemberment at High Noon\"",
+      "flavor": "\"To resume the subject at hand: aside from Singularities, there exists a means of overcoming the penalties incurred by using this type of weaponry. Namely, effort.\"\n\n\"This may go without saying, but it is recommended that you focus on honing your body and battle instinct whenever time permits—both during downtime and when handling requests.\"\n\n\"Granted, battle instinct, in most cases, can only be properly demonstrated in the heat of battle. One might refer to this process as a \"warm up,\" although that term is perhaps <i>too</i> simple. In any case, a heightened natural battle instinct will help you offset the gear's structural and technical vulnerabilities. This is how you may raise the baseline of your performance threshold. Are you able to comprehend this explanation, Sinclair?\""
+    },
+    {
+      "id": "CaseOverheating",
+      "name": "Overheated Coffin",
+      "desc": "- Max Stack: 1\n- Turn End:\n· Gain 3 Burn next turn\n· This effect expires",
+      "summary": "",
+      "flavor": "\"Keep in mind, however, that convenience is always accompanied by a trade-off. A weapon of this structure comes with drawbacks that standard Stigma Workshop weapons would not possess—inevitable penalties that can only be mitigated by Singularities, the pinnacle of the myriad technological innovations of the City.\"\n\n\"It would do justice to properly acknowledge the extraordinary qualities of Singulari—ahem. That was tangential to the subject. Let us return to the subject, Sinclair.\""
     }
   ]
 }

@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-04-20T02:24:46.632Z",
+  "generatedAt": "2026-07-11T13:51:29.440Z",
   "repoRoot": ".",
   "languages": [
     {
       "id": "LLC_zh-CN",
       "label": "中文",
       "folder": "LLC_zh-CN",
-      "storyCount": 1068
+      "storyCount": 1104
     },
     {
       "id": "JP",
       "label": "日文",
       "folder": "JP",
-      "storyCount": 1069
+      "storyCount": 1107
     },
     {
       "id": "EN",
       "label": "英文",
       "folder": "EN",
-      "storyCount": 1069
+      "storyCount": 1105
     },
     {
       "id": "KR",
       "label": "韩文",
       "folder": "KR",
-      "storyCount": 1066
+      "storyCount": 1102
     }
   ],
   "stats": {
-    "totalStories": 1071,
+    "totalStories": 1109,
     "perLanguage": {
-      "LLC_zh-CN": 1068,
-      "JP": 1069,
-      "EN": 1069,
-      "KR": 1066
+      "LLC_zh-CN": 1104,
+      "JP": 1107,
+      "EN": 1105,
+      "KR": 1102
     }
   },
   "categories": [
@@ -100,7 +100,7 @@
       "id": "intervallo",
       "label": "间章剧情",
       "description": "按间章章节与关卡索引。",
-      "count": 189,
+      "count": 207,
       "chapterCount": 10,
       "chapters": [
         {
@@ -151,7 +151,7 @@
         {
           "key": "E9_0",
           "label": "间章 第9章 绞丝结线",
-          "count": 17
+          "count": 35
         }
       ]
     },
@@ -159,7 +159,7 @@
       "id": "identity",
       "label": "人格剧情",
       "description": "人格剧情。",
-      "count": 163,
+      "count": 172,
       "chapterCount": 12,
       "chapters": [
         {
@@ -170,7 +170,7 @@
         {
           "key": "P102",
           "label": "#2 浮士德",
-          "count": 14
+          "count": 15
         },
         {
           "key": "P103",
@@ -180,7 +180,7 @@
         {
           "key": "P104",
           "label": "#4 良秀",
-          "count": 13
+          "count": 14
         },
         {
           "key": "P105",
@@ -190,22 +190,22 @@
         {
           "key": "P106",
           "label": "#6 鸿璐",
-          "count": 13
+          "count": 14
         },
         {
           "key": "P107",
           "label": "#7 希斯克利夫",
-          "count": 14
+          "count": 16
         },
         {
           "key": "P108",
           "label": "#8 以实玛利",
-          "count": 13
+          "count": 14
         },
         {
           "key": "P109",
           "label": "#9 罗佳",
-          "count": 14
+          "count": 15
         },
         {
           "key": "P110",
@@ -215,12 +215,12 @@
         {
           "key": "P111",
           "label": "#12 奥提斯",
-          "count": 13
+          "count": 14
         },
         {
           "key": "P112",
           "label": "#13 格里高尔",
-          "count": 14
+          "count": 15
         }
       ]
     },
@@ -228,7 +228,7 @@
       "id": "voice",
       "label": "人格语音",
       "description": "人格语音。",
-      "count": 175,
+      "count": 184,
       "chapterCount": 13,
       "chapters": [
         {
@@ -239,7 +239,7 @@
         {
           "key": "V102",
           "label": "#2 浮士德",
-          "count": 15
+          "count": 16
         },
         {
           "key": "V103",
@@ -249,7 +249,7 @@
         {
           "key": "V104",
           "label": "#4 良秀",
-          "count": 14
+          "count": 15
         },
         {
           "key": "V105",
@@ -259,22 +259,22 @@
         {
           "key": "V106",
           "label": "#6 鸿璐",
-          "count": 14
+          "count": 15
         },
         {
           "key": "V107",
           "label": "#7 希斯克利夫",
-          "count": 14
+          "count": 16
         },
         {
           "key": "V108",
           "label": "#8 以实玛利",
-          "count": 14
+          "count": 15
         },
         {
           "key": "V109",
           "label": "#9 罗佳",
-          "count": 15
+          "count": 16
         },
         {
           "key": "V110",
@@ -284,12 +284,12 @@
         {
           "key": "V111",
           "label": "#12 奥提斯",
-          "count": 14
+          "count": 15
         },
         {
           "key": "V112",
           "label": "#13 格里高尔",
-          "count": 15
+          "count": 16
         },
         {
           "key": "V999",
@@ -398,13 +398,13 @@
       "id": "other",
       "label": "未分类剧情",
       "description": "无法匹配命名规则的剧情文件。",
-      "count": 3,
+      "count": 5,
       "chapterCount": 1,
       "chapters": [
         {
           "key": "OTHER",
           "label": "未分类",
-          "count": 3
+          "count": 5
         }
       ]
     }
@@ -23067,7 +23067,7 @@
       },
       "stageNames": {
         "LLC_zh-CN": "电击蜈蚣",
-        "JP": "衝擊ムカデ",
+        "JP": "衝撃ムカデ",
         "EN": "Shock Centipede",
         "KR": "충격지네"
       }
@@ -35100,6 +35100,852 @@
       }
     },
     {
+      "code": "E915B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E915",
+      "stageLabel": "第15节",
+      "storyLabel": "间章 第9章 第15节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        15,
+        1
+      ],
+      "searchText": "e915b 间章剧情 间章 第9章 第15节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912515",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E915B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E915B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E915B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E915B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E916B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E916",
+      "stageLabel": "第16节",
+      "storyLabel": "间章 第9章 第16节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        16,
+        1
+      ],
+      "searchText": "e916b 间章剧情 间章 第9章 第16节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912516",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E916B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E916B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E916B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E916B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E917B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E917",
+      "stageLabel": "第17节",
+      "storyLabel": "间章 第9章 第17节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        17,
+        1
+      ],
+      "searchText": "e917b 间章剧情 间章 第9章 第17节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912517",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E917B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E917B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E917B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E917B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E918B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E918",
+      "stageLabel": "第18节",
+      "storyLabel": "间章 第9章 第18节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        18,
+        1
+      ],
+      "searchText": "e918b 间章剧情 间章 第9章 第18节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912518",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E918B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E918B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E918B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E918B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E918A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E918",
+      "stageLabel": "第18节",
+      "storyLabel": "间章 第9章 第18节 战斗后剧情",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        18,
+        3
+      ],
+      "searchText": "e918a 间章剧情 间章 第9章 第18节 战斗后剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912518",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E918A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E918A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E918A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E918A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E919B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E919",
+      "stageLabel": "第19节",
+      "storyLabel": "间章 第9章 第19节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        19,
+        1
+      ],
+      "searchText": "e919b 间章剧情 间章 第9章 第19节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912519",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E919B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E919B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E919B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E919B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E919A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E919",
+      "stageLabel": "第19节",
+      "storyLabel": "间章 第9章 第19节 战斗后剧情",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        19,
+        3
+      ],
+      "searchText": "e919a 间章剧情 间章 第9章 第19节 战斗后剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912519",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E919A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E919A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E919A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E919A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E920B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E920",
+      "stageLabel": "第20节",
+      "storyLabel": "间章 第9章 第20节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        20,
+        1
+      ],
+      "searchText": "e920b 间章剧情 间章 第9章 第20节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912520",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E920B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E920B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E920B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E920B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E921B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E921",
+      "stageLabel": "第21节",
+      "storyLabel": "间章 第9章 第21节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        21,
+        1
+      ],
+      "searchText": "e921b 间章剧情 间章 第9章 第21节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912521",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E921B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E921B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E921B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E921B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E922B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E922",
+      "stageLabel": "第22节",
+      "storyLabel": "间章 第9章 第22节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        22,
+        1
+      ],
+      "searchText": "e922b 间章剧情 间章 第9章 第22节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912522",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E922B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E922B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E922B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E922B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E923B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E923",
+      "stageLabel": "第23节",
+      "storyLabel": "间章 第9章 第23节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        23,
+        1
+      ],
+      "searchText": "e923b 间章剧情 间章 第9章 第23节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912523",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E923B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E923B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E923B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E923B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E923I",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E923",
+      "stageLabel": "第23节",
+      "storyLabel": "间章 第9章 第23节 战斗中剧情",
+      "part": {
+        "raw": "I",
+        "code": "I",
+        "label": "战斗中剧情",
+        "sort": 2
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        23,
+        2
+      ],
+      "searchText": "e923i 间章剧情 间章 第9章 第23节 战斗中剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912523",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E923I.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E923I.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E923I.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E923I.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E924B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E924",
+      "stageLabel": "第24节",
+      "storyLabel": "间章 第9章 第24节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        24,
+        1
+      ],
+      "searchText": "e924b 间章剧情 间章 第9章 第24节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912524",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E924B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E924B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E924B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E924B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E925B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E925",
+      "stageLabel": "第25节",
+      "storyLabel": "间章 第9章 第25节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        25,
+        1
+      ],
+      "searchText": "e925b 间章剧情 间章 第9章 第25节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912525",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E925B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E925B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E925B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E925B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E926B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E926",
+      "stageLabel": "第26节",
+      "storyLabel": "间章 第9章 第26节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        26,
+        1
+      ],
+      "searchText": "e926b 间章剧情 间章 第9章 第26节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912526",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E926B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E926B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E926B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E926B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E926I",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E926",
+      "stageLabel": "第26节",
+      "storyLabel": "间章 第9章 第26节 战斗中剧情",
+      "part": {
+        "raw": "I",
+        "code": "I",
+        "label": "战斗中剧情",
+        "sort": 2
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        26,
+        2
+      ],
+      "searchText": "e926i 间章剧情 间章 第9章 第26节 战斗中剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912526",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E926I.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E926I.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E926I.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E926I.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E926A",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E926",
+      "stageLabel": "第26节",
+      "storyLabel": "间章 第9章 第26节 战斗后剧情",
+      "part": {
+        "raw": "A",
+        "code": "A",
+        "label": "战斗后剧情",
+        "sort": 3
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        26,
+        3
+      ],
+      "searchText": "e926a 间章剧情 间章 第9章 第26节 战斗后剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912526",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E926A.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E926A.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E926A.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E926A.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
+      "code": "E927B",
+      "category": "intervallo",
+      "categoryLabel": "间章剧情",
+      "categoryDescription": "按间章章节与关卡索引。",
+      "prefix": "E",
+      "chapterKey": "E9_0",
+      "chapterLabel": "间章 第9章 绞丝结线",
+      "stageKey": "E927",
+      "stageLabel": "第27节",
+      "storyLabel": "间章 第9章 第27节 战斗前剧情",
+      "part": {
+        "raw": "B",
+        "code": "B",
+        "label": "战斗前剧情",
+        "sort": 1
+      },
+      "sortKey": [
+        2,
+        9,
+        0,
+        27,
+        1
+      ],
+      "searchText": "e927b 间章剧情 间章 第9章 第27节 战斗前剧情 绞丝结线",
+      "gameChapterId": "9125",
+      "gameStageId": "912527",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/E927B.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/E927B.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/E927B.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/E927B.json"
+      },
+      "languageCount": 4,
+      "chapterNames": {
+        "LLC_zh-CN": "绞丝结线",
+        "JP": "縒り合せ",
+        "EN": "Twining Threads",
+        "KR": "타래 엮기"
+      }
+    },
+    {
       "code": "P10102",
       "category": "identity",
       "categoryLabel": "人格剧情",
@@ -36332,6 +37178,50 @@
       }
     },
     {
+      "code": "P10216",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P102",
+      "chapterLabel": "#2 浮士德",
+      "stageKey": "P10216",
+      "stageLabel": "黎明事务所 收尾人",
+      "storyLabel": "人格剧情 #2 浮士德 黎明事务所 收尾人",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        2,
+        16,
+        0
+      ],
+      "searchText": "p10216 人格剧情 浮士德 16 正篇 黎明事务所 收尾人",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10216.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10216.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10216.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10216.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黎明事务所 收尾人",
+        "JP": "夜明事務所 フィクサー",
+        "EN": "Dawn Office Fixer",
+        "KR": "새벽 사무소 해결사"
+      }
+    },
+    {
       "code": "P10302",
       "category": "identity",
       "categoryLabel": "人格剧情",
@@ -37476,6 +38366,50 @@
       }
     },
     {
+      "code": "P10415",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P104",
+      "chapterLabel": "#4 良秀",
+      "stageKey": "P10415",
+      "stageLabel": "蜘蛛巢之刃",
+      "storyLabel": "人格剧情 #4 良秀 蜘蛛巢之刃",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        4,
+        15,
+        0
+      ],
+      "searchText": "p10415 人格剧情 良秀 15 正篇 蜘蛛巢之刃",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10415.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10415.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10415.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10415.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢之刃",
+        "JP": "蜘蛛の巣の刀",
+        "EN": "Blade of the House of Spiders",
+        "KR": "거미집의 검"
+      }
+    },
+    {
       "code": "P10502",
       "category": "identity",
       "categoryLabel": "人格剧情",
@@ -38144,8 +39078,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10603",
-      "stageLabel": "豆豆帮 帮主",
-      "storyLabel": "人格剧情 #6 鸿璐 豆豆帮 帮主",
+      "stageLabel": "豆豆帮 老大",
+      "storyLabel": "人格剧情 #6 鸿璐 豆豆帮 老大",
       "part": {
         "raw": "",
         "code": "",
@@ -38158,7 +39092,7 @@
         3,
         0
       ],
-      "searchText": "p10603 人格剧情 鸿璐 03 正篇 豆豆帮 帮主",
+      "searchText": "p10603 人格剧情 鸿璐 03 正篇 豆豆帮 老大",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -38173,7 +39107,7 @@
       },
       "languageCount": 4,
       "stageNames": {
-        "LLC_zh-CN": "豆豆帮 帮主",
+        "LLC_zh-CN": "豆豆帮 老大",
         "JP": "ぽんぽん派 ボス",
         "EN": "Tingtang Gang Gangleader",
         "KR": "콩콩이파 두목"
@@ -38661,6 +39595,50 @@
         "JP": "蜘蛛の巣 薬指の親方",
         "EN": "The House of Spiders: The Ring Nursefather",
         "KR": "거미집 약지 아비"
+      }
+    },
+    {
+      "code": "P10615",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P106",
+      "chapterLabel": "#6 鸿璐",
+      "stageKey": "P10615",
+      "stageLabel": "S公司 推奴人",
+      "storyLabel": "人格剧情 #6 鸿璐 S公司 推奴人",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        6,
+        15,
+        0
+      ],
+      "searchText": "p10615 人格剧情 鸿璐 15 正篇 S公司 推奴人",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10615.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10615.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10615.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10615.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "S公司 推奴人",
+        "JP": "S社 チュノックン",
+        "EN": "S Corp. Ch'unokkun",
+        "KR": "S사 추노꾼"
       }
     },
     {
@@ -39280,6 +40258,94 @@
       }
     },
     {
+      "code": "P10715",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P107",
+      "chapterLabel": "#7 希斯克利夫",
+      "stageKey": "P10715",
+      "stageLabel": "中指 幼兄",
+      "storyLabel": "人格剧情 #7 希斯克利夫 中指 幼兄",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        7,
+        15,
+        0
+      ],
+      "searchText": "p10715 人格剧情 希斯克利夫 15 正篇 中指 幼兄",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10715.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10715.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10715.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10715.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "中指 幼兄",
+        "JP": "中指 末兄",
+        "EN": "The Middle Big Brother",
+        "KR": "중지 작은 형님"
+      }
+    },
+    {
+      "code": "P10716",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P107",
+      "chapterLabel": "#7 希斯克利夫",
+      "stageKey": "P10716",
+      "stageLabel": "蜘蛛巢 拇指 子辈",
+      "storyLabel": "人格剧情 #7 希斯克利夫 蜘蛛巢 拇指 子辈",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        7,
+        16,
+        0
+      ],
+      "searchText": "p10716 人格剧情 希斯克利夫 16 正篇 蜘蛛巢 拇指 子辈",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10716.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10716.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10716.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10716.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 拇指 子辈",
+        "JP": "蜘蛛の巣 親指の子方",
+        "EN": "The House of Spiders: The Thumb Apprentice",
+        "KR": "거미집 엄지 제자"
+      }
+    },
+    {
       "code": "P10802",
       "category": "identity",
       "categoryLabel": "人格剧情",
@@ -39849,6 +40915,50 @@
         "JP": "蜘蛛の巣 中指の子方",
         "EN": "The House of Spiders: The Middle Apprentice",
         "KR": "거미집 중지 제자"
+      }
+    },
+    {
+      "code": "P10815",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P108",
+      "chapterLabel": "#8 以实玛利",
+      "stageKey": "P10815",
+      "stageLabel": "LCD 现场推理小队",
+      "storyLabel": "人格剧情 #8 以实玛利 LCD 现场推理小队",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        8,
+        15,
+        0
+      ],
+      "searchText": "p10815 人格剧情 以实玛利 15 正篇 LCD 现场推理小队",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10815.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10815.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10815.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10815.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCD 现场推理小队",
+        "JP": "LCD 現場推理チーム",
+        "EN": "LCD OSIR Team",
+        "KR": "LCD 현장추리팀"
       }
     },
     {
@@ -40468,6 +41578,50 @@
       }
     },
     {
+      "code": "P10916",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P109",
+      "chapterLabel": "#9 罗佳",
+      "stageKey": "P10916",
+      "stageLabel": "蜘蛛巢 拇指 父辈",
+      "storyLabel": "人格剧情 #9 罗佳 蜘蛛巢 拇指 父辈",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        9,
+        16,
+        0
+      ],
+      "searchText": "p10916 人格剧情 罗佳 16 正篇 蜘蛛巢 拇指 父辈",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10916.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10916.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10916.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10916.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 拇指 父辈",
+        "JP": "蜘蛛の巣 親指の親方",
+        "EN": "The House of Spiders: The Thumb Nursefather",
+        "KR": "거미집 엄지 아비"
+      }
+    },
+    {
       "code": "P11002",
       "category": "identity",
       "categoryLabel": "人格剧情",
@@ -40564,8 +41718,8 @@
       "chapterKey": "P110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "P11004",
-      "stageLabel": "流浪乐队 头目",
-      "storyLabel": "人格剧情 #11 辛克莱 流浪乐队 头目",
+      "stageLabel": "流浪乐队 老大",
+      "storyLabel": "人格剧情 #11 辛克莱 流浪乐队 老大",
       "part": {
         "raw": "",
         "code": "",
@@ -40578,7 +41732,7 @@
         4,
         0
       ],
-      "searchText": "p11004 人格剧情 辛克莱 04 正篇 流浪乐队 头目",
+      "searchText": "p11004 人格剧情 辛克莱 04 正篇 流浪乐队 老大",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -40593,7 +41747,7 @@
       },
       "languageCount": 4,
       "stageNames": {
-        "LLC_zh-CN": "流浪乐队 头目",
+        "LLC_zh-CN": "流浪乐队 老大",
         "JP": "マリアッチ ボス",
         "EN": "Los Mariachis Jefe",
         "KR": "마리아치 보스"
@@ -41656,6 +42810,50 @@
       }
     },
     {
+      "code": "P11115",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P111",
+      "chapterLabel": "#12 奥提斯",
+      "stageKey": "P11115",
+      "stageLabel": "蜘蛛巢 中指 父辈",
+      "storyLabel": "人格剧情 #12 奥提斯 蜘蛛巢 中指 父辈",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        12,
+        15,
+        0
+      ],
+      "searchText": "p11115 人格剧情 奥提斯 15 正篇 蜘蛛巢 中指 父辈",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P11115.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P11115.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P11115.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P11115.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 中指 父辈",
+        "JP": "蜘蛛の巣 中指の親方",
+        "EN": "The House of Spiders: The Middle Nursefather",
+        "KR": "거미집 중지 아비"
+      }
+    },
+    {
       "code": "P11202",
       "category": "identity",
       "categoryLabel": "人格剧情",
@@ -42269,6 +43467,50 @@
         "JP": "LCE E.G.O:: AEDD",
         "EN": "LCE E.G.O:: AEDD",
         "KR": "LCE E.G.O:: AEDD"
+      }
+    },
+    {
+      "code": "P11216",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P112",
+      "chapterLabel": "#13 格里高尔",
+      "stageKey": "P11216",
+      "stageLabel": "黎明事务所 代表",
+      "storyLabel": "人格剧情 #13 格里高尔 黎明事务所 代表",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        13,
+        16,
+        0
+      ],
+      "searchText": "p11216 人格剧情 格里高尔 16 正篇 黎明事务所 代表",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P11216.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P11216.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P11216.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P11216.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黎明事务所 代表",
+        "JP": "夜明事務所 代表",
+        "EN": "Dawn Office Rep",
+        "KR": "새벽 사무소 대표"
       }
     },
     {
@@ -43592,6 +44834,50 @@
       }
     },
     {
+      "code": "V10216",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V102",
+      "chapterLabel": "#2 浮士德",
+      "stageKey": "V10216",
+      "stageLabel": "黎明事务所 收尾人",
+      "storyLabel": "人格语音 #2 浮士德 黎明事务所 收尾人",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        2,
+        16,
+        0
+      ],
+      "searchText": "v10216 人格语音 浮士德 16 正篇 黎明事务所 收尾人",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Faust_Dawn_10216.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Faust_Dawn_10216.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Faust_Dawn_10216.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Faust_Dawn_10216.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黎明事务所 收尾人",
+        "JP": "夜明事務所 フィクサー",
+        "EN": "Dawn Office Fixer",
+        "KR": "새벽 사무소 해결사"
+      }
+    },
+    {
       "code": "V10301",
       "category": "voice",
       "categoryLabel": "人格语音",
@@ -44824,6 +46110,50 @@
       }
     },
     {
+      "code": "V10415",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V104",
+      "chapterLabel": "#4 良秀",
+      "stageKey": "V10415",
+      "stageLabel": "蜘蛛巢之刃",
+      "storyLabel": "人格语音 #4 良秀 蜘蛛巢之刃",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        4,
+        15,
+        0
+      ],
+      "searchText": "v10415 人格语音 良秀 15 正篇 蜘蛛巢之刃",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Ryoshu_KumoPinky_10415.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Ryoshu_KumoPinky_10415.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Ryoshu_KumoPinky_10415.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Ryoshu_KumoPinky_10415.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢之刃",
+        "JP": "蜘蛛の巣の刀",
+        "EN": "Blade of the House of Spiders",
+        "KR": "거미집의 검"
+      }
+    },
+    {
       "code": "V10501",
       "category": "voice",
       "categoryLabel": "人格语音",
@@ -45580,8 +46910,8 @@
       "chapterKey": "V106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10603",
-      "stageLabel": "豆豆帮 帮主",
-      "storyLabel": "人格语音 #6 鸿璐 豆豆帮 帮主",
+      "stageLabel": "豆豆帮 老大",
+      "storyLabel": "人格语音 #6 鸿璐 豆豆帮 老大",
       "part": {
         "raw": "",
         "code": "",
@@ -45594,7 +46924,7 @@
         3,
         0
       ],
-      "searchText": "v10603 人格语音 鸿璐 03 正篇 豆豆帮 帮主",
+      "searchText": "v10603 人格语音 鸿璐 03 正篇 豆豆帮 老大",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -45609,7 +46939,7 @@
       },
       "languageCount": 4,
       "stageNames": {
-        "LLC_zh-CN": "豆豆帮 帮主",
+        "LLC_zh-CN": "豆豆帮 老大",
         "JP": "ぽんぽん派 ボス",
         "EN": "Tingtang Gang Gangleader",
         "KR": "콩콩이파 두목"
@@ -46097,6 +47427,50 @@
         "JP": "蜘蛛の巣 薬指の親方",
         "EN": "The House of Spiders: The Ring Nursefather",
         "KR": "거미집 약지 아비"
+      }
+    },
+    {
+      "code": "V10615",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V106",
+      "chapterLabel": "#6 鸿璐",
+      "stageKey": "V10615",
+      "stageLabel": "S公司 推奴人",
+      "storyLabel": "人格语音 #6 鸿璐 S公司 推奴人",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        6,
+        15,
+        0
+      ],
+      "searchText": "v10615 人格语音 鸿璐 15 正篇 S公司 推奴人",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Honglu_SCorp_10615.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Honglu_SCorp_10615.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Honglu_SCorp_10615.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Honglu_SCorp_10615.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "S公司 推奴人",
+        "JP": "S社 チュノックン",
+        "EN": "S Corp. Ch'unokkun",
+        "KR": "S사 추노꾼"
       }
     },
     {
@@ -46716,6 +48090,94 @@
       }
     },
     {
+      "code": "V10715",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V107",
+      "chapterLabel": "#7 希斯克利夫",
+      "stageKey": "V10715",
+      "stageLabel": "中指 幼兄",
+      "storyLabel": "人格语音 #7 希斯克利夫 中指 幼兄",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        7,
+        15,
+        0
+      ],
+      "searchText": "v10715 人格语音 希斯克利夫 15 正篇 中指 幼兄",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Heathcliff_Middle_10715.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Heathcliff_Middle_10715.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Heathcliff_Middle_10715.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Heathcliff_Middle_10715.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "中指 幼兄",
+        "JP": "中指 末兄",
+        "EN": "The Middle Big Brother",
+        "KR": "중지 작은 형님"
+      }
+    },
+    {
+      "code": "V10716",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V107",
+      "chapterLabel": "#7 希斯克利夫",
+      "stageKey": "V10716",
+      "stageLabel": "蜘蛛巢 拇指 子辈",
+      "storyLabel": "人格语音 #7 希斯克利夫 蜘蛛巢 拇指 子辈",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        7,
+        16,
+        0
+      ],
+      "searchText": "v10716 人格语音 希斯克利夫 16 正篇 蜘蛛巢 拇指 子辈",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Heathcliff_KumoThumb_10716.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Heathcliff_KumoThumb_10716.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Heathcliff_KumoThumb_10716.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Heathcliff_KumoThumb_10716.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 拇指 子辈",
+        "JP": "蜘蛛の巣 親指の子方",
+        "EN": "The House of Spiders: The Thumb Apprentice",
+        "KR": "거미집 엄지 제자"
+      }
+    },
+    {
       "code": "V10801",
       "category": "voice",
       "categoryLabel": "人格语音",
@@ -47329,6 +48791,50 @@
         "JP": "蜘蛛の巣 中指の子方",
         "EN": "The House of Spiders: The Middle Apprentice",
         "KR": "거미집 중지 제자"
+      }
+    },
+    {
+      "code": "V10815",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V108",
+      "chapterLabel": "#8 以实玛利",
+      "stageKey": "V10815",
+      "stageLabel": "LCD 现场推理小队",
+      "storyLabel": "人格语音 #8 以实玛利 LCD 现场推理小队",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        8,
+        15,
+        0
+      ],
+      "searchText": "v10815 人格语音 以实玛利 15 正篇 LCD 现场推理小队",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Ishmael_LCD_10815.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Ishmael_LCD_10815.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Ishmael_LCD_10815.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Ishmael_LCD_10815.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCD 现场推理小队",
+        "JP": "LCD 現場推理チーム",
+        "EN": "LCD OSIR Team",
+        "KR": "LCD 현장추리팀"
       }
     },
     {
@@ -47992,6 +49498,50 @@
       }
     },
     {
+      "code": "V10916",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V109",
+      "chapterLabel": "#9 罗佳",
+      "stageKey": "V10916",
+      "stageLabel": "蜘蛛巢 拇指 父辈",
+      "storyLabel": "人格语音 #9 罗佳 蜘蛛巢 拇指 父辈",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        9,
+        16,
+        0
+      ],
+      "searchText": "v10916 人格语音 罗佳 16 正篇 蜘蛛巢 拇指 父辈",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Rodion_KumoThumb_10916.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Rodion_KumoThumb_10916.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Rodion_KumoThumb_10916.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Rodion_KumoThumb_10916.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 拇指 父辈",
+        "JP": "蜘蛛の巣 親指の親方",
+        "EN": "The House of Spiders: The Thumb Nursefather",
+        "KR": "거미집 엄지 아비"
+      }
+    },
+    {
       "code": "V11001",
       "category": "voice",
       "categoryLabel": "人格语音",
@@ -48132,8 +49682,8 @@
       "chapterKey": "V110",
       "chapterLabel": "#11 辛克莱",
       "stageKey": "V11004",
-      "stageLabel": "流浪乐队 头目",
-      "storyLabel": "人格语音 #11 辛克莱 流浪乐队 头目",
+      "stageLabel": "流浪乐队 老大",
+      "storyLabel": "人格语音 #11 辛克莱 流浪乐队 老大",
       "part": {
         "raw": "",
         "code": "",
@@ -48146,7 +49696,7 @@
         4,
         0
       ],
-      "searchText": "v11004 人格语音 辛克莱 04 正篇 流浪乐队 头目",
+      "searchText": "v11004 人格语音 辛克莱 04 正篇 流浪乐队 老大",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -48161,7 +49711,7 @@
       },
       "languageCount": 4,
       "stageNames": {
-        "LLC_zh-CN": "流浪乐队 头目",
+        "LLC_zh-CN": "流浪乐队 老大",
         "JP": "マリアッチ ボス",
         "EN": "Los Mariachis Jefe",
         "KR": "마리아치 보스"
@@ -49268,6 +50818,50 @@
       }
     },
     {
+      "code": "V11115",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V111",
+      "chapterLabel": "#12 奥提斯",
+      "stageKey": "V11115",
+      "stageLabel": "蜘蛛巢 中指 父辈",
+      "storyLabel": "人格语音 #12 奥提斯 蜘蛛巢 中指 父辈",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        12,
+        15,
+        0
+      ],
+      "searchText": "v11115 人格语音 奥提斯 15 正篇 蜘蛛巢 中指 父辈",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Outis_KumoMiddle_11115.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Outis_KumoMiddle_11115.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Outis_KumoMiddle_11115.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Outis_KumoMiddle_11115.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "蜘蛛巢 中指 父辈",
+        "JP": "蜘蛛の巣 中指の親方",
+        "EN": "The House of Spiders: The Middle Nursefather",
+        "KR": "거미집 중지 아비"
+      }
+    },
+    {
       "code": "V11201",
       "category": "voice",
       "categoryLabel": "人格语音",
@@ -49925,6 +51519,50 @@
         "JP": "LCE E.G.O:: AEDD",
         "EN": "LCE E.G.O:: AEDD",
         "KR": "LCE E.G.O:: AEDD"
+      }
+    },
+    {
+      "code": "V11216",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V112",
+      "chapterLabel": "#13 格里高尔",
+      "stageKey": "V11216",
+      "stageLabel": "黎明事务所 代表",
+      "storyLabel": "人格语音 #13 格里高尔 黎明事务所 代表",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        13,
+        16,
+        0
+      ],
+      "searchText": "v11216 人格语音 格里高尔 16 正篇 黎明事务所 代表",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Gregor_Dawn_11216.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Gregor_Dawn_11216.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Gregor_Dawn_11216.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Gregor_Dawn_11216.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "黎明事务所 代表",
+        "JP": "夜明事務所 代表",
+        "EN": "Dawn Office Rep",
+        "KR": "새벽 사무소 대표"
       }
     },
     {
@@ -52130,6 +53768,82 @@
         "KR": null
       },
       "languageCount": 2
+    },
+    {
+      "code": "S101B_TEST_DoNotTranslate",
+      "category": "other",
+      "categoryLabel": "未分类剧情",
+      "categoryDescription": "无法匹配命名规则的剧情文件。",
+      "prefix": "OTHER",
+      "chapterKey": "OTHER",
+      "chapterLabel": "未分类",
+      "stageKey": "S101B_TEST_DoNotTranslate",
+      "stageLabel": "S101B_TEST_DoNotTranslate",
+      "storyLabel": "S101B_TEST_DoNotTranslate",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        9,
+        999,
+        999,
+        999
+      ],
+      "searchText": "s101b_test_donottranslate 未分类剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": false,
+        "JP": true,
+        "EN": false,
+        "KR": false
+      },
+      "paths": {
+        "LLC_zh-CN": null,
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/S101B_TEST_DoNotTranslate.json",
+        "EN": null,
+        "KR": null
+      },
+      "languageCount": 1
+    },
+    {
+      "code": "S101B_TEST_DonotTranslate2",
+      "category": "other",
+      "categoryLabel": "未分类剧情",
+      "categoryDescription": "无法匹配命名规则的剧情文件。",
+      "prefix": "OTHER",
+      "chapterKey": "OTHER",
+      "chapterLabel": "未分类",
+      "stageKey": "S101B_TEST_DonotTranslate2",
+      "stageLabel": "S101B_TEST_DonotTranslate2",
+      "storyLabel": "S101B_TEST_DonotTranslate2",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        9,
+        999,
+        999,
+        999
+      ],
+      "searchText": "s101b_test_donottranslate2 未分类剧情",
+      "availableLanguages": {
+        "LLC_zh-CN": false,
+        "JP": true,
+        "EN": false,
+        "KR": false
+      },
+      "paths": {
+        "LLC_zh-CN": null,
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/S101B_TEST_DonotTranslate2.json",
+        "EN": null,
+        "KR": null
+      },
+      "languageCount": 1
     },
     {
       "code": "SDUMMY",

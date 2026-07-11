@@ -2384,6 +2384,764 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1071501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "足蹴",
+          "desc": "[WhenUse] 次のターンにこのスロットの[Aggro]が3増加",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "足蹴",
+          "desc": "<style=\"highlight\">対象の[Combustion]と[Laceration]の合計が6以上なら、コイン威力 +1</style>　\n[WhenUse] 次のターンにこのスロットの[Aggro]が3増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] 混乱区間を5前進</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "足蹴",
+          "desc": "対象の[Combustion]と[Laceration]の合計が6以上なら、コイン威力 +1\n<style=\"highlight\">[WhenUse] 対象が[RetaliationBook]なら、最終威力 +1</style>\n[WhenUse] 次のターンに、このスロットの[Aggro]が3増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 混乱区間を5後退<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- [RetaliationBook]なら、精神力を3回復</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]2を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "後ろに注意！",
+          "desc": "[StartBattle] 操作パネルの両隣の味方へ[AttackUp]2を付与\n[StartBattle] (最も高い共鳴数 ÷ 2)だけ、このスキルの攻撃レベルが増加 (最大3, 小数点切り捨て)\n[WhenUse] 次のターンにこのスロットの[Aggro]が5増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が1増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Paralysis]2を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]3を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "後ろに注意！",
+          "desc": "<style=\"highlight\">対象の[Combustion]と[Laceration]の合計が6以上なら、コイン威力 +1</style>\n[StartBattle] 操作パネルの両隣の味方へ[AttackUp]2を付与\n[StartBattle] (最も高い共鳴数 ÷ 2)だけ、このスキルの攻撃レベルが増加 (最大3, 小数点切り捨て)\n[WhenUse] 次のターンにこのスロットの[Aggro]が5増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が1増加<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Paralysis]2を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]3を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "後ろに注意！",
+          "desc": "対象の[Combustion]と[Laceration]の合計が6以上なら、コイン威力 +1\n[StartBattle] 操作パネルの両隣の味方へ[AttackUp]2を付与\n[StartBattle] (最も高い共鳴数 ÷ 2)だけ、このスキルの攻撃レベルが増加 (最大3, 小数点切り捨て)\n<style=\"highlight\">[WhenUse] 対象が[RetaliationBook]なら、最終威力 +2</style>\n[WhenUse] 次のターンにこのスロットの[Aggro]が5増加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]回数が3増加<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が1増加<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Paralysis]2を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]3を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "オレのヘアクーポォオオオン！！！！",
+          "desc": "メインターゲットの[Combustion]と[Laceration]の合計4につき、最終威力 +1 (最大3)\n[StartBattle] (最も高い共鳴数)だけこのスキルの攻撃レベルが増加 (最大6)\n[WhenUse] 嫉妬完全共鳴6以上なら、加重値 +1\n[WhenUse] このスキルの攻撃加重値より少ない攻撃対象1につき、ダメージ量 +30% (集中戦闘の場合は部位で判定)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]5を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "オレのヘアクーポォオオオン！！！！",
+          "desc": "メインターゲットの[Combustion]と[Laceration]の合計4につき、最終威力 +1 (最大3)\n嫉妬共鳴2につき、最終威力 +1 (最大3)\n[StartBattle] (最も高い共鳴数)だけこのスキルの攻撃レベルが増加 (最大6)\n<style=\"highlight\">[WhenUse] メインターゲットが[RetaliationBook]なら、最終威力 +2</style>\n[WhenUse] 嫉妬完全共鳴6以上なら、加重値 +1\n<style=\"highlight\">[WhenUse] 自分の[VengeanceBookHeathcliff]が20以上なら、加重値 +1</style>\n[WhenUse] このスキルの攻撃加重値より少ない攻撃対象1につき、ダメージ量 +<style=\"highlight\">60</style>% (集中戦闘の場合は部位で判定)\n<style=\"highlight\">[EnemyKill] このスキルで倒した敵1名につき、怨恨の刺青2を得る (1ターンにつき最大6)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]5を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]5を付与<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] このコイン最終ダメージ量の(嫉妬共鳴数 × 5)%だけ打撃ダメージ (最大30%)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "お返し",
+          "desc": "[StartBattle] 失った体力の25%だけバリアを得る(1ターンにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "お返し",
+          "desc": "<style=\"highlight\">[StartBattle] 嫉妬完全共鳴数の合計が6以上なら、反撃時に「オレのヘアクーポォオオオン！！！！」スキルを使用 (操作パネルの最左方スキルから発動、1ターンにつき最大2回発動)\n[StartBattle] 自分を含む、精神力が最も低い中指所属の味方3名の精神力を(嫉妬共鳴数 + 3)だけ回復 (1ターンにつき1回、最大10, 精神力が-40以下の味方を除く)</style>\n[StartBattle] 失った体力の25%だけバリアを得る(1ターンにつき1回)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]2を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071505,
+      "levelList": [
+        {
+          "level": 4,
+          "name": "全員、処刑だ！！",
+          "desc": "このスキルは外部効果で再使用できない\n自分の失った体力1%につき、ダメージ量 +1% (最大30%)\nメインターゲットの[Combustion]と[Laceration]の合計4につき、最終威力 +1 (最大5)\n[StartBattle] (最も高い共鳴数)だけこのスキルの攻撃レベルが増加 (最大6)\n[WhenUse] メインターゲットが[RetaliationBook]なら、最終威力 +3\n[WhenUse] 自分の[VengeanceBookHeathcliff]が20以上なら、加重値 +1\n[WhenUse] このスキル攻撃加重値より少ない攻撃対象1につき、ダメージ量 +60% (集中戦闘の場合は部位で判定)\n[EnemyKill] このスキルで倒した敵の数だけ、最も保有量が少ないランダムな属性のE.G.O資源を得る (最大4)\n[EndSkill] 自分の[MiddleFingerTattooID]を15消耗",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "対象が混乱状態なら、ダメージ量 +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Laceration]5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]5を付与"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[OnSucceedAttack] このコイン最終ダメージ量の(嫉妬共鳴数 × 7)%だけ打撃ダメージ (最大42%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "パレルモ・スパーダ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "パレルモ・スパーダ",
+          "desc": "<style=\"highlight\">[WhenUse] 対象の[Combustion]と[Vibration]の合計が6以上なら、コイン威力 +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "パレルモ・スパーダ",
+          "desc": "[WhenUse] 対象の[Combustion]と[Vibration]の合計<style=\"highlight\">6につき、コイン威力 +1 (最大2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]<style=\"highlight\">2</style>を付与"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "コルピ・ソッターニ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が1増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が1増加"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "コルピ・ソッターニ",
+          "desc": "<style=\"highlight\">[WhenUse] 対象の[Combustion]と[Vibration]の合計が6以上なら、コイン威力 +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]回数が<style=\"highlight\">2</style>増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]回数が<style=\"highlight\">2</style>増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [EvolvingManual]があるか、対象に[DuelEdgeAlly]があるなら[VibrationExplosion]。対象の[Vibration]回数が1減少</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "コルピ・ソッターニ",
+          "desc": "[WhenUse] 対象の[Combustion]と[Vibration]の合計<style=\"highlight\">6につき、コイン威力 +1 (最大2)\n[WinDuel] 対象に[DuelEdgeAlly]があるなら、振動回数が1増加</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">[Combustion]を2付与</style>、[Combustion]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">[Vibration]2を付与</style>、[Vibration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [EvolvingManual]があるか、対象に[DuelEdgeAlly]があるなら[VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "カチャトーレ",
+          "desc": "[BeforeUse] 対象の[DuelEdgeAlly]が5なら、「セッチォナトゥラ・デル・チェルヴォ」として発動 (1ターンにつき1回)\n[WhenUse] 対象の[Combustion]と[Vibration]の合計が6以上なら、コイン威力 +1\n[WhenUse] 対象の[DuelEdgeAlly]数値によって、下記の効果を全て得る\n- 1 : [Vibration]威力の付与値 +1\n- 2 : [Vibration]回数の付与値 +1\n- 3 : [Combustion]威力の付与値 +1\n- 4 : [Combustion]回数の付与値 +1\n[WhenUse] [EvolvingManual]があるか、対象の[DuelEdgeAlly]が3以上なら、全コインが[SuperCoin]に変更される。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]を2付与、[Combustion]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]2を付与、[Vibration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EvolvingManual]1につき、ダメージ量 +10%(最大30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [EvolvingManual]があるか、対象の[DuelEdgeAlly]が3以上なら、[VibrationExplosion]。対象の[Vibration]回数が1減少"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "カチャトーレ",
+          "desc": "[BeforeUse] 対象の[DuelEdgeAlly]が5なら、「セッチォナトゥラ・デル・チェルヴォ」として発動 (1ターンにつき1回)\n[WhenUse] 対象の[Combustion]と[Vibration]の合計<style=\"highlight\">6につき、コイン威力 +1 (最大2)</style>\n[WhenUse] 対象の[DuelEdgeAlly]数値によって、下記の効果を全て得る\n<style=\"highlight\">- 数値1につき、ダメージ量 +6% (最大30%)</style>\n- 1 : [Vibration]威力の付与値 +1\n- 2 : [Vibration]回数の付与値 +1\n- 3 : [Combustion]威力の付与値 +1\n- 4 : [Combustion]回数の付与値 +1\n[WhenUse] [EvolvingManual]があるか、対象の[DuelEdgeAlly]が3以上なら、全コインが[SuperCoin]に変更される。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]を<style=\"highlight\">3</style>付与、[Combustion]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">3</style>を付与、[Vibration]回数が2増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[EvolvingManual]1につき、ダメージ量 +<style=\"highlight\">25%</style>(最大<style=\"highlight\">75%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion]。対象の[Vibration]回数が1減少<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [EvolvingManual]があるか、対象の[DuelEdgeAlly]が3以上なら、<style=\"highlight\">2回</style>[VibrationExplosion]。対象の[Vibration]回数が<style=\"highlight\">2</style>減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "剣先で測る",
+          "desc": "[DuelCounter]\n対象の[DuelEdgeAlly]1につきダメージ量 +10% (最大50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]1を付与(1ターンにつき2回)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]1を付与(1ターンにつき2回)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "剣先で測る",
+          "desc": "[DuelCounter]\n対象の[DuelEdgeAlly]1につき、ダメージ量 <style=\"highlight\">+20%</style> (最大<style=\"highlight\">100%</style>)\n<style=\"highlight\">[WhenUse] 対象の[Combustion]と[Vibration]の合計4につき、最終威力 +1 (最大2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]を1付与 (1ターンにつき2回)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]を1付与 (1ターンにつき2回)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "守ります。",
+          "desc": "[CanDuelGuard]\n[SupportProtect]専用スキル",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "守ります。",
+          "desc": "[CanDuelGuard]\n[SupportProtect]専用スキル\n<style=\"highlight\">[WhenUse]\n- [Protection]2を得る (1ターンにつき1回)\n- [SupportProtect]で保護した対象の精神力を5回復</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "セッチォナトゥラ・デル・チェルヴォ",
+          "desc": "[WhenUse]\n- ([EvolvingManual] - 1)だけ攻撃加重値が増加 (最大2)\n- メインターゲットの[Combustion]と[Vibration]の合計が6につき、コイン威力 +1 (最大2)\n- 攻撃対象が1なら、ダメージ量 +15% (集中戦闘では部位で判定)\n- このスキルによる攻撃加重値より少ない攻撃対象1につき、ダメージ量 +15% (集中戦闘では部位で判定)\n[EndSkill]\n- メインターゲットが保有した[DuelEdgeAlly]を全て消耗\n- [EvolvingManual]1を得る、メインターゲット死亡時は代わりに2得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]を3付与、[Combustion]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]3を付与、[Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] [EvolvingManual]1につき、このコインの威力 +1 (最大3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 2回[VibrationExplosion]。対象の[Vibration]回数が2減少"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "セッチォナトゥラ・デル・チェルヴォ",
+          "desc": "[WhenUse]\n- ([EvolvingManual] - 1)だけ攻撃加重値が増加 (最大2)\n- メインターゲットの[Combustion]と[Vibration]の合計が6につき、コイン威力 +1 (最大<style=\"highlight\">3</style>)\n- 攻撃対象が1なら、ダメージ量 <style=\"highlight\">+25%</style> (集中戦闘では部位で判定)\n- このスキルによる攻撃加重値より少ない攻撃対象1につき、ダメージ量 <style=\"highlight\">+25%</style> (集中戦闘では部位で判定)\n[EndSkill]\n- メインターゲットが保有した[DuelEdgeAlly]を全て消耗\n- [EvolvingManual]1を得る、メインターゲット死亡時は代わりに2得る",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Combustion]を<style=\"highlight\">4</style>付与、[Combustion]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [Vibration]<style=\"highlight\">4</style>を付与、[Vibration]回数が3増加"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] [EvolvingManual]1につき、このコインの威力 +1 (最大3)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationIgnition]へ[Switch_Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">3回</style>[VibrationExplosion]。対象の[Vibration]回数が<style=\"highlight\">3</style>減少"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

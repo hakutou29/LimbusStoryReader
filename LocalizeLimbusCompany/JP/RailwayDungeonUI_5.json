@@ -62,7 +62,7 @@
     },
     {
       "id": "railway_5_banned_personality_exist",
-      "content": "使用できない人格が編成されています。\n\n※鏡屈折鉄道5号線の第2区間では、第1区間で選択した人格が使用できません。"
+      "content": "使用できない人格が編成されています。\n\n※鏡屈折鉄道6号線の第3,4 区間では、直前の区間で選択した人格が使用できません。"
     },
     {
       "id": "railway_5_ally_buff",
@@ -99,6 +99,10 @@
     {
       "id": "railway_dungeon_advice_5_level_desc",
       "content": "- 人格 : 同期化段階4段階・レベル50\n- E.G.O : 幻想解析4段階"
+    },
+    {
+      "id": "railway_dungeon_end_date_until",
+      "content": "~ <font=\"ExcelsiorSans SDF\">{0}</font>"
     }
   ]
 }

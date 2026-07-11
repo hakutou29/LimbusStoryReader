@@ -90,11 +90,11 @@
     },
     {
       "id": "10603_getCondition_normal",
-      "content": "豆豆帮 帮主 鸿璐 获得时"
+      "content": "豆豆帮 老大 鸿璐 获得时"
     },
     {
       "id": "10603_getCondition_gacksung",
-      "content": "豆豆帮 帮主 鸿璐 3阶段同步完成"
+      "content": "豆豆帮 老大 鸿璐 3阶段同步完成"
     },
     {
       "id": "10702_getCondition_normal",
@@ -1311,6 +1311,62 @@
     {
       "id": "10415_getCondition_gacksung",
       "content": "蜘蛛巢之刃 良秀 3阶段同步完成"
+    },
+    {
+      "id": "11115_getCondition_normal",
+      "content": "蜘蛛巢 中指 父辈 奥提斯 获得时"
+    },
+    {
+      "id": "11115_getCondition_gacksung",
+      "content": "蜘蛛巢 中指 父辈 奥提斯 3阶段同步完成"
+    },
+    {
+      "id": "10815_getCondition_normal",
+      "content": "LCD 现场推理小队 以实玛利 获得时"
+    },
+    {
+      "id": "10815_getCondition_gacksung",
+      "content": "LCD 现场推理小队 以实玛利 3阶段同步完成"
+    },
+    {
+      "id": "10615_getCondition_normal",
+      "content": "S公司 推奴人 鸿璐 获得时"
+    },
+    {
+      "id": "10615_getCondition_gacksung",
+      "content": "S公司 推奴人 鸿璐 3阶段同步完成"
+    },
+    {
+      "id": "10716_getCondition_normal",
+      "content": "蜘蛛巢 拇指 子辈 希斯克利夫 获得时"
+    },
+    {
+      "id": "10716_getCondition_gacksung",
+      "content": "蜘蛛巢 拇指 子辈 希斯克利夫 3阶段同步完成"
+    },
+    {
+      "id": "10916_getCondition_normal",
+      "content": "蜘蛛巢 拇指 父辈 罗佳 获得时"
+    },
+    {
+      "id": "10916_getCondition_gacksung",
+      "content": "蜘蛛巢 拇指 父辈 罗佳 3阶段同步完成"
+    },
+    {
+      "id": "10216_getCondition_normal",
+      "content": "黎明事务所 收尾人 浮士德 获得时"
+    },
+    {
+      "id": "10216_getCondition_gacksung",
+      "content": "黎明事务所 收尾人 浮士德 3阶段同步完成"
+    },
+    {
+      "id": "11216_getCondition_normal",
+      "content": "黎明事务所 代表 格里高尔 获得时"
+    },
+    {
+      "id": "11216_getCondition_gacksung",
+      "content": "黎明事务所 代表 格里高尔 3阶段同步完成"
     }
   ]
 }

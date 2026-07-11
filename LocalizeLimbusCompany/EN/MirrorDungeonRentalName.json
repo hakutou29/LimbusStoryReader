@@ -83,6 +83,30 @@
     {
       "id": 21,
       "content": "Bleed, Charge"
+    },
+    {
+      "id": 22,
+      "content": "Bleed"
+    },
+    {
+      "id": 23,
+      "content": "Envy, Bleed"
+    },
+    {
+      "id": 24,
+      "content": "Bleed"
+    },
+    {
+      "id": 25,
+      "content": "Envy, Bleed"
+    },
+    {
+      "id": 26,
+      "content": "Bleed, Poise"
+    },
+    {
+      "id": 27,
+      "content": "Tremor, Burn"
     }
   ]
 }

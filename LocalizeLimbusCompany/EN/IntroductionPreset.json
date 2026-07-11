@@ -1947,6 +1947,102 @@
     {
       "id": "introduce_sentence_244",
       "content": "With (a/an) {0} out of this world."
+    },
+    {
+      "id": "introduce_word_245",
+      "content": "Luscious"
+    },
+    {
+      "id": "introduce_sentence_245",
+      "content": "Hmm... What d'you reckon? Looks more {0} now, don't it?"
+    },
+    {
+      "id": "introduce_word_246",
+      "content": "Itching"
+    },
+    {
+      "id": "introduce_sentence_246",
+      "content": "Look! These little ones are {0} to tag along with you."
+    },
+    {
+      "id": "introduce_word_247",
+      "content": "Spider's Thread"
+    },
+    {
+      "id": "introduce_sentence_247",
+      "content": "I cannot be free from here. Not without severing (the) {0}..."
+    },
+    {
+      "id": "introduce_word_248",
+      "content": "Sword of Legends"
+    },
+    {
+      "id": "introduce_sentence_248",
+      "content": "What's a couple of pointed fingers when {0} (is/are)... resting all snug and sweet in my hands?"
+    },
+    {
+      "id": "introduce_word_249",
+      "content": "Blade Lineage"
+    },
+    {
+      "id": "introduce_sentence_249",
+      "content": "Only I alone... remain unashamed to use the name \"{0}.\""
+    },
+    {
+      "id": "introduce_word_250",
+      "content": "Nobi"
+    },
+    {
+      "id": "introduce_sentence_250",
+      "content": "If you've called for me... Aha. A runaway {0} to hunt, yes?"
+    },
+    {
+      "id": "introduce_word_251",
+      "content": "Shade"
+    },
+    {
+      "id": "introduce_sentence_251",
+      "content": "... No sun has ever risen without a shadow cast. So this {0}, too, shall I accept."
+    },
+    {
+      "id": "introduce_word_252",
+      "content": "Palermitan Style"
+    },
+    {
+      "id": "introduce_sentence_252",
+      "content": "In one-on-one duels, my {0} has the advantage."
+    },
+    {
+      "id": "introduce_word_253",
+      "content": "War"
+    },
+    {
+      "id": "introduce_sentence_253",
+      "content": "Fall back—you're gettin' in the way. Tsk. I just can't with greenhorns who haven't had a taste of (the) {0}..."
+    },
+    {
+      "id": "introduce_word_254",
+      "content": "House Party"
+    },
+    {
+      "id": "introduce_sentence_254",
+      "content": "(The) {0}... will have to be canceled."
+    },
+    {
+      "id": "introduce_word_255",
+      "content": "Ssanghwa-cha"
+    },
+    {
+      "id": "introduce_sentence_255",
+      "content": "During those days... The luxury of {0} this fragrant was beyond anything I could imagine."
+    },
+    {
+      "id": "introduce_word_256",
+      "content": "Obituary"
+    },
+    {
+      "id": "introduce_sentence_256",
+      "content": "I come bearing a(an) {0}."
     }
   ]
 }

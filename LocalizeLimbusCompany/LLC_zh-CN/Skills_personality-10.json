@@ -559,7 +559,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "愤怨烙印",
+          "name": "烙印",
           "desc": "若目标的[Combustion]强度不低于10级，则使本技能的硬币威力+1\n若自身处于不稳定E.G.O状态，则改为使用爆炎一击\n[WinDuel] 使自身恢复10点理智值\n[DefeatDuel] 使自身失去10点理智值",
           "coinlist": [
             {
@@ -580,7 +580,7 @@
         },
         {
           "level": 4,
-          "name": "愤怨烙印",
+          "name": "烙印",
           "desc": "<style=\"highlight\">目标每带有7级[Combustion]强度，使本技能的硬币威力+1(最多+2)</style>\n若自身处于不稳定E.G.O状态，则改为使用爆炎一击\n[WinDuel] 使自身恢复10点理智值\n[DefeatDuel] 使自身失去10点理智值",
           "coinlist": [
             {
@@ -688,6 +688,15 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": 1100906,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "重燃一击"
         }
       ]
     },
@@ -846,7 +855,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 消耗自身至多8层[Vibration]，并对目标施加相应层数的[Vibration]"
+                  "desc": "[OnSucceedAttack] 消耗自身最多8层[Vibration]，并对目标施加相应层数的[Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"
@@ -877,7 +886,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 消耗自身至多8层[Vibration]，并对目标施加相应层数的[Vibration]"
+                  "desc": "[OnSucceedAttack] 消耗自身最多8层[Vibration]，并对目标施加相应层数的[Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] 使目标[VibrationExplosion]，并使其[Vibration]层数减少1层"

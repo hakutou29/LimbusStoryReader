@@ -38,7 +38,7 @@
     {
       "id": 2030211,
       "name": "Wave of Depression",
-      "desc": "The target of the rightmost Skill on the Dashboard loses (2 x Gloom A-Reson.) SP at the Skill's Attack End (targets that do not have SP take Gloom damage instead)"
+      "desc": "The target of the rightmost Skill on the Dashboard loses (2 x Gloom A-Reson.) SP at the Skill's Attack End (targets that are Non-SP Units take Gloom damage instead)"
     },
     {
       "id": 2040111,
@@ -49,6 +49,12 @@
       "id": 2040211,
       "name": "4th Match Flame",
       "desc": "Every 4th Skill this unit uses gains Final Power +4 and inflicts 4 [Combustion] On Hit"
+    },
+    {
+      "id": 2040212,
+      "name": "4th Match Flame",
+      "desc": "Every 4th Skill this unit uses gains Final Power +4 and inflicts 4 [Combustion] On Hit\n- If the said Skill is a Wrath Skill, deal +([Combustion] Potency on all targets / 2)% additional damage (max 20%)\n- If the said Skill is an E.G.O Skill, apply the following effects at Coin Start of the first Coin:\n· If the said Coin is a Plus Coin, heal 10 SP\n· If the said Coin is a Minus Coin, lose 15 SP (this effect cannot reduce this unit's SP below -40)",
+      "summary": "Every 4th Skill used is enhanced"
     },
     {
       "id": 2050111,
@@ -278,7 +284,7 @@
     {
       "id": 2100511,
       "name": "Prophecy of Ruin",
-      "desc": "On Heads Hit with a Lust affinity Skill, lower this unit and the target's SP by 4.\n(Does not work against targets without Sanity)\nGain 5 Lust E.G.O resources On Kill with a Lust affinity Skill"
+      "desc": "On Heads Hit with a Lust affinity Skill, lower this unit and the target's SP by 4.\n(Does not work against targets that are Non-SP Units)\nGain 5 Lust E.G.O resources On Kill with a Lust affinity Skill"
     },
     {
       "id": 2090511,
@@ -463,7 +469,7 @@
     {
       "id": 2090811,
       "name": "Blazing Amusement",
-      "desc": "When a target that has 10+ [Combustion] Count is defeated, inflict the [Combustion] Count on target between all enemies and heal SP 8 on self (in Focused Encounters, between all Parts; 3 max per target, 2 times per turn)\n- At max SP, heal 5 SP for 1 ally that has the least SP instead"
+      "desc": "When a target that has 10+ [Combustion] Count is defeated, inflict the [Combustion] Count on target between all enemies and heal 8 SP on self (in Focused Encounters, between all Parts; 3 max per target, 2 times per turn)\n- At max SP, heal 5 SP for 1 ally that has the least SP instead"
     },
     {
       "id": 2030811,
@@ -549,6 +555,29 @@
       "id": 2021011,
       "name": "Unsnuffed Embers",
       "desc": "This effect triggers immediately after using E.G.O Skill\n\nFor every 10 [Combustion] on self, increase [Combustion] Potency inflicted on enemies with this unit's Base Attack Skill effects and Coin effects by 1 (max 2, excluding 'Unique Burn')\n\nWhen this unit uses 'A.B.S Max Attunement 【Degraded Corrosion】'  Skill, this unit does not die at the Skill's Attack End; instead, heal 40% HP and gain 2 [HitDamageUp] and 1 [CrimsonDamageUp] next turn (once per Encounter)"
+    },
+    {
+      "id": 2090911,
+      "name": "What Distinguishes Moths from Butterflies",
+      "desc": "If this unit's leftmost Base Attack Skill on the Dashboard is a Wrath or a Lust Skill, at Attack End, deal 30% of the damage dealt against the main target with that Skill as its corresponding Affinity damage to a random enemy (max 30 damage; for Focused Encounters, a Part)\n\nIf this unit dealt the maximum possible damage with the above effect, gain 1 Affinity DMG Up for the corresponding Affinity next turn, and disable the above effect from triggering for 2 turns"
+    },
+    {
+      "id": 2010212,
+      "name": "Ember",
+      "desc": "<style=\"highlight\">On Use of a Wrath Skill or a Skill that inflicts [Combustion] Potency or Count: At 6+ total sum of [Combustion] on all targets, Clash Power +1</style>\n\nOn Clash Win, inflict (Wrath <style=\"highlight\">Reson. x 2</style>) [Combustion] <style=\"highlight\">on the main target</style> (<style=\"highlight\">max 8</style> per Skill)",
+      "summary": "Gain Clash Power\nWhen conditions are met, inflict [Combustion]"
+    },
+    {
+      "id": 2050911,
+      "name": "Beads of Liquor at Bladepoint",
+      "desc": "[AlwaysUseEGOPassive2050911]\n\nOn Hit with a Base Skill, inflict 2 [Laceration] on target (once per Skill)\n\nThis Identity counts as an \"Identity that applies [Laceration] and [Breath]\"\n- This Identity's Base Skills count as \"Skills that apply [Laceration] and [Breath]\"\n\n[WhenUseEGOPassive]\n\nWhen an ally is defeated, gain 1 [AlcoholKimPersonal] next turn\n- If the defeated ally is in Blade Lineage, gain 2 [AlcoholKimPersonal] instead\n\nTurn Start: If this unit has [AlcoholKimPersonal], enter [GhostKimPersonal] state\n- Blade Lineage Mentor Meursault gains [RootSoupKimPersonal] as well when the above effect activates\n\nTurn Start: If this unit does not have [AlcoholKimPersonal], the following effects expire - [GhostKimPersonal], [GrudgePersonal], and [RootSoupKimPersonal]\n\nWhen this unit has [AlcoholKimPersonal]: When this unit takes damage that brings its HP down to 0, heal ([AlcoholKimPersonal] Stack x 25)% HP; then, [AlcoholKimPersonal] expires (once per Encounter; this effect activates after Identity Passives with similar effects)\n- When Staggered, recover from Stagger (excluding forced Staggers)",
+      "summary": "Gain [AlcoholKimPersonal]"
+    },
+    {
+      "id": 2010911,
+      "name": "TheWilt-wingedButterflyFeedsUpon\nThePauperDewInMistedBreath",
+      "desc": "If target has [SinkingWhite], Clash Power +1\n\nOn Hit against targets that have 15+ ([Sinking] + both [SinkingWhite]), inflict 1 [SinkingWhite](The Living) and 1 [SinkingWhite](The Departed) (once per turn; for Focused Encounters, the Part)\n\n[AlwaysUseEGOPassive2010911]\n\nOn Hit, Base Skills inflict 2 [Vibration] on target (once per Skill)\n\nThis Identity counts as an \"Identity that inflicts [Vibration] and [Sinking]\"\n- This Identity's Base Skills count as \"Skills that inflict [Vibration] and [Sinking]\"\n\n\n[WhenUseEGOPassive2010911]\n\nMaximum cap +10 for the sum of [BulletLament] Potency and Count\nAfter [ReloadLament]ing, heal 10 SP and [Discard] 1 Base Attack Skill of the lowest rank in all of this unit's Skill Slots (except \"Goodbye Now, a Sorrow in You\") (2 times per turn)\nTurn End: If this unit had a Defense Skill equipped this turn, heal 10 SP\nTurn End: When Staggered, recover from Stagger, then [ReloadLament] (once per Encounter; excluding forced Staggers)",
+      "summary": "Gain Clash Power and inflict [SinkingWhite]"
     }
   ]
 }

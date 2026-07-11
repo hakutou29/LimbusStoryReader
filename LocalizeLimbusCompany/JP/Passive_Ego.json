@@ -51,6 +51,12 @@
       "desc": "4つ目に使用するスキルの最終威力 +4、的中する度に火傷 4を付与"
     },
     {
+      "id": 2040212,
+      "name": "4本目のマッチの火",
+      "desc": "4つ目に使用するスキルの最終威力 +4、的中する度に[Combustion]4を付与\n- 当該スキルが憤怒属性なら、追加でダメージ量 +(全攻撃対象の[Combustion]威力 ÷ 2)% (最大20%)\n- 当該スキルがE.G.Oスキルなら、最初のコイントス開始時\n・加算コインなら精神力を10回復\n・減算コインなら精神力を15減少 (この効果で精神力が -40未満にならない)",
+      "summary": "4つ目に使用するスキルが強化される"
+    },
+    {
       "id": 2050111,
       "name": "判断拒否",
       "desc": "戦闘開始時に自分が3つ以上のスキルのターゲットになっているなら、保護 3を得る。"
@@ -549,6 +555,29 @@
       "id": 2021011,
       "name": "消えない火種",
       "desc": "この効果はE.G.Oスキル終了後に即適用\n\n自分の[Combustion]10につき、敵へ基本攻撃スキル効果・コイン効果で付与する[Combustion]威力 +1 (最大2, 特殊<noparse>火傷</noparse>を除く)\n\n「紅炎殺最大感応【劣化侵蝕】」スキルを使用したなら、当該攻撃終了時に死亡せず体力を最大値の40%だけ回復し、次のターンに[HitDamageUp]2, [CrimsonDamageUp]1を得る (戦闘につき1回発動)"
+    },
+    {
+      "id": 2090911,
+      "name": "蛾と蝶の違い",
+      "desc": "操作パネルにて最左方に装着した自分の基本攻撃スキルが\n憤怒または色欲属性スキルなら、\n当該スキルでメインターゲットに与えるダメージ量の30%だけ\nランダムな敵1名へ攻撃終了時、当該スキルの罪悪属性ダメージを与える (最大30ダメージ、集中戦闘の場合は部位で判定)\n\n上記の効果で最大ダメージを与えたなら、次のターンに当該罪悪属性<noparse>ダメージ量増加</noparse>1を得て、2ターンのあいだ上記の効果が発動しない。"
+    },
+    {
+      "id": 2010212,
+      "name": "火の粉",
+      "desc": "<style=\"highlight\">憤怒属性または[Combustion]威力・回数を付与するスキル使用時、全攻撃対象の[Combustion]の合計が6以上なら、マッチ威力 +1</style>\n\nマッチ勝利時、<style=\"highlight\">メインターゲット</style>に(憤怒<style=\"highlight\">共鳴数 × 2</style>)だけ[Combustion]を付与 (スキルごとに<style=\"highlight\">最大8</style>)",
+      "summary": "マッチ威力が増加\n条件を満たすと[Combustion]を付与"
+    },
+    {
+      "id": 2050911,
+      "name": "剣先にしたたる酒滴",
+      "desc": "[AlwaysUseEGOPassive2050911]\n\n基本スキルの攻撃的中時、対象に[Laceration]2を付与 (スキルごとに1回)\n\nこの人格は[Laceration]・[Breath]を付与する人格として扱われる\n- この効果により、基本スキルが[Laceration]・[Breath]を付与するスキルとして扱われる\n\n[WhenUseEGOPassive]\n\n味方死亡時、次のターンに[AlcoholKimPersonal]1を得る\n- 死亡した味方が剣契所属なら、代わりに[AlcoholKimPersonal]2を得る\n\nターン開始時、自分に[AlcoholKimPersonal]があるなら、[GhostKimPersonal]状態になる\n- 剣契頭目ムルソーなら、追加で[RootSoupKimPersonal]を得る\n\nターン開始時、自分に[AlcoholKimPersonal]がなければ、自分の[GhostKimPersonal]・[GrudgePersonal]・[RootSoupKimPersonal]が消滅する\n\n[AlcoholKimPersonal]があるときに体力が0になるダメージを受けると、自分の体力を最大値の([AlcoholKimPersonal]数値 × 25)%だけ回復し、[AlcoholKimPersonal]が消滅する (戦闘ごとに1回、人格パッシブが優先して発動)\n- 混乱状態なら、混乱状態を解除 (強制混乱を除く)",
+      "summary": "[AlcoholKimPersonal]を得る"
+    },
+    {
+      "id": 2010911,
+      "name": "翼ガ垂レ下ツタ蝶ハ息ニ凝結スル貧シイ露ヲ食フ",
+      "desc": "対象が[SinkingWhite]を保有しているなら、マッチ威力 +1\n\n[Sinking]と全ての[SinkingWhite]の合計が15以上の対象に攻撃的中時、[SinkingWhite](生きた蝶)1, [SinkingWhite](死んだ蝶)1を付与 (1ターンにつき1回。集中戦闘の場合は部位で判定)\n\n[AlwaysUseEGOPassive2010911]\n\n基本スキルの攻撃的中時、対象に[Vibration]2を付与 (スキルごとに1回)\n\nこの人格は[Vibration]・[Sinking]を付与する人格として扱われる\n- この効果により、基本スキルが[Vibration]・[Sinking]を付与するスキルとして扱われる\n\n[WhenUseEGOPassive2010911]\n\n自分の[BulletLament](威力 + 回数)最大値 +10\n[ReloadLament]後に精神力を10回復し、自分の全スキルスロットから「葬儀はイサンより、以上。」を除いたランクが最も低い基本攻撃スキル1つを[Discard] (1ターンにつき2回)\n守備スキルを装着したターン終了時、精神力を10回復\nターン終了時に混乱状態なら、混乱を解除して[ReloadLament] (戦闘につき1回。強制混乱を除く)",
+      "summary": "マッチ威力増加、[SinkingWhite]を付与"
     }
   ]
 }

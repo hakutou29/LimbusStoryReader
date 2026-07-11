@@ -198,7 +198,7 @@
     },
     {
       "id": 10603,
-      "title": "豆豆帮\n帮主",
+      "title": "豆豆帮\n老大",
       "name": "鸿璐",
       "nameWithTitle": "鸿璐",
       "desc": "鸿璐的第3人格"
@@ -1238,6 +1238,64 @@
       "name": "良秀",
       "nameWithTitle": "良秀",
       "desc": "良秀的第15人格"
+    },
+    {
+      "id": 11115,
+      "title": "蜘蛛巢\n中指 父辈",
+      "name": "奥提斯",
+      "nameWithTitle": "奥提斯",
+      "desc": "奥提斯的第15人格"
+    },
+    {
+      "id": 10615,
+      "title": "S公司 推奴人",
+      "name": "鸿璐",
+      "nameWithTitle": "鸿璐",
+      "desc": "鸿璐的第15人格"
+    },
+    {
+      "id": 10815,
+      "title": "LCD\n现场推理小队",
+      "name": "以实玛利",
+      "nameWithTitle": "以实玛利",
+      "desc": "以实玛利的第15人格"
+    },
+    {
+      "id": 40501,
+      "title": "背井离乡的那一夜",
+      "name": "默尔索",
+      "nameWithTitle": "",
+      "desc": "映射战斗][斗战射映 - 经验记忆限定奖励",
+      "skinItemTitle": "[外观投影] 背井离乡的那一夜",
+      "skinItemDesc": "映射战斗][斗战射映 - 经验记忆限定奖励"
+    },
+    {
+      "id": 10716,
+      "title": "蜘蛛巢\n拇指 子辈",
+      "name": "希斯克利夫",
+      "nameWithTitle": "希斯克利夫",
+      "desc": "希斯克利夫的第16人格"
+    },
+    {
+      "id": 10916,
+      "title": "蜘蛛巢\n拇指 父辈",
+      "name": "罗佳",
+      "nameWithTitle": "罗佳",
+      "desc": "罗佳的第16人格"
+    },
+    {
+      "id": 11216,
+      "title": "黎明事务所\n代表",
+      "name": "格里高尔",
+      "nameWithTitle": "格里高尔",
+      "desc": "格里高尔的第16人格"
+    },
+    {
+      "id": 10216,
+      "title": "黎明事务所\n收尾人",
+      "name": "浮士德",
+      "nameWithTitle": "浮士德",
+      "desc": "浮士德的第16人格"
     }
   ]
 }

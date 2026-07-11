@@ -223,7 +223,7 @@
     {
       "id": 9758,
       "name": "Vestiges of the King",
-      "desc": "Chain Battles) Starting from #7 Deployed Sinner, at the start of the same turn it Substitutes in, heal 10 SP, gain 2 [ParryingResultUp], and gain 1 E.G.O resource for each one of their Skills 1, 2, and 3",
+      "desc": "Turn Start: If an Identity has Substituted in, the said Identity heals 10 SP and gains 2 [Enhancement], 2 [ParryingResultUp], and gains 1 E.G.O resource for each one of their Skills 1, 2, and 3",
       "simpleDesc": [
         {
           "abilityID": 9758,
@@ -819,7 +819,7 @@
     {
       "id": 9794,
       "name": "Swishing Fuel Tank",
-      "desc": "[Effects apply only to #2, #4 Deployed Identities]\n\nWhen taking lethal damage, 60% chance to not take that damage and heal 30 HP. (once per Encounter)\nThe above effect does not activate under the following conditions:\n- When the Skill damage taken exceeds the unit's max HP\n- When the unit has the HP Healing Down effect",
+      "desc": "[Effects apply only to #2, #4 Deployed Identities]\n\nWhen taking lethal damage, 60% chance to not take that damage and heal 30 HP. (once per Identity per Encounter)\nThe above effect does not activate under the following conditions:\n- When the Skill damage taken exceeds the unit's max HP\n- When the unit has the HP Healing Down effect",
       "simpleDesc": [
         {
           "abilityID": 9794,

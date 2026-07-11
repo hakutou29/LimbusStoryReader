@@ -267,6 +267,26 @@
     {
       "id": "BeforeBehavior",
       "name": "[行动前]"
+    },
+    {
+      "id": "AlwaysUseEGOPassive2050911",
+      "name": "[剑契组 头领 默尔索专属 - 常驻效果]"
+    },
+    {
+      "id": "WhenUseEGOPassive",
+      "name": "[使用效果]"
+    },
+    {
+      "id": "WinDuelEndSkill",
+      "name": "[拼点胜利 - 攻击后]"
+    },
+    {
+      "id": "WhenUseEGOPassive2010911",
+      "name": "[脑叶公司E.G.O::庄严哀悼 李箱专属 - 使用效果]"
+    },
+    {
+      "id": "AlwaysUseEGOPassive2010911",
+      "name": "[脑叶公司E.G.O::庄严哀悼 李箱专属 - 常驻效果]"
     }
   ]
 }

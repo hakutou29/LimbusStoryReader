@@ -2016,7 +2016,7 @@
         {
           "level": 1,
           "name": "I Wish to Open the Path",
-          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses)",
+          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets that have [SupportProtect]; includes Unique Assist Defenses)",
           "coinlist": [
             {
               "coindescs": [
@@ -2037,7 +2037,7 @@
         {
           "level": 2,
           "name": "I Wish to Open the Path",
-          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses as well)\n<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>",
+          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets that have [SupportProtect]; includes Unique Assist Defenses as well)\n<style=\"highlight\">[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2058,7 +2058,7 @@
         {
           "level": 4,
           "name": "I Wish to Open the Path",
-          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets with [SupportProtect]; includes Unique Assist Defenses)\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ types of negative effects, Clash Power +1</style>",
+          "desc": "[StartBattle] Apply 1 [Endurance] to 1 + (highest Reson. / 3) other allies. (once per turn; max 3; prioritizes targets that have [SupportProtect]; includes Unique Assist Defenses)\n[WhenUse] At 6+ ([Burst] on target + [Breath] on self), Coin Power +1\n<style=\"highlight\">[WhenUse] If target has 3+ types of negative effects, Clash Power +1</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2218,7 +2218,7 @@
         {
           "level": 3,
           "name": "Answer Me, Heishou Packs",
-          "desc": "This Skill does not trigger Defense Skills\n\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit with the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+          "desc": "This Skill does not trigger Defense Skills\n\n[WhenUse] Gain 3 [Breath] and +1 [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit that has the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
           "coinlist": [
             {
               "coindescs": [
@@ -2238,7 +2238,7 @@
         {
           "level": 4,
           "name": "Answer Me, Heishou Packs",
-          "desc": "This Skill does not trigger Defense Skills\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 4 ([Burst] on target + [Breath] on self) (max 3)</style>\n[WhenUse] Gain <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit with the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
+          "desc": "This Skill does not trigger Defense Skills\n\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 4 ([Burst] on target + [Breath] on self) (max 3)</style>\n[WhenUse] Gain <style=\"highlight\">5</style> [Breath] and +<style=\"highlight\">3</style> [Breath] Count\n\n[EndSkill] Among ally Heishou Pack units that can act, choose 1 unit that has the least [HeishouComboCount] Stack and apply [HeishouComboCount]; then, bestow [HeishouCombo]. (once per turn)\n- After [HeishouCombo] is complete, The Lord of Hongyuan Hong Lu activates 'I Carve the Path of a Lord'\n- If [HeishouCombo] did not activate, or if the combo Identity is Staggered or defeated before [HeishouCombo] is complete, use 'Lonesome Stand: Sacrifice to Claim the Garden' instead",
           "coinlist": [
             {
               "coindescs": [
@@ -2263,7 +2263,7 @@
         {
           "level": 1,
           "name": "Heishou Keenclaw [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou with the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou with the least HP percentage (once per turn)",
+          "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou that has the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou that has the least HP percentage (once per turn)",
           "coinlist": [
             {
               "coindescs": [
@@ -2277,7 +2277,7 @@
         {
           "level": 4,
           "name": "Heishou Keenclaw [黑獣利爪]",
-          "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou with the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou with the least HP percentage (once per turn)<style=\"highlight\"></style>",
+          "desc": "[DuelCounter]\n[StartBattle] Apply 1 [SlashResultUp] to (highest Reson.) Heishou Pack Identity allies (once per turn)\n\n[StartBattle] If there are Backup Units, select 1 ally Heishou that has the least HP percentage.\n- Upon using this Skill, apply [HeishouAttack] to the selected ally, command [RetreatForCommon], and heal 10% of their HP upon Retreating (once per turn)\n- The Heishou Pack Identity who Retreated due to this effect will be placed earlier in the Return line than non-Heishou Identities\n[StartBattle] If there are no Backup Units, apply 2 [Enhancement] to 1 ally Heishou that has the least HP percentage (once per turn)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2311,7 +2311,7 @@
                   "desc": "[OnSucceedAttack] Inflict 2 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] For 2 ally Heishou Pack Identities with the least SP, heal 10 SP and apply 1 [Enhancement] next turn"
+                  "desc": "[EnemyKill] For 2 ally Heishou Pack Identities that have the least SP, heal 10 SP and apply 1 [Enhancement] next turn"
                 }
               ]
             }
@@ -2341,7 +2341,7 @@
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [SlashResistDown] next turn (once per turn)</style>"
                 },
                 {
-                  "desc": "[EnemyKill] For 2 ally Heishou Pack Identities with the least SP, heal 10 SP and apply 1 [Enhancement] next turn<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] For 2 ally Heishou Pack Identities that have the least SP, heal 10 SP and apply 1 [Enhancement] next turn<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -2434,7 +2434,7 @@
         {
           "level": 1,
           "name": "Lordsguard",
-          "desc": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters with conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
+          "desc": "[CanDuelGuard]\nThis Skill counts as Assist Defense[TabExplain] only for the unit that uses the Skill, and does not trigger the effects of other characters that have conditionals that check for [SupportProtect] activation.\n[WhenUse] If target has 3+ types of negative effects, Clash Power +1",
           "coinlist": [
             {
               "coindescs": [
@@ -3028,6 +3028,361 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Constricting Ohra Bonds",
+          "desc": "[WhenUse] Gain +3 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If target has [TiedRopeHonglu], inflict 1 [TiedRopeHonglu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Constricting Ohra Bonds",
+          "desc": "[WhenUse] At 6+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If target has [TiedRopeHonglu], inflict 1 [TiedRopeHonglu]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Constricting Ohra Bonds",
+          "desc": "[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Laceration] on target) (max 2)\n[WhenUse] If target has [TiedRopeHonglu], Final Power +1\n[WhenUse] Gain +3 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain 4 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If target has [TiedRopeHonglu], inflict 1 [TiedRopeHonglu]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Avulsion Slash",
+          "desc": "[WhenUse] Gain +2 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If target has 2+ [TiedRopeHonglu], consume 1 [TiedRopeHonglu] on target to Reuse this Coin (once per Skill)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Gain 2 [Agility] next turn"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Activate [Laceration] on target. Target loses 1 [Laceration] Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Avulsion Slash",
+          "desc": "[WhenUse] At 6+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] Gain +2 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If target has 2+ [TiedRopeHonglu], consume 1 [TiedRopeHonglu] on target to Reuse this Coin (once per Skill)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Gain 2 [Agility] next turn"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Activate [Laceration] on target. Target loses 1 [Laceration] Count"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Avulsion Slash",
+          "desc": "[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Laceration] on target) (max 2)\n[WhenUse] If target has [TiedRopeHonglu], Final Power +1\n[WhenUse] Gain +2 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Gain 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] If target has 2+ [TiedRopeHonglu], consume 1 [TiedRopeHonglu] on target to Reuse this Coin (once per Skill)"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Gain 2 [Agility] next turn"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Activate [Laceration] on target. Target loses 1 [Laceration] Count"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Hunter's Scouring",
+          "desc": "[WhenUse] At 6+ ([Breath] on self + [Laceration] on target), Coin Power +1\n[WhenUse] If target has [TiedRopeHonglu], convert all Coins in this Skill to [SuperCoin]s, gain Final Power +1, and the final Coin applies the following On Hit:\n- Inflict +2 [Laceration] Count\n- Inflict 1 [Reduction] next turn\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Gain +3 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If target does not have [TiedRopeHonglu], inflict [TiedRopeHonglu]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Hunter's Scouring",
+          "desc": "[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Laceration] on target) (max 2)\n[WhenUse] If target has [ScratchesHurtID], deal +20% damage\n[WhenUse] If target has [TiedRopeHonglu], convert all Coins in this Skill to [SuperCoin]s, gain Final Power +1, and the final Coin applies the following On Hit:\n- Inflict +2 [Laceration] Count\n- Inflict 1 [Reduction] next turn\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Gain +3 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [Binding] next turn"
+                },
+                {
+                  "desc": "[OnSucceedAttack] If target does not have [TiedRopeHonglu], inflict [TiedRopeHonglu]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict +2 [Laceration] Count"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Inflict 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Deal +50% damage on Critical Hit"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Inflict 1 [IndigoTakeDamageUp] next turn"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Throwing the Ohra Bond",
+          "desc": "[DuelCounter]\n[WhenUse] At 6+ ([Breath] on self + [Laceration] on target), Clash Power +2\n[WhenUse] Gain 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [TiedRopeHonglu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Throwing the Ohra Bond",
+          "desc": "[DuelCounter]\n[WhenUse] At 6+ ([Breath] on self + [Laceration] on target), Clash Power +2\n[WhenUse] Gain 5 [Breath]\n[WinDuel] Gain +3 [Breath] Count",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Inflict [TiedRopeHonglu]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Inflict 1 [Laceration]"
                 }
               ]
             }

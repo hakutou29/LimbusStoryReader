@@ -1947,6 +1947,102 @@
     {
       "id": "introduce_sentence_244",
       "content": "어디에서도 볼 수 없을 {0}(으로/로)."
+    },
+    {
+      "id": "introduce_word_245",
+      "content": "푹신"
+    },
+    {
+      "id": "introduce_sentence_245",
+      "content": "흠… 어때, 훨씬 {0}해 보이지?"
+    },
+    {
+      "id": "introduce_word_246",
+      "content": "야단"
+    },
+    {
+      "id": "introduce_sentence_246",
+      "content": "이것 봐, 이 아이들이 너를 따라가고 싶어서… 이렇게 {0}이잖아."
+    },
+    {
+      "id": "introduce_word_247",
+      "content": "거미줄"
+    },
+    {
+      "id": "introduce_sentence_247",
+      "content": "자유로워질 수 없어. 이 {0}(을/를) 끊어내지 않고서는…"
+    },
+    {
+      "id": "introduce_word_248",
+      "content": "전설의 검"
+    },
+    {
+      "id": "introduce_sentence_248",
+      "content": "의심 좀 받으면 어때? 이 {0}(이/가)… 내 손에 들어왔는데."
+    },
+    {
+      "id": "introduce_word_249",
+      "content": "검계"
+    },
+    {
+      "id": "introduce_sentence_249",
+      "content": "그러니… 지금 {0}(이라는/라는) 이름을 마땅히 댈 수 있는 자는 저 하나 뿐이겠네요."
+    },
+    {
+      "id": "introduce_word_250",
+      "content": "노비"
+    },
+    {
+      "id": "introduce_sentence_250",
+      "content": "저를 부르셨다는 건… 아하, {0}(이/가) 도망쳤군요?"
+    },
+    {
+      "id": "introduce_word_251",
+      "content": "그늘"
+    },
+    {
+      "id": "introduce_sentence_251",
+      "content": "…그림자 없는 햇살은 없으니, 이 {0} 또한 기꺼이 받아낼 뿐."
+    },
+    {
+      "id": "introduce_word_252",
+      "content": "팔레르모"
+    },
+    {
+      "id": "introduce_sentence_252",
+      "content": "일대일 결투에선, {0}(을/를) 익힌 제가 유리합니다."
+    },
+    {
+      "id": "introduce_word_253",
+      "content": "전쟁"
+    },
+    {
+      "id": "introduce_sentence_253",
+      "content": "걸리적거리니까, 비켜. 쯧. 이래서 {0}도 안 겪어본 것들은…"
+    },
+    {
+      "id": "introduce_word_254",
+      "content": "홈 파티"
+    },
+    {
+      "id": "introduce_sentence_254",
+      "content": "{0}(은/는) 못 하게 되겠군요."
+    },
+    {
+      "id": "introduce_word_255",
+      "content": "쌍화차"
+    },
+    {
+      "id": "introduce_sentence_255",
+      "content": "나 때는… 이렇게 향긋한 {0} 냄새는 꿈도 꾸질 못했지."
+    },
+    {
+      "id": "introduce_word_256",
+      "content": "부고"
+    },
+    {
+      "id": "introduce_sentence_256",
+      "content": "{0}(을/를) 전하겠소."
     }
   ]
 }
