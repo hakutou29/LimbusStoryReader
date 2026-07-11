@@ -59,8 +59,21 @@ docs/                           Architecture and maintenance notes
 - The detail page may be slow for long chapters because it can load and render four language versions for every line. See [docs/architecture.md](docs/architecture.md) for the current performance model.
 - `sync-upstream-localizations.ps1` is a local automation script. It can create commits and push to the configured remote when run by the scheduled task, so review it before enabling on another machine.
 
+## Testing
+
+Use the root npm scripts for validation:
+
+```powershell
+npm run test:syntax
+npm run test:unit
+npm run test:e2e
+```
+
+See [docs/testing.md](docs/testing.md) for unit and end-to-end test rules.
+
 ## More Documentation
 
 - [docs/architecture.md](docs/architecture.md): module responsibilities, manifest schema, rendering flow, and performance constraints.
 - [docs/maintenance.md](docs/maintenance.md): common commands, validation steps, upstream sync workflow, and known sharp edges.
+- [docs/testing.md](docs/testing.md): unit and end-to-end testing commands and rules.
 - [story-viewer/README.md](story-viewer/README.md): viewer-specific usage notes.

@@ -1,3 +1,6 @@
+import { escapeHtml, formatRichText } from './lib/formatting.js';
+import { buildMergedRows } from './lib/row-align.js';
+
 const state = {
   storyIndex: null,
   story: null,
@@ -35,23 +38,6 @@ const elements = {
   availability: document.querySelector('#availability'),
   storySections: document.querySelector('#story-sections'),
 };
-
-function escapeHtml(value) {
-  return String(value)
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-    .replaceAll("'", '&#39;');
-}
-
-function formatRichText(value) {
-  let text = escapeHtml(value);
-  text = text.replace(/&lt;color=(&quot;)?(#[0-9a-fA-F]+)\1&gt;/gi, '<span style="color: $2;">');
-  text = text.replace(/&lt;\/color&gt;/gi, '</span>');
-  text = text.replace(/&lt;(\/??)(b|i|u|s)&gt;/gi, '<$1$2>');
-  return text;
-}
 
 function getQueryState() {
   const params = new URLSearchParams(window.location.search);
@@ -155,71 +141,6 @@ async function fetchCharacterMap(language) {
 
   state.characterMaps.set(language.id, characterMap);
   return characterMap;
-}
-
-function toRowKey(item, fallbackIndex) {
-  if (typeof item.id === 'number' && item.id !== -1) {
-    return `id:${item.id}`;
-  }
-  return `idx:${fallbackIndex}`;
-}
-
-function buildMergedRows(loadedData) {
-  const rows = new Map();
-
-  for (const [languageId, payload] of loadedData.entries()) {
-    const dataList = Array.isArray(payload?.dataList) ? payload.dataList : [];
-    let currentOrderBase = -1;
-    let fallbackOffset = 0.001;
-
-    dataList.forEach((item, index) => {
-      const hasValidId = typeof item.id === 'number' && item.id !== -1;
-      let objOrder;
-
-      if (hasValidId) {
-        objOrder = item.id;
-        currentOrderBase = item.id;
-        fallbackOffset = 0.001;
-      } else {
-        objOrder = currentOrderBase !== -1 ? currentOrderBase + fallbackOffset : index * 0.001;
-        fallbackOffset += 0.001;
-      }
-
-      const rowKey = toRowKey(item, index);
-      if (!rows.has(rowKey)) {
-        rows.set(rowKey, {
-          key: rowKey,
-          id: typeof item.id === 'number' ? item.id : null,
-          order: objOrder,
-          entries: new Map(),
-        });
-      }
-
-      rows.get(rowKey).entries.set(languageId, item);
-    });
-  }
-
-  let finalRows = [...rows.values()].sort((left, right) => left.order - right.order);
-
-  // If KR is not selected, hide id === -1 rows that have no translated content in the selected languages
-  if (!state.selectedLanguages.has('KR')) {
-    const selectedLangsArray = [...state.selectedLanguages];
-    finalRows = finalRows.filter((row) => {
-      if (row.id !== -1) return true;
-      
-      // Check if at least one selected language has translated content (content without Korean characters)
-      const hasTranslatedContent = selectedLangsArray.some((lang) => {
-        const entry = row.entries.get(lang);
-        if (!entry) return false;
-        const text = entry.content ?? entry.dlg ?? '';
-        return text && !/[가-힣]/.test(text);
-      });
-      
-      return hasTranslatedContent;
-    });
-  }
-
-  return finalRows;
 }
 
 function resolveSpeakerName(entry, language, characterMap) {
@@ -509,7 +430,7 @@ async function renderStory() {
     state.localSpeakerMaps.set(language.id, localMap);
   }
 
-  const mergedRows = buildMergedRows(loadedData);
+  const mergedRows = buildMergedRows(loadedData, state.selectedLanguages);
   state.renderedRowsByKey = new Map(mergedRows.map((row) => [row.key, row]));
   state.renderLanguagesById = new Map(languages.map((language) => [language.id, language]));
   state.renderLanguageOrder = new Map(languages.map((language, index) => [language.id, index]));

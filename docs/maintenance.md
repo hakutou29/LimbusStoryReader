@@ -28,10 +28,19 @@ node LocalizeLimbusCompany/scripts/serve-story-viewer.mjs
 Check JavaScript syntax without running the browser:
 
 ```powershell
-node --check story-viewer/app.js
-node --check story-viewer/story.js
-node --check LocalizeLimbusCompany/scripts/build-story-index.mjs
-node --check LocalizeLimbusCompany/scripts/serve-story-viewer.mjs
+npm run test:syntax
+```
+
+Run unit tests:
+
+```powershell
+npm run test:unit
+```
+
+Run end-to-end tests:
+
+```powershell
+npm run test:e2e
 ```
 
 Validate localization JSON for the four viewer languages:
@@ -176,8 +185,14 @@ git diff --check
 For viewer JavaScript changes:
 
 ```powershell
-node --check story-viewer/app.js
-node --check story-viewer/story.js
+npm run test:syntax
+npm run test:unit
+```
+
+For viewer behavior changes, also run:
+
+```powershell
+npm run test:e2e
 ```
 
 For index-builder changes:
