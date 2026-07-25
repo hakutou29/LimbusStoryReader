@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-07-17T21:47:45.321Z",
+  "generatedAt": "2026-07-25T12:44:59.944Z",
   "repoRoot": ".",
   "languages": [
     {
       "id": "LLC_zh-CN",
       "label": "中文",
       "folder": "LLC_zh-CN",
-      "storyCount": 1104
+      "storyCount": 1106
     },
     {
       "id": "JP",
       "label": "日文",
       "folder": "JP",
-      "storyCount": 1107
+      "storyCount": 1109
     },
     {
       "id": "EN",
       "label": "英文",
       "folder": "EN",
-      "storyCount": 1105
+      "storyCount": 1107
     },
     {
       "id": "KR",
       "label": "韩文",
       "folder": "KR",
-      "storyCount": 1102
+      "storyCount": 1104
     }
   ],
   "stats": {
-    "totalStories": 1109,
+    "totalStories": 1111,
     "perLanguage": {
-      "LLC_zh-CN": 1104,
-      "JP": 1107,
-      "EN": 1105,
-      "KR": 1102
+      "LLC_zh-CN": 1106,
+      "JP": 1109,
+      "EN": 1107,
+      "KR": 1104
     }
   },
   "categories": [
@@ -56,12 +56,12 @@
         },
         {
           "key": "S2",
-          "label": "主线 第2章 无慈悲者",
+          "label": "主线 第2章 无法去爱",
           "count": 30
         },
         {
           "key": "S3",
-          "label": "主线 第3章 无作为者",
+          "label": "主线 第3章 未曾面对",
           "count": 37
         },
         {
@@ -159,13 +159,13 @@
       "id": "identity",
       "label": "人格剧情",
       "description": "人格剧情。",
-      "count": 172,
+      "count": 173,
       "chapterCount": 12,
       "chapters": [
         {
           "key": "P101",
           "label": "#1 李箱",
-          "count": 14
+          "count": 15
         },
         {
           "key": "P102",
@@ -228,13 +228,13 @@
       "id": "voice",
       "label": "人格语音",
       "description": "人格语音。",
-      "count": 184,
+      "count": 185,
       "chapterCount": 13,
       "chapters": [
         {
           "key": "V101",
           "label": "#1 李箱",
-          "count": 15
+          "count": 16
         },
         {
           "key": "V102",
@@ -2326,7 +2326,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S201",
       "stageLabel": "第1节 赌场",
       "storyLabel": "2-1 赌场 (战斗前剧情)",
@@ -2343,7 +2343,7 @@
         0,
         1
       ],
-      "searchText": "s201b 主线剧情 第2章 第1节 战斗前剧情 无慈悲者 赌场 2-1 ",
+      "searchText": "s201b 主线剧情 第2章 第1节 战斗前剧情 无法去爱 赌场 2-1 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2358,7 +2358,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2378,7 +2378,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S202",
       "stageLabel": "第2节 当铺",
       "storyLabel": "2-2 当铺 (战斗前剧情)",
@@ -2395,7 +2395,7 @@
         0,
         1
       ],
-      "searchText": "s202b 主线剧情 第2章 第2节 战斗前剧情 无慈悲者 当铺 2-2 ",
+      "searchText": "s202b 主线剧情 第2章 第2节 战斗前剧情 无法去爱 当铺 2-2 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2410,7 +2410,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2430,7 +2430,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S202",
       "stageLabel": "第2节 当铺",
       "storyLabel": "2-2 当铺 (战斗后剧情)",
@@ -2447,7 +2447,7 @@
         0,
         3
       ],
-      "searchText": "s202a 主线剧情 第2章 第2节 战斗后剧情 无慈悲者 当铺 2-2 ",
+      "searchText": "s202a 主线剧情 第2章 第2节 战斗后剧情 无法去爱 当铺 2-2 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2462,7 +2462,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2482,7 +2482,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S203",
       "stageLabel": "第3节 完美的战术",
       "storyLabel": "2-3 完美的战术 (战斗前剧情)",
@@ -2499,7 +2499,7 @@
         0,
         1
       ],
-      "searchText": "s203b 主线剧情 第2章 第3节 战斗前剧情 无慈悲者 完美的战术 2-3 ",
+      "searchText": "s203b 主线剧情 第2章 第3节 战斗前剧情 无法去爱 完美的战术 2-3 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2514,7 +2514,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2534,7 +2534,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S204",
       "stageLabel": "第4节 虫子",
       "storyLabel": "2-4 虫子 (战斗前剧情)",
@@ -2551,7 +2551,7 @@
         0,
         1
       ],
-      "searchText": "s204b 主线剧情 第2章 第4节 战斗前剧情 无慈悲者 虫子 2-4 ",
+      "searchText": "s204b 主线剧情 第2章 第4节 战斗前剧情 无法去爱 虫子 2-4 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2566,7 +2566,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2586,7 +2586,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S205",
       "stageLabel": "第5节 我们是边狱公……",
       "storyLabel": "2-5 我们是边狱公…… (战斗前剧情)",
@@ -2603,7 +2603,7 @@
         0,
         1
       ],
-      "searchText": "s205b 主线剧情 第2章 第5节 战斗前剧情 无慈悲者 我们是边狱公…… 2-5 ",
+      "searchText": "s205b 主线剧情 第2章 第5节 战斗前剧情 无法去爱 我们是边狱公…… 2-5 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2618,7 +2618,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2638,7 +2638,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S205",
       "stageLabel": "第5节 我们是边狱公……",
       "storyLabel": "2-5 我们是边狱公…… (战斗后剧情)",
@@ -2655,7 +2655,7 @@
         0,
         3
       ],
-      "searchText": "s205a 主线剧情 第2章 第5节 战斗后剧情 无慈悲者 我们是边狱公…… 2-5 ",
+      "searchText": "s205a 主线剧情 第2章 第5节 战斗后剧情 无法去爱 我们是边狱公…… 2-5 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2670,7 +2670,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2690,7 +2690,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S206",
       "stageLabel": "第6节 汽车塔",
       "storyLabel": "2-6 汽车塔 (战斗前剧情)",
@@ -2707,7 +2707,7 @@
         0,
         1
       ],
-      "searchText": "s206b 主线剧情 第2章 第6节 战斗前剧情 无慈悲者 汽车塔 2-6 ",
+      "searchText": "s206b 主线剧情 第2章 第6节 战斗前剧情 无法去爱 汽车塔 2-6 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2722,7 +2722,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2742,7 +2742,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S207",
       "stageLabel": "第7节 愿望罐",
       "storyLabel": "2-7 愿望罐 (战斗前剧情)",
@@ -2759,7 +2759,7 @@
         0,
         1
       ],
-      "searchText": "s207b 主线剧情 第2章 第7节 战斗前剧情 无慈悲者 愿望罐 2-7 ",
+      "searchText": "s207b 主线剧情 第2章 第7节 战斗前剧情 无法去爱 愿望罐 2-7 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2774,7 +2774,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2794,7 +2794,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S207",
       "stageLabel": "第7节 愿望罐",
       "storyLabel": "2-7 愿望罐 (战斗后剧情)",
@@ -2811,7 +2811,7 @@
         0,
         3
       ],
-      "searchText": "s207a 主线剧情 第2章 第7节 战斗后剧情 无慈悲者 愿望罐 2-7 ",
+      "searchText": "s207a 主线剧情 第2章 第7节 战斗后剧情 无法去爱 愿望罐 2-7 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2826,7 +2826,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2846,7 +2846,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S208",
       "stageLabel": "第8节 老虎机",
       "storyLabel": "2-8 老虎机 (战斗前剧情)",
@@ -2863,7 +2863,7 @@
         0,
         1
       ],
-      "searchText": "s208b 主线剧情 第2章 第8节 战斗前剧情 无慈悲者 老虎机 2-8 ",
+      "searchText": "s208b 主线剧情 第2章 第8节 战斗前剧情 无法去爱 老虎机 2-8 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2878,7 +2878,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2898,7 +2898,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S209",
       "stageLabel": "第9节 一场表演",
       "storyLabel": "2-9 一场表演 (战斗前剧情)",
@@ -2915,7 +2915,7 @@
         0,
         1
       ],
-      "searchText": "s209b 主线剧情 第2章 第9节 战斗前剧情 无慈悲者 一场表演 2-9 ",
+      "searchText": "s209b 主线剧情 第2章 第9节 战斗前剧情 无法去爱 一场表演 2-9 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2930,7 +2930,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -2950,7 +2950,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S209",
       "stageLabel": "第9节 一场表演",
       "storyLabel": "2-9 一场表演 (战斗后剧情)",
@@ -2967,7 +2967,7 @@
         0,
         3
       ],
-      "searchText": "s209a 主线剧情 第2章 第9节 战斗后剧情 无慈悲者 一场表演 2-9 ",
+      "searchText": "s209a 主线剧情 第2章 第9节 战斗后剧情 无法去爱 一场表演 2-9 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -2982,7 +2982,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3002,7 +3002,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S210",
       "stageLabel": "第10节 折·脖",
       "storyLabel": "2-10 折·脖 (战斗前剧情)",
@@ -3019,7 +3019,7 @@
         0,
         1
       ],
-      "searchText": "s210b 主线剧情 第2章 第10节 战斗前剧情 无慈悲者 折·脖 2-10 ",
+      "searchText": "s210b 主线剧情 第2章 第10节 战斗前剧情 无法去爱 折·脖 2-10 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3034,7 +3034,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3054,7 +3054,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S212",
       "stageLabel": "第12节 舞蹈",
       "storyLabel": "2-12 舞蹈 (战斗前剧情)",
@@ -3071,7 +3071,7 @@
         0,
         1
       ],
-      "searchText": "s212b 主线剧情 第2章 第12节 战斗前剧情 无慈悲者 舞蹈 2-12 ",
+      "searchText": "s212b 主线剧情 第2章 第12节 战斗前剧情 无法去爱 舞蹈 2-12 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3086,7 +3086,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3106,7 +3106,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S212",
       "stageLabel": "第12节 舞蹈",
       "storyLabel": "2-12 舞蹈 (战斗后剧情)",
@@ -3123,7 +3123,7 @@
         0,
         3
       ],
-      "searchText": "s212a 主线剧情 第2章 第12节 战斗后剧情 无慈悲者 舞蹈 2-12 ",
+      "searchText": "s212a 主线剧情 第2章 第12节 战斗后剧情 无法去爱 舞蹈 2-12 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3138,7 +3138,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3158,7 +3158,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S213",
       "stageLabel": "第13节 热烈欢迎",
       "storyLabel": "2-13 热烈欢迎 (战斗前剧情)",
@@ -3175,7 +3175,7 @@
         0,
         1
       ],
-      "searchText": "s213b 主线剧情 第2章 第13节 战斗前剧情 无慈悲者 热烈欢迎 2-13 ",
+      "searchText": "s213b 主线剧情 第2章 第13节 战斗前剧情 无法去爱 热烈欢迎 2-13 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3190,7 +3190,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3210,7 +3210,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S215",
       "stageLabel": "第15节 瞠目结舌",
       "storyLabel": "2-15 瞠目结舌 (战斗前剧情)",
@@ -3227,7 +3227,7 @@
         0,
         1
       ],
-      "searchText": "s215b 主线剧情 第2章 第15节 战斗前剧情 无慈悲者 瞠目结舌 2-15 ",
+      "searchText": "s215b 主线剧情 第2章 第15节 战斗前剧情 无法去爱 瞠目结舌 2-15 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3242,7 +3242,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3262,7 +3262,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S215",
       "stageLabel": "第15节 瞠目结舌",
       "storyLabel": "2-15 瞠目结舌 (战斗后剧情)",
@@ -3279,7 +3279,7 @@
         0,
         3
       ],
-      "searchText": "s215a 主线剧情 第2章 第15节 战斗后剧情 无慈悲者 瞠目结舌 2-15 ",
+      "searchText": "s215a 主线剧情 第2章 第15节 战斗后剧情 无法去爱 瞠目结舌 2-15 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3294,7 +3294,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3314,7 +3314,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S216",
       "stageLabel": "第16节 选手入场",
       "storyLabel": "2-16 选手入场 (战斗前剧情)",
@@ -3331,7 +3331,7 @@
         0,
         1
       ],
-      "searchText": "s216b 主线剧情 第2章 第16节 战斗前剧情 无慈悲者 选手入场 2-16 ",
+      "searchText": "s216b 主线剧情 第2章 第16节 战斗前剧情 无法去爱 选手入场 2-16 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3346,7 +3346,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3366,7 +3366,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S217",
       "stageLabel": "第17节 别动",
       "storyLabel": "2-17 别动 (战斗前剧情)",
@@ -3383,7 +3383,7 @@
         0,
         1
       ],
-      "searchText": "s217b 主线剧情 第2章 第17节 战斗前剧情 无慈悲者 别动 2-17 ",
+      "searchText": "s217b 主线剧情 第2章 第17节 战斗前剧情 无法去爱 别动 2-17 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3398,7 +3398,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3418,7 +3418,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S218",
       "stageLabel": "第18节 胜利者",
       "storyLabel": "2-18 胜利者 (战斗前剧情)",
@@ -3435,7 +3435,7 @@
         0,
         1
       ],
-      "searchText": "s218b 主线剧情 第2章 第18节 战斗前剧情 无慈悲者 胜利者 2-18 ",
+      "searchText": "s218b 主线剧情 第2章 第18节 战斗前剧情 无法去爱 胜利者 2-18 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3450,7 +3450,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3470,7 +3470,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S219",
       "stageLabel": "第19节 J-03支部",
       "storyLabel": "2-19 J-03支部 (战斗前剧情)",
@@ -3487,7 +3487,7 @@
         0,
         1
       ],
-      "searchText": "s219b 主线剧情 第2章 第19节 战斗前剧情 无慈悲者 J-03支部 2-19 ",
+      "searchText": "s219b 主线剧情 第2章 第19节 战斗前剧情 无法去爱 J-03支部 2-19 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3502,7 +3502,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3522,7 +3522,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S2999-D102",
       "stageLabel": "后记 D102",
       "storyLabel": "2D102 战斗前剧情",
@@ -3539,7 +3539,7 @@
         102,
         1
       ],
-      "searchText": "2d102b 主线剧情 第2章 dungeon 102 战斗前剧情 无慈悲者",
+      "searchText": "2d102b 主线剧情 第2章 dungeon 102 战斗前剧情 无法去爱",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3554,7 +3554,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3568,7 +3568,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S2999-D107",
       "stageLabel": "后记 D107",
       "storyLabel": "2D107 战斗后剧情",
@@ -3585,7 +3585,7 @@
         107,
         3
       ],
-      "searchText": "2d107a 主线剧情 第2章 dungeon 107 战斗后剧情 无慈悲者",
+      "searchText": "2d107a 主线剧情 第2章 dungeon 107 战斗后剧情 无法去爱",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3600,7 +3600,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3614,7 +3614,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S2999-D202",
       "stageLabel": "后记 D202",
       "storyLabel": "2D202 战斗前剧情",
@@ -3631,7 +3631,7 @@
         202,
         1
       ],
-      "searchText": "2d202b 主线剧情 第2章 dungeon 202 战斗前剧情 无慈悲者",
+      "searchText": "2d202b 主线剧情 第2章 dungeon 202 战斗前剧情 无法去爱",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3646,7 +3646,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3660,7 +3660,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S2999-D301",
       "stageLabel": "后记 D301",
       "storyLabel": "2D301 战斗前剧情",
@@ -3677,7 +3677,7 @@
         301,
         1
       ],
-      "searchText": "2d301b 主线剧情 第2章 dungeon 301 战斗前剧情 无慈悲者",
+      "searchText": "2d301b 主线剧情 第2章 dungeon 301 战斗前剧情 无法去爱",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3692,7 +3692,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3706,7 +3706,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S2999-D306",
       "stageLabel": "后记 D306",
       "storyLabel": "2D306 战斗前剧情",
@@ -3723,7 +3723,7 @@
         306,
         1
       ],
-      "searchText": "2d306b 主线剧情 第2章 dungeon 306 战斗前剧情 无慈悲者",
+      "searchText": "2d306b 主线剧情 第2章 dungeon 306 战斗前剧情 无法去爱",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3738,7 +3738,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3752,7 +3752,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S2999-D306",
       "stageLabel": "后记 D306",
       "storyLabel": "2D306 战斗中剧情",
@@ -3769,7 +3769,7 @@
         306,
         2
       ],
-      "searchText": "2d306i 主线剧情 第2章 dungeon 306 战斗中剧情 无慈悲者",
+      "searchText": "2d306i 主线剧情 第2章 dungeon 306 战斗中剧情 无法去爱",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3784,7 +3784,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3798,7 +3798,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S2",
-      "chapterLabel": "主线 第2章 无慈悲者",
+      "chapterLabel": "主线 第2章 无法去爱",
       "stageKey": "S2999-D306",
       "stageLabel": "后记 D306",
       "storyLabel": "2D306 战斗后剧情",
@@ -3815,7 +3815,7 @@
         306,
         3
       ],
-      "searchText": "2d306a 主线剧情 第2章 dungeon 306 战斗后剧情 无慈悲者",
+      "searchText": "2d306a 主线剧情 第2章 dungeon 306 战斗后剧情 无法去爱",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3830,7 +3830,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无慈悲者",
+        "LLC_zh-CN": "无法去爱",
         "JP": "愛することのできない",
         "EN": "The Unloving",
         "KR": "사랑할 수 없는"
@@ -3844,7 +3844,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S301",
       "stageLabel": "第1节 哼唱",
       "storyLabel": "3-1 哼唱 (战斗前剧情)",
@@ -3861,7 +3861,7 @@
         0,
         1
       ],
-      "searchText": "s301b 主线剧情 第3章 第1节 战斗前剧情 无作为者 哼唱 3-1 ",
+      "searchText": "s301b 主线剧情 第3章 第1节 战斗前剧情 未曾面对 哼唱 3-1 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3876,7 +3876,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -3896,7 +3896,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S302",
       "stageLabel": "第2节 盘查",
       "storyLabel": "3-2 盘查 (战斗前剧情)",
@@ -3913,7 +3913,7 @@
         0,
         1
       ],
-      "searchText": "s302b 主线剧情 第3章 第2节 战斗前剧情 无作为者 盘查 3-2 ",
+      "searchText": "s302b 主线剧情 第3章 第2节 战斗前剧情 未曾面对 盘查 3-2 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3928,7 +3928,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -3948,7 +3948,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S302",
       "stageLabel": "第2节 盘查",
       "storyLabel": "3-2 盘查 (战斗后剧情)",
@@ -3965,7 +3965,7 @@
         0,
         3
       ],
-      "searchText": "s302a 主线剧情 第3章 第2节 战斗后剧情 无作为者 盘查 3-2 ",
+      "searchText": "s302a 主线剧情 第3章 第2节 战斗后剧情 未曾面对 盘查 3-2 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -3980,7 +3980,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4000,7 +4000,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S303",
       "stageLabel": "第3节 紫色编码",
       "storyLabel": "3-3 紫色编码 (战斗前剧情)",
@@ -4017,7 +4017,7 @@
         0,
         1
       ],
-      "searchText": "s303b 主线剧情 第3章 第3节 战斗前剧情 无作为者 紫色编码 3-3 ",
+      "searchText": "s303b 主线剧情 第3章 第3节 战斗前剧情 未曾面对 紫色编码 3-3 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4032,7 +4032,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4052,7 +4052,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S304",
       "stageLabel": "第4节 禁忌",
       "storyLabel": "3-4 禁忌 (战斗前剧情)",
@@ -4069,7 +4069,7 @@
         0,
         1
       ],
-      "searchText": "s304b 主线剧情 第3章 第4节 战斗前剧情 无作为者 禁忌 3-4 ",
+      "searchText": "s304b 主线剧情 第3章 第4节 战斗前剧情 未曾面对 禁忌 3-4 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4084,7 +4084,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4104,7 +4104,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S304",
       "stageLabel": "第4节 禁忌",
       "storyLabel": "3-4 禁忌 (战斗后剧情)",
@@ -4121,7 +4121,7 @@
         0,
         3
       ],
-      "searchText": "s304a 主线剧情 第3章 第4节 战斗后剧情 无作为者 禁忌 3-4 ",
+      "searchText": "s304a 主线剧情 第3章 第4节 战斗后剧情 未曾面对 禁忌 3-4 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4136,7 +4136,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4156,7 +4156,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S306",
       "stageLabel": "第6节 HP弹",
       "storyLabel": "3-6 HP弹 (战斗后剧情)",
@@ -4173,7 +4173,7 @@
         0,
         3
       ],
-      "searchText": "s306a 主线剧情 第3章 第6节 战斗后剧情 无作为者 HP弹 3-6 ",
+      "searchText": "s306a 主线剧情 第3章 第6节 战斗后剧情 未曾面对 HP弹 3-6 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4188,7 +4188,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4208,7 +4208,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S307",
       "stageLabel": "第7节 齐格飞",
       "storyLabel": "3-7 齐格飞 (战斗前剧情)",
@@ -4225,7 +4225,7 @@
         0,
         1
       ],
-      "searchText": "s307b 主线剧情 第3章 第7节 战斗前剧情 无作为者 齐格飞 3-7 ",
+      "searchText": "s307b 主线剧情 第3章 第7节 战斗前剧情 未曾面对 齐格飞 3-7 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4240,7 +4240,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4260,7 +4260,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S308",
       "stageLabel": "第8节 埃菲索德，又一次的小插曲。",
       "storyLabel": "3-8 埃菲索德，又一次的小插曲。 (战斗前剧情)",
@@ -4277,7 +4277,7 @@
         0,
         1
       ],
-      "searchText": "s308b 主线剧情 第3章 第8节 战斗前剧情 无作为者 埃菲索德，又一次的小插曲。 3-8 ",
+      "searchText": "s308b 主线剧情 第3章 第8节 战斗前剧情 未曾面对 埃菲索德，又一次的小插曲。 3-8 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4292,7 +4292,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4312,7 +4312,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S309",
       "stageLabel": "第9节 他们达成的交易",
       "storyLabel": "3-9 他们达成的交易 (战斗前剧情)",
@@ -4329,7 +4329,7 @@
         0,
         1
       ],
-      "searchText": "s309b 主线剧情 第3章 第9节 战斗前剧情 无作为者 他们达成的交易 3-9 ",
+      "searchText": "s309b 主线剧情 第3章 第9节 战斗前剧情 未曾面对 他们达成的交易 3-9 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4344,7 +4344,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4364,7 +4364,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S310",
       "stageLabel": "第10节 异端审判官",
       "storyLabel": "3-10 异端审判官 (战斗前剧情)",
@@ -4381,7 +4381,7 @@
         0,
         1
       ],
-      "searchText": "s310b 主线剧情 第3章 第10节 战斗前剧情 无作为者 异端审判官 3-10 ",
+      "searchText": "s310b 主线剧情 第3章 第10节 战斗前剧情 未曾面对 异端审判官 3-10 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4396,7 +4396,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4416,7 +4416,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S311",
       "stageLabel": "第11节 异端审判官 2",
       "storyLabel": "3-11 异端审判官 2 (战斗前剧情)",
@@ -4433,7 +4433,7 @@
         0,
         1
       ],
-      "searchText": "s311b 主线剧情 第3章 第11节 战斗前剧情 无作为者 异端审判官 2 3-11 ",
+      "searchText": "s311b 主线剧情 第3章 第11节 战斗前剧情 未曾面对 异端审判官 2 3-11 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4448,7 +4448,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4468,7 +4468,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S313",
       "stageLabel": "第13节 平安夜",
       "storyLabel": "3-13 平安夜 (战斗前剧情)",
@@ -4485,7 +4485,7 @@
         0,
         1
       ],
-      "searchText": "s313b 主线剧情 第3章 第13节 战斗前剧情 无作为者 平安夜 3-13 ",
+      "searchText": "s313b 主线剧情 第3章 第13节 战斗前剧情 未曾面对 平安夜 3-13 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4500,7 +4500,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4520,7 +4520,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S313",
       "stageLabel": "第13节 平安夜",
       "storyLabel": "3-13 平安夜 (战斗后剧情)",
@@ -4537,7 +4537,7 @@
         0,
         3
       ],
-      "searchText": "s313a 主线剧情 第3章 第13节 战斗后剧情 无作为者 平安夜 3-13 ",
+      "searchText": "s313a 主线剧情 第3章 第13节 战斗后剧情 未曾面对 平安夜 3-13 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4552,7 +4552,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4572,7 +4572,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S315",
       "stageLabel": "第15节 净化",
       "storyLabel": "3-15 净化 (战斗前剧情)",
@@ -4589,7 +4589,7 @@
         0,
         1
       ],
-      "searchText": "s315b 主线剧情 第3章 第15节 战斗前剧情 无作为者 净化 3-15 ",
+      "searchText": "s315b 主线剧情 第3章 第15节 战斗前剧情 未曾面对 净化 3-15 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4604,7 +4604,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4624,7 +4624,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S316",
       "stageLabel": "第16节 勇气",
       "storyLabel": "3-16 勇气 (战斗前剧情)",
@@ -4641,7 +4641,7 @@
         0,
         1
       ],
-      "searchText": "s316b 主线剧情 第3章 第16节 战斗前剧情 无作为者 勇气 3-16 ",
+      "searchText": "s316b 主线剧情 第3章 第16节 战斗前剧情 未曾面对 勇气 3-16 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4656,7 +4656,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4676,7 +4676,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S317",
       "stageLabel": "第17节 篝火",
       "storyLabel": "3-17 篝火 (战斗前剧情)",
@@ -4693,7 +4693,7 @@
         0,
         1
       ],
-      "searchText": "s317b 主线剧情 第3章 第17节 战斗前剧情 无作为者 篝火 3-17 ",
+      "searchText": "s317b 主线剧情 第3章 第17节 战斗前剧情 未曾面对 篝火 3-17 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4708,7 +4708,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4728,7 +4728,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S318",
       "stageLabel": "第18节 篝火 2",
       "storyLabel": "3-18 篝火 2 (战斗前剧情)",
@@ -4745,7 +4745,7 @@
         0,
         1
       ],
-      "searchText": "s318b 主线剧情 第3章 第18节 战斗前剧情 无作为者 篝火 2 3-18 ",
+      "searchText": "s318b 主线剧情 第3章 第18节 战斗前剧情 未曾面对 篝火 2 3-18 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4760,7 +4760,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4780,7 +4780,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S318",
       "stageLabel": "第18节 篝火 2",
       "storyLabel": "3-18 篝火 2 (战斗后剧情)",
@@ -4797,7 +4797,7 @@
         0,
         3
       ],
-      "searchText": "s318a 主线剧情 第3章 第18节 战斗后剧情 无作为者 篝火 2 3-18 ",
+      "searchText": "s318a 主线剧情 第3章 第18节 战斗后剧情 未曾面对 篝火 2 3-18 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4812,7 +4812,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4832,7 +4832,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S320",
       "stageLabel": "第20节 地下通道",
       "storyLabel": "3-20 地下通道 (战斗前剧情)",
@@ -4849,7 +4849,7 @@
         0,
         1
       ],
-      "searchText": "s320b 主线剧情 第3章 第20节 战斗前剧情 无作为者 地下通道 3-20 ",
+      "searchText": "s320b 主线剧情 第3章 第20节 战斗前剧情 未曾面对 地下通道 3-20 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4864,7 +4864,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4884,7 +4884,7 @@
       "categoryDescription": "按主线章节与关卡索引。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S322",
       "stageLabel": "第22节 K-02支部",
       "storyLabel": "3-22 K-02支部 (战斗前剧情)",
@@ -4901,7 +4901,7 @@
         0,
         1
       ],
-      "searchText": "s322b 主线剧情 第3章 第22节 战斗前剧情 无作为者 K-02支部 3-22 ",
+      "searchText": "s322b 主线剧情 第3章 第22节 战斗前剧情 未曾面对 K-02支部 3-22 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4916,7 +4916,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4936,7 +4936,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D101",
       "stageLabel": "后记 D101",
       "storyLabel": "3D101 战斗后剧情",
@@ -4953,7 +4953,7 @@
         101,
         3
       ],
-      "searchText": "3d101a 主线剧情 第3章 dungeon 101 战斗后剧情 无作为者",
+      "searchText": "3d101a 主线剧情 第3章 dungeon 101 战斗后剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -4968,7 +4968,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -4982,7 +4982,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D102",
       "stageLabel": "后记 D102",
       "storyLabel": "3D102 战斗后剧情",
@@ -4999,7 +4999,7 @@
         102,
         3
       ],
-      "searchText": "3d102a 主线剧情 第3章 dungeon 102 战斗后剧情 无作为者",
+      "searchText": "3d102a 主线剧情 第3章 dungeon 102 战斗后剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5014,7 +5014,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5028,7 +5028,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D103",
       "stageLabel": "后记 D103",
       "storyLabel": "3D103 战斗前剧情",
@@ -5045,7 +5045,7 @@
         103,
         1
       ],
-      "searchText": "3d103b 主线剧情 第3章 dungeon 103 战斗前剧情 无作为者",
+      "searchText": "3d103b 主线剧情 第3章 dungeon 103 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5060,7 +5060,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5074,7 +5074,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D301",
       "stageLabel": "后记 D301",
       "storyLabel": "3D301 战斗前剧情",
@@ -5091,7 +5091,7 @@
         301,
         1
       ],
-      "searchText": "3d301b 主线剧情 第3章 dungeon 301 战斗前剧情 无作为者",
+      "searchText": "3d301b 主线剧情 第3章 dungeon 301 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5106,7 +5106,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5120,7 +5120,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D302",
       "stageLabel": "后记 D302",
       "storyLabel": "3D302 战斗前剧情",
@@ -5137,7 +5137,7 @@
         302,
         1
       ],
-      "searchText": "3d302b 主线剧情 第3章 dungeon 302 战斗前剧情 无作为者",
+      "searchText": "3d302b 主线剧情 第3章 dungeon 302 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5152,7 +5152,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5166,7 +5166,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D303",
       "stageLabel": "后记 D303",
       "storyLabel": "3D303 战斗前剧情",
@@ -5183,7 +5183,7 @@
         303,
         1
       ],
-      "searchText": "3d303b 主线剧情 第3章 dungeon 303 战斗前剧情 无作为者",
+      "searchText": "3d303b 主线剧情 第3章 dungeon 303 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5198,7 +5198,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5212,7 +5212,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D304",
       "stageLabel": "后记 D304",
       "storyLabel": "3D304 战斗前剧情",
@@ -5229,7 +5229,7 @@
         304,
         1
       ],
-      "searchText": "3d304b 主线剧情 第3章 dungeon 304 战斗前剧情 无作为者",
+      "searchText": "3d304b 主线剧情 第3章 dungeon 304 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5244,7 +5244,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5258,7 +5258,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D305",
       "stageLabel": "后记 D305",
       "storyLabel": "3D305 战斗前剧情",
@@ -5275,7 +5275,7 @@
         305,
         1
       ],
-      "searchText": "3d305b 主线剧情 第3章 dungeon 305 战斗前剧情 无作为者",
+      "searchText": "3d305b 主线剧情 第3章 dungeon 305 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5290,7 +5290,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5304,7 +5304,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D306",
       "stageLabel": "后记 D306",
       "storyLabel": "3D306 战斗前剧情",
@@ -5321,7 +5321,7 @@
         306,
         1
       ],
-      "searchText": "3d306b 主线剧情 第3章 dungeon 306 战斗前剧情 无作为者",
+      "searchText": "3d306b 主线剧情 第3章 dungeon 306 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5336,7 +5336,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5350,7 +5350,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D307",
       "stageLabel": "后记 D307",
       "storyLabel": "3D307 战斗前剧情",
@@ -5367,7 +5367,7 @@
         307,
         1
       ],
-      "searchText": "3d307b 主线剧情 第3章 dungeon 307 战斗前剧情 无作为者",
+      "searchText": "3d307b 主线剧情 第3章 dungeon 307 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5382,7 +5382,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5396,7 +5396,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D308",
       "stageLabel": "后记 D308",
       "storyLabel": "3D308 战斗前剧情",
@@ -5413,7 +5413,7 @@
         308,
         1
       ],
-      "searchText": "3d308b 主线剧情 第3章 dungeon 308 战斗前剧情 无作为者",
+      "searchText": "3d308b 主线剧情 第3章 dungeon 308 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5428,7 +5428,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5442,7 +5442,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D309",
       "stageLabel": "后记 D309",
       "storyLabel": "3D309 战斗前剧情",
@@ -5459,7 +5459,7 @@
         309,
         1
       ],
-      "searchText": "3d309b 主线剧情 第3章 dungeon 309 战斗前剧情 无作为者",
+      "searchText": "3d309b 主线剧情 第3章 dungeon 309 战斗前剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5474,7 +5474,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5488,7 +5488,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D309",
       "stageLabel": "后记 D309",
       "storyLabel": "3D309 战斗中剧情",
@@ -5505,7 +5505,7 @@
         309,
         2
       ],
-      "searchText": "3d309i 主线剧情 第3章 dungeon 309 战斗中剧情 无作为者",
+      "searchText": "3d309i 主线剧情 第3章 dungeon 309 战斗中剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": false,
         "JP": true,
@@ -5520,7 +5520,7 @@
       },
       "languageCount": 2,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5534,7 +5534,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D309",
       "stageLabel": "后记 D309",
       "storyLabel": "3D309 战斗中剧情 1",
@@ -5551,7 +5551,7 @@
         309,
         2.01
       ],
-      "searchText": "3d309i1 主线剧情 第3章 dungeon 309 战斗中剧情 1 无作为者",
+      "searchText": "3d309i1 主线剧情 第3章 dungeon 309 战斗中剧情 1 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5566,7 +5566,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5580,7 +5580,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D309",
       "stageLabel": "后记 D309",
       "storyLabel": "3D309 战斗中剧情 2",
@@ -5597,7 +5597,7 @@
         309,
         2.02
       ],
-      "searchText": "3d309i2 主线剧情 第3章 dungeon 309 战斗中剧情 2 无作为者",
+      "searchText": "3d309i2 主线剧情 第3章 dungeon 309 战斗中剧情 2 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5612,7 +5612,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -5626,7 +5626,7 @@
       "categoryDescription": "按主线章节与关卡索引 (包含附加 Dungeon)。",
       "prefix": "S",
       "chapterKey": "S3",
-      "chapterLabel": "主线 第3章 无作为者",
+      "chapterLabel": "主线 第3章 未曾面对",
       "stageKey": "S3999-D309",
       "stageLabel": "后记 D309",
       "storyLabel": "3D309 战斗后剧情",
@@ -5643,7 +5643,7 @@
         309,
         3
       ],
-      "searchText": "3d309a 主线剧情 第3章 dungeon 309 战斗后剧情 无作为者",
+      "searchText": "3d309a 主线剧情 第3章 dungeon 309 战斗后剧情 未曾面对",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -5658,7 +5658,7 @@
       },
       "languageCount": 4,
       "chapterNames": {
-        "LLC_zh-CN": "无作为者",
+        "LLC_zh-CN": "未曾面对",
         "JP": "向き合わない",
         "EN": "The Unconfronting",
         "KR": "마주하지 않는"
@@ -15426,8 +15426,8 @@
       "chapterKey": "S7",
       "chapterLabel": "主线 第7章 梦之终焉",
       "stageKey": "S704",
-      "stageLabel": "第4节 关于离开猩红凝视后的吾等发生的事",
-      "storyLabel": "7-4 关于离开猩红凝视后的吾等发生的事 (战斗后剧情)",
+      "stageLabel": "第4节 关于离开猩红视线后的吾等发生的事",
+      "storyLabel": "7-4 关于离开猩红视线后的吾等发生的事 (战斗后剧情)",
       "part": {
         "raw": "A",
         "code": "A",
@@ -15441,7 +15441,7 @@
         0,
         3
       ],
-      "searchText": "s704a 主线剧情 第7章 第4节 战斗后剧情 梦之终焉 关于离开猩红凝视后的吾等发生的事 7-4 ",
+      "searchText": "s704a 主线剧情 第7章 第4节 战斗后剧情 梦之终焉 关于离开猩红视线后的吾等发生的事 7-4 ",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -15462,7 +15462,7 @@
         "KR": "꿈이 끝나는"
       },
       "stageNames": {
-        "LLC_zh-CN": "关于离开猩红凝视后的吾等发生的事",
+        "LLC_zh-CN": "关于离开猩红视线后的吾等发生的事",
         "JP": "赤い視線の懐から離れた私たちに起こったことについて",
         "EN": "OF WHAT BEFELL OUR COMPANY UPON OUR DEPARTURE FROM THE RED GAZE'S HANDS",
         "KR": "붉은시선 품에서 벗어난 우리에게 일어난 일들에 대하여"
@@ -36562,6 +36562,50 @@
       }
     },
     {
+      "code": "P10116",
+      "category": "identity",
+      "categoryLabel": "人格剧情",
+      "categoryDescription": "人格剧情。",
+      "prefix": "P",
+      "chapterKey": "P101",
+      "chapterLabel": "#1 李箱",
+      "stageKey": "P10116",
+      "stageLabel": "LCE E.G.O:: 次元撕裂者",
+      "storyLabel": "人格剧情 #1 李箱 LCE E.G.O:: 次元撕裂者",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        4,
+        1,
+        16,
+        0
+      ],
+      "searchText": "p10116 人格剧情 李箱 16 正篇 LCE E.G.O:: 次元撕裂者",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/StoryData/P10116.json",
+        "JP": "../LocalizeLimbusCompany/JP/StoryData/P10116.json",
+        "EN": "../LocalizeLimbusCompany/EN/StoryData/P10116.json",
+        "KR": "../LocalizeLimbusCompany/KR/StoryData/P10116.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCE E.G.O:: 次元撕裂者",
+        "JP": "LCE E.G.O:: 次元裂き",
+        "EN": "LCE E.G.O:: Dimension Shredder",
+        "KR": "LCE E.G.O:: 차원찢개"
+      }
+    },
+    {
       "code": "P10202",
       "category": "identity",
       "categoryLabel": "人格剧情",
@@ -39078,8 +39122,8 @@
       "chapterKey": "P106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "P10603",
-      "stageLabel": "豆豆帮 老大",
-      "storyLabel": "人格剧情 #6 鸿璐 豆豆帮 老大",
+      "stageLabel": "豆豆帮 帮主",
+      "storyLabel": "人格剧情 #6 鸿璐 豆豆帮 帮主",
       "part": {
         "raw": "",
         "code": "",
@@ -39092,7 +39136,7 @@
         3,
         0
       ],
-      "searchText": "p10603 人格剧情 鸿璐 03 正篇 豆豆帮 老大",
+      "searchText": "p10603 人格剧情 鸿璐 03 正篇 豆豆帮 帮主",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -39107,7 +39151,7 @@
       },
       "languageCount": 4,
       "stageNames": {
-        "LLC_zh-CN": "豆豆帮 老大",
+        "LLC_zh-CN": "豆豆帮 帮主",
         "JP": "ぽんぽん派 ボス",
         "EN": "Tingtang Gang Gangleader",
         "KR": "콩콩이파 두목"
@@ -44174,6 +44218,50 @@
       }
     },
     {
+      "code": "V10116",
+      "category": "voice",
+      "categoryLabel": "人格语音",
+      "categoryDescription": "人格语音。",
+      "prefix": "V",
+      "chapterKey": "V101",
+      "chapterLabel": "#1 李箱",
+      "stageKey": "V10116",
+      "stageLabel": "LCE E.G.O:: 次元撕裂者",
+      "storyLabel": "人格语音 #1 李箱 LCE E.G.O:: 次元撕裂者",
+      "part": {
+        "raw": "",
+        "code": "",
+        "label": "正篇",
+        "sort": 0
+      },
+      "sortKey": [
+        5,
+        1,
+        16,
+        0
+      ],
+      "searchText": "v10116 人格语音 李箱 16 正篇 LCE E.G.O:: 次元撕裂者",
+      "availableLanguages": {
+        "LLC_zh-CN": true,
+        "JP": true,
+        "EN": true,
+        "KR": true
+      },
+      "paths": {
+        "LLC_zh-CN": "../LocalizeLimbusCompany/LLC_zh-CN/PersonalityVoiceDlg/Voice_Yisang_LCEJigen_10116.json",
+        "JP": "../LocalizeLimbusCompany/JP/PersonalityVoiceDlg/Voice_Yisang_LCEJigen_10116.json",
+        "EN": "../LocalizeLimbusCompany/EN/PersonalityVoiceDlg/Voice_Yisang_LCEJigen_10116.json",
+        "KR": "../LocalizeLimbusCompany/KR/PersonalityVoiceDlg/Voice_Yisang_LCEJigen_10116.json"
+      },
+      "languageCount": 4,
+      "stageNames": {
+        "LLC_zh-CN": "LCE E.G.O:: 次元撕裂者",
+        "JP": "LCE E.G.O:: 次元裂き",
+        "EN": "LCE E.G.O:: Dimension Shredder",
+        "KR": "LCE E.G.O:: 차원찢개"
+      }
+    },
+    {
       "code": "V10201",
       "category": "voice",
       "categoryLabel": "人格语音",
@@ -46910,8 +46998,8 @@
       "chapterKey": "V106",
       "chapterLabel": "#6 鸿璐",
       "stageKey": "V10603",
-      "stageLabel": "豆豆帮 老大",
-      "storyLabel": "人格语音 #6 鸿璐 豆豆帮 老大",
+      "stageLabel": "豆豆帮 帮主",
+      "storyLabel": "人格语音 #6 鸿璐 豆豆帮 帮主",
       "part": {
         "raw": "",
         "code": "",
@@ -46924,7 +47012,7 @@
         3,
         0
       ],
-      "searchText": "v10603 人格语音 鸿璐 03 正篇 豆豆帮 老大",
+      "searchText": "v10603 人格语音 鸿璐 03 正篇 豆豆帮 帮主",
       "availableLanguages": {
         "LLC_zh-CN": true,
         "JP": true,
@@ -46939,7 +47027,7 @@
       },
       "languageCount": 4,
       "stageNames": {
-        "LLC_zh-CN": "豆豆帮 老大",
+        "LLC_zh-CN": "豆豆帮 帮主",
         "JP": "ぽんぽん派 ボス",
         "EN": "Tingtang Gang Gangleader",
         "KR": "콩콩이파 두목"

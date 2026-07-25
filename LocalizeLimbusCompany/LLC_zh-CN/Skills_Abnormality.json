@@ -286,7 +286,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "宇宙热寂",
+          "name": "宇宙燃烧",
           "coinlist": [
             {}
           ]
@@ -310,7 +310,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "宇宙热寂",
+          "name": "宇宙燃烧",
           "desc": "[CantDuel] 指定友方单位",
           "coinlist": [
             {}
@@ -323,7 +323,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "戳刺",
+          "name": "突刺",
           "coinlist": [
             {
               "coindescs": [
@@ -3151,7 +3151,7 @@
         {
           "level": 1,
           "name": "超高压电力释放",
-          "desc": "若自身的自体发电 层数高于10层，则每超过1层使本技能造成的伤害+10%\n消耗所有自体发电 ",
+          "desc": "消耗所有自体发电 ",
           "coinlist": [
             {
               "coindescs": [
@@ -3278,7 +3278,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "哀伤的反击",
+          "name": "哀伤的反冲",
           "desc": "",
           "coinlist": [
             {

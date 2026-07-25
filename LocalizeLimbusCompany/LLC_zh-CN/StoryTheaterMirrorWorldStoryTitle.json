@@ -46,7 +46,7 @@
     },
     {
       "id": "MirrorWorld_Story_Title_P10603",
-      "content": "豆豆帮 老大，鸿璐的故事"
+      "content": "豆豆帮 帮主，鸿璐的故事"
     },
     {
       "id": "MirrorWorld_Story_Title_P10702",
@@ -683,6 +683,10 @@
     {
       "id": "MirrorWorld_Story_Title_P11216",
       "content": "黎明事务所 代表，格里高尔的故事"
+    },
+    {
+      "id": "MirrorWorld_Story_Title_P10116",
+      "content": "LCE E.G.O::次元撕裂者，李箱的故事"
     }
   ]
 }
